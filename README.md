@@ -10,7 +10,7 @@ The goal of PIVXL is to achieve a decentralized sustainable crypto currency with
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
-More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread at [BitcoinTalk](http://https://bitcointalk.org/index.php?topic=5222955.msg53767306#msg53767306)
+More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5222955.msg53767306#msg53767306)
 
 ### Coin Specs
 <table>
