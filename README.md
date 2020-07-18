@@ -22,14 +22,13 @@ More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread
 <tr><td>Premine</td><td>00,000 PIVXL*</td></tr>
 </table>
 
-*60,000 PIVXL Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVXL/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
 
 ### Reward Distribution
 
 <table>
 <th colspan=4>Genesis Block</th>
 <tr><th>Block Height</th><th>Reward Amount</th><th>Notes</th></tr>
-<tr><td>1</td><td>60,000 PIVXL</td><td>Initial Pre-mine, burnt in block <a href="http://www.presstab.pw/phpexplorer/PIVXL/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0">279917</a></td></tr>
+<tr><td>1</td><td>9,321,106 PIVXL</td><td>Initial mined for coin swap </tr>
 </table>
 
 ### PoW Rewards Breakdown
@@ -43,5 +42,5 @@ More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread
 
 <table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
-<tr><td>Phase 0</td><td>259201-302399</td><td>50 PIVXL</td><td>70% (2.8 PIVXL)</td><td>10% (1.2 PIVXL)</td></tr>
+<tr><td>Phase 0</td><td>259201-302399</td><td>4 PIVXL</td><td>70% (2.8 PIVXL)</td><td>0% (0 PIVXL)</td></tr>
 
