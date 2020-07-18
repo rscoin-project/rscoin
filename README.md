@@ -12,14 +12,13 @@ The goal of PIVXL is to achieve a decentralized sustainable crypto currency with
 
 More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5222955.msg53767306#msg53767306)
 
-### Coin Specs
+### Coin Specs - Pure PoS Coin
 <table>
 <tr><td>Algo</td><td>Quark</td></tr>
 <tr><td>Block Time</td><td>60 Seconds</td></tr>
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
-<tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 PIVXL</td></tr>
+<tr><td>Max Coin Supply (PoW Phase)</td><td>9,321,106 PIVXL</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
-<tr><td>Premine</td><td>00,000 PIVXL*</td></tr>
 </table>
 
 
@@ -35,7 +34,7 @@ More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread
 
 <table>
 <th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
-<tr><td>2-43200</td><td>9,321,106 coinse mined for 1 to 1 coin swap with Quark 2.0 holders
+<tr><td>2-43200</td><td>9,321,106 coins mined for 1 to 1 coin swap with Quark 2.0 holders
 </table>
 
 ### PoS Rewards Breakdown
