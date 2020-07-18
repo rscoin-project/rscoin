@@ -19,7 +19,7 @@ More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread
 <tr><td>Difficulty Retargeting</td><td>Every Block</td></tr>
 <tr><td>Max Coin Supply (PoW Phase)</td><td>43,199,500 PIVXL</td></tr>
 <tr><td>Max Coin Supply (PoS Phase)</td><td>Infinite</td></tr>
-<tr><td>Premine</td><td>60,000 PIVXL*</td></tr>
+<tr><td>Premine</td><td>00,000 PIVXL*</td></tr>
 </table>
 
 *60,000 PIVXL Premine was burned in block [279917](http://www.presstab.pw/phpexplorer/PIVXL/block.php?blockhash=206d9cfe859798a0b0898ab00d7300be94de0f5469bb446cecb41c3e173a57e0)
@@ -36,24 +36,12 @@ More information at [pivxlite.com](http://www.pivxlite.com) Visit our ANN thread
 
 <table>
 <th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
-<tr><td>2-43200</td><td>20% (50 PIVXL)</td><td>80% (200 PIVXL)</td><td>N/A</td></tr>
-<tr><td>43201-151200</td><td>20% (50 PIVXL)</td><td>70% (200 PIVXL)</td><td>10% (25 PIVXL)</td></tr>
-<tr><td>151201-259200</td><td>45% (22.5 PIVXL)</td><td>45% (22.5 PIVXL)</td><td>10% (5 PIVXL)</td></tr>
+<tr><td>2-43200</td><td>9,321,106 coinse mined for 1 to 1 coin swap with Quark 2.0 holders
 </table>
 
 ### PoS Rewards Breakdown
 
 <table>
 <th>Phase</th><th>Block Height</th><th>Reward</th><th>Masternodes & Stakers</th><th>Budget</th>
-<tr><td>Phase 0</td><td>259201-302399</td><td>50 PIVXL</td><td>90% (45 PIVXL)</td><td>10% (5 PIVXL)</td></tr>
-<tr><td>Phase 1</td><td>302400-345599</td><td>45 PIVXL</td><td>90% (40.5 PIVXL)</td><td>10% (4.5 PIVXL)</td></tr>
-<tr><td>Phase 2</td><td>345600-388799</td><td>40 PIVXL</td><td>90% (36 PIVXL)</td><td>10% (4 PIVXL)</td></tr>
-<tr><td>Phase 3</td><td>388800-431999</td><td>35 PIVXL</td><td>90% (31.5 PIVXL)</td><td>10% (3.5 PIVXL)</td></tr>
-<tr><td>Phase 4</td><td>432000-475199</td><td>30 PIVXL</td><td>90% (27 PIVXL)</td><td>10% (3 PIVXL)</td></tr>
-<tr><td>Phase 5</td><td>475200-518399</td><td>25 PIVXL</td><td>90% (22.5 PIVXL)</td><td>10% (2.5 PIVXL)</td></tr>
-<tr><td>Phase 6</td><td>518400-561599</td><td>20 PIVXL</td><td>90% (18 PIVXL)</td><td>10% (2 PIVXL)</td></tr>
-<tr><td>Phase 7</td><td>561600-604799</td><td>15 PIVXL</td><td>90% (13.5 PIVXL)</td><td>10% (1.5 PIVXL)</td></tr>
-<tr><td>Phase 8</td><td>604800-647999</td><td>10 PIVXL</td><td>90% (9 PIVXL)</td><td>10% (1 PIVXL)</td></tr>
-<tr><td>Phase 9</td><td>648000-1154203</td><td>5 PIVXL</td><td>90% (4.5 PIVXL)</td><td>10% (0.5 PIVXL)</td></tr>
-<tr><td>Phase X</td><td>1154203-∞</td><td>6 PIVXL</td><td>84% (5 PIVXL/zPIVXL)</td><td>16% (1 PIVXL)</td></tr>
-</table>
+<tr><td>Phase 0</td><td>259201-302399</td><td>50 PIVXL</td><td>70% (2.8 PIVXL)</td><td>10% (1.2 PIVXL)</td></tr>
+
