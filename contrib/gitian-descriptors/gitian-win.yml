@@ -24,8 +24,8 @@ packages:
 - "python3"
 - "rename"
 remotes:
-- "url": "https://github.com/pivxl-project/pivxl.git"
-  "dir": "pivxl"
+- "url": "https://github.com/HafeezRai/rscoin.git"
+  "dir": "rscoin"
 files: []
 script: |
   set -e -o pipefail

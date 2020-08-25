@@ -29,8 +29,8 @@ packages:
 - "python3-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/pivxl-project/pivxl.git"
-  "dir": "pivxl"
+- "url": "https://github.com/HafeezRai/rscoin.git"
+  "dir": "rscoin"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
