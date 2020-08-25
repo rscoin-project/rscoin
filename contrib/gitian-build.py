@@ -104,13 +104,13 @@ def setup_darwin():
 
 def setup_repos():
     if not os.path.isdir('gitian.sigs'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/pivxl-Project/gitian.sigs.git'])
-    if not os.path.isdir('pivxl-detached-sigs'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/pivxl-Project/pivxl-detached-sigs.git'])
+        subprocess.check_call(['git', 'clone', 'https://github.com/tenup-coin/gitian.sigs.git'])
+    if not os.path.isdir('pivx-detached-sigs'):
+        subprocess.check_call(['git', 'clone', 'https://github.com/pivx-Project/pivx-detached-sigs.git'])
     if not os.path.isdir('gitian-builder'):
         subprocess.check_call(['git', 'clone', 'https://github.com/devrandom/gitian-builder.git'])
-    if not os.path.isdir('pivxl'):
-        subprocess.check_call(['git', 'clone', 'https://github.com/pivxl-Project/pivxl.git'])
+    if not os.path.isdir('rscoin'):
+        subprocess.check_call(['git', 'clone', 'https://github.com/HafeezRai/rscoin.git'])
     os.chdir('gitian-builder')
     make_image_prog = ['bin/make-base-vm', '--suite', 'bionic', '--arch', 'amd64']
     if args.docker:
@@ -146,7 +146,7 @@ def build():
     subprocess.check_call(['wget', '-N', '-P', 'inputs', 'https://bitcoincore.org/cfields/osslsigncode-Backports-to-1.7.1.patch'])
     subprocess.check_call(["echo 'a8c4e9cafba922f89de0df1f2152e7be286aba73f78505169bc351a7938dd911 inputs/osslsigncode-Backports-to-1.7.1.patch' | sha256sum -c"], shell=True)
     subprocess.check_call(["echo 'f9a8cdb38b9c309326764ebc937cba1523a3a751a7ab05df3ecc99d18ae466c9 inputs/osslsigncode-1.7.1.tar.gz' | sha256sum -c"], shell=True)
-    subprocess.check_call(['make', '-C', '../pivxl/depends', 'download', 'SOURCES_PATH=' + os.getcwd() + '/cache/common'])
+    subprocess.check_call(['make', '-C', '../rscoin/depends', 'download', 'SOURCES_PATH=' + os.getcwd() + '/cache/common'])
 
     if args.linux:
         print('\nCompiling ' + args.version + ' Linux')
