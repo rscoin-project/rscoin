@@ -93,21 +93,8 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 //    timestamp before)
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of
-    (0, uint256("00000e2dc2b1db786db6578d77c738ae9efabccecffc45f772046c885bced630"))
-    (10, uint256("0000069f486f9f499438499bdf9d233e194436e9f426f07381b6f764c69f8bec"))
-    (150, uint256("00000009a28e191361d6213ba88286118973084a17ec925dc3c6ba2f16a2c3cb"))
-    (600, uint256("0000000a39eba2f0af1f611702bb8ed9ff90bc0cff6316e86083a378500ca655"))
-    (1250, uint256("2d57f9a4a581e6bf39d20a510277abb66d74d3dc1b225dc50dbd8ade308d4307"))
-    (1630, uint256("54942e3d7d92986143789549692e90aed1345972c0a9dc27914c3bc6866e14ff"))
-    (5000, uint256("a5c3b61f8fafc114d605186c9a909ab6b0d189dbcb2a4eff8d304b2e5e99cb41"))
-    (7135, uint256("b153968c9ad46651ef127c91704f4416e63d1a459edcfb79923b1e27f579d108"))
-    (15000, uint256("f29b84756f2bdd215761342a104be95f065d49f2e93795a9f1cefa16bd53ddcc"))
-    (30000, uint256("bd3a3feb1d9ed782b6a60372c34b17a5ecc97e70bc8c5a7cc463eb347092e69a"))
-    (60000, uint256("c20cc570eb96422a39813ea1a43906b2d359d647572e6fdd7ddeefe470fe04f8"))
-    (120000, uint256("850072fad914c4553adea03bd70a3ed935af6e1826520f9d3822c0537d387caf"))
-    (180000, uint256("dacf055e12ae21f62d74878cafd07826aff2f13aaa39495bdb9de0ac69f7cafd"))
-    (240000, uint256("08131405463bb8c7ff9312fcaa379f1f8e6b11be9fe861b9f7ac9e0605c32e66"));
+     boost::assign::map_list_of
+    (0, uint256S("0x001"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
     1593390030, // * UNIX timestamp of last checkpoint block
@@ -221,10 +208,10 @@ public:
         nDefaultPort = 8233;
 
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("pivxlite.com", "seedhost1.pivxlite.com"));     // Primary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("pivxlite.com", "seedhost2.pivxlite.com"));    // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));     // Primary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));    // Secondary DNS Seeder
 
-        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 58);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 63);     // starting with 'S'
         base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 212);
