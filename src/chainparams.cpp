@@ -129,6 +129,14 @@ public:
         strNetworkID = "main";
 
         genesis = CreateGenesisBlock(1577168939, 2647271, 0x1e0ffff0, 1, 1 * COIN);
+        if (genesis.nNonce == 0) {
+	          while (genesis.GetHash() > bnProofOfWorkLimit) {
+                 genesis.nNonce++;
+		             if (genesis.nNonce % 1024 == 0) printf("nonce %08x \n", genesis.nNonce);
+	          }
+	          printf("nonce was %d \n", genesis.nNonce);
+            printf("genesis block %s\n", genesis.ToString().c_str());
+	      }
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00000e2dc2b1db786db6578d77c738ae9efabccecffc45f772046c885bced630"));
         assert(genesis.hashMerkleRoot == uint256S("0xd0928a9f84607dfd323b5ad288861d658a866f91bb39c3b57de72514ece925a2"));
