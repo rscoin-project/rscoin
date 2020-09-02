@@ -251,8 +251,8 @@ public:
 
          genesis = CreateGenesisBlock(1577169143, 268438, 1, 1, 250 * COIN);
          consensus.hashGenesisBlock = genesis.GetHash();
-         assert(consensus.hashGenesisBlock == uint256S("0xbceb9bd1247969b008e4545f2219048e5948b5e0a6fd166288ba5685b6e98d73"));
-         assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
+        // assert(consensus.hashGenesisBlock == uint256S("0xbceb9bd1247969b008e4545f2219048e5948b5e0a6fd166288ba5685b6e98d73"));
+        // assert(genesis.hashMerkleRoot == uint256S("0x1b2ef6e2f28be914103a277377ae7729dcd125dfeb8bf97bd5964ba72b6dc39b"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // PIVX starting difficulty is 1 / 2^12
