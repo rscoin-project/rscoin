@@ -1575,7 +1575,7 @@ double ConvertBitsToDouble(unsigned int nBits)
     return dDiff;
 }
 
-int64_t GetBlockValue(int nHeight)
+/*int64_t GetBlockValue(int nHeight)
 {
     if (Params().NetworkID() == CBaseChainParams::TESTNET) {
         if (nHeight < 200 && nHeight > 0)
@@ -1595,6 +1595,49 @@ int64_t GetBlockValue(int nHeight)
         nSubsidy = 15536 * COIN;
     } else {
         nSubsidy = 4 * COIN;
+    }
+    return nSubsidy;
+}*/
+int64_t GetBlockValue(int nHeight)
+{
+    int64_t nSubsidy = 0;
+    if (Params().NetworkID() == CBaseChainParams::TESTNET) {
+        if (nHeight < 200 && nHeight > 0)
+        {
+            return 250000 * COIN;
+        }else{
+            return 225 * COIN;
+        }
+    }
+
+    if (nHeight == 1) {
+        nSubsidy = 57000000 * COIN;
+    } else if (nHeight <= Params().GetConsensus().height_last_PoW && nHeight > 1) {
+        nSubsidy = 50 * COIN;
+    /*} else if (nHeight < (Params().NetworkID() == CBaseChainParams::TESTNET ? 145000 : 151200) && nHeight >= 86400) {
+        nSubsidy = 225 * COIN;*/
+    } else if (nHeight <= Params().GetConsensus().height_last_PoW && nHeight >= 200) {
+        nSubsidy = 50 * COIN;
+    } else if (nHeight <= 14400 && nHeight > Params().GetConsensus().height_last_PoW) {
+        nSubsidy = 45 * COIN;
+    } else if (nHeight <= 36000 && nHeight > 14400) {
+        nSubsidy = 40 * COIN;
+    } else if (nHeight <= 51120 && nHeight > 36000) {
+        nSubsidy = 35 * COIN;
+    } else if (nHeight <= 79200 && nHeight > 51120) {
+        nSubsidy = 30 * COIN;
+    } else if (nHeight <= 136800 && nHeight > 79200) {
+        nSubsidy = 25 * COIN;
+    } else if (nHeight <= 201600 && nHeight > 136800) {
+        nSubsidy = 20 * COIN;
+    } else if (nHeight <= 273600 && nHeight > 201600) {
+        nSubsidy = 15 * COIN;
+    } else if (nHeight <= 360000 && nHeight > 273600) {
+        nSubsidy = 10 * COIN;
+    } else if (nHeight > 360000) {
+        nSubsidy = 5 * COIN;
+    } else {
+        nSubsidy = 5 * COIN;
     }
     return nSubsidy;
 }
