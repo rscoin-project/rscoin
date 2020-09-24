@@ -12,7 +12,6 @@
 #include "random.h"
 #include "util.h"
 #include "utilstrencodings.h"
-
 #include <assert.h>
 
 #include <boost/assign/list_of.hpp>
@@ -49,6 +48,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
     return genesis;
 }
 
+
 /**
  * Build the genesis block. Note that the output of the genesis coinbase cannot
  * be spent as it did not originally exist in the database.
@@ -61,8 +61,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Using Bitcoins / CryptoCurrency to help Refugees in Burma and Syria. - Feb 06 2017 -";
-    const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+    const char* pszTimestamp = "Thousands of commercial flight passengers may have been exposed to coronavirus in 2020, CDC says. - September 24 2020 -";
+    const CScript genesisOutputScript = CScript() << ParseHex("04fbb6a027732badc91190e4493d20b05db4022faec5cc4ca627a61b3abea5c578b356c7c121fe6d6f7413a98fa25046b1cb3988ca49cdabed7e3953f06a8578b3") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -129,13 +129,13 @@ public:
         strNetworkID = "main";
 
         genesis = CreateGenesisBlock(1522920605, 620706, 0x1e0ffff0, 1, 250 * COIN);
-        
+     
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000a91661547d75e61d0f15fd97067c5d8763cf37ff2847d5a2dd55eba3fe9"));
-        assert(genesis.hashMerkleRoot == uint256S("0x01cd2cec7147282c3b54233a218b0a68b49e8233318fd253578eea68d0e5bafd"));
+        assert(consensus.hashGenesisBlock == uint256S("0xeee6a6bf7eb8d6b828068ff06a382dce026bd788ea96388ec00512df34d4448f"));
+        assert(genesis.hashMerkleRoot == uint256S("0x64f1d9d299c78fd29b065c1a35e16609027a794fb574f07472d64ef90fc08b05"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
-        consensus.powLimit   = ~UINT256_ZERO >> 20;   // PIVX starting difficulty is 1 / 2^12
+        consensus.powLimit   = ~uint256(0) >> 20; //~UINT256_ZERO >> 20;   // PIVX starting difficulty is 1 / 2^12
         consensus.posLimitV1 = ~UINT256_ZERO >> 24;
         consensus.posLimitV2 = ~UINT256_ZERO >> 20;
         consensus.nBudgetCycleBlocks = 43200;       // approx. 1 every 30 days
@@ -144,7 +144,7 @@ public:
         consensus.nFutureTimeDriftPoW = 7200;
         consensus.nFutureTimeDriftPoS = 180;
         consensus.nMasternodeCountDrift = 20;       // num of MN we allow the see-saw payments to be off by
-        consensus.nMaxMoneyOut = 1000000000 * COIN;
+        consensus.nMaxMoneyOut = 75000000 * COIN;
         consensus.nPoolMaxTransactions = 3;
         consensus.nProposalEstablishmentTime = 60 * 60 * 24;    // must be at least a day old to make it into a budget
         consensus.nStakeMinAge = 60 * 60;
@@ -156,7 +156,7 @@ public:
         consensus.nMasternodeCollateral = 100000 * COIN;
 
         // spork keys
-        consensus.strSporkPubKey = "04bc10da9808467708edf1177571c041fc4b6a81300eff228603e813cb37afd37b725c786c7e305415a743a07c2948d0ec1b33a4cc2a852a7d5aa4b8b462c4b846";
+        consensus.strSporkPubKey = "0411a34317a70634f4bee9c7b794fa726232d703f65b73ed275103eb683524600208455ae95e6c662fa6a2c44471048ce72977c175658cd266c8b92c342e272261";
         //consensus.strSporkPubKeyOld = "0499A7AF4806FC6DE640D23BC5936C29B77ADF2174B4F45492727F897AE63CF8D27B2F05040606E0D14B547916379FA10716E344E745F880EDC037307186AA25B7";
         //consensus.nTime_EnforceNewSporkKey = INT_MAX;    //!> August 26, 2019 11:00:00 PM GMT
         //consensus.nTime_RejectOldSporkKey = INT_MAX;     //!> September 26, 2019 11:00:00 PM GMT
@@ -179,9 +179,10 @@ public:
         consensus.height_ZC_RecalcAccumulators = INT_MAX;
 
         // validation by-pass
-        consensus.nPivxBadBlockTime = 1471401614;    // Skip nBit validation of Block 259201 per PR #915
-        consensus.nPivxBadBlockBits = 0x1c056dac;    // Skip nBit validation of Block 259201 per PR #915
-
+        //consensus.nPivxBadBlockTime = 1471401614;    // Skip nBit validation of Block 259201 per PR #915
+        //consensus.nPivxBadBlockBits = 0x1c056dac;    // Skip nBit validation of Block 259201 per PR #915
+	consensus.nPivxBadBlockTime = 1522920605;    // Skip nBit validation of Block 259201 per PR #915
+        consensus.nPivxBadBlockBits = 0x1e0ffff0;
         // Zerocoin-related params
         consensus.ZC_Modulus = "25195908475657893494027183240048398571429282126204032027777137836043662020707595556264018525880784"
                 "4069182906412495150821892985591491761845028084891200728449926873928072877767359714183472702618963750149718246911"
@@ -202,16 +203,17 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x86;
-        pchMessageStart[1] = 0xab;
-        pchMessageStart[2] = 0xed;
-        pchMessageStart[3] = 0xcf;
-        nDefaultPort = 8233;
+        
+	pchMessageStart[0] = 0x99;
+        pchMessageStart[1] = 0xb4;
+        pchMessageStart[2] = 0xfc;
+        pchMessageStart[3] = 0xd9;
+	nDefaultPort = 51482;
 
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));     // Primary DNS Seeder
         vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));    // Secondary DNS Seeder
-
+	
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
         base58Prefixes[STAKING_ADDRESS] = std::vector<unsigned char>(1, 63);     // starting with 'S'
