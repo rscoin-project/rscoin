@@ -13,10 +13,10 @@ AC_CONFIG_HEADERS([src/config/pivxl-config.h])
 AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_MACRO_DIR([build-aux/m4])
 
-BITCOIN_DAEMON_NAME=pivxld
-BITCOIN_GUI_NAME=pivxl-qt
-BITCOIN_CLI_NAME=pivxl-cli
-BITCOIN_TX_NAME=pivxl-tx
+BITCOIN_DAEMON_NAME=rscoind
+BITCOIN_GUI_NAME=rscoin-qt
+BITCOIN_CLI_NAME=rscoin-cli
+BITCOIN_TX_NAME=rscoin-tx
 
 dnl Unless the user specified ARFLAGS, force it to be cr
 AC_ARG_VAR(ARFLAGS, [Flags for the archiver, defaults to <cr> if not set])
