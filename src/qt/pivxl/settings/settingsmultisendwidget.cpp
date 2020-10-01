@@ -1,12 +1,12 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingsmultisendwidget.h"
-#include "qt/pivxl/settings/forms/ui_settingsmultisendwidget.h"
-#include "qt/pivxl/settings/settingsmultisenddialog.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/settings/settingsmultisendwidget.h"
+#include "qt/rscoin/settings/forms/ui_settingsmultisendwidget.h"
+#include "qt/rscoin/settings/settingsmultisenddialog.h"
+#include "qt/rscoin/qtutils.h"
 #include "addresstablemodel.h"
 #include "base58.h"
 #include "init.h"
@@ -162,7 +162,7 @@ SettingsMultisendWidget::SettingsMultisendWidget(PWidget *parent) :
     ui->labelTitle->setText("Multisend");
     setCssTitleScreen(ui->labelTitle);
 
-    ui->labelSubtitle1->setText(tr("MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVXL addresses after it matures."));
+    ui->labelSubtitle1->setText(tr("MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other RSCOIN addresses after it matures."));
     setCssSubtitleScreen(ui->labelSubtitle1);
 
     //Button Group

@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,18 +7,18 @@
 #define SETTINGSWIDGET_H
 
 #include <QWidget>
-#include "qt/pivxl/pwidget.h"
-#include "qt/pivxl/settings/settingsbackupwallet.h"
-#include "qt/pivxl/settings/settingsexportcsv.h"
-#include "qt/pivxl/settings/settingsbittoolwidget.h"
-#include "qt/pivxl/settings/settingssignmessagewidgets.h"
-#include "qt/pivxl/settings/settingswalletrepairwidget.h"
-#include "qt/pivxl/settings/settingswalletoptionswidget.h"
-#include "qt/pivxl/settings/settingsmainoptionswidget.h"
-#include "qt/pivxl/settings/settingsdisplayoptionswidget.h"
-#include "qt/pivxl/settings/settingsmultisendwidget.h"
-#include "qt/pivxl/settings/settingsinformationwidget.h"
-#include "qt/pivxl/settings/settingsconsolewidget.h"
+#include "qt/rscoin/pwidget.h"
+#include "qt/rscoin/settings/settingsbackupwallet.h"
+#include "qt/rscoin/settings/settingsexportcsv.h"
+#include "qt/rscoin/settings/settingsbittoolwidget.h"
+#include "qt/rscoin/settings/settingssignmessagewidgets.h"
+#include "qt/rscoin/settings/settingswalletrepairwidget.h"
+#include "qt/rscoin/settings/settingswalletoptionswidget.h"
+#include "qt/rscoin/settings/settingsmainoptionswidget.h"
+#include "qt/rscoin/settings/settingsdisplayoptionswidget.h"
+#include "qt/rscoin/settings/settingsmultisendwidget.h"
+#include "qt/rscoin/settings/settingsinformationwidget.h"
+#include "qt/rscoin/settings/settingsconsolewidget.h"
 
 class PIVXGUI;
 

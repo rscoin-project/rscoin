@@ -7,7 +7,7 @@
 
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 #include <QUrl>
 #include <QFile>
@@ -17,7 +17,7 @@ OpenURIDialog::OpenURIDialog(QWidget* parent) : QDialog(parent, Qt::WindowSystem
 {
     ui->setupUi(this);
     this->setStyleSheet(parent->styleSheet());
-    ui->uriEdit->setPlaceholderText("pivxl:");
+    ui->uriEdit->setPlaceholderText("rscoin:");
 
     ui->labelSubtitle->setText("URI");
     setCssProperty(ui->labelSubtitle, "text-title2-dialog");
@@ -79,8 +79,8 @@ void OpenURIDialog::on_selectFileButton_clicked()
         }
 
         QString str = QString::fromStdString(std::string(r.constData(), r.length()));
-        if (!str.startsWith("pivxl")) {
-            inform(tr("Invalid URI, not starting with \"pivxl\" prefix"));
+        if (!str.startsWith("rscoin")) {
+            inform(tr("Invalid URI, not starting with \"rscoin\" prefix"));
         }
         ui->uriEdit->setText(str);
     }

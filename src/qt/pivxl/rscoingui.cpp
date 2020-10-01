@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -68,7 +68,7 @@ PIVXGUI::PIVXGUI(const NetworkStyle* networkStyle, QWidget* parent) :
 
     QString windowTitle = QString::fromStdString(GetArg("-windowtitle", ""));
     if (windowTitle.isEmpty()) {
-        windowTitle = tr("PIVXL Core") + " - ";
+        windowTitle = tr("RSCOIN Core") + " - ";
         windowTitle += ((enableWallet) ? tr("Wallet") : tr("Node"));
     }
     windowTitle += " " + networkStyle->getTitleAddText();
@@ -210,7 +210,7 @@ void PIVXGUI::connectActions() {
 void PIVXGUI::createTrayIcon(const NetworkStyle* networkStyle) {
 #ifndef Q_OS_MAC
     trayIcon = new QSystemTrayIcon(this);
-    QString toolTip = tr("PIVXL Core client") + " " + networkStyle->getTitleAddText();
+    QString toolTip = tr("RSCOIN Core client") + " " + networkStyle->getTitleAddText();
     trayIcon->setToolTip(toolTip);
     trayIcon->setIcon(networkStyle->getAppIcon());
     trayIcon->hide();
@@ -360,7 +360,7 @@ void PIVXGUI::messageInfo(const QString& text){
 
 
 void PIVXGUI::message(const QString& title, const QString& message, unsigned int style, bool* ret) {
-    QString strTitle =  tr("PIVXL Core"); // default title
+    QString strTitle =  tr("RSCOIN Core"); // default title
     // Default to information icon
     int nNotifyIcon = Notificator::Information;
 
@@ -410,7 +410,7 @@ void PIVXGUI::message(const QString& title, const QString& message, unsigned int
     } else if(style & CClientUIInterface::MSG_INFORMATION_SNACK){
         messageInfo(message);
     }else {
-        // Append title to "PIVXL - "
+        // Append title to "RSCOIN - "
         if (!msgType.isEmpty())
             strTitle += " - " + msgType;
         notificator->notify((Notificator::Class) nNotifyIcon, strTitle, message);
@@ -428,7 +428,7 @@ bool PIVXGUI::openStandardDialog(QString title, QString body, QString okBtn, QSt
     } else {
         dialog = new DefaultDialog();
         dialog->setText(title, body, okBtn);
-        dialog->setWindowTitle(tr("PIVXL Core"));
+        dialog->setWindowTitle(tr("RSCOIN Core"));
         dialog->adjustSize();
         dialog->raise();
         dialog->exec();

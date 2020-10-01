@@ -4,7 +4,7 @@
 
 #include "compressor.h"
 #include "util.h"
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <stdint.h>
 

@@ -1,11 +1,11 @@
 Sample configuration files for:
 ```
-SystemD: pivxld.service
-Upstart: pivxld.conf
-OpenRC:  pivxld.openrc
-         pivxld.openrcconf
-CentOS:  pivxld.init
-macOS:    org.pivxl.pivxld.plist
+SystemD: rscoind.service
+Upstart: rscoind.conf
+OpenRC:  rscoind.openrc
+         rscoind.openrcconf
+CentOS:  rscoind.init
+macOS:    org.rscoin.rscoind.plist
 ```
 have been made available to assist packagers in creating node packages here.
 

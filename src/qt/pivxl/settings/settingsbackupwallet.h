@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -7,7 +7,7 @@
 #define SETTINGSBACKUPWALLET_H
 
 #include <QWidget>
-#include "qt/pivxl/pwidget.h"
+#include "qt/rscoin/pwidget.h"
 
 namespace Ui {
 class SettingsBackupWallet;

@@ -1,69 +1,69 @@
-<TS language="pl" version="2.1">
+<TS language="zh_CN" version="2.1">
 <context>
     <name>AddNewAddressDialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <source>My Address</source>
-        <translation>Mój adres</translation>
+        <translation>我的地址</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
 </context>
 <context>
     <name>AddNewContactDialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Edit Contact</source>
-        <translation>Edytuj kontakt</translation>
+        <translation>编辑联系方式</translation>
     </message>
     <message>
         <source>Set a label for the selected address</source>
-        <translation>Ustaw etykietę dla wybranego adresu</translation>
+        <translation>为所选地址设置标签</translation>
     </message>
     <message>
         <source>Enter a name for the address (e.g Exchange)</source>
-        <translation>Wpisz nazwę adresu (np. Exchange)</translation>
+        <translation>输入地址的名称(例如：交换所)</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Edit label for the selected address:
 %1</source>
-        <translation>Edytuj etykietę dla wybranego adresu:
+        <translation>编辑所选地址的标签：
 %1</translation>
     </message>
 </context>
@@ -71,106 +71,106 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Kliknij prawy przycisk myszy by edytować adres lub zakładkę</translation>
+        <translation>右键点击编辑地址或标签</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Stwórz nowy adres</translation>
+        <translation>创建新的地址</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Nowy</translation>
+        <translation>&amp;新地址</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Skopiuj aktualnie wybrany adres do schowka systemowego</translation>
+        <translation>复制当前地址至剪贴板</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopiuj</translation>
+        <translation>&amp;复制</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Usuń zaznaczony adres z listy</translation>
+        <translation>从列表移除这个地址</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Usuń</translation>
+        <translation>&amp;删除</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Wyeksportuj dane z bieżącej karty do pliku</translation>
+        <translation>导出当前数据至文件</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Eksportuj</translation>
+        <translation>&amp;导出</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Zamknij</translation>
+        <translation>C&amp;关闭</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Wybierz adres odbiorcy</translation>
+        <translation>选择发送PIVX coin的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Wybierz adres do otrzymania monet</translation>
+        <translation>选择接收PIVX coin的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>&amp;Wybierz</translation>
+        <translation>C&amp;选择</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Adres do wysłania</translation>
+        <translation>发送地址</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Adres odbiorczy</translation>
+        <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your PIVXL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To są twoje adresy PIVXL do wysyłania płatności. Zawsze sprawdzaj kwotę i adres odbiorcy przed wysłaniem monet.</translation>
+        <source>These are your RSCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这是用于发送PIVX的地址。在发送PIVX之前，请认真核查发送金额和接收地址。</translation>
     </message>
     <message>
-        <source>These are your PIVXL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To są twoje adresy PIVXL do otrzymywania płatności. Zaleca się użycie nowego adresu odbiorczego dla każdej transakcji.</translation>
+        <source>These are your RSCOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这是用于接收PIVX的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>&amp;Kopiuj adres</translation>
+        <translation>&amp;复制地址</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Skopiuj &amp;etykietę</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Edytuj</translation>
+        <translation>&amp;编辑</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Eksportuj listę adresów</translation>
+        <translation>导出地址列表</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Plik rozdzielony przecinkami (* .csv)</translation>
+        <translation>存成(.csv)格式</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Eksport nieudany</translation>
+        <translation>导出失败</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Wystąpił problem podczas zapisywania listy adresów do %1. Spróbuj ponownie</translation>
+        <translation>尝试将地址列表保存到 %1时出错。 请再试一次。</translation>
     </message>
 </context>
 <context>
     <name>AddressLabelRow</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Bob Allen</source>
@@ -185,38 +185,38 @@
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>类别</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiety)</translation>
+        <translation>未设置标签</translation>
     </message>
 </context>
 <context>
     <name>AddressesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formulasz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Wyślij</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -224,71 +224,71 @@
     </message>
     <message>
         <source>Contact name</source>
-        <translation>Nazwa Kontaktu</translation>
+        <translation>联系人名字</translation>
     </message>
     <message>
         <source>Enter address</source>
-        <translation>Podaj adres</translation>
+        <translation>输入地址</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Contacts</source>
-        <translation>Kontakty</translation>
+        <translation>联系人</translation>
     </message>
     <message>
         <source>You can add a new one in the options menu to the side.</source>
-        <translation>Możesz dodać nowy w menu opcji z boku.</translation>
+        <translation>您可以在选项菜单中添加一个新的到旁边</translation>
     </message>
     <message>
         <source>No contacts yet</source>
-        <translation>Brak Kontaktów</translation>
+        <translation>暂无联系人</translation>
     </message>
     <message>
         <source>e.g. John Doe</source>
-        <translation>np. John Doe</translation>
+        <translation>例如John Doe</translation>
     </message>
     <message>
-        <source>Enter PIVXL address</source>
-        <translation>Wpisz adres PIVXL</translation>
+        <source>Enter RSCOIN address</source>
+        <translation>输入PIVX地址</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Invalid Contact Address</source>
-        <translation>Nieprawidłowy adres kontaktowy</translation>
+        <translation>联系地址无效</translation>
     </message>
     <message>
         <source>Cannot store your own address as contact</source>
-        <translation>Nie można zapisać własnego adresu jako kontaktu</translation>
+        <translation>无法保存你的联系地址</translation>
     </message>
     <message>
         <source>Address already stored, label: %1</source>
-        <translation>Adres już zapisany, nazwa: %1</translation>
+        <translation>地址已保存，标签： %1</translation>
     </message>
     <message>
         <source>New Contact Stored</source>
-        <translation>Zapisano nowy kontakt</translation>
+        <translation>新联系方式已保存</translation>
     </message>
     <message>
         <source>Error Storing Contact</source>
-        <translation>Błąd podczas zapisywania kontaktu</translation>
+        <translation>保存联系方式出错</translation>
     </message>
     <message>
         <source>Contact edited</source>
-        <translation>Kontakt edytowany</translation>
+        <translation>联系方式已编辑</translation>
     </message>
     <message>
         <source>Contact edit failed</source>
-        <translation>Edycja kontaktu nie powiodła się</translation>
+        <translation>联系方式编辑失败</translation>
     </message>
     <message>
         <source>Delete Contact</source>
-        <translation>Usuń kontakt</translation>
+        <translation>删除联系方式</translation>
     </message>
     <message>
         <source>You are just about to remove the contact:
@@ -296,249 +296,248 @@
 %1
 
 Are you sure?</source>
-        <translation>Za chwilę usuniesz kontakt:
+        <translation>你正在移除联系方式:
 
 %1
 
-Jesteś pewny?</translation>
+确定?</translation>
     </message>
     <message>
         <source>Contact Deleted</source>
-        <translation>Kontakt został usunięty</translation>
+        <translation>联系方式已删除</translation>
     </message>
     <message>
         <source>Error deleting a contact</source>
-        <translation>Błąd podczas usuwania kontaktu</translation>
+        <translation>删除联系方式出错</translation>
     </message>
     <message>
         <source>Address copied</source>
-        <translation>Adres skopiowany</translation>
+        <translation>地址已复制</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Okno dialogowe "Passphrase"</translation>
+        <translation>密码输入框</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Wprowadź nowe hasło do portfela.
-Użyj hasła składającego się z dziesięciu lub więcej losowych znaków lub ośmiu lub więcej słów.</translation>
+        <translation>输入一个新的钱包密码&lt;br/&gt;钱包密码&lt;b&gt;建议使用10位以上的随机字符&lt;/b&gt;，或者&lt;b&gt; 3个以上的单词&lt;/b&gt;。并建议有序使用大小写字母。</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Zaszyfruj portfel</translation>
+        <translation>加密钱包</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Ta operacja wymaga twojego hasła, by odblokować portfel</translation>
+        <translation>需要您输入钱包密码来进行解锁。</translation>
     </message>
     <message>
         <source>Unlock wallet
 for staking</source>
-        <translation>Odblokuj portfel
-do stakingu</translation>
+        <translation>解锁钱包
+加注</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Odblokuj portfel</translation>
+        <translation>解锁钱包</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Ta operacja wymaga twojego hasła, by zakodować portfel</translation>
+        <translation>需要您输入钱包密码来进行解锁。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Odszyfruj portfel</translation>
+        <translation>解密钱包</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Zmień hasło</translation>
+        <translation>修改密码</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Wpisz stare oraz nowe hasło do portfela</translation>
+        <translation>输入钱包信旧密码</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Potwierdź szyfrowanie portfela</translation>
+        <translation>确认钱包加密</translation>
     </message>
     <message>
         <source>WARNING</source>
-        <translation>OSTRZEŻENIE</translation>
+        <translation>注意</translation>
     </message>
     <message>
         <source>If you encrypt your wallet and lose your passphrase, you will</source>
-        <translation>Jeśli zaszyfrujesz swój portfel i zgubisz hasło, zrobisz to</translation>
+        <translation>如果你对钱包进行加密但丢失密码的话，你会</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR PIVXL</source>
-        <translation>UTRACIE SWOJE PIVXL</translation>
+        <source>LOSE ALL OF YOUR RSCOIN</source>
+        <translation>丢失你所有的PIV</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
-        <translation>SZYFROWANIE</translation>
+        <translation>加密</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>WARNING: The Caps Lock key is on!</source>
-        <translation>OSTRZEŻENIE: Klawisz Caps Lock jest włączony!</translation>
+        <translation>注意：键盘目前为大写锁定状态。</translation>
     </message>
     <message>
-        <source>PIVXL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVXL zamknie się teraz, aby zakończyć proces szyfrowania. Pamiętaj, że zaszyfrowanie portfela nie chroni w pełni Twoich PIVXL przed kradzieżą przez złośliwe oprogramowanie infekujące Twój komputer.</translation>
+        <source>RSCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <translation>PIVX将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取PIVs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Czy na pewno chcesz zaszyfrować swój portfel?</translation>
+        <translation>您确定加密您的钱包吗？</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Portfel zaszyfrowany</translation>
+        <translation>钱包加密</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>WAŻNE: Wszystkie poprzednie kopie zapasowe plików portfela należy zastąpić nowo wygenerowanym, zaszyfrowanym plikiem portfela. Ze względów bezpieczeństwa poprzednie kopie niezaszyfrowanego pliku portfela staną się bezużyteczne, gdy tylko zaczniesz korzystać z nowego, zaszyfrowanego portfela.</translation>
+        <translation>重要提示：一旦您开始使用新的加密钱包，以前未加密的钱包备份都将失效。所以在新加密钱包生效后请务必重新备份您的钱包。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Szyfrowanie portfela nieudane</translation>
+        <translation>钱包加密失败</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Szyfrowanie portfela nieudane z powodu wewnętrznego błędu. Twój portfel nie został zaszyfrowany</translation>
+        <translation>由于内部错误，钱包加密失败，您的钱包本次加密没有成功。</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Podane hasła nie zgadzają się</translation>
+        <translation>输入的密码不正确</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Odblokowanie portfela nieudane</translation>
+        <translation>钱包解锁失败</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Podane hasło do odszyfrowania portfela jest błędne</translation>
+        <translation>为钱包解密输入的密码不正确。</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Odszyfrowywanie portfela nie powiodło się</translation>
+        <translation>钱包解密失败</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Hasło do portfela zostało zmienione</translation>
+        <translation>钱包密码已经更换为新密码</translation>
     </message>
 </context>
 <context>
     <name>BanTableModel</name>
     <message>
         <source>IP/Netmask</source>
-        <translation>Numer IP / Netmask</translation>
+        <translation>IP /子网掩码</translation>
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Zakazany do</translation>
+        <translation>禁止直至</translation>
     </message>
 </context>
 <context>
     <name>CSRow</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Savings</source>
-        <translation>oszczędności</translation>
+        <translation>存款</translation>
     </message>
     <message>
-        <source>0,00 PIVXL</source>
-        <translation>0,00 PIVXL</translation>
+        <source>0,00 RSCOIN</source>
+        <translation>0,00 RSCOIN</translation>
     </message>
     <message>
         <source>address</source>
-        <translation>adres</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Not Staking</source>
-        <translation>brak Stakingu</translation>
+        <translation>不可加薪</translation>
     </message>
     <message>
         <source>Own delegation</source>
-        <translation>Delegacja własna</translation>
+        <translation>自己的代表团</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Unknown: %5)</source>
-        <translation>Razem: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / Nieznane: %5)</translation>
+        <translation>总数: %1 (IPv4: %2 / IPv6: %3 / Tor: %4 / 未知: %5)</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>数量：</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Bajty:</translation>
+        <translation>字节:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Opłata:</translation>
+        <translation>费用：</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Wybór monet</translation>
+        <translation>币选择</translation>
     </message>
     <message>
-        <source>Select PIVXL Outputs to Spend</source>
-        <translation>Wybierz adres wyjściowy PIVXL do wydania</translation>
+        <source>Select RSCOIN Outputs to Spend</source>
+        <translation>选择PIV支出花费</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Pył:</translation>
+        <translation>Dust:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Reszta:</translation>
+        <translation>变化：</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Tryb drzewa</translation>
+        <translation>树模式</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Tryb listy</translation>
+        <translation>列表模式</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 zablokowany)</translation>
+        <translation>(1 锁住)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ilość</translation>
+        <translation>金额</translation>
     </message>
     <message>
-        <source>0.00 PIVXL</source>
-        <translation>0.00 PIVXL</translation>
+        <source>0.00 RSCOIN</source>
+        <translation>0.00 RSCOIN</translation>
     </message>
     <message>
         <source>0</source>
@@ -546,312 +545,312 @@ do stakingu</translation>
     </message>
     <message>
         <source>Select all</source>
-        <translation>Zaznacz wszystko</translation>
+        <translation>选择钱包</translation>
     </message>
     <message>
         <source>Toggle lock state</source>
-        <translation>Zablokuj</translation>
+        <translation>开关锁状态</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Otrzymano z zakładką</translation>
+        <translation>标签接收</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Otrzymano z adresem</translation>
+        <translation>收到地址</translation>
     </message>
     <message>
         <source>After Fee: </source>
-        <translation>Po opłacie:</translation>
+        <translation>缴费以后：</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Potwierdzenia</translation>
+        <translation>确认</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potwierdzone</translation>
+        <translation>已确认</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopiuj adres</translation>
+        <translation>复制地址</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopiuj zakładkę</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopiuj liczbę</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopiuj ID transakcji</translation>
+        <translation>复制交易ID</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Zablokuj niewydane</translation>
+        <translation>锁定未花费</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Odblokuj niewydane</translation>
+        <translation>解锁未花费</translation>
     </message>
     <message>
         <source>Unselect all</source>
-        <translation>Odznacz wszystko</translation>
+        <translation>全都不选</translation>
     </message>
     <message>
         <source>Please switch to "List mode" to use this function.</source>
-        <translation>Proszę przełączyć na "Tryb listy" by użyć tej funkcji</translation>
+        <translation>请切换到“列表模式”使用此功能。</translation>
     </message>
     <message>
         <source>Quantity Copied</source>
-        <translation>Ilość skopiowana</translation>
+        <translation>数量完成复制</translation>
     </message>
     <message>
         <source>Amount Copied</source>
-        <translation>Kwota skopiowana</translation>
+        <translation>金额完成复制</translation>
     </message>
     <message>
         <source>Fee Copied</source>
-        <translation>Opłata skopiowana</translation>
+        <translation>费用完成复制</translation>
     </message>
     <message>
         <source>After Fee Copied</source>
-        <translation>Po opłacie Skopiowano</translation>
+        <translation>完成费用复制之后</translation>
     </message>
     <message>
         <source>Bytes Copied</source>
-        <translation>Bajty skopiowane</translation>
+        <translation>字节完成复制</translation>
     </message>
     <message>
         <source>Dust Copied</source>
-        <translation>Dust skopiowane</translation>
+        <translation>尘埃完成复制</translation>
     </message>
     <message>
         <source>Change Copied</source>
-        <translation>Reszta Skopiowana</translation>
+        <translation>修改完成复制</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>najwyższy</translation>
+        <translation>最高级</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>wyższy</translation>
+        <translation>更高级</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>wysoki</translation>
+        <translation>高级</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>średnio-wysoki</translation>
+        <translation>中高级</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>średni</translation>
+        <translation>中级</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>średnio-niski</translation>
+        <translation>低中级</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>niski</translation>
+        <translation>低级</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>niższy</translation>
+        <translation>更低级</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>najniższy</translation>
+        <translation>最低级</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 zablokowany)</translation>
+        <translation>(%1已锁住)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>brak</translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>tak</translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>delegated to %1 for cold staking</source>
-        <translation>przekazane do %1 dla cold staking</translation>
+        <translation>委托到%1进行冷加注</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>nie</translation>
+        <translation>否</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Ta zakładka staję się czerwona, gdy rozmiar transakcji przekracza 1000 bajtów</translation>
+        <translation>如果交易大小大于1000字节，则此标签变为红色。</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>To znaczy, że opłata co najmniej  %1 za kB jest wymagana</translation>
+        <translation>这意味着每kB至少需要%1的费用。</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Zmienia się +/- 1 byte</translation>
+        <translation>每个输入可以浮动+/- 1 字节。</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Transakcje o wyższym priorytecie ma większe prawdopodobieństwo wdrożenia do bloku</translation>
+        <translation>具有更高优先级的交易更有可能被包含到区块中。</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Ta zakładka staje się czerwona, jeżeli priorytet jest mniejszy niż "średni"</translation>
+        <translation>如果优先级小于“中级”，则此标签变为红色。</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Ta etykieta zmienia kolor na czerwony, jeśli odbiorca otrzymuje mniej niż %1.</translation>
+        <translation>如果任何收件人收到的金额小于%1，此标签将变为红色。</translation>
     </message>
     <message>
         <source>Can vary +/- %1 upiv per input.</source>
-        <translation>Zmienia się +/- %1 upiv</translation>
+        <translation>每个输入可以浮动+/- %1 upiv。</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiety)</translation>
+        <translation>未设置标签</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>Reszta z %1 (%2)</translation>
+        <translation>从 %1 (%2)更改</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(reszta)</translation>
+        <translation>(更改)</translation>
     </message>
 </context>
 <context>
     <name>ColdStakingWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Tytuł</translation>
+        <translation>抬头</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Owner address (optional, if empty a new address will be created)</source>
-        <translation>Adres właściciela (opcjonalnie, jeśli pusty, zostanie utworzony nowy adres)</translation>
+        <translation>所有者地址(可选项，如果为空，将创建一个新地址)</translation>
     </message>
     <message>
         <source>Total Staking:</source>
-        <translation>Razem Staking:</translation>
+        <translation>加注总额：</translation>
     </message>
     <message>
         <source>List of delegated balance by address</source>
-        <translation>Lista przekazanych sald według adresu</translation>
+        <translation>按地址划分的委托余额清单</translation>
     </message>
     <message>
         <source>No balance delegated</source>
-        <translation>Brak salda delegowanego</translation>
+        <translation>没有佣金余额</translation>
     </message>
     <message>
         <source>Cold Staking</source>
-        <translation>Cold Staking</translation>
+        <translation>冷堆</translation>
     </message>
     <message>
         <source>Staker</source>
-        <translation>Staker</translation>
+        <translation>利益相关者</translation>
     </message>
     <message>
         <source>Delegation</source>
-        <translation>Delegacja</translation>
+        <translation>宪法</translation>
     </message>
     <message>
         <source>Delegate</source>
-        <translation>Deleguj</translation>
+        <translation>分配</translation>
     </message>
     <message>
         <source>Clear All</source>
-        <translation>Wyczyść wszystko</translation>
+        <translation>清除全部</translation>
     </message>
     <message>
         <source>Delegated balance history</source>
-        <translation>Historia sald delegowanych</translation>
+        <translation>委托余额历史</translation>
     </message>
     <message>
         <source>No delegations yet</source>
-        <translation>Brak delegacji</translation>
+        <translation>没有代表团</translation>
     </message>
     <message>
         <source>Total Staking: %1</source>
-        <translation>Total Staking: %1</translation>
+        <translation>总积累：%1</translation>
     </message>
     <message>
         <source>Error loading delegations: %1</source>
-        <translation>Błąd ładowania delegacji: %1</translation>
+        <translation>加载委托时出错：%1</translation>
     </message>
     <message>
         <source>You can delegate your PIVs, letting a hot node (24/7 online node)
 stake on your behalf, while you keep the keys securely offline.</source>
-        <translation>Możesz delegować swoje PIVXL, używając gorącego węzła (węzeł online 24/7)
-stake w Twoim imieniu, podczas gdy klucze są bezpiecznie offline.</translation>
+        <translation>您可以委托您的PIV并让一个热节点(24/7在线节点)
+代表你加注，而且保持密钥离线安全。</translation>
     </message>
     <message>
         <source>Enter owner address</source>
-        <translation>Wpisz adres właściciela</translation>
+        <translation>输入所有者地址</translation>
     </message>
     <message>
-        <source>Accept PIVXL delegation / Delegate PIVXL</source>
-        <translation>Zaakceptuj delegację PIVXL / Deleguj PIVXL</translation>
+        <source>Accept RSCOIN delegation / Delegate RSCOIN</source>
+        <translation>接受PIV委托／委托PIV </translation>
     </message>
     <message>
         <source>Cold Staking address</source>
-        <translation>Cold Staking adres</translation>
+        <translation>冷加注地址</translation>
     </message>
     <message>
         <source>No receive addresses available, you can go to the receive screen and create some there!</source>
-        <translation>Brak dostępnych adresów odbioru, możesz przejść do ekranu odbioru i tam utworzyć!</translation>
+        <translation>没有可用接收地址，您可以到接收屏幕那里创建!</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
-        <translation>Brak dostępnych kontaktów, możesz przejść do ekranu kontaktów i tam dodać!</translation>
+        <translation>没有可用的联系人，您可以到联系人界面那里添加!</translation>
     </message>
     <message>
         <source>Cannot send delegation, wallet locked</source>
-        <translation>Nie można przekazać delegacji, portfel zablokowany</translation>
+        <translation>无法发送委托，钱包被锁了</translation>
     </message>
     <message>
         <source>Cold staking is networkely disabled</source>
-        <translation>Cold staking jest wyłączony przez sieć</translation>
+        <translation>禁用网络冷积累</translation>
     </message>
     <message>
         <source>Invalid entry</source>
-        <translation>Niewłaściwy wpis</translation>
+        <translation>条目无效</translation>
     </message>
     <message>
         <source>Invalid entry, minimum delegable amount is </source>
-        <translation>Nieprawidłowy wpis, minimalna kwota do przekazania wynosi</translation>
+        <translation>输入无效，最小委托数量为</translation>
     </message>
     <message>
         <source>Owner address invalid</source>
-        <translation>Niepoprawny adres właściciela</translation>
+        <translation>所有者地址无效</translation>
     </message>
     <message>
         <source>ALERT!</source>
-        <translation>ALARM!</translation>
+        <translation>警报！</translation>
     </message>
     <message>
         <source>Delegating to an external owner address!
@@ -861,114 +860,114 @@ Spending these coins will need to be done from the wallet or
 device containing the owner address.
 
 Do you wish to proceed?</source>
-        <translation>Delegowanie na zewnętrzny adres właściciela!
+        <translation>委托给外部所有者地址！
 
-Przekazywane monety NIE będą wydawane przez ten portfel.
-Wydawanie tych monet będzie musiało być wykonane z portfela lub
-urządzenie zawierające adres właściciela
+授权的硬币将无法在此钱包中消费。
+花费这些硬币需要从钱包或
+包含所有者地址的设备。
 
-Czy chcesz kontynuować?</translation>
+你想继续吗？</translation>
     </message>
     <message>
         <source>Staking address corresponds to this wallet, change it to an external node</source>
-        <translation>Staking adres odpowiada temu portfelowi, zmień go na zewnętrzny węzeł</translation>
+        <translation>放样地址对应于此钱包，将其更改为外部节点</translation>
     </message>
     <message>
         <source>Cannot create transaction.</source>
-        <translation>Nie można utworzyć transakcji.</translation>
+        <translation>无法创建交易</translation>
     </message>
     <message>
         <source>Coins delegated</source>
-        <translation>Monety przekazane</translation>
+        <translation>委托硬币</translation>
     </message>
     <message>
-        <source>You don't have any PIVXL to select.</source>
-        <translation>Nie masz żadnych PIVXL-ów do wyboru.</translation>
+        <source>You don't have any RSCOIN to select.</source>
+        <translation>您没有任何PIV可选择。</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
-        <translation>Nie można wykonać operacji, portfel zablokowany</translation>
+        <translation>无法进行操作，钱包被锁了</translation>
     </message>
     <message>
         <source>URI copied to clipboard</source>
-        <translation>URI skopiowany do schowka</translation>
+        <translation>URI已经复制到剪贴板</translation>
     </message>
     <message>
         <source>Address copied to clipboard</source>
-        <translation>Adres skopiowany do schowka</translation>
+        <translation>地址已经复制到剪贴板</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>kopiuj</translation>
+        <translation>复制</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edytuj</translation>
+        <translation>编辑</translation>
     </message>
     <message>
         <source>Stake</source>
-        <translation>Stake</translation>
+        <translation>赌注</translation>
     </message>
     <message>
         <source>Blacklist</source>
-        <translation>Czarna lista</translation>
+        <translation>黑名单</translation>
     </message>
     <message>
         <source>Edit Label</source>
-        <translation>Edytuj etykietę</translation>
+        <translation>编辑标签</translation>
     </message>
     <message>
         <source>Copy owner
 address</source>
-        <translation>Kopiuj właściciela
-adres</translation>
+        <translation>复制所有者
+地址</translation>
     </message>
     <message>
         <source>Address copied</source>
-        <translation>Adres skopiowany</translation>
+        <translation>地址已复制</translation>
     </message>
     <message>
         <source>Edit Cold Address Label</source>
-        <translation>Edytuj etykietę adresu zimnego</translation>
+        <translation>编辑冷地址标签</translation>
     </message>
     <message>
         <source>Whitelist failed, please check the logs</source>
-        <translation>Niepowodzenie białej listy, sprawdź dzienniki</translation>
+        <translation>白名单失败，请检查日志</translation>
     </message>
     <message>
         <source> staking!</source>
-        <translation>staking!</translation>
+        <translation>提高</translation>
     </message>
     <message>
         <source>Blacklist failed, please check the logs</source>
-        <translation>Czarna lista nie powiodła się, sprawdź dzienniki</translation>
+        <translation>黑名单失败，请检查日志</translation>
     </message>
     <message>
         <source> blacklisted from staking</source>
-        <translation>na czarnej liście staking</translation>
+        <translation>放样被列入黑名单</translation>
     </message>
     <message>
         <source>Owner address copied</source>
-        <translation>Adres właściciela został skopiowany</translation>
+        <translation>所有者地址已复制</translation>
     </message>
     <message>
         <source>Edit Owner Address Label</source>
-        <translation>Edytuj etykietę adresu właściciela</translation>
+        <translation>编辑所有者地址标签</translation>
     </message>
     <message>
         <source>Address label saved</source>
-        <translation>Etykieta adresu została zapisana</translation>
+        <translation>地址标签已保存</translation>
     </message>
     <message>
         <source>Error storing address label</source>
-        <translation>Błąd podczas zapisywania etykiety adresu</translation>
+        <translation>保存地址标签出错</translation>
     </message>
 </context>
 <context>
     <name>ContactDropdownRow</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Bob Allen</source>
@@ -983,359 +982,358 @@ adres</translation>
     <name>DashboardWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Transactions</source>
-        <translation>Transakcje</translation>
+        <translation>交易</translation>
     </message>
     <message>
         <source>You can see here the history of your account</source>
-        <translation>Możesz zobaczyć tutaj historię swojego konta</translation>
+        <translation>你可以在这里查看你账户的历史</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>注意</translation>
     </message>
     <message>
         <source>No transactions</source>
-        <translation>Brak transakcji</translation>
+        <translation>无交易</translation>
     </message>
     <message>
         <source>Staking Rewards</source>
-        <translation>Nagroda Staking</translation>
+        <translation>加注奖励</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Staking statistics</source>
-        <translation>Staking statystyka</translation>
+        <translation>加注数据</translation>
     </message>
     <message>
-        <source>PIVXL</source>
-        <translation>PIVXL</translation>
+        <source>RSCOIN</source>
+        <translation>RSCOIN</translation>
     </message>
     <message>
-        <source>zPIVXL</source>
-        <translation>zPIVXL</translation>
+        <source>zRSCOIN</source>
+        <translation>zRSCOIN</translation>
     </message>
     <message>
         <source>Sort by</source>
-        <translation>Sortuj</translation>
+        <translation>分类</translation>
     </message>
     <message>
         <source>Days</source>
-        <translation>Dni</translation>
+        <translation>天</translation>
     </message>
     <message>
         <source>Months</source>
-        <translation>Miesięcy</translation>
+        <translation>月</translation>
     </message>
     <message>
         <source>Years</source>
-        <translation>Lat</translation>
+        <translation>年</translation>
     </message>
     <message>
         <source>Filter by</source>
-        <translation>Filtruj według</translation>
+        <translation>过滤</translation>
     </message>
     <message>
         <source>LabelText</source>
-        <translation>Tekst etykiety</translation>
+        <translation>标签文本</translation>
     </message>
     <message>
         <source>You can view your account's history</source>
-        <translation>Możesz zobaczyć historię swojego konta</translation>
+        <translation>您可以查看您的帐户的历史</translation>
     </message>
     <message>
-        <source>Amount of PIVXL and zPIVXL staked.</source>
-        <translation>Ilość PIVXL i zPIVXL staked.</translation>
+        <source>Amount of RSCOIN and zRSCOIN staked.</source>
+        <translation>已加注的PIV 和 zRSCOIN 金额</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
-        <translation>Poczekaj, aż portfel zostanie w pełni zsynchronizowany, aby zobaczyć prawidłowe saldo</translation>
+        <translation>请等到钱包完全同步后再查看您的正确余额</translation>
     </message>
     <message>
         <source>No transactions yet</source>
-        <translation>Brak transakcji</translation>
+        <translation>暂无交易</translation>
     </message>
     <message>
-        <source>How to get PIVXL or zPIVXL</source>
-        <translation>Jak zdobyć PIVXL lub zPIVXL</translation>
+        <source>How to get RSCOIN or zRSCOIN</source>
+        <translation>如何获取PIV 或 zRSCOIN</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
 It will start automatically as soon as the wallet has enough confirmations on any unspent balances, and the wallet has synced.</source>
-        <translation>Możesz sprawdzić aktywność staking na pasku stanu w prawym górnym rogu portfela.
-
-Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę potwierdzeń na niewydanych saldach i portfel zostanie zsynchronizowany.</translation>
+        <translation>您可以在钱包右上角的状态栏中验证加注活动。
+只要钱包有足够的未使用余额，并且钱包已经同步，它就会自动启动。</translation>
     </message>
     <message>
         <source>You have no staking rewards</source>
-        <translation>Nie masz nagród za staking</translation>
+        <translation>你没有加注奖励</translation>
     </message>
     <message>
         <source>No charts library</source>
-        <translation>Brak biblioteki wykresów</translation>
+        <translation>没有图表库</translation>
     </message>
     <message>
         <source>Loading chart..</source>
-        <translation>Ładowanie wykresu ..</translation>
+        <translation>正在下载图表...</translation>
     </message>
     <message>
         <source>Error loading chart, invalid show option</source>
-        <translation>Błąd podczas ładowania tabeli, nieprawidłowa opcja pokazu</translation>
+        <translation>加载图表出错，显示选项无效</translation>
     </message>
     <message>
         <source>Error loading chart, invalid data</source>
-        <translation>Błąd podczas ładowania tabeli, nieprawidłowe dane</translation>
+        <translation>加载图表时出错，数据无效</translation>
     </message>
     <message>
         <source>Error loading chart: %1</source>
-        <translation>Błąd podczas ładowania wykresu: %1</translation>
+        <translation>加载图表出错:%1</translation>
     </message>
 </context>
 <context>
     <name>DefaultDialog</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Transaction Details</source>
-        <translation>Szczegóły Transakcji</translation>
+        <translation>交易明细</translation>
     </message>
     <message>
         <source>Text Label</source>
-        <translation>Etykieta tekstowa</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Edytuj adres</translation>
+        <translation>编辑地址</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Etykieta</translation>
+        <translation>&amp;标签</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Etykieta powiązana z tą pozycją listy adresowej</translation>
+        <translation>与该地址列表条目相关联的标签</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Adres</translation>
+        <translation>&amp;地址</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Adres powiązany z tą pozycją listy adresowej. To można zmodyfikować tylko dla adresu docelowego.</translation>
+        <translation>与该地址列表条目相关联的地址。 只能修改发送地址。</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Nowy adres odbiorczy</translation>
+        <translation>新接受地址</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Nowy adres wysyłania</translation>
+        <translation>新发送地址</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Nowy adres wysyłania</translation>
+        <translation>编辑接收地址</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Edytuj adres wysyłania</translation>
+        <translation>编辑发送地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVXL address.</source>
-        <translation>Wprowadzony adres "%1" nie jest prawidłowym adresem PIVXL.</translation>
+        <source>The entered address "%1" is not a valid RSCOIN address.</source>
+        <translation>所输入的地址“%1”不是有效的PIVX地址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Wprowadzony adres "%1" jest już w książce adresowej.</translation>
+        <translation>输入的地址“%1”已经存在通讯录中。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Nie można odblokować portfela.</translation>
+        <translation>不能解锁钱包</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Nie udało się wygenerować nowego klucza.</translation>
+        <translation>新密钥生成失败。</translation>
     </message>
 </context>
 <context>
     <name>ExpandableButton</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Zostanie utworzony nowy katalog danych.</translation>
+        <translation>将创建一个新的数据目录。</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>Nazwa</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Katalog już istnieje. Dodaj %1, jeśli zamierzasz utworzyć tutaj nowy katalog.</translation>
+        <translation>目录已经存在。如果您打算在这里创建一个新目录，请添加%1。</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Ścieżka już istnieje i nie jest katalogiem.</translation>
+        <translation>路径已经存在，且不是目录。</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Nie można tutaj utworzyć katalogu danych.</translation>
+        <translation>无法在此创建数据目录。</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>version</source>
-        <translation>Wersja</translation>
+        <translation>版本</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
+        <translation>(%1-位)</translation>
     </message>
     <message>
-        <source>About PIVXL Core</source>
-        <translation>O PIVXL Core</translation>
+        <source>About RSCOIN Core</source>
+        <translation>关于PIVX Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Opcje wiersza poleceń</translation>
+        <translation>命令行选</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Użycie:</translation>
+        <translation>用法：</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>Opcje wiersza poleceń</translation>
+        <translation>命令行选项</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>UI opcje</translation>
+        <translation>UI 选项：</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
-        <translation>Wybierz katalog danych podczas uruchamiania (domyślnie: %u )</translation>
+        <translation>在启动时选择数据目录(默认:%u)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: %u)</source>
-        <translation>Pokaż ekran powitalny podczas uruchamiania (domyślnie: %u )</translation>
+        <translation>启动时显示启动画面(默认:%u)</translation>
     </message>
     <message>
         <source>Hide QT staking charts on startup (default: %u)</source>
-        <translation>Ukryj wykresy staking QT przy uruchomieniu (domyślnie: %u)</translation>
+        <translation>在启动时隐藏QT标记图表(默认值:%u)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Ustaw język, na przykład "pl_PL" (domyślnie: ustawienia regionalne)</translation>
+        <translation>设置语言，例如“de_DE”(默认:系统语言环境)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Start zminimalizowany</translation>
+        <translation>开始最小化</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Ustaw certyfikaty SSL dla żądania zapłaty (domyślnie: -system-)</translation>
+        <translation>为支付请求设置SSL根证书(默认值:-s系统-)</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Zapraszamy</translation>
+        <translation>欢迎</translation>
     </message>
     <message>
-        <source>Welcome to PIVXL Core.</source>
-        <translation>Zapraszamy do PIVXL Core</translation>
+        <source>Welcome to RSCOIN Core.</source>
+        <translation>欢迎使用 RSCOIN Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVXL Core will store its data.</source>
-        <translation>Ponieważ program jest uruchamiany po raz pierwszy, możesz wybrać miejsce, w którym PIVXL Core będzie przechowywać swoje dane.</translation>
+        <source>As this is the first time the program is launched, you can choose where RSCOIN Core will store its data.</source>
+        <translation>由于这是该程序第一次启动，您可以选择存储PIVX Core 数据的位置。</translation>
     </message>
     <message>
-        <source>PIVXL Core will download and store a copy of the PIVXL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVXL Core pobierze i zapisze kopię łańcucha bloków PIVXL. Przynajmniej %1 GB danych zostanie zapisanych w tym katalogu, a jego liczba będzie rosnąć z czasem. Portfel zostanie również zapisany w tym katalogu.</translation>
+        <source>RSCOIN Core will download and store a copy of the RSCOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>RSCOIN Core将下载并存储PIVX区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Użyj domyślnej ścieżki danych</translation>
+        <translation>使用默认的数据目录</translation>
     </message>
     <message>
         <source>Use a custom data directory</source>
-        <translation>Użyj niestandardowego katalogu danych</translation>
+        <translation>使用自定义数据目录</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Błąd: nie można utworzyć określonego katalogu danych "%1".</translation>
+        <translation>错误:无法创建指定的数据目录“%1”。</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>出错</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB dostępnej pamięci</translation>
+        <translation>%1 GB可用的空闲空间</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(  %1 GB potrzebne)</translation>
+        <translation>(需要%1 GB)</translation>
     </message>
 </context>
 <context>
     <name>LoadingDialog</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Loading</source>
-        <translation>Ładowanie</translation>
+        <translation>正在下载</translation>
     </message>
     <message>
         <source>.</source>
@@ -1346,33 +1344,33 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
     <name>LockUnlock</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Unlock Wallet</source>
-        <translation>Odblokuj portfel</translation>
+        <translation>解锁钱包</translation>
     </message>
     <message>
         <source>Lock Wallet</source>
-        <translation>Zablokuj portfel</translation>
+        <translation>锁住钱包</translation>
     </message>
     <message>
         <source>Staking Only</source>
-        <translation>Tylko Staking</translation>
+        <translation>只对加注可用</translation>
     </message>
 </context>
 <context>
     <name>MNRow</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
 </context>
 <context>
     <name>MasterNodeWizardDialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <source>1</source>
@@ -1388,132 +1386,132 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
     </message>
     <message>
         <source>Intro</source>
-        <translation>Wprowadzenie</translation>
+        <translation>简介</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nazwa</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Create New Masternode Controller</source>
-        <translation>Utwórz nowy kontroler Masternode</translation>
+        <translation>创建新的主节点控制器</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PIVXL Masternode you must dedicate 100,000 PIVXL (the unit of PIVXL) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Aby utworzyć Masternode PIVXL, musisz przeznaczyć 100.000 PIVXL (jednostkę PIVXL) na sieć (jednak monety te są nadal twoje i nigdy nie zmienią swojego właściciela).&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Możesz dezaktywować węzeł i odblokować monety w dowolnym momencie.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a RSCOIN Masternode you must dedicate 100,000 RSCOIN (the unit of RSCOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个PIVX主节点，你必须奉献100,000 RSCOIN（PIVX的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
-        <translation>Ustaw nazwę Masternode</translation>
+        <translation>设置主节点名称</translation>
     </message>
     <message>
         <source>Set Masternode IP and Port</source>
-        <translation>Ustaw adres IP i port Masternode</translation>
+        <translation>设置主节点IP和端口</translation>
     </message>
     <message>
         <source>Enter port</source>
-        <translation>Wpisz port</translation>
+        <translation>输入端口</translation>
     </message>
     <message>
         <source>Make sure you have this amount of coins.</source>
-        <translation>Upewnij się, że masz taką liczbę monet.</translation>
+        <translation>确保你有这么多币</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 100,000 PIVXL will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Dokonana zostanie transakcja 10 000 PIVXL&lt;/p&gt;&lt;p&gt;na nowy pusty adres w portfelu.&lt;/p&gt;&lt;p&gt;Adres jest oznaczony pod nazwą węzła głównego.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 100,000 RSCOIN will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;将进行100,000 PIV的交易&lt;/p&gt;&lt;p&gt;到您的钱包空地址&lt;/p&gt;&lt;p&gt;地址被标记在主节点的名称之下&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
-        <translation>Adres węzła, który zawsze musi być w trybie online z uruchomionym rzeczywistym węzłem głównym.</translation>
+        <translation>必须始终在线运行实际主节点的节点的地址。</translation>
     </message>
     <message>
         <source>Enter IP address</source>
-        <translation>Wpisz adres IP</translation>
+        <translation>输入IP 地址</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>e.g user_masternode</source>
-        <translation>np. user_masternode</translation>
+        <translation>例如 用户_主节点</translation>
     </message>
     <message>
         <source>NEXT</source>
-        <translation>KOLEJNY</translation>
+        <translation>下一步</translation>
     </message>
     <message>
         <source>BACK</source>
-        <translation>WSTECZ</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>address label cannot be empty</source>
-        <translation>etykieta adresu nie może być pusta</translation>
+        <translation>地址标签不能为空</translation>
     </message>
     <message>
         <source>IP or port cannot be empty</source>
-        <translation>Adres IP lub port nie mogą być puste</translation>
+        <translation>IP 或端口不能为空</translation>
     </message>
     <message>
         <source>Invalid IP address</source>
-        <translation>Nieprawidłowy adres IP</translation>
+        <translation> IP地址无效</translation>
     </message>
     <message>
         <source>Prepare master node failed.
 
 %1
 </source>
-        <translation>Niepowodzenie przygotowania master node.
+        <translation>准备主节点失败。
 
 %1
 </translation>
     </message>
     <message>
         <source>Invalid collateral output index</source>
-        <translation>Niepoprawny wskaźnik wyjściowy zabezpieczenia</translation>
+        <translation>输出指标无效</translation>
     </message>
     <message>
         <source>Master node created! Wait %1 confirmations before starting it.</source>
-        <translation>Utworzono węzeł główny! Poczekaj %1 potwierdzeń przed uruchomieniem.</translation>
+        <translation>主节点创建完成!在启动它之前，请等待%1确认。</translation>
     </message>
     <message>
         <source>Cannot send collateral transaction.
 
 %1</source>
-        <translation>Nie można wysłać transakcji zabezpieczającej.
+        <translation>不能发送抵押品交易。
 
 %1</translation>
     </message>
     <message>
         <source>Invalid masternode.conf file</source>
-        <translation>Nieprawidłowy plik masternode.conf</translation>
+        <translation>主节点配置文件无效</translation>
     </message>
     <message>
         <source>Error parsing masternode.conf file</source>
-        <translation>Błąd podczas analizowania pliku masternode.conf</translation>
+        <translation>解析主节点配置文件出错</translation>
     </message>
     <message>
         <source>masternode.conf file doesn't exists</source>
-        <translation>plik masternode.conf nie istnieje</translation>
+        <translation>主节点配置文件不存在</translation>
     </message>
 </context>
 <context>
     <name>MasterNodesWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -1521,95 +1519,101 @@ Rozpocznie się automatycznie, gdy portfel będzie miał wystarczającą liczbę
     </message>
     <message>
         <source>Start All</source>
-        <translation>Start All</translation>
+        <translation>启动所有项</translation>
     </message>
     <message>
         <source>Start Inactive/s</source>
-        <translation>Start Inactive/s</translation>
+        <translation>停止活跃／秒</translation>
     </message>
     <message>
         <source>Masternodes</source>
-        <translation>Masternodes</translation>
+        <translation>主节点</translation>
     </message>
     <message>
         <source>Full nodes that incentivize node operators to perform the core consensus functions
 and vote on the treasury system receiving a periodic reward.</source>
-        <translation>Pełne węzły zachęcające operatorów węzłów do wykonywania podstawowych funkcji konsensusu
-i głosuj na system skarbu otrzymujący okresową nagrodę.</translation>
+        <translation>激励节点操作员执行核心一致功能的完整节点
+并对财政部系统定期奖励进行投票。</translation>
     </message>
     <message>
         <source>Create Masternode Controller</source>
-        <translation>Utwórz kontroler Masternode</translation>
+        <translation>创建主节点控制器</translation>
     </message>
     <message>
         <source>No active Masternode yet</source>
-        <translation>Brak aktywnego Masternode</translation>
+        <translation>还没激活主节点</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation>Start</translation>
+        <translation>开始</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Usuń</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>Info</source>
-        <translation>Info</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <source>Please wait until the node is fully synced</source>
-        <translation>Poczekaj, aż węzeł zostanie w pełni zsynchronizowany</translation>
+        <translation>请等到节点完全同步</translation>
     </message>
     <message>
         <source>Start Masternode</source>
-        <translation>Start Masternode</translation>
+        <translation>开始主节点</translation>
     </message>
     <message>
         <source>Are you sure you want to start masternode %1?
 </source>
-        <translation>Czy na pewno chcesz uruchomić masternode %1?
+        <translation>您确定要开始主节点%1?
 </translation>
     </message>
     <message>
         <source>Cannot edit masternode, wallet locked</source>
-        <translation>Nie można edytować masternode, portfel zablokowany</translation>
+        <translation>无法编辑主节点，钱包被锁了</translation>
+    </message>
+    <message>
+        <source>Cannot start masternode, the collateral transaction has not been confirmed by the network yet.
+Please wait few more minutes (masternode collaterals require %1 confirmations).</source>
+        <translation>无法启动主节点，抵押品交易还没有被网络确认。
+请再稍等几分钟(主节点担保品需要%1确认)。</translation>
     </message>
     <message>
         <source>Background task is being executed, please wait</source>
-        <translation>Zadanie w tle jest wykonywane, proszę czekać</translation>
+        <translation>后台任务正在执行，请稍候</translation>
     </message>
     <message>
         <source>Start ALL masternodes failed</source>
-        <translation>Uruchomienie WSZYSTKICH masternode nie powiodło się</translation>
+        <translation>启动所有主节点失败</translation>
     </message>
     <message>
         <source>Wallet unlock cancelled</source>
-        <translation>Anulowanie odblokowania portfela</translation>
+        <translation>解锁钱包已取消</translation>
     </message>
     <message>
         <source>Cannot perform Masternodes start</source>
-        <translation>Nie można uruchomić Masternode</translation>
+        <translation>无法启动主节点</translation>
     </message>
     <message>
         <source>%1 Masternodes failed to start, %2 started</source>
-        <translation>%1 Nie udało się uruchomić Masternode, %2 rozpoczęty</translation>
+        <translation>%1主节点启动失败，%2已经启动</translation>
     </message>
     <message>
         <source>All Masternodes started!</source>
-        <translation>Wszystkie Masternodes wystartowały!</translation>
+        <translation>所有主节点已经启动！</translation>
     </message>
     <message>
         <source>Cannot show Masternode information, wallet locked</source>
-        <translation>Nie można wyświetlić informacji o masternode, portfel zablokowany</translation>
+        <translation>无法显示主节点信息，钱包被锁了</translation>
     </message>
     <message>
         <source>Masternode data copied to the clipboard.</source>
-        <translation>Dane Masternode skopiowane do schowka.</translation>
+        <translation>复制到剪贴板的主节点数据。</translation>
     </message>
     <message>
         <source>Remote Masternode Data</source>
-        <translation>Remote Masternode Data</translation>
+        <translation>远程主节点数据</translation>
     </message>
     <message>
         <source>You are just about to export the required data to run a Masternode
@@ -1620,67 +1624,67 @@ You will only have to paste the data in the pivxl.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
-        <translation>Za chwilę wyeksportujesz wymagane dane, aby uruchomić Masternode
-na zdalnym serwerze do twojego schowka.
+        <translation>您正准备导出运行主节点所需的数据
+到剪贴板的远程服务器上。
 
 
-Wystarczy wkleić dane do pliku pivxl.conf
-zdalnego serwera i uruchom go, a następnie uruchom Masternode przy użyciu
-portfela kontrolujacego (wybierz Masternode z listy i naciśnij „start”).
+您只需将数据粘贴到pivx.conf文件中
+，然后使用主节点启动它
+这个控制器钱包(在列表中选择主节点并按“开始”)。
 </translation>
     </message>
     <message>
         <source>Delete Masternode</source>
-        <translation>Usuń Masternode</translation>
+        <translation>删除主节点</translation>
     </message>
     <message>
         <source>You are just about to delete Masternode:
 %1
 
 Are you sure?</source>
-        <translation>Za chwilę usuniesz Masternode:
+        <translation>您即将删除主节点：
 %1
 
-Jesteś pewny?</translation>
+确定吗？</translation>
     </message>
     <message>
         <source>Invalid masternode.conf file</source>
-        <translation>Nieprawidłowy plik masternode.conf</translation>
+        <translation>主节点配置文件无效</translation>
     </message>
     <message>
         <source>Error parsing masternode.conf file</source>
-        <translation>Błąd podczas analizowania pliku masternode.conf</translation>
+        <translation>解析主节点配置文件出错</translation>
     </message>
     <message>
         <source>masternode.conf file doesn't exists</source>
-        <translation>plik masternode.conf nie istnieje</translation>
+        <translation>主节点配置文件不存在</translation>
     </message>
     <message>
         <source>Cannot create Masternode controller, wallet locked</source>
-        <translation>Nie można utworzyć kontrolera Masternode, portfel zablokowany</translation>
+        <translation>无法创建主节点控制器，钱包被锁了</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 100,000 PIVXL required.</source>
-        <translation>Nie wystarczające saldo do utworzenia masternode, wymagane 10000 PIVXL.</translation>
+        <source>Not enough balance to create a masternode, 100,000 RSCOIN required.</source>
+        <translation>没有足够的余额创建主节点，需要100,000 RSCOIN。</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
-        <translation>Błąd podczas tworzenia masternode</translation>
+        <translation>创建主节点出错</translation>
     </message>
 </context>
 <context>
     <name>MnInfoDialog</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Masternode Information</source>
-        <translation>Informacje o Masternode</translation>
+        <translation>主节点信息</translation>
     </message>
     <message>
         <source>Public Key:</source>
-        <translation>Klucz publiczny:</translation>
+        <translation>公钥：</translation>
     </message>
     <message>
         <source>492526e7fa3c810b35016...40a5df85ee227ab00b1156994</source>
@@ -1688,7 +1692,7 @@ Jesteś pewny?</translation>
     </message>
     <message>
         <source>Address: </source>
-        <translation>Adres:</translation>
+        <translation>地址：</translation>
     </message>
     <message>
         <source>127.0.0.2:43223</source>
@@ -1696,42 +1700,42 @@ Jesteś pewny?</translation>
     </message>
     <message>
         <source>Collaterall tx id:</source>
-        <translation>Collaterall tx id:</translation>
+        <translation>字幕:</translation>
     </message>
     <message>
         <source>Output index:</source>
-        <translation>Indeks wyjściowy:</translation>
+        <translation>输出索引：</translation>
     </message>
     <message>
         <source>1 Inputs</source>
-        <translation>1 wejścia</translation>
+        <translation>1 输入</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Stan:</translation>
+        <translation>状态：</translation>
     </message>
     <message>
         <source>MISSING</source>
-        <translation>BRAKUJĄCY</translation>
+        <translation>略过</translation>
     </message>
     <message>
         <source>Export data to run the Masternode on a remote server</source>
-        <translation>Wyeksportuj dane, aby uruchomić Masternode na zdalnym serwerze</translation>
+        <translation>导出数据去远程服务器上运行主节点</translation>
     </message>
 </context>
 <context>
     <name>MyAddressRow</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Savings</source>
-        <translation>Oszczędności</translation>
+        <translation>存款</translation>
     </message>
     <message>
         <source>Jan. 19, 2019</source>
-        <translation>St. 19, 2019</translation>
+        <translation>2019年1月19日</translation>
     </message>
     <message>
         <source>DN6i46dytMPVhV1JMGZFuQBh7BZZ6nNLox</source>
@@ -1742,7 +1746,7 @@ Jesteś pewny?</translation>
     <name>NavMenuWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>V 1.0.0</source>
@@ -1757,69 +1761,69 @@ Jesteś pewny?</translation>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Otwórz URI</translation>
+        <translation>开源URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Otwórz prośbę o płatność z URI lub pliku</translation>
+        <translation>需要 从URI 或文件打开支付</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Wybierz plik żądania płatności</translation>
+        <translation>选择支付请求文件</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Wybierz plik żądania płatności, aby otworzyć</translation>
+        <translation>选择支付请求文件打开</translation>
     </message>
     <message>
         <source>File not found</source>
-        <translation>Nie znaleziono pliku</translation>
+        <translation>文件未找到</translation>
     </message>
     <message>
         <source>Parsed data too large</source>
-        <translation>Przetwarzane dane są za duże</translation>
+        <translation>解析的数据太大</translation>
     </message>
     <message>
         <source>Invalid URI, not starting with "pivxl" prefix</source>
-        <translation>Nieprawidłowy identyfikator URI, nie zaczynający się od prefiksu „pivxl”</translation>
+        <translation>无效的URI，不是以“ pivxl”前缀开头</translation>
     </message>
 </context>
 <context>
     <name>OptionButton</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>选项</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Główne</translation>
+        <translation>&amp;主</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>&amp;Rozmiar bazy danych cache</translation>
+        <translation>缓存&amp;database 大小</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1827,217 +1831,217 @@ Jesteś pewny?</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Liczba wątków skryptowych i weryfikacyjnych</translation>
+        <translation>脚本&amp;验证线程数</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = zostaw za darmo)</translation>
+        <translation>(0 = 自动, &lt;0 = 保留空闲的内核)</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Portfel</translation>
+        <translation>W&amp;钱包</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Jeśli wyłączysz wydawanie niepotwierdzonych reszt, reszta z transakcji nie może być użyta, dopóki transakcja nie uzyska co najmniej jednego potwierdzenia. Ma to również wpływ na sposób obliczania salda.</translation>
+        <translation>如果您要禁用未经确认发送，在至少有一个确认之前&lt;br/&gt;不能更改。&lt;br/&gt;这也将影响您的余额计算。</translation>
     </message>
     <message>
-        <source>Automatically open the PIVXL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatycznie otwórz port klienta PIVXL na routerze. Działa to tylko wtedy, gdy twój router obsługuje UPnP i jest włączony.</translation>
+        <source>Automatically open the RSCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动打开路由器上的PIVX钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Akceptuj połączenia z zewnątrz</translation>
+        <translation>从外部接受连接</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Zezwól na przychodzące połączenia</translation>
+        <translation>允许进来的连接</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Połącz przez serwer proxy SOCKS5 (domyślne proxy):</translation>
+        <translation>&amp;使用SOCKS5代理（默认代理）</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Ekspert</translation>
+        <translation>专家</translation>
     </message>
     <message>
-        <source>Automatically start PIVXL after logging in to the system.</source>
-        <translation>Automatycznie uruchom PIVXL po zalogowaniu do systemu</translation>
+        <source>Automatically start RSCOIN after logging in to the system.</source>
+        <translation>登录系统后自动启动PIVX。</translation>
     </message>
     <message>
-        <source>&amp;Start PIVXL on system login</source>
-        <translation>&amp;Uruchom PIVXL podczas logowania do systemu</translation>
+        <source>&amp;Start RSCOIN on system login</source>
+        <translation>&amp;开机启动PIVX</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Czy pokazać cechy kontroli monety czy nie</translation>
+        <translation>是否显示硬币控制功能</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Włącz cechy kontroli monety</translation>
+        <translation>启用硬币&amp;控制功能</translation>
     </message>
     <message>
         <source>Show additional tab listing all your masternodes in first sub-tab&lt;br/&gt;and all masternodes on the network in second sub-tab.</source>
-        <translation>Pokaż dodatkową tabelę wszystkich twoich masternodów w pierwszej szpalcie&lt;br/&gt; i wszystkich masternodów w sieci w drugiej</translation>
+        <translation>显示附加的标签，列出所有您的主节点在第一子列表上&lt;br/&gt;所有主节点的网络在第二个子列表上。</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
-        <translation>Pokaż Masternode Tab</translation>
+        <translation>显示主节点选项卡</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Wydaj niepotwierdzoną resztę</translation>
+        <translation>&amp;花费未经证实的变化</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Sieć</translation>
+        <translation>&amp;网络</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVXL.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie PIVXL</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting RSCOIN.</source>
+        <translation>可以在这里设置用户界面语言。此设置将在重新启动PIVX后生效。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/pivxl-project/pivxl-project-translations</source>
-        <translation>Brakuje języka bądź nieukończona pełnego tłumaczenia? Pomóż w tłumaczeniu tutaj:
-https://www.transifex.com/pivxl-project/pivxl-project-translations </translation>
+        <translation>语言缺失或翻译不完整?帮助贡献翻译在这里:
+https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Mapuj port za pomocą &amp;UPnP</translation>
+        <translation>端口使用&amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIVXL units to zPIVXL</source>
-        <translation>Włącz automatyczny minting PIVXL do zPIVXL</translation>
+        <source>Enable automatic minting of RSCOIN units to zRSCOIN</source>
+        <translation>启动自动铸造PIV到zPIV</translation>
     </message>
     <message>
-        <source>Enable zPIVXL Automint</source>
-        <translation>Włącz zPIVXL Automint</translation>
+        <source>Enable zRSCOIN Automint</source>
+        <translation>启动自动铸造zPIV</translation>
     </message>
     <message>
-        <source>Enable automatic zPIVXL minting from specific addresses</source>
-        <translation>Włącz automatyczne wybijanie zPIVXL-ów z określonych adresów</translation>
+        <source>Enable automatic zRSCOIN minting from specific addresses</source>
+        <translation>启用从特定地址自动生成zPIV</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
-        <translation>Włącz adresy Automint</translation>
+        <translation>启动自动铸造地址</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIVXL which get automatically converted to zPIVXL via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procent PIVXL, które są automatycznie konwertowane na zPIVXL za pomocą protokołu Zerocoin (min: 10%)</translation>
+        <source>Percentage of incoming RSCOIN which get automatically converted to zRSCOIN via Zerocoin Protocol (min: 10%)</source>
+        <translation>通过零币协议自动转换为zPIV的传入PIV的百分比(最小:10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIVXL</source>
-        <translation>Procent automint zPIVXL</translation>
+        <source>Percentage of autominted zRSCOIN</source>
+        <translation>自动铸造的zPIV百分比</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIVXL for this denomination is available</source>
-        <translation>Zaczekaj z automatyczną konwersją na Zerocoin, aż będzie dostępna wystarczająca wartość PIVXL dla tego nominału</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough RSCOIN for this denomination is available</source>
+        <translation>等待自动转换为零币，直到足够的PIV为这种面额可用</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIVXL Denomination</source>
-        <translation>Preferowane nominały Automint zPIVXL</translation>
+        <source>Preferred Automint zRSCOIN Denomination</source>
+        <translation>首选自动铸造zPIV面额</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
-        <translation>Próg podziału stawki 'stake' :</translation>
+        <translation>股权分割阈值:</translation>
     </message>
     <message>
-        <source>Connect to the PIVXL network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią PIVXL poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the RSCOIN network through a SOCKS5 proxy.</source>
+        <translation>通过SOCKS5代理连接到PIVX网络。</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP</translation>
+        <translation>代理&amp;IP地址:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>Adres IP proxy (np. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>代理的IP地址(例如IPv4: 127.0.0.1 / IPv6:::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Port</translation>
+        <translation>&amp;端口：</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Port proxy (np. 9050)</translation>
+        <translation>代理端口(例如9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Okno</translation>
+        <translation>&amp;视窗</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Pokaż tylko ikonkę po zminimalizowaniu okna.</translation>
+        <translation>在最小化窗口后，只显示一个托盘图标。</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Zminimalizuj do tray zamiast do paska zadań</translation>
+        <translation>&amp;最小化到托盘而不是任务栏</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Zminimalizuj zamiast wychodzić z aplikacji, gdy okno jest zamknięte. Po włączeniu tej opcji aplikacja zostanie zamknięta dopiero po wybraniu opcji Zakończ w menu.</translation>
+        <translation>当窗口关闭时，最小化而不是退出应用程序。当启用此选项时，只有在菜单中选择Quit后应用程序才会关闭。</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>&amp;Zminimalizuj przy zamknięciu</translation>
+        <translation>M&amp;关闭最小化</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Pokaż</translation>
+        <translation>&amp;显示</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>Interfejs użytkownika &amp;Język.</translation>
+        <translation>选择&amp;语言包</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Motyw interfejsu użytkownika:</translation>
+        <translation>界面主题（语言包）:</translation>
     </message>
     <message>
         <source>Unit to show amounts in:</source>
-        <translation>Jednostka pokazująca kwoty:</translation>
+        <translation>显示金额的单位:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Nagrody ze stakingu lub masternode, które nie są jeszcze dojrzałe</translation>
+        <translation>选择显示发送PIVX的默认单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Liczby dziesiętne</translation>
+        <translation>小数位数</translation>
     </message>
     <message>
         <source>Hide empty balances</source>
-        <translation>Ukryj puste saldo</translation>
+        <translation>隐藏空余额</translation>
     </message>
     <message>
         <source>Hide orphan stakes in transaction lists</source>
-        <translation>Ukryj osierocone stakes w liście tranzakcji</translation>
+        <translation>在交易列表中隐藏孤股份</translation>
     </message>
     <message>
         <source>Hide orphan stakes</source>
-        <translation>Ukryj osierocone stakes</translation>
+        <translation>隐藏孤股份</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Zewnętrzne adresy URL (np. Eksplorator bloków), które pojawiają się na karcie transakcji jako elementy menu kontekstowego. %s w adresie URL jest zastąpione hashem transakcji. Wielokrotne URL są oddzielone pionową linią |.</translation>
+        <translation>第三方网址(如区块浏览器中)出现的交易选项卡，上下文菜单项。 在URL %s 被交易哈希取代。 多个URL被竖线分隔|。</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Adresy URL transakcji stron trzecich</translation>
+        <translation>第三方交易URLs</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktywne opcje wiersza polecenia, które zastępują powyższe opcje:</translation>
+        <translation>激活上述选项的命令行选项：</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Zresetuj wszystkie ustawienia by przywrócić ustawienia domyślne</translation>
+        <translation>清空当前设置，恢复为初始状态</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>&amp;Opcje resetowania</translation>
+        <translation>&amp;重置选项</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -2045,110 +2049,110 @@ https://www.transifex.com/pivxl-project/pivxl-project-translations </translation
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Anuluj</translation>
+        <translation>&amp;取消</translation>
     </message>
     <message>
         <source>Any</source>
-        <translation>Jakikolwiek</translation>
+        <translation>任意</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>brak</translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Zatwierdź resetowanie opcji</translation>
+        <translation>确认选项重置</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Wymagany restart programu do aktywowania zmian.</translation>
+        <translation>钱包重启后修改才能生效。</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Program zostanie zamknięty, czy chcesz kontynuować?</translation>
+        <translation>软件将要关闭，您确定嘛？</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Ta zmiana będzie wymagała restartu programu.</translation>
+        <translation>修改需要重启钱包。</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Podany adres proxy jest nieprawidłowy</translation>
+        <translation>提供的代理地址无效。</translation>
     </message>
     <message>
         <source>The supplied proxy port is invalid.</source>
-        <translation>Podany port proxy jest nieprawidłowy.</translation>
+        <translation>所提供的代理端口无效。</translation>
     </message>
     <message>
         <source>The supplied proxy settings are invalid.</source>
-        <translation>Podane ustawienia proxy są nieprawidłowe.</translation>
+        <translation>提供的代理设置无效。</translation>
     </message>
 </context>
 <context>
     <name>PIVXGUI</name>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Portfel</translation>
+        <translation>钱包</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Węzeł</translation>
+        <translation>节点</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Pokaż/Ukryj</translation>
+        <translation>&amp;S显示/隐藏</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Pokaż lub ukryj główne okno</translation>
+        <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>&amp;Wyjdź</translation>
+        <translation>E&amp;退出</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Wyjdź z aplikacji</translation>
+        <translation>关闭应用</translation>
     </message>
     <message>
-        <source>PIVXL Core client</source>
-        <translation>PIVXL Core klient</translation>
+        <source>RSCOIN Core client</source>
+        <translation>RSCOIN Core 客户端</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>出错</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>注意</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacje</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>System Message</source>
-        <translation>Wiadomość systemowa</translation>
+        <translation>系统消息</translation>
     </message>
     <message>
         <source>Sent MultiSend transaction</source>
-        <translation>Wysłane transakcje MultiWysyłki</translation>
+        <translation>发送MultiSend交易</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Wysłane transakcje</translation>
+        <translation>发送交易</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Przychodzące transakcje</translation>
+        <translation>接收交易</translation>
     </message>
     <message>
         <source>Date: %1
@@ -2156,140 +2160,140 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Data: %1
-Liczba: %2
-Typ: %3
-Adres: %4
+        <translation>日期：%1
+金额：%2
+类型：%3
+地址：%4
 </translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVXL can no longer continue safely and will quit.</source>
-        <translation>Wystąpił błąd krytyczny. PIVXL nie może już działać bezpiecznie i zakończy działanie.</translation>
+        <source>A fatal error occurred. RSCOIN can no longer continue safely and will quit.</source>
+        <translation>发生了一个致命的错误。PIVX不能继续安全，将退出。</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>BŁĄD żądania płatności</translation>
+        <translation>付款请求出错</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>Obsługa URI</translation>
+        <translation>URI 处理当中</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Adres URL żądania zapłaty jest nieprawidłowy: %1</translation>
+        <translation>支付请求获取URL无效:%1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Obsługa plików żądań płatności</translation>
+        <translation>付款申请文件处理</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Nieprawidłowy adres płatności %1</translation>
+        <translation>无效支付地址%1</translation>
     </message>
     <message>
         <source>Cannot start pivxl: click-to-pay handler</source>
-        <translation>Nie można uruchomić pivxl: click-to-pay handler</translation>
+        <translation>无法启动pivx:点击支付处理程序</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVXL address or malformed URI parameters.</source>
-        <translation>Nie można przeanalizować identyfikatora URI! Może to być spowodowane nieprawidłowym adresem PIVXL lub nieprawidłowymi parametrami URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
+        <translation>URI不能被解析!这可能是由无效的PIVX地址或格式错误的URI参数造成的。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Plik żądania płatności nie może zostać odczytany! Przyczyną może być niepoprawny plik żądania płatności.</translation>
+        <translation>无法读取付款请求文件!这可能是由一个无效的支付请求文件引起的。</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Żądanie płatności odrzucone</translation>
+        <translation>支付请求被拒绝</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Sieć żądań płatności nie jest zgodna z siecią klienta.</translation>
+        <translation>支付请求网络与客户端网络不匹配。</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Żadanie płatności straciło ważność</translation>
+        <translation>付款请求已过期。</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Żądanie płatności nie zainicjowane</translation>
+        <translation>未初始化付款请求。</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niezweryfikowane żądania płatności dotyczące niestandardowych skryptów płatności są nieobsługiwane.</translation>
+        <translation>不支持对自定义付款脚本的未验证的付款请求。</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Żądana kwota płatności %1 jest za mała (za pył).</translation>
+        <translation>请求支付的金额%1太小(基于dust的考虑)。</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Zwrot %1</translation>
+        <translation>从%1退款</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Żądanie płatności %1 jest za duże ( %2 bajty, dozwolone %3 bajty).</translation>
+        <translation>付款请求%1太大(%2字节，允许%3字节)。</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Wniosek o płatność Ochrona DoS</translation>
+        <translation>支付请求DoS保护</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Błąd komunikacji z %1: %2</translation>
+        <translation>与%1的通信错误:%2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Żądania płatności nie można przeanalizować!</translation>
+        <translation>无法解析付款请求!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Zła odpowiedź z serwera %1</translation>
+        <translation>服务器%1的响应错误</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Błąd żądania sieci</translation>
+        <translation>网络请求错误</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Płatność potwierdzona</translation>
+        <translation>付款确认</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>adres / nazwa hosta</translation>
+        <translation>地址/主机名</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Czas Pingu</translation>
+        <translation>Ping时间</translation>
     </message>
 </context>
 <context>
     <name>PrivacyWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Title</source>
-        <translation>Tytuł</translation>
+        <translation>抬头</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -2297,148 +2301,148 @@ Adres: %4
     </message>
     <message>
         <source>Privacy</source>
-        <translation>Prywatność</translation>
+        <translation>隐私</translation>
     </message>
     <message>
         <source>Convert</source>
-        <translation>Konwertować</translation>
+        <translation>转换</translation>
     </message>
     <message>
         <source>Mint</source>
-        <translation>Mint</translation>
+        <translation>铸造</translation>
     </message>
     <message>
-        <source>Minting zPIVXL anonymizes your PIVXL by removing any
+        <source>Minting zRSCOIN anonymizes your RSCOIN by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Minting zPIVXL anonimizuje Twój PIVXL, usuwając
-historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</translation>
+        <translation>铸造zPIV会通过删除任何
+交易历史匿名化您的PIV，使交易无法被跟踪</translation>
     </message>
     <message>
-        <source>Mint new zPIVXL or convert back to PIVXL</source>
-        <translation>Utwórz nowy zPIVXL lub przekonwertuj z powrotem na PIVXL</translation>
+        <source>Mint new zRSCOIN or convert back to RSCOIN</source>
+        <translation>铸造新的zPIV或转换回PIV</translation>
     </message>
     <message>
-        <source>Last zPIVXL Movements</source>
-        <translation>Ostatnie ruchy zPIVXL</translation>
+        <source>Last zRSCOIN Movements</source>
+        <translation>最后zPIV轨迹</translation>
     </message>
     <message>
         <source>No transactions yet</source>
-        <translation>Brak transakcji</translation>
+        <translation>暂无交易</translation>
     </message>
     <message>
-        <source>Mint zPIVXL</source>
-        <translation>Mint zPIVXL</translation>
+        <source>Mint zRSCOIN</source>
+        <translation>铸造zPIV</translation>
     </message>
     <message>
-        <source>Enter amount of PIVXL to mint into zPIVXL</source>
-        <translation>Wprowadź ilość PIVXL do konwersji na zPIVXL</translation>
+        <source>Enter amount of RSCOIN to mint into zRSCOIN</source>
+        <translation>输入一定量的PIV铸造成zPIV</translation>
     </message>
     <message>
-        <source>Convert back to PIVXL</source>
-        <translation>Powróć do PIVXL</translation>
+        <source>Convert back to RSCOIN</source>
+        <translation>转换回PIV</translation>
     </message>
     <message>
-        <source>Enter amount of zPIVXL to convert back into PIVXL</source>
-        <translation>Wprowadź kwotę zPIVXL, aby ponownie zamienić na PIVXL</translation>
+        <source>Enter amount of zRSCOIN to convert back into RSCOIN</source>
+        <translation>输入一定量的zPIV转换回PIV</translation>
     </message>
     <message>
         <source>Zerocoin</source>
-        <translation>Zerocoin</translation>
+        <translation>零币</translation>
     </message>
     <message>
-        <source>zPIVXL is currently undergoing maintenance</source>
-        <translation>zPIVXL jest obecnie w trakcie konserwacji</translation>
+        <source>zRSCOIN is currently undergoing maintenance</source>
+        <translation>zPIV目前正在维护中</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zPIVXL</source>
-        <translation>Musisz odblokować portfel, aby móc %1 zPIVXL</translation>
+        <source>You need to unlock the wallet to be able to %1 zRSCOIN</source>
+        <translation>你需要解锁钱包才能%1 zRSCOIN</translation>
     </message>
     <message>
         <source>convert</source>
-        <translation>konwertuj</translation>
+        <translation>转换</translation>
     </message>
     <message>
         <source>mint</source>
-        <translation>mint</translation>
+        <translation>铸造</translation>
     </message>
     <message>
         <source>Invalid value</source>
-        <translation>niewłaściwa wartość</translation>
+        <translation>无效值</translation>
     </message>
     <message>
-        <source>zPIVXL minted successfully</source>
-        <translation>ZPIV udało się wybić</translation>
+        <source>zRSCOIN minted successfully</source>
+        <translation>zPIV铸造成功</translation>
     </message>
     <message>
-        <source>zPIVXL converted back to PIVXL</source>
-        <translation>zPIVXL ponownie przekonwertowany na PIVXL</translation>
+        <source>zRSCOIN converted back to RSCOIN</source>
+        <translation>zRSCOIN 转换回PIV</translation>
     </message>
     <message>
-        <source>You don't have any PIVXL to select.</source>
-        <translation>Nie masz żadnych PIVXL-ów do wyboru.</translation>
+        <source>You don't have any RSCOIN to select.</source>
+        <translation>您没有任何PIV可选择。</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
-        <translation>Skanuj ponownie Mints</translation>
+        <translation>重新扫描铸造</translation>
     </message>
     <message>
         <source>Your zerocoin mints are going to be scanned from the blockchain from scratch</source>
-        <translation>Twoje mints zerocoin będą skanowane przez blockchain od zera</translation>
+        <translation>你的零币铸造将从零区块链被扫描</translation>
     </message>
     <message>
-        <source>Reset Spent zPIVXL</source>
-        <translation>Zresetuj wydane zPIVXL</translation>
+        <source>Reset Spent zRSCOIN</source>
+        <translation>重置花费zPIV</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
-        <translation>Twoje wydatki na zerocoiny zostaną zeskanowane przez blockchain od zera</translation>
+        <translation>你的零币花费铸造将从零区块链被扫描</translation>
     </message>
     <message>
         <source>Total %1</source>
-        <translation>Ogółem %1</translation>
+        <translation>总额%1</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Ilość</translation>
+        <translation>金额</translation>
     </message>
     <message>
-        <source>Enter PIVXL address (e.g. %1)</source>
-        <translation>Wpisz adres PIVXL (np. %1)</translation>
+        <source>Enter RSCOIN address (e.g. %1)</source>
+        <translation>输入PIVX a地址(e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 d</translation>
+        <translation>%1 天</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 g</translation>
+        <translation>%1 小时</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 m</translation>
+        <translation>%1 分</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation>%1 秒</translation>
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>Sieć</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>BLOOM</source>
-        <translation>BLOOM</translation>
+        <translation>爆发</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>NIEZNANY</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Brak</translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -2446,166 +2450,166 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
     </message>
     <message>
         <source>%1 ms</source>
-        <translation>%1 ms</translation>
+        <translation>%1 毫秒</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Błąd: Określony katalog danych „%1” nie istnieje.</translation>
+        <translation>错误:指定的数据目录“%1”不存在。</translation>
     </message>
     <message>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Błąd: Nie można przeanalizować pliku konfiguracyjnego: %1. Używaj tylko składni klucz=wartość.</translation>
+        <translation>错误:无法解析配置文件:%1。只使用key=value语法。</translation>
     </message>
     <message>
         <source>Error: Invalid combination of -regtest and -testnet.</source>
-        <translation>Błąd: nieprawidłowa kombinacja -regtest i -testnet.</translation>
+        <translation>错误:-regtest和-testnet的组合无效。</translation>
     </message>
     <message>
         <source>Error reading masternode configuration file: %1</source>
-        <translation>Błąd odczytu pliku konfiguracyjnego masternode: %1</translation>
+        <translation>读取主节点配置文件出错:%1</translation>
     </message>
     <message>
-        <source>PIVXL Core didn't yet exit safely...</source>
-        <translation>PIVXL Core nie zamkną się jeszcze bezpiecznie ...</translation>
+        <source>RSCOIN Core didn't yet exit safely...</source>
+        <translation>PIVX核心尚未安全退出……</translation>
     </message>
     <message>
         <source>Contact</source>
-        <translation>Kontakt</translation>
+        <translation>联系人</translation>
     </message>
     <message>
         <source>Receiving</source>
-        <translation>Odbieranie</translation>
+        <translation>正在接收</translation>
     </message>
     <message>
         <source>Delegator</source>
-        <translation>Delegator</translation>
+        <translation>委托人</translation>
     </message>
     <message>
         <source>Cold Staking</source>
-        <translation>Cold Staking</translation>
+        <translation>冷堆</translation>
     </message>
     <message>
         <source>Cold Staking Contact</source>
-        <translation>Cold Staking Kontakt</translation>
+        <translation>冷加注联系人</translation>
     </message>
     <message>
         <source>Hidden</source>
-        <translation>Ukryty</translation>
+        <translation>隐藏</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Nieznane</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>All</source>
-        <translation>Wszystko</translation>
+        <translation>所有</translation>
     </message>
     <message>
         <source>Contacts</source>
-        <translation>Kontakty</translation>
+        <translation>联系人</translation>
     </message>
     <message>
         <source>Delegators</source>
-        <translation>Delegaci</translation>
+        <translation>委托人</translation>
     </message>
     <message>
         <source>Staking Contacts</source>
-        <translation>Kontakty Staking</translation>
+        <translation>加注联系人</translation>
     </message>
     <message>
         <source>Date desc</source>
-        <translation>Data nowe</translation>
+        <translation>日期desc</translation>
     </message>
     <message>
         <source>Date asc</source>
-        <translation>Data stare</translation>
+        <translation>日期asc</translation>
     </message>
     <message>
         <source>Amount desc</source>
-        <translation>Kwoty najniższe</translation>
+        <translation>金额desc</translation>
     </message>
     <message>
         <source>Amount asc</source>
-        <translation>Kwoty najwyższe</translation>
+        <translation>金额asc</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Otrzymano</translation>
+        <translation>已接收</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Wysłano</translation>
+        <translation>已发送</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>wydobyty</translation>
+        <translation>已挖矿</translation>
     </message>
     <message>
         <source>Minted</source>
-        <translation>Wybite</translation>
+        <translation>已铸币</translation>
     </message>
     <message>
         <source>MN reward</source>
-        <translation>Nagroda MN</translation>
+        <translation>MN奖励</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Dla siebie</translation>
+        <translation>给您自己</translation>
     </message>
     <message>
         <source>Cold stakes</source>
-        <translation>Cold stakes</translation>
+        <translation>感冒</translation>
     </message>
     <message>
         <source>Hot stakes</source>
-        <translation>Hot stakes</translation>
+        <translation>热提</translation>
     </message>
     <message>
         <source>Delegated</source>
-        <translation>Delegowany</translation>
+        <translation>委托</translation>
     </message>
     <message>
         <source>Delegations</source>
-        <translation>Delegacje</translation>
+        <translation>宪法</translation>
     </message>
     <message>
         <source>by Label</source>
-        <translation>według etykiety</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>by Address</source>
-        <translation>według adresu</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>by Date</source>
-        <translation>według daty</translation>
+        <translation>日期</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Okno narzędzi</translation>
+        <translation>工具窗口</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;Informacje</translation>
+        <translation>&amp;I信息</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Generalne</translation>
+        <translation>总的</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nazwa</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Nazwa klienta</translation>
+        <translation>客户名称</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -2613,335 +2617,335 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Liczba połączeń</translation>
+        <translation>连接数量</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Otwórz</translation>
+        <translation>&amp;打开</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Czas startup</translation>
+        <translation>开始时间</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Czas ostatniego bloku</translation>
+        <translation>上一个区块时间</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debuguj plik log</translation>
+        <translation>调试日志文件</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Data zbudowania</translation>
+        <translation>建立日期</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Bieżąca liczba bloków</translation>
+        <translation>当前区块数量</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Wersja clienta</translation>
+        <translation>客户端版本</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Używanie wersji BerkeleyDB</translation>
+        <translation>使用BerkeleyDB 版本</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Łańcuch bloków</translation>
+        <translation>区块链</translation>
     </message>
     <message>
-        <source>Open the PIVXL debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otwórz plik dziennika debugowania PIVXL z bieżącego katalogu danych. Może to potrwać kilka sekund w przypadku dużych plików dziennika.</translation>
+        <source>Open the RSCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>从当前数据目录打开PIVX调试日志文件。对于大型日志文件，这可能需要几秒钟。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Liczba Masternode</translation>
+        <translation>主节点数量</translation>
     </message>
     <message>
         <source>Data Directory</source>
-        <translation>Katalog danych</translation>
+        <translation>数据目录</translation>
     </message>
     <message>
         <source>Last block hash</source>
-        <translation>Hash ostatniego bloku</translation>
+        <translation>上一个区块哈希</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsola</translation>
+        <translation>&amp;调试台</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Wyczyść konsolę</translation>
+        <translation>清除控制台</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Ruch sieci</translation>
+        <translation>&amp;网络流量</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Wyczyść</translation>
+        <translation>&amp;清除</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Razem</translation>
+        <translation>总额</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Otrzymano</translation>
+        <translation>已接收</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Wysłano</translation>
+        <translation>已发送</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
+        <translation>&amp;并列</translation>
     </message>
     <message>
         <source>Banned peers</source>
-        <translation>Zbanowane peery -punkty sieciowe-</translation>
+        <translation>禁止同行</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Wybierz peer by zobaczyć szczegółowe informacje</translation>
+        <translation>选择一个对等点来查看详细信息。</translation>
     </message>
     <message>
         <source>Whitelisted</source>
-        <translation>Dodane do białej listy</translation>
+        <translation>白名单</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Kierunek</translation>
+        <translation>导引</translation>
     </message>
     <message>
         <source>Protocol</source>
-        <translation>Protokół</translation>
+        <translation>提议</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Wersja</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Usługi</translation>
+        <translation>服务</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Wynik Ban</translation>
+        <translation>禁止得分</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Czas połączenia</translation>
+        <translation>连接时间</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>OStatnio wysłano</translation>
+        <translation>上一次发送</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Ostatnio otrzymano</translation>
+        <translation>上一次接收</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Bajty wysłane</translation>
+        <translation>字节发送</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Bajty otrzymane</translation>
+        <translation>字节接收</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Czas Pingu</translation>
+        <translation>Ping时间</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Napraw portfel</translation>
+        <translation>&amp;修复钱包</translation>
     </message>
     <message>
         <source>Delete local Blockchain Folders</source>
-        <translation>Usuń lokalne foldery Blockchain</translation>
+        <translation>删除本地区块链文件夹</translation>
     </message>
     <message>
         <source>Wallet In Use:</source>
-        <translation>Portfel w użyciu:</translation>
+        <translation>正在使用钱包：</translation>
     </message>
     <message>
         <source>Starting Block</source>
-        <translation>Startuje Blok</translation>
+        <translation>开始区块：</translation>
     </message>
     <message>
         <source>Synced Headers</source>
-        <translation>Zsynchronizowane nagłówki</translation>
+        <translation>同步页眉</translation>
     </message>
     <message>
         <source>Synced Blocks</source>
-        <translation>Zsynchronizowane Bloki</translation>
+        <translation>同步区块</translation>
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
-        <translation>Aktualny czas polecenia ping.</translation>
+        <translation>当前未完成的ping的持续时间。</translation>
     </message>
     <message>
         <source>Ping Wait</source>
-        <translation>Ping czeka</translation>
+        <translation>ping等待</translation>
     </message>
     <message>
         <source>Time Offset</source>
-        <translation>Przesuniecie Czasu</translation>
+        <translation>时间偏移量</translation>
     </message>
     <message>
         <source>Custom Backup Path:</source>
-        <translation>Standardowa ścieżka kopii zapasowej:</translation>
+        <translation>自定义备份路径:</translation>
     </message>
     <message>
-        <source>Custom zPIVXL Backup Path:</source>
-        <translation>standardowa ścieżka kopii zapasowej zPIVXL:</translation>
+        <source>Custom zRSCOIN Backup Path:</source>
+        <translation>自定义zPIV备份路径:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
-        <translation>Próg standardowych kopii zapasowych:</translation>
+        <translation>自定义备份阈值:</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Odzyskaj portfel</translation>
+        <translation>Salvage 钱包：</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Próba odzyskania kluczy prywatnych z uszkodzonego pliku wallet.dat.</translation>
+        <translation>尝试从损坏的钱包中恢复私钥。</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Reskanuj pliki łańcucha bloków</translation>
+        <translation>重新扫描区块链文件</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions.</source>
-        <translation>Ponownie przeskanuj łańcuch blokujący w poszukiwaniu brakujących transakcji w portfelu.</translation>
+        <translation>重新扫描丢失钱包交易的区块链。</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Odzyskaj transakcji 1</translation>
+        <translation>恢复交易1</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>Odzyskaj transakcje z blockchain (zachowaj metadane, np. Właściciela konta).</translation>
+        <translation>从区块链恢复交易(保存元数据，例如帐户所有者)。</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Odzyskaj transakcje 2</translation>
+        <translation>恢复交易2</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Odzyskaj transakcje z blockchain (niezachowuj metadanych).</translation>
+        <translation>从区块链恢复交易(删除元数据)。</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Ulepsz format portfela</translation>
+        <translation>升级钱包模式</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>Przebuduj indeks łańcucha bloków z bieżących plików blk000??.dat</translation>
+        <translation>从当前的blk000??.dat文件重建块链索引。</translation>
     </message>
     <message>
         <source>-resync:</source>
-        <translation>-resync:</translation>
+        <translation>-重新同步:</translation>
     </message>
     <message>
         <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Usuwa wszystkie lokalne foldery blockchain, aby portfel synchronizował się od początku.</translation>
+        <translation>删除所有本地区块链文件夹，使钱包从零开始同步。</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Poniższe przyciski uruchomią ponownie portfel z opcjami wiersza poleceń, aby naprawić portfel, naprawić problemy z uszkodzonymi plikami blockhain lub brakującymi / przestarzałymi transakcjami.</translation>
+        <translation>下面的按钮将重新启动钱包与命令行选项修复钱包，修复损坏区块链文件或丢失/过时的交易问题。</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Opcje naprawy portfela.</translation>
+        <translation>钱包修复选项。</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>Uaktualnij portfel do najnowszego formatu podczas uruchamiania. (Uwaga: NIE jest to aktualizacja samego portfela!)</translation>
+        <translation>启动时将钱包升级到最新格式。(注意:这不是钱包本身的更新!)</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Przebuduj indeks</translation>
+        <translation>重建索引</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>W</translation>
+        <translation>进：</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Z</translation>
+        <translation>出：</translation>
     </message>
     <message>
-        <source>Welcome to the PIVXL RPC console.</source>
-        <translation>Witamy w konsoli PIVXL RPC.</translation>
+        <source>Welcome to the RSCOIN RPC console.</source>
+        <translation>欢迎访问PIVX RPC控制台</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
-        <translation>Odłącz węzeł</translation>
+        <translation>&amp;断开连接节点</translation>
     </message>
     <message>
         <source>Ban Node for</source>
-        <translation>Zbanuj węzeł na</translation>
+        <translation>禁止节点</translation>
     </message>
     <message>
         <source>1 &amp;hour</source>
-        <translation>1 &amp;godzinę</translation>
+        <translation>1&amp;小时</translation>
     </message>
     <message>
         <source>1 &amp;day</source>
-        <translation>1 &amp;dzień</translation>
+        <translation>1&amp;天</translation>
     </message>
     <message>
         <source>1 &amp;week</source>
-        <translation>1 &amp;tydzień</translation>
+        <translation>1&amp;周</translation>
     </message>
     <message>
         <source>1 &amp;year</source>
-        <translation>1 &amp;rok</translation>
+        <translation>1&amp;年</translation>
     </message>
     <message>
         <source>&amp;Unban Node</source>
-        <translation>&amp;Usuń bana na węzeł</translation>
+        <translation>1&amp;中心节点</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Spowoduje to usunięcie lokalnych folderów blockchain, a portfel zsynchronizuje kompletny Blockchain od zera.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>这将删除您的本地区块链文件夹，钱包将从零开始同步完整的区块链。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>To zajmuje sporo czasu i pobiera dużo danych.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>这需要相当多的时间和下载大量的数据。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Twoje transakcje i środki będą widoczne ponownie po zakończeniu pobierania.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>下载完成后可以再看到您的交易和资金。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>Czy chcesz kontynuować?.&lt;br /&gt;</translation>
+        <translation>您确定继续？</translation>
     </message>
     <message>
         <source>Confirm resync Blockchain</source>
-        <translation>Potwierdź resynchronizacje Blockchain</translation>
+        <translation>确认重新同步区块链</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Użyj strzałek w górę iw dół, aby poruszać się po historii, a %1, aby wyczyścić ekran.</translation>
+        <translation>使用向上和向下箭头导航历史记录，%1清除屏幕。</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Wpisz &lt;b&gt;help&lt;/b&gt;, aby uzyskać przegląd dostępnych poleceń.</translation>
+        <translation>键入&lt;b&gt;帮助&lt;/b&gt;来浏览可用命令</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>OSTRZEŻENIE: Scamery były aktywne, mówiąc użytkownikom, aby wpisywali tutaj polecenia, kradnąc ich zawartość portfela. Nie używaj tej konsoli bez pełnego zrozumienia konsekwencji polecenia.</translation>
+        <translation>警告:骗子一直活跃，告诉用户在这里输入命令，窃取他们的钱包内容。在完全理解命令的后果之前，不要使用此控制台。</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2961,191 +2965,191 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
     </message>
     <message>
         <source>(node id: %1)</source>
-        <translation>(identyfikator węzła: %1)</translation>
+        <translation>(节点 id: %1)</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>przez %1</translation>
+        <translation>通过%1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>nigdy</translation>
+        <translation>从不</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Przychodzące</translation>
+        <translation>入站</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Wychodzące</translation>
+        <translation>出站</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Tak</translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nie</translation>
+        <translation>否</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Nieznane</translation>
+        <translation>未知</translation>
     </message>
 </context>
 <context>
     <name>ReceiveDialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <source>Transaction Details</source>
-        <translation>Szczegóły Transakcji</translation>
+        <translation>交易明细</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
-        <translation>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z</translation>
+        <translation>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
 </context>
 <context>
     <name>ReceiveWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>No address</source>
-        <translation>Brak adresu</translation>
+        <translation>无地址</translation>
     </message>
     <message>
         <source>Add Label</source>
-        <translation>Dodaj etykietę</translation>
+        <translation>添加标签</translation>
     </message>
     <message>
         <source>Generate Address</source>
-        <translation>Wygeneruj adres</translation>
+        <translation>生成地址</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>kopiuj</translation>
+        <translation>复制</translation>
     </message>
     <message>
         <source>Receive</source>
-        <translation>Otrzymaj</translation>
+        <translation>接收</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIVXL.</source>
-        <translation>Zeskanuj kod QR lub skopiuj adres, aby otrzymać PIVXL.</translation>
+        <source>Scan the QR code or copy the address to receive RSCOIN.</source>
+        <translation>扫描二维码或复制地址接收PIV</translation>
     </message>
     <message>
         <source>No address </source>
-        <translation>Brak adresu</translation>
+        <translation>无地址</translation>
     </message>
     <message>
         <source>No available address, try unlocking the wallet</source>
-        <translation>Brak dostępnego adresu, spróbuj odblokować portfel</translation>
+        <translation>没有可用地址，尝试解锁钱包</translation>
     </message>
     <message>
         <source>Error generating address</source>
-        <translation>Błąd podczas generowania adresu</translation>
+        <translation>生成地址出错</translation>
     </message>
     <message>
         <source>Edit Label</source>
-        <translation>Edytuj etykietę</translation>
+        <translation>编辑标签</translation>
     </message>
     <message>
         <source>Edit Address Label</source>
-        <translation>Edytuj etykietę adresu</translation>
+        <translation>编辑地址标签</translation>
     </message>
     <message>
         <source>Address label saved</source>
-        <translation>Etykieta adresu została zapisana</translation>
+        <translation>地址标签已保存</translation>
     </message>
     <message>
         <source>Error storing address label</source>
-        <translation>Błąd podczas zapisywania etykiety adresu</translation>
+        <translation>保存地址标签出错</translation>
     </message>
     <message>
         <source>Cannot create new address, wallet locked</source>
-        <translation>Nie można utworzyć nowego adresu, portfel zablokowany</translation>
+        <translation>无法创建新地址，钱包被锁了</translation>
     </message>
     <message>
         <source>New address created</source>
-        <translation>Utworzono nowy adres</translation>
+        <translation>已创建新地址</translation>
     </message>
     <message>
         <source>Address copied</source>
-        <translation>Adres skopiowany</translation>
+        <translation>地址已复制</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
-        <translation>Nie można wykonać operacji, portfel zablokowany</translation>
+        <translation>无法进行操作，钱包被锁了</translation>
     </message>
     <message>
         <source>URI copied to clipboard</source>
-        <translation>URI skopiowany do schowka</translation>
+        <translation>URI已经复制到剪贴板</translation>
     </message>
     <message>
         <source>Address copied to clipboard</source>
-        <translation>Adres skopiowany do schowka</translation>
+        <translation>地址已经复制到剪贴板</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>消息 </translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ilość</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(brak etykiety)</translation>
+        <translation>未设置标签</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(brak wiadomości)</translation>
+        <translation>(没有消息)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(bez kwoty)</translation>
+        <translation>(无金额)</translation>
     </message>
 </context>
 <context>
     <name>RequestDialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <source>New Request Payment</source>
-        <translation>Nowa prośba o płatność</translation>
+        <translation>新支付请求</translation>
     </message>
     <message>
         <source>Lorem ipsum dolor sit amet, consectur cling elit, sed do </source>
@@ -3153,145 +3157,146 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ilość</translation>
+        <translation>金额</translation>
     </message>
     <message>
-        <source>PIVXL</source>
-        <translation>PIVXL</translation>
+        <source>RSCOIN</source>
+        <translation>RSCOIN</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
-        <translation>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z</translation>
+        <translation>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </translation>
     </message>
     <message>
         <source>COPY ADDRESS</source>
-        <translation>KOPIUJ ADRES</translation>
+        <translation>复制地址</translation>
     </message>
     <message>
         <source>COPY URL</source>
-        <translation>KOPIUJ URL</translation>
+        <translation>复制URL</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>REQUEST</source>
-        <translation>ŻĄDANIE</translation>
+        <translation>请求</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Description (optional)</source>
-        <translation>Opis (opcjonalnie)</translation>
+        <translation>说明书(可选)</translation>
     </message>
     <message>
         <source>New Payment Request</source>
-        <translation>Nowa prośba o płatność</translation>
+        <translation>新的支付请求</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVXL address, you can create a payment request, bundling up more information.</source>
-        <translation>Zamiast udostępniać tylko adres PIVXL, możesz utworzyć żądanie płatności, łącząc więcej informacji.</translation>
+        <source>Instead of sharing only a RSCOIN address, you can create a payment request, bundling up more information.</source>
+        <translation>与只共享PIVX地址不同，您可以创建一个支付请求，绑定更多信息。</translation>
     </message>
     <message>
         <source>Enter a label for the address</source>
-        <translation>Wpisz etykietę adresu</translation>
+        <translation>为地址输入一个便签</translation>
     </message>
     <message>
         <source>Enter description</source>
-        <translation>Wpisz opis</translation>
+        <translation>输入说明</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>出错</translation>
     </message>
     <message>
         <source>GENERATE</source>
-        <translation>WYGENERUJ</translation>
+        <translation>生成</translation>
     </message>
     <message>
         <source>Creates an address to receive coin delegations and be able to stake them.</source>
-        <translation>Tworzy adres, na który mają być wysyłane delegowane monety do stake.</translation>
+        <translation>创建一个地址以接收代币授权并可以放样。</translation>
     </message>
     <message>
         <source>New Cold Staking Address</source>
-        <translation>Nowy adres do Cold Staking</translation>
+        <translation>新冷堆地址</translation>
     </message>
     <message>
         <source>Amount (optional)</source>
-        <translation>Kwota (opcjonalnie)</translation>
+        <translation>金额（可选项）</translation>
     </message>
 </context>
 <context>
     <name>SendChangeAddressDialog</name>
     <message>
         <source>Dialog</source>
-        <translation>Dialog</translation>
+        <translation>对话框</translation>
     </message>
     <message>
         <source>Transaction Details</source>
-        <translation>Szczegóły Transakcji</translation>
+        <translation>交易明细</translation>
     </message>
     <message>
         <source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</source>
-        <translation>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</translation>
+        <translation> 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Custom Change Address</source>
-        <translation>Niestandardowa adresu reszty</translation>
+        <translation>自定义更改地址</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVXL address</source>
-        <translation>Pozostała wartość wynikająca z wpłat i wypłat trafia na adresu „reszty”</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" RSCOIN address</source>
+        <translation>输入值减去输出值所得的值的其余部分归为“更改”PIVX地址</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>RESET</source>
-        <translation>RESET</translation>
+        <translation>重置</translation>
     </message>
     <message>
         <source>Invalid address</source>
-        <translation>Nieprawidłowy adres</translation>
+        <translation>地址无效</translation>
     </message>
 </context>
 <context>
     <name>SendCustomFeeDialog</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Transaction Details</source>
-        <translation>Szczegóły Transakcji</translation>
+        <translation>交易明细</translation>
     </message>
     <message>
         <source>Customize the transaction fee at your to your liking, depending on the fee value your transaction will be included or not in the blockchain.</source>
-        <translation>Dostosuj opłatę transakcyjną według własnych upodobań, w zależności od wartości opłaty Twoja transakcja zostanie uwzględniona lub nie w łańcuchu bloków.</translation>
+        <translation>根据您的喜好定制交易费用，取决于您的交易是否包含在区块链中。</translation>
     </message>
     <message>
         <source>Recommended</source>
-        <translation>Zalecane</translation>
+        <translation>已推荐</translation>
     </message>
     <message>
-        <source>PIVXL/kilobyte</source>
-        <translation>PIVXL/kilobyte</translation>
+        <source>RSCOIN/kilobyte</source>
+        <translation>RSCOIN/k字节</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3299,666 +3304,658 @@ historie transakcji, dzięki czemu transakcje są niemożliwe do śledzenia</tra
     </message>
     <message>
         <source>Custom</source>
-        <translation>Zwyczajne</translation>
+        <translation>自定义</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Customize Fee</source>
-        <translation>Dostosuj opłatę</translation>
+        <translation>定制费用</translation>
     </message>
     <message>
         <source>Customize the transaction fee, depending on the fee value your transaction might be included faster in the blockchain.</source>
-        <translation>Dostosuj opłatę transakcyjną, w zależności od wartości opłaty Twoja transakcja może zostać uwzględniona szybciej w blockchain.</translation>
+        <translation>定制交易费用，根据费用高低，您的交易可能更快地被融入到区块链。</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation>Normalna</translation>
+        <translation>正常</translation>
     </message>
     <message>
         <source>Slow</source>
-        <translation>Powolna</translation>
+        <translation>慢速</translation>
     </message>
     <message>
         <source>Fast</source>
-        <translation>Szybka</translation>
+        <translation>快速</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
-    <message>
-        <source>Fee too high. Must be below: %1</source>
-        <translation>Opłata za wysoka. Musi być poniżej: %1</translation>
-    </message>
-    <message>
-        <source>Fee too low. Must be at least: %1</source>
-        <translation>Opłata za niska. Musi być co najmniej: %1</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>SendMultiRow</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Enter address</source>
-        <translation>Podaj adres</translation>
+        <translation>输入地址</translation>
     </message>
     <message>
         <source>Enter label</source>
-        <translation>Wpisz etykietę</translation>
+        <translation>输入标签</translation>
     </message>
 </context>
 <context>
     <name>SendWidget</name>
     <message>
         <source>Send</source>
-        <translation>Wyślij</translation>
+        <translation>发送</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIVXL) or private coins (zPIVXL)</source>
-        <translation>Możesz przelewać monety publiczne (PIVXL) lub monety prywatne (zPIVXL)</translation>
+        <source>You can transfer public coins (RSCOIN) or private coins (zRSCOIN)</source>
+        <translation>您可以转换公共币(RSCOIN)或私人币(zRSCOIN)</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
-        <translation>Wybierz typ monety do wydania</translation>
+        <translation>选择需要花费的币种类</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ilość</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>Customize fee</source>
-        <translation>Dostosuj opłatę</translation>
+        <translation>定制费用</translation>
     </message>
     <message>
         <source>Clear all</source>
-        <translation>Wyczyść wszystko</translation>
+        <translation>清除所有</translation>
     </message>
     <message>
         <source>Add recipient</source>
-        <translation>Dodaj odbiorcę</translation>
+        <translation>添加接收人</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Przywróć ustawienia domyślne</translation>
+        <translation>重置到默认值</translation>
     </message>
     <message>
         <source>Total to send</source>
-        <translation>Łącznie do wysłania</translation>
+        <translation>花费总金额</translation>
     </message>
     <message>
-        <source>Send PIVXL</source>
-        <translation>Wyślij PIVXL</translation>
+        <source>Send RSCOIN</source>
+        <translation>花费PIV</translation>
     </message>
     <message>
-        <source>Send zPIVXL</source>
-        <translation>Wyślij zPIVXL</translation>
+        <source>Send zRSCOIN</source>
+        <translation>花费zPIV</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
-        <translation>Suma pozostała z wybranego UTXO</translation>
+        <translation>所选UTXO的剩余总数</translation>
     </message>
     <message>
         <source>Total remaining</source>
-        <translation>Pozostała suma</translation>
+        <translation>总剩余</translation>
     </message>
     <message>
         <source>Warning!</source>
-        <translation>Ostrzeżenie!</translation>
+        <translation>注意！</translation>
     </message>
     <message>
         <source>The change address doesn't belong to this wallet.
 
 Do you want to continue?</source>
-        <translation>Adres reszty nie należy do tego portfela.
+        <translation>这个变更地址不属于这个钱包。
 
-Czy chcesz kontynuować?</translation>
+你仍需继续吗?</translation>
     </message>
     <message>
         <source>Customize Fee</source>
-        <translation>Dostosuj opłatę</translation>
+        <translation>定制费用</translation>
     </message>
     <message>
         <source>Maximum amount of outputs reached</source>
-        <translation>Osiągnięto maksymalną liczbę wyjść</translation>
+        <translation>达到最大输出金额</translation>
     </message>
     <message>
-        <source>PIVXL address or contact label</source>
-        <translation>Adres PIVXL lub etykieta kontaktowa</translation>
+        <source>RSCOIN address or contact label</source>
+        <translation>RSCOIN 地址或者联系人标签</translation>
     </message>
     <message>
         <source>Invalid entry, previous entries must be valid before add a new one</source>
-        <translation>Nieprawidłowy wpis, poprzednie wpisy muszą być ważne przed dodaniem nowego</translation>
+        <translation>条目无效，在添加新条目之前，先前的条目必须有效</translation>
     </message>
     <message>
         <source>Possibly spend coins delegated for cold-staking (currently available: %1</source>
-        <translation>Maksymalna kwota delegowania do cold-staking (obecnie dostępne: %1</translation>
+        <translation>可能花费委托用于冷加注到币（当前可用：%1</translation>
     </message>
     <message>
         <source>Invalid entry</source>
-        <translation>niewłaściwy wpis</translation>
+        <translation>条目无效</translation>
     </message>
     <message>
         <source>No set recipients</source>
-        <translation>Brak ustawionych odbiorców</translation>
+        <translation>没有设置收件人</translation>
     </message>
     <message>
         <source>Cannot send, wallet locked</source>
-        <translation>Nie można wysłać, portfel zablokowany</translation>
+        <translation>无法发送，钱包被锁了</translation>
     </message>
     <message>
         <source>Cannot create transaction.</source>
-        <translation>Nie można utworzyć transakcji.</translation>
+        <translation>无法创建交易</translation>
     </message>
     <message>
         <source>WARNING:
 Transaction spends a cold-stake delegation, voiding it.
 These coins will no longer be cold-staked.</source>
-        <translation>OSTRZEŻENIE:
-Transakcja wydaje cold-stake, unieważniając ją.
-Monety te nie będą już cold-staked.</translation>
+        <translation>警告：
+交易花费了冷积累委派，使它无效。
+这些硬币将不再被冷积累。</translation>
     </message>
     <message>
         <source>Transaction sent</source>
-        <translation>Transakcja wysłana</translation>
+        <translation>交易已发送</translation>
     </message>
     <message>
         <source>Spend Zerocoin</source>
-        <translation>Wydaj Zerocoin</translation>
+        <translation>花费零币</translation>
     </message>
     <message>
-        <source>zPIVXL is currently undergoing maintenance.</source>
-        <translation>zPIVXL jest obecnie w trakcie konserwacji.</translation>
+        <source>zRSCOIN is currently undergoing maintenance.</source>
+        <translation>zPIV目前正在维护中</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
-        <translation>Nie znaleziono mint kontroli monet</translation>
+        <translation>硬币控制铸币不存在</translation>
     </message>
     <message>
         <source>Sending %1 to address %2
 </source>
-        <translation>Wysyłanie %1 na adres %2
+        <translation>正在发送%1 到 地址%2
 </translation>
     </message>
     <message>
         <source>Sending %1 to addresses:
 %2</source>
-        <translation>Wysyłanie %1 na adres:
+        <translation>正在发送%1到地址：
 %2</translation>
     </message>
     <message>
-        <source>zPIVXL transaction sent!</source>
-        <translation>Transakcja zPIVXL wysłana!</translation>
+        <source>zRSCOIN transaction sent!</source>
+        <translation>zPIV交易已发送！</translation>
     </message>
     <message>
-        <source>Version 1 zPIVXL require a security level of 100 to successfully spend.</source>
-        <translation>Wersja 1 zPIVXL wymaga poziomu bezpieczeństwa 100, aby pomyślnie wydać.</translation>
+        <source>Version 1 zRSCOIN require a security level of 100 to successfully spend.</source>
+        <translation>版本1 zPIV要求安全级别为100才能成功使用。</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
-        <translation>Za dużo wejść (</translation>
+        <translation>输入过多（</translation>
     </message>
     <message>
         <source>) needed.
 Maximum allowed: </source>
-        <translation>) potrzebne.
-Maksymalna dozwolona:</translation>
+        <translation>)需要。
+最大额限制:</translation>
     </message>
     <message>
         <source>
 Either mint higher denominations (so fewer inputs are needed) or reduce the amount to spend.</source>
         <translation>
-Albo wybierz wyższe nominały (potrzeba mniej wejść) albo zmniejsz kwotę do wydania.</translation>
+要么铸造更高面额的币(这样需要的投入就更少)，要么减少开支。</translation>
     </message>
     <message>
         <source>Address label update failed for address: %1</source>
-        <translation>Aktualizacja etykiety adresu nie powiodła się dla adresu: %1</translation>
+        <translation>地址标签更新失败的地址:%1</translation>
     </message>
     <message>
         <source>Invalid URI</source>
-        <translation>Nieprawidłowy URI</translation>
+        <translation>URI无效</translation>
     </message>
     <message>
         <source>Invalid address in URI</source>
-        <translation>Nieprawidłowy adres w URI</translation>
+        <translation>URI地址无效</translation>
     </message>
     <message>
         <source>Custom Fee %1</source>
-        <translation>Ustawiona Opłata %1</translation>
+        <translation>定制费用%1</translation>
     </message>
     <message>
-        <source>You don't have any PIVXL to select.</source>
-        <translation>Nie masz żadnych PIVXL-ów do wyboru.</translation>
+        <source>You don't have any RSCOIN to select.</source>
+        <translation>您没有任何PIV可选择。</translation>
     </message>
     <message>
-        <source>You don't have any zPIVXL in your balance to select.</source>
-        <translation>Nie masz w swoim bilansie żadnego zPIVXL do wyboru.</translation>
+        <source>You don't have any zRSCOIN in your balance to select.</source>
+        <translation>你的余额中没有zPIV可供选择。</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
-        <translation>Brak dostępnych kontaktów, możesz przejść do ekranu kontaktów i tam dodać!</translation>
+        <translation>没有可用的联系人，您可以到联系人界面那里添加!</translation>
     </message>
     <message>
         <source>Save contact</source>
-        <translation>Zapisz kontakt</translation>
+        <translation>保存联系人</translation>
     </message>
     <message>
         <source>Address field is empty</source>
-        <translation>Pole adresu jest puste</translation>
+        <translation>地址字段为空</translation>
     </message>
     <message>
         <source>Invalid address</source>
-        <translation>Nieprawidłowy adres</translation>
+        <translation>地址无效</translation>
     </message>
     <message>
         <source>Cannot store your own address as contact</source>
-        <translation>Nie można zapisać własnego adresu jako kontaktu</translation>
+        <translation>无法保存你的联系地址</translation>
     </message>
     <message>
         <source>Update Contact</source>
-        <translation>Zaktualizuj kontakt</translation>
+        <translation>更新联系人</translation>
     </message>
     <message>
         <source>Create New Contact</source>
-        <translation>Utwórz nowy kontakt</translation>
+        <translation>创建新联系人</translation>
     </message>
     <message>
         <source>New Contact Stored</source>
-        <translation>Zapisano nowy kontakt</translation>
+        <translation>新联系方式已保存</translation>
     </message>
     <message>
         <source>Error Storing Contact</source>
-        <translation>Błąd podczas zapisywania kontaktu</translation>
+        <translation>保存联系方式出错</translation>
     </message>
 </context>
 <context>
     <name>SettingsBackupWallet</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Backup Wallet </source>
-        <translation>Utworzyć kopię zapasową Portfela</translation>
+        <translation>返回钱包</translation>
     </message>
     <message>
         <source>Change Wallet Passphrase</source>
-        <translation>Zmień hasło portfela</translation>
+        <translation>变更钱包密码</translation>
     </message>
     <message>
         <source>This will decrypt the whole wallet data and encrypt it back with the new passphrase.
 Remember to write it down and store it safely, otherwise you might lose access to your funds.</source>
-        <translation>To odszyfruje całe dane portfela i zaszyfruje je z powrotem za pomocą nowego hasła.
-Pamiętaj, aby zapisać i bezpiecznie przechowywać, w przeciwnym razie możesz stracić dostęp do swoich funduszy.</translation>
+        <translation>这将解密整个钱包数据，并使用新密码将其加密回来。
+请记住将其写下并安全地存储，否则您可能无法使用这笔资金。</translation>
     </message>
     <message>
         <source>Where</source>
-        <translation>Gdzie</translation>
+        <translation>哪里</translation>
     </message>
     <message>
         <source>Keep your wallet safe by doing regular backups and storing your backup file externally.
 This option creates a wallet.dat file that can be used to recover your whole balance (transactions and addresses) on another device.</source>
-        <translation>Dbaj o bezpieczeństwo swojego portfela, wykonując regularne kopie zapasowe i przechowując plik kopii zapasowej na zewnątrz.
-Ta opcja tworzy plik wallet.dat, którego można użyć do odzyskania całego salda (transakcji i adresów) na innym urządzeniu.</translation>
+        <translation>通过定期备份和将备份文件存储在外部来保证钱包的安全。
+此选项创建一个wallet.dat文件，可用于在另一个设备上恢复您的全部余额(交易和地址)。</translation>
     </message>
     <message>
         <source>Select folder...</source>
-        <translation>Wybierz katalog...</translation>
+        <translation>选择文件夹...</translation>
     </message>
     <message>
         <source>Change Passphrase</source>
-        <translation>Zmień hasło</translation>
+        <translation>更改密码</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Kopia zapasowa portfela</translation>
+        <translation>返回钱包</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet Data (*.dat)</translation>
+        <translation>钱包数据(*.dat)</translation>
     </message>
     <message>
         <source>Backup created</source>
-        <translation>Utworzono kopię zapasową</translation>
+        <translation>返回创建</translation>
     </message>
     <message>
         <source>Backup creation failed</source>
-        <translation>Tworzenie kopii zapasowej nie powiodło się</translation>
+        <translation>备份创建失败</translation>
     </message>
     <message>
         <source>Please select a folder to export the backup first.</source>
-        <translation>Najpierw wybierz folder, aby wyeksportować kopię zapasową.</translation>
+        <translation>请先选择一个文件夹来导出备份</translation>
     </message>
 </context>
 <context>
     <name>SettingsBitToolWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>Decrypt Address Result</source>
-        <translation>Odszyfruj adres</translation>
+        <translation>解密地址结果</translation>
     </message>
     <message>
         <source>Import Address</source>
-        <translation>Adres importu</translation>
+        <translation>导入地址</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Wyczyść</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>BIP38 Tool</source>
-        <translation>Narzędzie BIP38</translation>
+        <translation>BIP38工具</translation>
     </message>
     <message>
         <source>Encrypt</source>
-        <translation>Szyfruj</translation>
+        <translation>加密</translation>
     </message>
     <message>
         <source>Decrypt</source>
-        <translation>Odszyfruj</translation>
+        <translation>解密</translation>
     </message>
     <message>
         <source>Encrypted key</source>
-        <translation>Zaszyfrowany klucz</translation>
+        <translation>解密钥匙</translation>
     </message>
     <message>
         <source>Enter a encrypted key</source>
-        <translation>Wprowadź zaszyfrowany klucz</translation>
+        <translation>输入解密钥匙</translation>
     </message>
     <message>
         <source>Passphrase</source>
-        <translation>Hasło</translation>
+        <translation>密码</translation>
     </message>
     <message>
         <source>Enter a passphrase </source>
-        <translation>Wpisz hasło</translation>
+        <translation>输入密码</translation>
     </message>
     <message>
         <source>Decrypted address result</source>
-        <translation>Odszyfrowany adres</translation>
+        <translation>解密地址结果</translation>
     </message>
     <message>
         <source>Decrypted Address</source>
-        <translation>Odszyfrowany adres</translation>
+        <translation>已解密地址</translation>
     </message>
     <message>
         <source>DECRYPT KEY</source>
-        <translation>KLUCZ DESZYFRUJĄCY</translation>
+        <translation>解密钥匙</translation>
     </message>
     <message>
-        <source>PIVXL address</source>
-        <translation>Adres PIVXL</translation>
+        <source>RSCOIN address</source>
+        <translation>PIVX地址</translation>
     </message>
     <message>
         <source>Enter address</source>
-        <translation>Podaj adres</translation>
+        <translation>输入地址</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Wpisz hasło</translation>
+        <translation>输入钱包密码</translation>
     </message>
     <message>
         <source>Encrypted Key</source>
-        <translation>Zaszyfrowany klucz</translation>
+        <translation>加密钥匙</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
-        <translation>SZYFROWANIE</translation>
+        <translation>加密</translation>
     </message>
     <message>
         <source>CLEAR ALL</source>
-        <translation>WYCZYŚĆ WSZYSTKO</translation>
+        <translation>清除所有</translation>
     </message>
     <message>
         <source>CLEAR</source>
-        <translation>CZYŚĆ</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>Podane hasło jest nieprawidłowe</translation>
+        <translation>输入的密码无效。</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
-        <translation>Dozwolone 0-9,a-z,A-Z</translation>
+        <translation>允许： 0-9,a-z,A-Z,</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Podany adres jest nieprawidłowy</translation>
+        <translation>输入的地址无效</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Proszę sprawdzić adres i spróbować ponownie</translation>
+        <translation>请检查地址，并重新输入。</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Podany adres nie odnosi się do klucza</translation>
+        <translation>输入的地址不是指密钥。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odblokowywanie anulowanie</translation>
+        <translation>钱包解锁终止。</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Prywatny klucz do podanego adresu nie jest dostępny</translation>
+        <translation>输入地址的私钥不可用。</translation>
     </message>
     <message>
         <source>Address encrypted.</source>
-        <translation>Adres zaszyfrowany.</translation>
+        <translation>地址已加密</translation>
     </message>
     <message>
         <source>No addresses available, you can go to the receive screen and add some there!</source>
-        <translation>Brak dostępnych adresów, możesz przejść do ekranu odbioru i tam dodać!</translation>
+        <translation>没有可用地址，你可以去接收屏幕那里添加</translation>
     </message>
     <message>
         <source>Failed to decrypt.</source>
-        <translation>Nie udało się odszyfrować.</translation>
+        <translation>解密失败。</translation>
     </message>
     <message>
         <source>Please check the key and passphrase and try again.</source>
-        <translation>Proszę sprawdzić klucz i hasło ponownie</translation>
+        <translation>请检查密钥和密码短语，然后再试一次。</translation>
     </message>
     <message>
         <source>Data Not Valid.</source>
-        <translation>Dane są nieprawidłowe.</translation>
+        <translation>无效数据。</translation>
     </message>
     <message>
         <source>Please try again.</source>
-        <translation>Proszę spróbować ponownie</translation>
+        <translation>请再试一次。</translation>
     </message>
     <message>
         <source>Please wait while key is imported</source>
-        <translation>Proszę czekać. Importowanie klucza.</translation>
+        <translation>等待key被导入。</translation>
     </message>
     <message>
         <source>Cannot import address, key already held by the wallet</source>
-        <translation>Nie można zaimportować adresu, klucz jest już przechowywany w portfelu</translation>
+        <translation>无法导入地址，钥匙已被钱包持有</translation>
     </message>
     <message>
         <source>Error adding key to the wallet</source>
-        <translation>Błąd podczas dodawania klucza do portfela</translation>
+        <translation>添加钥匙到钱包出错</translation>
     </message>
     <message>
         <source>Successfully added private key to the wallet</source>
-        <translation>Pomyślnie dodano klucz prywatny do portfela</translation>
+        <translation>成功添加私钥到钱包</translation>
     </message>
 </context>
 <context>
     <name>SettingsConsoleWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Console</source>
-        <translation>Konsola</translation>
+        <translation>控制台</translation>
     </message>
     <message>
         <source>Console input</source>
-        <translation>Wejście konsoli</translation>
+        <translation>控制台输入</translation>
     </message>
     <message>
         <source>Command Line Options </source>
-        <translation>Opcje wiersza poleceń</translation>
+        <translation>命令行选项</translation>
     </message>
     <message>
         <source>Open Debug File</source>
-        <translation>Otwórz plik debugowania</translation>
+        <translation>打开调试文件</translation>
     </message>
     <message>
         <source>Clear history</source>
-        <translation>Wyczyść historię</translation>
+        <translation>清空历史记录</translation>
     </message>
     <message>
         <source>Cannot open debug file.
 Verify that you have installed a predetermined text editor.</source>
-        <translation>Nie można otworzyć pliku debugowania.
-Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
+        <translation>无法打开调试文件。
+确认您已经安装了预定的文本编辑器</translation>
     </message>
     <message>
-        <source>Welcome to the PIVXL RPC console.</source>
-        <translation>Witamy w konsoli PIVXL RPC.</translation>
+        <source>Welcome to the RSCOIN RPC console.</source>
+        <translation>欢迎访问PIVX RPC控制台</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
-        <translation>Użyj strzałek w górę iw dół, aby poruszać się po historii, a %1, aby wyczyścić ekran.</translation>
+        <translation>使用向上和向下箭头导航历史记录，%1清除屏幕。</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Wpisz &lt;b&gt;help&lt;/b&gt;, aby uzyskać przegląd dostępnych poleceń.</translation>
+        <translation>键入&lt;b&gt;帮助&lt;/b&gt;来浏览可用命令</translation>
     </message>
     <message>
         <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.</source>
-        <translation>OSTRZEŻENIE: Scamery były aktywne, mówiąc użytkownikom, aby wpisywali tutaj polecenia, kradnąc ich zawartość portfela. Nie używaj tej konsoli bez pełnego zrozumienia konsekwencji polecenia.</translation>
+        <translation>警告:骗子一直活跃，告诉用户在这里输入命令，窃取他们的钱包内容。在完全理解命令的后果之前，不要使用此控制台。</translation>
     </message>
 </context>
 <context>
     <name>SettingsDisplayOptionsWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Hide stake charts in the dashboard</source>
-        <translation>Ukryj wykresy stake na pulpicie</translation>
+        <translation>把加注图表隐藏在仪表板中</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Przywróć ustawienia domyślne</translation>
+        <translation>重置到默认值</translation>
     </message>
     <message>
         <source>Discard changes</source>
-        <translation>Porzuć zmiany</translation>
+        <translation>放弃更改</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Wyświetl</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <source>Customize the display view options</source>
-        <translation>Dostosuj opcje widoku wyświetlacza</translation>
+        <translation>自定义显示视图选项</translation>
     </message>
     <message>
         <source>Language</source>
-        <translation>Język</translation>
+        <translation>语言</translation>
     </message>
     <message>
         <source>Unit to show amount</source>
-        <translation>Jednostka do wyświetlenia kwoty</translation>
+        <translation>金额表示单位</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Liczby dziesiętne</translation>
+        <translation>小数位数</translation>
     </message>
     <message>
         <source>Third party transactions URLs</source>
-        <translation>Adresy URL transakcji stron trzecich</translation>
+        <translation>第三方交易URLs</translation>
     </message>
     <message>
         <source>Hide empty balances</source>
-        <translation>Ukryj puste saldo</translation>
+        <translation>隐藏空余额</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <source>Options reset succeed</source>
-        <translation>Opcje resetowania powiodły się</translation>
+        <translation>选项重置成功</translation>
     </message>
 </context>
 <context>
     <name>SettingsExportCSV</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Export Accounting</source>
-        <translation>Wyeksportuj Księgowość</translation>
+        <translation>导出账单</translation>
     </message>
     <message>
         <source>Export your wallet's accounting data to a csv file.</source>
-        <translation>Wyeksportuj Księgowość portfela do pliku csv.</translation>
+        <translation>导出你的钱包账单到一个csv文件。</translation>
     </message>
     <message>
         <source>Where</source>
-        <translation>Gdzie</translation>
+        <translation>哪里</translation>
     </message>
     <message>
         <source>Select folder...</source>
-        <translation>Wybierz katalog...</translation>
+        <translation>选择文件夹...</translation>
     </message>
     <message>
         <source>Export Address Book</source>
-        <translation>Eksportuj książkę adresową</translation>
+        <translation>导出地址簿</translation>
     </message>
     <message>
         <source>Export CSV</source>
-        <translation>Eksportuj CSV</translation>
+        <translation>导出CSV</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Eksportuj listę adresów</translation>
+        <translation>导出地址列表</translation>
     </message>
     <message>
         <source>PIVX_tx_csv_export(*.csv)</source>
@@ -3970,31 +3967,31 @@ Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
-        <translation>Najpierw wybierz folder, aby wyeksportować plik csv.</translation>
+        <translation>请先选择一个导出csv文件到文件夹。</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Potwierdzone</translation>
+        <translation>已确认</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Tylko do oglądania:</translation>
+        <translation>只读</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>类别</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Etykieta</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>ID</source>
@@ -4003,163 +4000,436 @@ Sprawdź, czy zainstalowałeś określony edytor tekstu.</translation>
     <message>
         <source>Exporting Successful
 The transaction history was successfully saved to %1.</source>
-        <translation>Wyeksportowano pomyślne
-Historia transakcji została pomyślnie zapisana w %1.</translation>
+        <translation>导出成功
+交易历史已经成功保存到%1。</translation>
     </message>
     <message>
         <source>Exporting Failed
 There was an error trying to save the transaction history to %1.</source>
-        <translation>Eksportowanie nie powiodło się
-Wystąpił błąd podczas próby zapisania historii transakcji w %1.</translation>
+        <translation>导出失败
+保存交易历史到%1过程出错了。</translation>
     </message>
     <message>
         <source>No available addresses to export under the selected filter</source>
-        <translation>Brak dostępnych adresów do wyeksportowania pod wybranym filtrem</translation>
+        <translation>在所选的筛选器下没有可供导出的地址</translation>
     </message>
     <message>
         <source>Exporting Successful
 The address book was successfully saved to %1.</source>
-        <translation>Wyeksportowano pomyślne
-Książka adresowa została pomyślnie zapisana w %1.</translation>
+        <translation>导出成功
+地址簿已经成功保存到%1。</translation>
     </message>
     <message>
         <source>Exporting Failed
 There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Eksportowanie nie powiodło się
-Wystąpił błąd podczas próby zapisania listy adresów w %1. Proszę spróbuj ponownie</translation>
+        <translation>导出失败
+保存地址列表到%1的过程出错。请重试。</translation>
     </message>
 </context>
 <context>
     <name>SettingsFaqWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
     <message>
-        <source>1) What is PIVXL?</source>
-        <translation>1) Co to jest PIVXL?</translation>
+        <source>1) What is RSCOIN?</source>
+        <translation>1）什么是PIVX?</translation>
     </message>
     <message>
-        <source>2) Why are my PIVXL unspendable?</source>
-        <translation>2) Dlaczego mojego PIVXL nie można wydać?</translation>
+        <source>2) Why are my RSCOIN unspendable?</source>
+        <translation>2) 我的PIV为什么不能用？</translation>
     </message>
     <message>
-        <source>3) PIVXL privacy? What is Zerocoin (zPIVXL)?</source>
-        <translation>3) Prywatność PIVXL? Co to jest Zerocoin (zPIVXL)?</translation>
+        <source>3) RSCOIN privacy? What is Zerocoin (zRSCOIN)?</source>
+        <translation>3）RSCOIN 隐私？什么是零币(zRSCOIN)？</translation>
     </message>
     <message>
-        <source>4) Why are my zPIVXL unspendable?</source>
-        <translation>4) Dlaczego mojego zPIVXL nie można wydać?</translation>
+        <source>4) Why are my zRSCOIN unspendable?</source>
+        <translation>4) 我的zPIV为什么不能用？</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zPIVXL automatically?</source>
-        <translation>5) Dlaczego mój portfel przeliczył saldo
-do zPIVXL automatycznie?</translation>
+    into zRSCOIN automatically?</source>
+        <translation>5）为什么我的钱包把余额自动转换成
+zPIV了?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIVXL/zPIVXL?</source>
-        <translation>6) Jak otrzymać PIVXL / zPIVXL?</translation>
+        <source>6) How do I receive RSCOIN/zRSCOIN?</source>
+        <translation>6）如何接收PIV/zRSCOIN?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIVXL/zPIVXL?</source>
-        <translation>7) Jak robić stake PIVXL / zPIVXL?</translation>
+        <source>7) How do I stake RSCOIN/zRSCOIN?</source>
+        <translation>7）如何加注PIV/zRSCOIN?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
-        <translation>8) Gdzie powinienem iść, jeśli potrzebuję wsparcia?</translation>
+        <translation>8）该到哪里寻求帮助？</translation>
     </message>
     <message>
         <source>9) What is a Masternode?</source>
-        <translation>9) Co to jest Masternode?</translation>
+        <translation>9）什么是主节点？</translation>
     </message>
     <message>
         <source>10) What is a Masternode Controller?</source>
-        <translation>10) Co to jest kontroler Masternode?</translation>
+        <translation>10）什么是主节点控制器？</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVXL?</source>
-        <translation>Co to jest PIVXL?</translation>
+        <source>What is RSCOIN?</source>
+        <translation>PIVX是什么?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           RSCOIN is a form of digital online money using blockchain technology
+                           that can be easily transferred globally, instantly, and with near
+                           zero fees.  RSCOIN incorporates market leading security &amp;
+                           privacy and is also the first PoS (Proof of Stake) Cryptocurrency
+                           to implement ZeroCoin(zRSCOIN) and Zerocoin staking.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           RSCOIN utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of RSCOIN to participate in earning block rewards
+                           while securing the network with full node wallets, as well as to
+                           run Masternodes to create and vote on proposals.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+PIVX是一种使用区块链技术的数字在线货币
+全球范围内快捷交易，即时，基本为
+零的交易费用。PIVX是市场上领先的安全和
+隐私加密货币，也是第一个PoS(股权证明)加密货币
+实现零币(zRSCOIN)和零币加注。
+&lt;/p&gt;&lt;p align="justify"&gt;
+PIVX使用了一个股权证明(PoS)一致系统算法，
+允许所有PIVX的所有者参与赚取区块奖励
+同时保护网络与完整的节点钱包，以及
+运行主节点创建和投票来进行提案。</translation>
     </message>
     <message>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIVXL unspendable?</source>
-        <translation>Dlaczego mojego PIVXL nie można wydać?</translation>
+        <source>Why are my RSCOIN unspendable?</source>
+        <translation>我的PIV为什么不能用？</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           Newly received RSCOIN requires 6 confirmations on the network
+                           to become eligible for spending which can take ~6 minutes.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           Your RSCOIN wallet also needs to be completely synchronized
+                           to see and spend balances on the network.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+接收到的PIVX需要网络上的6个确认
+才能成为有资格的花费，可以花~6分钟。
+&lt;/p&gt;&lt;p align="justify"&gt;
+您的PIVX钱包也需要完全同步
+查看网络收支余额。
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</translation>
     </message>
     <message>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <source>PIVXL privacy? What is Zerocoin (zPIVXL)?</source>
-        <translation>Prywatność PIVXL? Co to jest Zerocoin (zPIVXL)?</translation>
+        <source>RSCOIN privacy? What is Zerocoin (zRSCOIN)?</source>
+        <translation>RSCOIN 隐私？什么是零币(zRSCOIN)？</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zRSCOIN is an optional privacy-centric method of coin mixing on the
+                           RSCOIN blockchain. Basically all your transactions cannot be tracked
+                           on to any block explorer. You can read more about the technicals in the
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+                           "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+zPIV是一种可选的以隐私为中心的隐私币
+它是PIVX区块链的一员，基本上在任何块资源管理器
+所有的交易都不能被跟踪&lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+
+你可以阅读更多关于技术方面的文章&lt;/a&gt;
+
+PIVX零币(zRSCOIN)技术文件
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</translation>
     </message>
     <message>
         <source>4</source>
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zPIVXL unspendable?</source>
-        <translation>Dlaczego mojego zPIVXL nie można wydać?</translation>
+        <source>Why are my zRSCOIN unspendable?</source>
+        <translation>我的PIV为什么不能用？</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           After minting, zRSCOIN will require 20 confirmations as well as 1
+                           additional mint of the same denomination on the network to
+                           become eligible for spending.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+铸币后，zPIV将需要20个确认和1个确认
+在网络上增加相同面额的铸币
+才够资格消费。
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zPIVXL automatically?</source>
-        <translation>Dlaczego mój portfel automatycznie przeliczył saldo na zPIVXL?</translation>
+        <source>Why did my wallet convert the balance into zRSCOIN automatically?</source>
+        <translation>为什么我的钱包会自动将余额转换成zPIV ?</translation>
     </message>
     <message>
         <source>6</source>
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIVXL/zPIVXL?</source>
-        <translation>Jak otrzymać PIVXL / zPIVXL?</translation>
+        <source>How do I receive RSCOIN/zRSCOIN?</source>
+        <translation>我怎么接收PIV/zRSCOIN?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           zRSCOIN can be spent and sent to any RSCOIN address. The receiver will
+                           receive standard RSCOIN but the origin of the RSCOIN is anonymized by the zRSCOIN Protocol.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           If you want more zRSCOIN you will need to mint your balance in the “Privacy” tab.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+可以使用zPIV并将其发送到任何PIVX地址。接收机将
+接收标准的PIVX，但是根据zPIV协议，PIVX的来源是匿名的。
+&lt;/p&gt;&lt;p align="justify"&gt;
+如果你想要更多的zPIV，你将需要在“隐私”标签上铸造你的余额。
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIVXL/zPIVXL?</source>
-        <translation>Jak robić stake PIVXL / zPIVXL?</translation>
+        <source>How do I stake RSCOIN/zRSCOIN?</source>
+        <translation>我怎么加注PIV/zRSCOIN?</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           To Stake RSCOIN:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ol&gt;&lt;li&gt;
+                           Make sure your wallet is completely synchronized and you are using the latest release.
+                           &lt;li&gt;
+                           You must have a balance of RSCOIN with a minimum of 600 confirmations.
+                           &lt;li&gt;
+                           Your wallet must stay online and be unlocked for staking purposes.
+                           &lt;li&gt;
+                           Once all those steps are followed staking should be enabled.
+                           &lt;li&gt;
+                           You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (pivxl-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
+                           &lt;/li&gt;&lt;/ol&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           To Stake zRSCOIN:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ol&gt;&lt;li&gt;
+                           Make sure your wallet is completely synchronized and you are using the latest release.
+                           &lt;li&gt;
+                           Your newly minted or existing zRSCOIN balance must have a minimum of 200 confirmations.
+                           &lt;li&gt;
+                           Your wallet must stay online and be unlocked for anonymization and staking purposes.
+                           Staking should now be enabled.
+                           &lt;/li&gt;&lt;/ol&gt;
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+ &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+加注PIVX:
+&lt;/p&gt;&lt;p align="justify"&gt;
+&lt;ol&gt;&lt;li&gt;
+确保你的钱包保持完全同步且当前使用的是最新版本。
+&lt;li&gt;
+您必须有至少600的确认PIVX余额。
+&lt;li&gt;
+你必须保证钱包在线且用于加注目的未锁状态。
+&lt;li&gt;
+所有这些步骤都完成后应该就可以启用加注了。
+&lt;li&gt;
+您可以将鼠标移到钱包界面左上角的行中的包图标上来查看在钱包加注的状态。加注状态的时候，包会被点亮且状态显示“加注启用”。使用命令行接口(pivxl-cli);命令&lt;i&gt;getstakingstatus&lt;/i&gt;将确认加注是激活状态。
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/p&gt;&lt;p align="justify"&gt;
+加注zPIV:
+&lt;/p&gt;&lt;p align="justify"&gt;
+&lt;ol&gt;&lt;li&gt;
+确保你的钱包保持完全同步且当前使用的是最新版本。
+&lt;li&gt;
+你最新铸造或现有的zPIV余额必须至少有200个确认。
+&lt;li&gt;
+你必须保证钱包在线且用于加注和匿名目的处于未锁状态。
+现在加注应该已经可以启用了
+&lt;/li&gt;&lt;/ol&gt;
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                          </translation>
     </message>
     <message>
         <source>Where should I go if I need support?</source>
-        <translation>Gdzie mam się udać, jeśli potrzebuję wsparcia?</translation>
+        <translation>如果我需要帮助，我该怎么办？</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
-        <translation>Co to jest Masternode?</translation>
+        <translation>主节点是什么？</translation>
     </message>
     <message>
         <source>What is a Masternode Controller?</source>
-        <translation>Co to jest kontroler Masternode?</translation>
+        <translation>什么是主节点控制器？</translation>
+    </message>
+    <message>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 100,000 RSCOIN collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;主节点控制器钱包是控制器-远程主节点建立期间100,000 PIV抵押可以驻留的地方。这是一个可以激活远程主节点钱包(s)的钱包，可以让你的抵押币离线但远程主节点保持在线。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>8</source>
         <translation>8</translation>
     </message>
     <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           We have support channels in most of our official chat groups, for example
+                           &lt;a style='color: #b088ff' href='https://discord.RSCOIN.org'&gt;
+                           #support in our Discord&lt;/a&gt;.
+                           If you prefer to submit a ticket, One can be
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.freshdesk.com'&gt;
+                           our Freshdesk support site&lt;/a&gt;.
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+我们在大多数官方聊天群都有支持频道，例如
+&lt;a style='color: #b088ff' href='https://discord.RSCOIN.org'&gt;
+＃Discord  里面的支持&lt;/a&gt;。
+如果你想要提交门票，请到这里
+&lt;a style='color: #b088ff' href='https://RSCOIN.freshdesk.com'&gt;
+我们的前台支持网站&lt;/a&gt;。
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+</translation>
+    </message>
+    <message>
         <source>9</source>
         <translation>9</translation>
+    </message>
+    <message>
+        <source>
+                           &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+                           A masternode is a computer running a full node RSCOIN core wallet with a
+                           requirement of 100,000 RSCOIN secured collateral to provide extra services
+                           to the network and in return, receive a portion of the block reward
+                           regularly.  These services include:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           &lt;ul&gt;
+                           &lt;li&gt;Instant transactions (SwiftX)&lt;/li&gt;
+                           &lt;li&gt;A decentralized governance (Proposal Voting)&lt;/li&gt;
+                           &lt;li&gt;A decentralized budgeting system (Treasury)&lt;/li&gt;
+                           &lt;li&gt;Validation of transactions within each block&lt;/li&gt;
+                           &lt;li&gt;Act as an additional full node in the network&lt;/li&gt;
+                           &lt;/ul&gt;
+
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           For providing such services, masternodes are also paid a certain portion
+                           of reward for each block. This can serve as a passive income to the
+                           masternode owners minus their running cost.
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           Masternode Perks:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;Participate in RSCOIN Governance&lt;/li&gt;
+                           &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
+                           &lt;li&gt;Commodity option for future sale&lt;/li&gt;
+                           &lt;li&gt;Help secure the RSCOIN network&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+
+                           Requirements:
+                           &lt;/p&gt;&lt;p align="justify"&gt;
+                           &lt;ul&gt;
+                           &lt;li&gt;100,000 RSCOIN per single Masternode instance&lt;/li&gt;
+                           &lt;li&gt;Must be stored in a core wallet&lt;/li&gt;
+                           &lt;li&gt;Need dedicated IP address&lt;/li&gt;
+                           &lt;li&gt;Masternode wallet to remain online&lt;/li&gt;
+                           &lt;/ul&gt;
+                           &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                         </source>
+        <translation>
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
+主节点是运行完整节点PIVX核心钱包的计算机
+需要100,000个PIV作抵押以提供额外服务
+到网络，会收到一部分的区块奖励作为定期
+回报
+这些服务包括:
+&lt;/p&gt;&lt;p align="justify"&gt;
+
+&lt;ul&gt;
+&lt;li&gt;即时交易(SwiftX)&lt;/li&gt;
+&lt;li&gt;去中心化治理(提案投票)&lt;/li&gt;
+&lt;li&gt;去中心化预算系统(国库)&lt;/li&gt;
+&lt;li&gt;验证每个区块交易&lt;/li&gt;
+&lt;li&gt;充当网络中的另一个完整节点&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/p&gt;&lt;p align="justify"&gt;
+为了提供这样的服务，主节点也会为每一个区块
+支付一定的报酬。
+这可以作为主节点所有者减去其运行成本的被动收入。
+&lt;/p&gt;&lt;p align="justify"&gt;
+主节点福利：
+&lt;/p&gt;&lt;p align="justify"&gt;
+&lt;ul&gt;
+&lt;li&gt;参与PIVX治理&lt;/li&gt;
+&lt;li&gt;赢取主节点奖励&lt;/li&gt;
+&lt;li&gt;商品期货期权&lt;/li&gt;
+&lt;li&gt;帮助保护PIVX网络&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;&lt;p align="justify"&gt;
+
+要求：
+&lt;/p&gt;&lt;p align="justify"&gt;
+&lt;ul&gt;
+&lt;li&gt;每个主节点实例有100,000 RSCOIN&lt;/li&gt;
+&lt;li&gt;必须存储在核心钱包&lt;/li&gt;
+&lt;li&gt;需要专用IP地址&lt;/li&gt;
+主节点钱包保持在线&lt;li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+
+</translation>
     </message>
     <message>
         <source>10</source>
@@ -4167,253 +4437,253 @@ do zPIVXL automatycznie?</translation>
     </message>
     <message>
         <source>Frequently Asked Questions</source>
-        <translation>Często Zadawane Pytania</translation>
+        <translation>常见问题</translation>
     </message>
     <message>
         <source>You can read more here</source>
-        <translation>Możesz przeczytać więcej tutaj</translation>
+        <translation>查看这里了解更多内容</translation>
     </message>
     <message>
         <source>Exit</source>
-        <translation>Wyjście</translation>
+        <translation>退出</translation>
     </message>
 </context>
 <context>
     <name>SettingsInformationWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Network Monitor</source>
-        <translation>Monitor sieci</translation>
+        <translation>网络监视器</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacje</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Generalne</translation>
+        <translation>总的</translation>
     </message>
     <message>
         <source>Client Version:</source>
-        <translation>Wersja Clienta:</translation>
+        <translation>客户版本：</translation>
     </message>
     <message>
         <source>BerkeleyDB version:</source>
-        <translation>Wersja BerkeleyDB:</translation>
+        <translation>BerkeleyDB版本：</translation>
     </message>
     <message>
         <source>Datadir:</source>
-        <translation>Datadir:</translation>
+        <translation>数据dir:</translation>
     </message>
     <message>
         <source>Startup time:</source>
-        <translation>Czas startupu:</translation>
+        <translation>启动时间：</translation>
     </message>
     <message>
         <source>Connections:</source>
-        <translation>Połączenia:</translation>
+        <translation>连接：</translation>
     </message>
     <message>
         <source>Number of Masternodes:</source>
-        <translation>Liczba Masternode:</translation>
+        <translation>主节点数量：</translation>
     </message>
     <message>
         <source>Current number of blocks:</source>
-        <translation>Aktualna liczba bloków:</translation>
+        <translation>当前区块数量：</translation>
     </message>
     <message>
         <source>Last block time:</source>
-        <translation>Czas ostatniego bloku:</translation>
+        <translation>上一个区块时间：</translation>
     </message>
     <message>
         <source>Last block hash:</source>
-        <translation>Hash ostatniego bloku:</translation>
+        <translation>上一个区块哈希：</translation>
     </message>
     <message>
         <source>Current number of transactions:</source>
-        <translation>Aktualna liczba transakcji:</translation>
+        <translation>当前交易数量：</translation>
     </message>
     <message>
         <source>User Agent:</source>
-        <translation>Agent użytkownika:</translation>
+        <translation>客户端代理：</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation>Nazwa:</translation>
+        <translation>名称：</translation>
     </message>
     <message>
         <source>Blockchain</source>
-        <translation>Blockchain</translation>
+        <translation>区块链</translation>
     </message>
     <message>
         <source>Memory Pool</source>
-        <translation>Pula pamięci</translation>
+        <translation>记忆工具</translation>
     </message>
     <message>
         <source>Main</source>
-        <translation>Główny</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <source>Wallet Conf</source>
-        <translation>Conf Portfela</translation>
+        <translation>钱包配置</translation>
     </message>
     <message>
         <source>Backups</source>
-        <translation>Kopie zapasowe</translation>
+        <translation>返回</translation>
     </message>
     <message>
         <source>No information</source>
-        <translation>Brak informacji</translation>
+        <translation>无信息</translation>
     </message>
     <message>
         <source>Unable to open backups folder</source>
-        <translation>Nie można otworzyć folderu kopii zapasowych</translation>
+        <translation>无法打开备份文件夹</translation>
     </message>
     <message>
         <source>Unable to open pivxl.conf with default application</source>
-        <translation>Nie można otworzyć pliku pivxl.conf w domyślnej aplikacji</translation>
+        <translation>无法使用默认应用程序打开pivx.conf</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>W</translation>
+        <translation>进：</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Z</translation>
+        <translation>出：</translation>
     </message>
 </context>
 <context>
     <name>SettingsMainOptionsWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Window</source>
-        <translation>Okno</translation>
+        <translation>窗口</translation>
     </message>
     <message>
         <source>Customize the application window options</source>
-        <translation>Dostosuj opcje okna aplikacji</translation>
+        <translation>自定义应用视图选项</translation>
     </message>
     <message>
         <source>CheckBox</source>
-        <translation>CheckBox</translation>
+        <translation>查看列表</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Przywróć ustawienia domyślne</translation>
+        <translation>重置到默认值</translation>
     </message>
     <message>
         <source>Discard changes</source>
-        <translation>Porzuć zmiany</translation>
+        <translation>放弃更改</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Main</source>
-        <translation>Główny</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <source>Size of database cache</source>
-        <translation>Rozmiar pamięci podręcznej bazy danych</translation>
+        <translation>缓存数据库的大小</translation>
     </message>
     <message>
         <source>Number of script verification threads</source>
-        <translation>Liczba wątków weryfikujących skrypt</translation>
+        <translation>脚本&amp;验证线程数</translation>
     </message>
     <message>
-        <source>Start PIVXL on system login</source>
-        <translation>Uruchom PIVXL przy logowaniu do systemu</translation>
+        <source>Start RSCOIN on system login</source>
+        <translation>开机启动PIVX</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
-        <translation>Zminimalizuj do zasobnika zamiast paska zadań</translation>
+        <translation>最小化到托盘而不是任务栏</translation>
     </message>
     <message>
         <source>Minimize on close</source>
-        <translation>Minimalizuj przy zamykaniu</translation>
+        <translation>关闭最小化</translation>
     </message>
     <message>
         <source>Reset Options</source>
-        <translation>Opcje Resetu</translation>
+        <translation>重置选项</translation>
     </message>
     <message>
         <source>You are just about to reset the app's options to the default values.
 
 Are you sure?
 </source>
-        <translation>Za chwilę zresetujesz opcje aplikacji do wartości domyślnych.
+        <translation>你正在重置app选项到初始值
 
-Jesteś pewny?
+确定?
 </translation>
     </message>
     <message>
         <source>Options reset succeed</source>
-        <translation>Opcje resetowania powiodły się</translation>
+        <translation>选项重置成功</translation>
     </message>
 </context>
 <context>
     <name>SettingsMultisendDialog</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Transaction Details</source>
-        <translation>Szczegóły Transakcji</translation>
+        <translation>交易明细</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>New recipient for multisend</source>
-        <translation>Nowy odbiorca multisend</translation>
+        <translation>多重发送新接收人</translation>
     </message>
     <message>
         <source>Address Label (optional)</source>
-        <translation>Etykieta adresu (opcjonalnie)</translation>
+        <translation>地址标签（可选项）</translation>
     </message>
     <message>
         <source>Enter label to be saved with this address</source>
-        <translation>Wprowadź etykietę, która ma zostać zapisana z tym adresem</translation>
+        <translation>输入要用此地址保存的标签</translation>
     </message>
     <message>
         <source>Percentage</source>
-        <translation>Odsetek</translation>
+        <translation>百分百</translation>
     </message>
 </context>
 <context>
     <name>SettingsMultisendWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -4421,697 +4691,693 @@ Jesteś pewny?
     </message>
     <message>
         <source>CheckBox</source>
-        <translation>CheckBox</translation>
+        <translation>查看列表</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVXL addresses after it matures.</source>
-        <translation>MultiSend pozwala automatycznie wysyłać do 100% stake lub nagrody masternode na listę innych adresów PIVXL po ich dojrzaniu.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other RSCOIN addresses after it matures.</source>
+        <translation>成熟以后，多重花费允许您自动发送高达 100% 的股权或主节点奖励到其他PIVX地址列表</translation>
     </message>
     <message>
         <source>Active</source>
-        <translation>Aktywny</translation>
+        <translation>激活</translation>
     </message>
     <message>
         <source>Disable</source>
-        <translation>Wyłącz</translation>
+        <translation>不可用</translation>
     </message>
     <message>
         <source>No active recipient yet</source>
-        <translation>Nie ma jeszcze aktywnego odbiorcy</translation>
+        <translation>还没激活接收人</translation>
     </message>
     <message>
         <source>Send stakes</source>
-        <translation>Wyślij stakes</translation>
+        <translation>发送加注</translation>
     </message>
     <message>
         <source>Send masternode rewards</source>
-        <translation>Wyślij nagrody masternode</translation>
+        <translation>发送主节点奖励</translation>
     </message>
     <message>
         <source>ADD RECIPIENT</source>
-        <translation>DODAJ ODBIORCĘ</translation>
+        <translation>添加接收人</translation>
     </message>
     <message>
         <source>CLEAR ALL</source>
-        <translation>WYCZYŚĆ WSZYSTKO</translation>
+        <translation>清除所有</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
-        <translation>Nie można wykonać operacji, portfel zablokowany</translation>
+        <translation>无法进行操作，钱包被锁了</translation>
     </message>
     <message>
         <source>Clear succeed</source>
-        <translation>Czyszczenie wykonane</translation>
+        <translation>清除成功</translation>
     </message>
     <message>
         <source>Clear all failed, could not locate address in wallet file</source>
-        <translation>Wyczyść wszystko nie powiodło się, nie można zlokalizować adresu w pliku portfela</translation>
+        <translation>清除所有失败，无法找到钱包文件中的地址</translation>
     </message>
     <message>
         <source>Cannot add multisend recipient, wallet locked</source>
-        <translation>Nie można dodać odbiorcy multisend, portfel zablokowany</translation>
+        <translation>无法添加多重发送接收人，钱包被锁了</translation>
     </message>
     <message>
         <source>The entered address: %1 is invalid.
 Please check the address and try again.</source>
-        <translation>Wprowadzony adres: %1 jest nieprawidłowy.
-Sprawdź adres i spróbuj ponownie.</translation>
+        <translation>输入的地址:%1无效。
+请检查地址，然后再试一次。</translation>
     </message>
     <message>
         <source>Invalid percentage, please enter values from 1 to 100.</source>
-        <translation>Nieprawidłowy procent, wprowadź wartości od 1 do 100.</translation>
-    </message>
-    <message>
-        <source>The total amount of your MultiSend vector is over 100% of your stake reward</source>
-        <translation>Łączna kwota Twojego wektora MultiSend to ponad 100% nagrody za stake</translation>
+        <translation>百分比无效，请输入从1到100的值。</translation>
     </message>
     <message>
         <source>Error saving  MultiSend, failed saving properties to the database.</source>
-        <translation>Błąd podczas zapisywania MultiSend, nie powiodło się zapisywanie właściwości do bazy danych.</translation>
+        <translation>保存多重发送出错，将属性保存到数据库失败</translation>
     </message>
     <message>
         <source>Unable to activate MultiSend, no available recipients</source>
-        <translation>Nie można aktywować MultiSend, brak dostępnych odbiorców</translation>
+        <translation>无法激活多重发送，没有可用的收件人</translation>
     </message>
     <message>
         <source>Unable to activate MultiSend
 Check one or both of the check boxes to send on stake and/or masternode rewards</source>
-        <translation>Nie można aktywować MultiSend
-Zaznacz jedno lub oba pola wyboru, aby wysłać stake i / lub nagrode masternode</translation>
+        <translation>无法激活多重发送
+选中一个或两个复选框来发送加注和/或主节点奖励</translation>
     </message>
     <message>
         <source>MultiSend activated but writing settings to DB failed</source>
-        <translation>Aktywowano funkcję MultiSend, ale zapisanie ustawień do bazy danych nie powiodło się</translation>
+        <translation>多重发送已激活，但将设置写入DB失败</translation>
     </message>
     <message>
         <source>MultiSend activated</source>
-        <translation>Aktywowano funkcję MultiSend</translation>
+        <translation>多重发送激活</translation>
     </message>
     <message>
         <source>First multiSend address invalid</source>
-        <translation>Pierwszy adres MultiSend jest nieprawidłowy</translation>
+        <translation>第一个多重发送地址无效</translation>
     </message>
     <message>
         <source>MultiSend deactivated but writing settings to DB failed</source>
-        <translation>Funkcja MultiSend została wyłączona, ale zapisywanie ustawień do bazy danych nie powiodło się</translation>
+        <translation>多重发送未激活，但设置写入DB失败</translation>
     </message>
     <message>
         <source>MultiSend deactivated</source>
-        <translation>Funkcja MultiSend została wyłączona</translation>
+        <translation>多重发送未激活</translation>
     </message>
 </context>
 <context>
     <name>SettingsSignMessageWidgets</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Wyczyść</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>Sign/Verify Message</source>
-        <translation>Podpisz / zweryfikuj wiadomość</translation>
+        <translation>签署/验证消息</translation>
     </message>
     <message>
         <source>Sign</source>
-        <translation>Podpisz</translation>
+        <translation>签署</translation>
     </message>
     <message>
         <source>Verify</source>
-        <translation>Zweryfikuj</translation>
+        <translation>验证</translation>
     </message>
     <message>
         <source>Select mode</source>
-        <translation>Wybierz tryb</translation>
+        <translation>选择代码</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>消息 </translation>
     </message>
     <message>
-        <source>PIVXL address or contact label</source>
-        <translation>Adres PIVXL lub etykieta kontaktowa</translation>
+        <source>RSCOIN address or contact label</source>
+        <translation>RSCOIN 地址或者联系人标签</translation>
     </message>
     <message>
         <source>Enter address</source>
-        <translation>Podaj adres</translation>
+        <translation>输入地址</translation>
     </message>
     <message>
         <source>Write message</source>
-        <translation>Napisz wiadomość</translation>
+        <translation>写入信息</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Podpis</translation>
+        <translation>签名</translation>
     </message>
     <message>
         <source>SIGN</source>
-        <translation>PODPISZ</translation>
+        <translation>签署</translation>
     </message>
     <message>
         <source>CLEAR ALL</source>
-        <translation>WYCZYŚĆ WSZYSTKO</translation>
+        <translation>清除所有</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Możesz podpisywać wiadomości ze swoimi adresami, aby udowodnić, że je posiadasz. Uważaj, aby nie podpisać niczego niejasnego, ponieważ ataki phishingowe mogą skłonić Cię do podpisania Twojej tożsamości. Podawaj tylko w pełni szczegółowe oświadczenia, na które wyrażasz zgodę.</translation>
+        <translation>您可以使用地址签名消息，以证明您拥有他们。 小心不要签名任何您不了解的，因为网络钓鱼攻击可能会试图欺骗您，以让您签名。 只能签署您熟悉并且了解和同意的。</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Wprowadź adres podpisu, wiadomość (upewnij się, że dokładnie kopiujesz wiersze, spacje, tabulatory itp.) i podpisz poniżej, aby zweryfikować wiadomość. Uważaj, aby nie wprowadzić więcej w podpis niż w podpisanej wiadomości, aby uniknąć oszustwa przez atak typu "man-in-the-middle".</translation>
+        <translation>输入签名地址，消息（确保您准确地复制换行符，空格，制表符等）和签名以验证消息。注意不要比签名的消息本身更多地阅读签名，以避免被中间人的袭击所欺骗。</translation>
     </message>
     <message>
         <source>VERIFY</source>
-        <translation>ZWERYFIKUJ</translation>
+        <translation>验证</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Podany adres jest nieprawidłowy</translation>
+        <translation>输入的地址无效</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Proszę sprawdzić adres i spróbować ponownie</translation>
+        <translation>请检查地址，并重新输入。</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Podany adres nie odnosi się do klucza</translation>
+        <translation>输入的地址不是指密钥。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Odblokowywanie anulowanie</translation>
+        <translation>钱包解锁终止。</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Prywatny klucz do podanego adresu nie jest dostępny</translation>
+        <translation>输入地址的私钥不可用。</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Podpisywanie wiadomości nie powiodło się.</translation>
+        <translation>消息签名失败</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Wiadomość została podpisana.</translation>
+        <translation>消息已被签名</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Podpis nie mógł zostać zdekodowany.</translation>
+        <translation>无法解码该签名。</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Sprawdź podpis i spróbuj ponownie.</translation>
+        <translation>请检查签名，并重试。</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Podpis nie pasuje do skrótu wiadomości.</translation>
+        <translation>签名与消息摘要不符。</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Weryfikacja wiadomości nieudana.</translation>
+        <translation>消息验证失败。</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Wiadomość zweryfikowana.</translation>
+        <translation>消息已被验证</translation>
     </message>
     <message>
         <source>No addresses available, you can go to the receive screen and add some there!</source>
-        <translation>Brak dostępnych adresów, możesz przejść do ekranu odbioru i tam dodać!</translation>
+        <translation>没有可用地址，你可以去接收屏幕那里添加</translation>
     </message>
 </context>
 <context>
     <name>SettingsWalletOptionsWidget</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>CheckBox</source>
-        <translation>CheckBox</translation>
+        <translation>查看列表</translation>
     </message>
     <message>
         <source>RadioButton</source>
-        <translation>Przycisk wyboru</translation>
+        <translation>单选按钮</translation>
     </message>
     <message>
         <source>Reset to default</source>
-        <translation>Przywróć ustawienia domyślne</translation>
+        <translation>重置到默认值</translation>
     </message>
     <message>
         <source>Discard changes</source>
-        <translation>Porzuć zmiany</translation>
+        <translation>放弃更改</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Portfel</translation>
+        <translation>钱包</translation>
     </message>
     <message>
         <source>Customize the internal wallet options</source>
-        <translation>Dostosuj wewnętrzne opcje portfela</translation>
+        <translation>自定义内部钱包选项</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
-        <translation>Próg podziału stawki 'stake' :</translation>
+        <translation>股权分割阈值:</translation>
     </message>
     <message>
         <source>Spend unconfirmed change</source>
-        <translation>Wydaj niepotwierdzoną resztę</translation>
+        <translation>&amp;花费未经证实的变化</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Sieć</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>Customize the node network options</source>
-        <translation>Dostosuj opcje sieciowe węzła</translation>
+        <translation>自定义节点网络选项</translation>
     </message>
     <message>
         <source>Proxy IP:</source>
-        <translation>Adres IP serwera proxy:</translation>
+        <translation>代理 IP</translation>
     </message>
     <message>
         <source>Enter proxy IP</source>
-        <translation>Wprowadź adres IP serwera proxy</translation>
+        <translation>输入代理 IP</translation>
     </message>
     <message>
         <source>Port:</source>
-        <translation>Port:</translation>
+        <translation>端口：</translation>
     </message>
     <message>
         <source>Map port using UPnP</source>
-        <translation>Mapuj port za pomocą UPnP</translation>
+        <translation>端口使用UPnP</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Zezwól na przychodzące połączenia</translation>
+        <translation>允许进来的连接</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>Połącz przez serwer proxy SOCKS5 (domyślny serwer proxy):</translation>
+        <translation>使用SOCKS5代理（默认代理）：</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation>ZAPISZ</translation>
+        <translation>保存</translation>
     </message>
     <message>
         <source>Options reset succeed</source>
-        <translation>Opcje resetowania powiodły się</translation>
+        <translation>选项重置成功</translation>
     </message>
 </context>
 <context>
     <name>SettingsWalletRepairWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Wallet Repair</source>
-        <translation>Naprawa portfela</translation>
+        <translation>钱包修复</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair this wallet, fix issues with corrupt blockchain files or missing/obsolete transactions.</source>
-        <translation>Poniższe przyciski ponownie uruchomią portfel z opcjami wiersza polecenia, aby naprawić ten portfel, naprawić problemy z uszkodzonymi plikami blockchain lub brakującymi / nieaktualnymi transakcjami.</translation>
+        <translation>下面的按钮将用命令行选项重新启动钱包来修复这个钱包，修复损坏的区块链文件或丢失/过时的交易。</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>Próba odzyskania kluczy prywatnych z uszkodzonego pliku wallet.dat.</translation>
+        <translation>尝试从损坏的钱包中恢复私钥。</translation>
     </message>
     <message>
         <source>Rescan the blockchain for missing wallet transactions.</source>
-        <translation>Ponownie skanuj łańcuch bloków w poszukiwaniu brakujących transakcji portfela.</translation>
+        <translation>重新扫描区块链以查找丢失的钱包交易。</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (keep-meta-data, e.g. account owner).</source>
-        <translation>Odzyskaj transakcje z blockchain (zachowaj meta-dane, np. Właściciela konta).</translation>
+        <translation>从区块链恢复交易(保存元数据，例如帐户所有者)。</translation>
     </message>
     <message>
         <source>Recover transactions from blockchain (drop meta-data).</source>
-        <translation>Odzyskaj transakcje z blockchain (niezachowuj metadanych).</translation>
+        <translation>从区块链恢复交易(删除元数据)。</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself)</source>
-        <translation>Uaktualnij portfel do najnowszego formatu podczas uruchamiania. (Uwaga: to NIE jest aktualizacja samego portfela)</translation>
+        <translation>启动时将钱包升级到最新格式。(注意:这不是钱包本身的更新)</translation>
     </message>
     <message>
         <source>Rebuild blockchain index from current blk000???.dat files.</source>
-        <translation>Odbuduj indeks blockchain z bieżących plików blk000???.dat.</translation>
+        <translation>从当前的blk000?? .dat文件重建区块链索引。</translation>
     </message>
     <message>
         <source>Deletes all local blockchain folders so the wallet synchronizes from scratch.</source>
-        <translation>Usuwa wszystkie lokalne foldery blockchain, aby portfel synchronizował się od początku.</translation>
+        <translation>删除所有本地区块链文件夹，使钱包从零开始同步。</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Odzyskaj portfel</translation>
+        <translation>Salvage 钱包：</translation>
     </message>
     <message>
         <source>Rescan blockchain file</source>
-        <translation>Skanuj ponownie plik blockchain</translation>
+        <translation>重新扫描区块链文件</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Odzyskaj transakcji 1</translation>
+        <translation>恢复交易1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Odzyskaj transakcje 2</translation>
+        <translation>恢复交易2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Ulepsz format portfela</translation>
+        <translation>升级钱包模式</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Przebuduj indeks</translation>
+        <translation>重建索引</translation>
     </message>
     <message>
         <source>Delete local blockchain </source>
-        <translation>Usuń lokalny łańcuch bloków</translation>
+        <translation>删除本地区块链</translation>
     </message>
     <message>
         <source>This will delete your local blockchain folders and the wallet will synchronize the complete Blockchain from scratch.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Spowoduje to usunięcie lokalnych folderów blockchain, a portfel zsynchronizuje kompletny Blockchain od zera.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>这将删除您的本地区块链文件夹，钱包将从零开始同步完整的区块链。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>This needs quite some time and downloads a lot of data.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>To zajmuje sporo czasu i pobiera dużo danych.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>这需要相当多的时间和下载大量的数据。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Your transactions and funds will be visible again after the download has completed.&lt;br /&gt;&lt;br /&gt;</source>
-        <translation>Twoje transakcje i środki będą widoczne ponownie po zakończeniu pobierania.&lt;br /&gt;&lt;br /&gt;</translation>
+        <translation>下载完成后可以再看到您的交易和资金。&lt;br /&gt;&lt;br /&gt;</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
-        <translation>Czy chcesz kontynuować?.&lt;br /&gt;</translation>
+        <translation>您确定继续？</translation>
     </message>
     <message>
         <source>Confirm resync Blockchain</source>
-        <translation>Potwierdź resynchronizacje Blockchain</translation>
+        <translation>确认重新同步区块链</translation>
     </message>
 </context>
 <context>
     <name>SettingsWidget</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Wallet Data</source>
-        <translation>Dane portfela</translation>
+        <translation>钱包数据</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Portfel</translation>
+        <translation>钱包</translation>
     </message>
     <message>
         <source>Multisend</source>
-        <translation>Multisend</translation>
+        <translation>多重发送</translation>
     </message>
     <message>
         <source>Export Accounting</source>
-        <translation>Wyeksportuj Księgowość</translation>
+        <translation>输出计数</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation>Narzędzia</translation>
+        <translation>工具</translation>
     </message>
     <message>
         <source>Sign/Verify Message</source>
-        <translation>Podpisz / zweryfikuj wiadomość</translation>
+        <translation>签署/验证消息</translation>
     </message>
     <message>
         <source>BIP38 Tool</source>
-        <translation>Narzędzie BIP38</translation>
+        <translation>BIP38工具</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation>Opcje</translation>
+        <translation>选项</translation>
     </message>
     <message>
         <source>Main</source>
-        <translation>Główny</translation>
+        <translation>主页</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation>Wyświetl</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <source>Debug</source>
-        <translation>Debug</translation>
+        <translation>纠错</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacje</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>Console</source>
-        <translation>Konsola</translation>
+        <translation>控制台</translation>
     </message>
     <message>
         <source>Wallet Repair</source>
-        <translation>Naprawa portfela</translation>
+        <translation>钱包修复</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation>Wsparcie</translation>
+        <translation>帮助</translation>
     </message>
     <message>
         <source>FAQ</source>
-        <translation>FAQ</translation>
+        <translation>常见问题</translation>
     </message>
     <message>
-        <source>About PIVXL</source>
-        <translation>o PIVXL</translation>
+        <source>About RSCOIN</source>
+        <translation>关于PIVX </translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Ustawienia</translation>
+        <translation>设置</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Zatwierdź resetowanie opcji</translation>
+        <translation>确认选项重置</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Wymagany restart programu do aktywowania zmian.</translation>
+        <translation>钱包重启后修改才能生效。</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Program zostanie zamknięty, czy chcesz kontynuować?</translation>
+        <translation>软件将要关闭，您确定嘛？</translation>
     </message>
     <message>
         <source>Restart required</source>
-        <translation>Uruchom ponowne</translation>
+        <translation>要求重启</translation>
     </message>
     <message>
         <source>Your wallet needs to be restarted to apply the changes
 </source>
-        <translation>Twój portfel musi zostać ponownie uruchomiony, aby zastosować zmiany
+        <translation>您的钱包需要重新启动才能应用更改
 </translation>
     </message>
     <message>
         <source>Restart Now</source>
-        <translation>Zrestartuj teraz</translation>
+        <translation>现在重启</translation>
     </message>
     <message>
         <source>Restart Later</source>
-        <translation>Zresetuj później</translation>
+        <translation>稍后重新启动</translation>
     </message>
     <message>
         <source>Options will be applied on next wallet restart</source>
-        <translation>Opcje zostaną zastosowane przy następnym uruchomieniu portfela</translation>
+        <translation>下次重启钱包时将应用选项</translation>
     </message>
     <message>
         <source>Options stored</source>
-        <translation>Opcje zapisane</translation>
+        <translation>选项已保存</translation>
     </message>
     <message>
         <source>Options store failed</source>
-        <translation>Zapis opcji nie powiódł się</translation>
+        <translation>选项保存失败</translation>
     </message>
     <message>
         <source>Discard Unsaved Changes</source>
-        <translation>Odrzuć niezapisane zmiany</translation>
+        <translation>放弃未保存的更改</translation>
     </message>
     <message>
         <source>You are just about to discard all of your unsaved options.
 
 Are you sure?
 </source>
-        <translation>Za chwilę odrzucisz wszystkie niezapisane opcje.
+        <translation>您即将放弃所有未保存的选项。
 
-Jesteś pewny?
+你确定？
 </translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVXL Core is shutting down...</source>
-        <translation>PIVXL Core się wyłącza ...</translation>
+        <source>RSCOIN Core is shutting down...</source>
+        <translation>RSCOIN 核心正在关闭...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Nie wyłączaj komputera, dopóki to okno nie zniknie.</translation>
+        <translation>在此窗口消失之前不要关闭计算机。</translation>
     </message>
 </context>
 <context>
     <name>SnackBar</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Contact Stored</source>
-        <translation>Kontakt zapisany</translation>
+        <translation>新联系方式已保存</translation>
     </message>
 </context>
 <context>
     <name>Splash</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Loading…</source>
-        <translation>Ładowanie…</translation>
+        <translation>正在下载…</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Wersja %1</translation>
+        <translation>版本%1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Twórcy Bitcoin Core</translation>
+        <translation>比特币核心开发者</translation>
     </message>
     <message>
         <source>The Dash Core developers</source>
-        <translation>Twórcy Dash Core</translation>
+        <translation>达世币核心开发者</translation>
     </message>
     <message>
-        <source>The PIVXL Core developers</source>
-        <translation>Twórcy PIVXL Core</translation>
+        <source>The RSCOIN Core developers</source>
+        <translation>RSCOIN 核心开发者</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[testnet]</translation>
+        <translation>［测试网］</translation>
     </message>
 </context>
 <context>
     <name>TooltipMenu</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Copy</source>
-        <translation>kopiuj</translation>
+        <translation>复制</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation>Edytuj</translation>
+        <translation>编辑</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation>Usuń</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>Last</source>
-        <translation>Ostatni</translation>
+        <translation>持续</translation>
     </message>
 </context>
 <context>
     <name>TopBar</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Available</source>
-        <translation>Dostępny</translation>
+        <translation>可用</translation>
     </message>
     <message>
         <source>Pending</source>
-        <translation>W oczekiwaniu</translation>
+        <translation>进行当中：</translation>
     </message>
     <message>
         <source>Immature</source>
-        <translation>Niedojrzałe</translation>
+        <translation>不成熟</translation>
     </message>
     <message>
         <source>Wallet Unlocked for staking</source>
-        <translation>Portfel odblokowany do stakingu</translation>
+        <translation>解锁钱包加注</translation>
     </message>
     <message>
         <source>Error generating address</source>
-        <translation>Błąd podczas generowania adresu</translation>
+        <translation>生成地址出错</translation>
     </message>
     <message>
         <source>Address Copied</source>
-        <translation>Adres skopiowany</translation>
+        <translation>地址已复制</translation>
     </message>
     <message>
         <source>Staking active</source>
-        <translation>Staking aktywny</translation>
+        <translation>加注激活</translation>
     </message>
     <message>
         <source>Staking not active</source>
-        <translation>Staking nieaktywny</translation>
+        <translation>加注没激活</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s)</source>
-        <translation><numerusform>%n aktywnych połączeń</numerusform><numerusform>%n aktywnych połączeń</numerusform><numerusform>%n aktywnych połączeń</numerusform><numerusform>%n aktywnych połączeń</numerusform></translation>
+        <translation><numerusform>%n 激活连接 （秒）</numerusform></translation>
     </message>
     <message>
         <source>Synchronized - Block: %1</source>
-        <translation>Zsynchronizowano - Blok: %1</translation>
+        <translation>已同步区块：%1</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n godzin</numerusform><numerusform>%n godzin</numerusform><numerusform>%n godzin</numerusform><numerusform>%n godzin</numerusform></translation>
+        <translation><numerusform>%n小时</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform><numerusform>%n dni</numerusform></translation>
+        <translation><numerusform> %n天</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform><numerusform>%n tygodni</numerusform></translation>
+        <translation><numerusform>%n周</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 i %2</translation>
+        <translation>%1 和 %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n lat</numerusform><numerusform>%n lat</numerusform><numerusform>%n lat</numerusform><numerusform>%n lat</numerusform></translation>
+        <translation><numerusform>%n年</numerusform></translation>
     </message>
     <message>
         <source>Wallet Upgrade</source>
-        <translation>Aktualizacja portfela</translation>
+        <translation>钱包升级</translation>
     </message>
     <message>
         <source>Upgrading to HD wallet will improve
@@ -5121,77 +5387,77 @@ the wallet's reliability and security.
 NOTE: after the upgrade, a new
 backup will be created.
 </source>
-        <translation>Uaktualnienie do portfela HD ulegnie poprawie
-niezawodność i bezpieczeństwo portfela.
+        <translation>升级到高清钱包将会得到改进
+钱包的可靠性和安全性。
 
 
-UWAGA: po aktualizacji nowa
-kopia zapasowa zostanie utworzona.
+注意:升级后，会创建一份新的
+备份。
 </translation>
     </message>
     <message>
         <source>Upgrade Wallet</source>
-        <translation>Uaktualnij portfel</translation>
+        <translation>升级钱包</translation>
     </message>
     <message>
         <source>Wallet unlock cancelled</source>
-        <translation>Anulowanie odblokowania portfela</translation>
+        <translation>解锁钱包已取消</translation>
     </message>
     <message>
         <source>Tor Active: %1</source>
-        <translation>Tor Aktywny: %1</translation>
+        <translation>Tor 激活: %1</translation>
     </message>
     <message>
         <source>Tor Disabled</source>
-        <translation>Tor Nieaktywny</translation>
+        <translation>Tor 关闭</translation>
     </message>
     <message>
         <source>Available (Locked included)</source>
-        <translation>Dostępne (ale Zablokowane)</translation>
+        <translation>可用状态（包括被锁状态）</translation>
     </message>
     <message>
         <source>The wallet has been successfully upgraded to HD.</source>
-        <translation>Portfel został pomyślnie uaktualniony do HD.</translation>
+        <translation>钱包已经成功升级到HD。</translation>
     </message>
     <message>
         <source>It is advised to make a backup.</source>
-        <translation>Zaleca się wykonanie kopii zapasowej.</translation>
+        <translation>建议备份。</translation>
     </message>
     <message>
         <source>Do you wish to backup now?</source>
-        <translation>Czy chcesz teraz wykonać kopię zapasową?</translation>
+        <translation>想要现在备份吗？</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Kopia zapasowa portfela</translation>
+        <translation>返回钱包</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Wallet Data (*.dat)</translation>
+        <translation>钱包数据(*.dat)</translation>
     </message>
     <message>
         <source>Backup created</source>
-        <translation>Utworzono kopię zapasową</translation>
+        <translation>返回创建</translation>
     </message>
     <message>
         <source>Backup creation failed</source>
-        <translation>Tworzenie kopii zapasowej nie powiodło się</translation>
+        <translation>备份创建失败</translation>
     </message>
     <message>
         <source>no file selected</source>
-        <translation>nie wybrano pliku</translation>
+        <translation>没有选择文件</translation>
     </message>
     <message>
         <source>Wallet upgraded successfully, but no backup created.</source>
-        <translation>Portfel został uaktualniony pomyślnie, ale nie utworzono kopii zapasowej.</translation>
+        <translation>钱包升级成功，但没有创建备份。</translation>
     </message>
     <message>
         <source>WARNING: remember to make a copy of your wallet.dat file!</source>
-        <translation>UWAGA: pamiętaj, aby zrobić kopię pliku wallet.dat!</translation>
+        <translation>注意：记得复制备份你的wallet.dat文件！</translation>
     </message>
     <message>
         <source>Upgrade Wallet Error</source>
-        <translation>Błąd aktualizacji portfela</translation>
+        <translation>升级钱包出错</translation>
     </message>
 </context>
 <context>
@@ -5205,369 +5471,369 @@ kopia zapasowa zostanie utworzona.
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform></translation>
+        <translation><numerusform>打开％n更多的区块</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otwórz od %1</translation>
+        <translation>直到%1才打开</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>sprzeczne</translation>
+        <translation>冲突</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/offline</translation>
+        <translation>%1/线下</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/ niepotwierdzone</translation>
+        <translation>%1/未确认</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 potwierdzeń</translation>
+        <translation>%1确认</translation>
     </message>
     <message>
         <source>%1/offline (verified via SwiftX)</source>
-        <translation>%1/offline (zweryfikowany przez SwiftX)</translation>
+        <translation>%1/线下（通过SwiftX验证）</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via SwiftX)</source>
-        <translation>%1/potwierdzony (zweryfikowany przez SwiftX)</translation>
+        <translation>%1/确认（通过SwiftX验证）</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via SwiftX)</source>
-        <translation>%1 potwierdzeń (zweryfikowane przez SwiftX)</translation>
+        <translation>%1/确认（通过SwiftX验证）</translation>
     </message>
     <message>
         <source>%1/offline (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/offline (weryfikacja SwiftX w toku -%2 z %3 podpisów)</translation>
+        <translation>%1/线下（SwiftX验证正在进行当中- %3的%2 签名 ）</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/potwierdzony (weryfikacja SwiftX w toku -%2 z %3 podpisów) </translation>
+        <translation>%1/确认（SwiftX验证正在进行当中- %3的%2 签名 ）</translation>
     </message>
     <message>
         <source>%1 confirmations (SwiftX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 potwierdzeń (weryfikacja SwiftX w toku -%2 z %3 podpisów)</translation>
+        <translation>%1/确认（SwiftX验证正在进行当中- %3的%2 签名 ）</translation>
     </message>
     <message>
         <source>%1/offline (SwiftX verification failed)</source>
-        <translation>%1/offline (Weryfikacja SwiftX nie powiodła się)</translation>
+        <translation>%1/线下（SwiftX验证失败 ）</translation>
     </message>
     <message>
         <source>%1/confirmed (SwiftX verification failed)</source>
-        <translation>%1/potwierdzony (Weryfikacja SwiftX nie powiodła się)</translation>
+        <translation>%1/确认（SwiftX验证失败 ）</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, nie udało się jeszcze nadać</translation>
+        <translation>，尚未成功播出</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, nadawane przez %n węzłów</numerusform><numerusform>, nadawane przez %n węzłów</numerusform><numerusform>, nadawane przez %n węzłów</numerusform><numerusform>, nadawane przez %n węzłów</numerusform></translation>
+        <translation><numerusform>，通过%n节点广播</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Źródło</translation>
+        <translation>资源</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Wygenerowano</translation>
+        <translation>已生成</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Z</translation>
+        <translation>从</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>nieznany</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Do</translation>
+        <translation>到</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>własny adres</translation>
+        <translation>拥有的地址</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>watch-only</translation>
+        <translation>只读</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>etykieta</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Kredyt</translation>
+        <translation>信用</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>dojrzewa za %n bloków</numerusform><numerusform>dojrzewa za %n bloków</numerusform><numerusform>dojrzewa za %n bloków</numerusform><numerusform>dojrzewa za %n bloków</numerusform></translation>
+        <translation><numerusform>在更多%n区块生成</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>nie zaakceptowany</translation>
+        <translation>不接受</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Debet</translation>
+        <translation>借记</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Debet razem</translation>
+        <translation>借记总额</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Całkowity kredyt</translation>
+        <translation>信用总额</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Opłata transakcyjna</translation>
+        <translation>交易费用</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Kwota netto</translation>
+        <translation>Net数量</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Wiadomość</translation>
+        <translation>消息 </translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Komentarz</translation>
+        <translation>评论</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Identyfikator transakcji</translation>
+        <translation>交易 ID</translation>
     </message>
     <message>
         <source>Output index</source>
-        <translation>Indeks wyjściowy</translation>
+        <translation>输出索引</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Kupiec</translation>
+        <translation>商家</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug informacje</translation>
+        <translation>纠错信息</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Transakcja</translation>
+        <translation>交易</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Wejścia</translation>
+        <translation>输入</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Ilość</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>prawdziwe</translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>fałszywe</translation>
+        <translation>否</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Typ</translation>
+        <translation>类别</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Adres</translation>
+        <translation>地址</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform><numerusform>Otwórz dla %n następnych bloków</numerusform></translation>
+        <translation><numerusform>打开％n更多的区块</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Otwórz od %1</translation>
+        <translation>直到%1才打开</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>线下</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Niepotwierdzone</translation>
+        <translation>未确认</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Potwierdzanie (%1 z %2 zalecanych potwierdzeń)</translation>
+        <translation>确认(%2推荐确认中的%1)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Potwierdzone (%1 potwierdzeń)</translation>
+        <translation>确认（%1确认）</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>kolidujące</translation>
+        <translation>冲突</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Niedojrzałe (potwierdzenia %1, będą dostępne po %2)</translation>
+        <translation>未完成的(%1确认，将在%2之后可用)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Ten blok nie został odebrany przez żadne inne węzły i prawdopodobnie nie zostanie zaakceptowany!</translation>
+        <translation>此区块未被任何其他节点接收，可能不会被接受!</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Otrzymano z</translation>
+        <translation>接收</translation>
     </message>
     <message>
         <source>Masternode Reward</source>
-        <translation>Nagroda Masternode</translation>
+        <translation>主节点奖励</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Otrzymane od</translation>
+        <translation>接收</translation>
     </message>
     <message>
-        <source>PIVXL Stake</source>
-        <translation>PIVXL Stake</translation>
+        <source>RSCOIN Stake</source>
+        <translation>PIV加注</translation>
     </message>
     <message>
-        <source>zPIVXL Stake</source>
-        <translation>zPIVXL Stake</translation>
+        <source>zRSCOIN Stake</source>
+        <translation>zRSCOIN 加注</translation>
     </message>
     <message>
-        <source>PIVXL Cold Stake</source>
-        <translation>PIVXL Cold Stake</translation>
+        <source>RSCOIN Cold Stake</source>
+        <translation>PIV冷饮</translation>
     </message>
     <message>
         <source>Stake delegation</source>
-        <translation>Delegacja Stake</translation>
+        <translation>股权委托</translation>
     </message>
     <message>
-        <source>Converted PIVXL to zPIVXL</source>
-        <translation>przekonwertowany PIVXL to zPIVXL</translation>
+        <source>Converted RSCOIN to zRSCOIN</source>
+        <translation>转换PIV为zPIV</translation>
     </message>
     <message>
-        <source>Spent zPIVXL</source>
-        <translation>Wydaj zPIVXL</translation>
+        <source>Spent zRSCOIN</source>
+        <translation>已经花费zPIV</translation>
     </message>
     <message>
-        <source>Received PIVXL from zPIVXL</source>
-        <translation>Otrzymano PIVXL z zPIVXL</translation>
+        <source>Received RSCOIN from zRSCOIN</source>
+        <translation>从zPIV接收PIV</translation>
     </message>
     <message>
-        <source>Minted Change as zPIVXL from zPIVXL Spend</source>
-        <translation>Reszta Minted jako zPIVXL z Wysyłki zPIVXL</translation>
+        <source>Minted Change as zRSCOIN from zRSCOIN Spend</source>
+        <translation>铸币的变化，从zPIV花费zPIV</translation>
     </message>
     <message>
-        <source>Converted zPIVXL to PIVXL</source>
-        <translation>przekonwertowany zPIVXL to PIVXL</translation>
+        <source>Converted zRSCOIN to RSCOIN</source>
+        <translation>转换PIV为zPIV</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Wyślij do</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <source>Orphan Block - Generated but not accepted. This does not impact your holdings.</source>
-        <translation>Orphan Block - wygenerowany, ale nie zakceptowany. To nie ma wpływu na twoje saldo.</translation>
+        <translation>孤儿块 - 生成但不被接受。 但这不会影响你。</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Zapłata dla siebie</translation>
+        <translation>支付给您自己</translation>
     </message>
     <message>
-        <source>PIVXL Stake on behalf of</source>
-        <translation>PIVXL Stake w imieniu</translation>
+        <source>RSCOIN Stake on behalf of</source>
+        <translation>代表PIV加注</translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
-        <translation>Delegacja Stake wydana przez</translation>
+        <translation>加注花费委托</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>wydobyty</translation>
+        <translation>已挖矿</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>watch-only</translation>
+        <translation>只读</translation>
     </message>
     <message>
         <source>Anonymous</source>
-        <translation>Anonimowy</translation>
+        <translation>匿名</translation>
     </message>
     <message>
         <source>No information</source>
-        <translation>Brak informacji</translation>
+        <translation>无信息</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(nie dotyczy)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Status transakcji. Najedź kursorem na to pole, aby wyświetlić liczbę potwierdzeń.</translation>
+        <translation>交易状态。将鼠标悬停在此字段上，以显示确认的数目。</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Data i godzina otrzymania transakcji.</translation>
+        <translation>收到交易的日期和时间。</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Rodzaj transakcji.</translation>
+        <translation>交易类型</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Niezależnie od tego, czy w transakcji bierze udział adres typu watch-only.</translation>
+        <translation>此交易是否涉及仅限监视的地址。</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Adres docelowy transakcji.</translation>
+        <translation>交易的目标地址。</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Kwota usunięta z salda lub dodana do salda.</translation>
+        <translation>从余额中减去或加到余额中的金额</translation>
     </message>
 </context>
 <context>
     <name>TxDetailDialog</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Transaction Details</source>
-        <translation>Szczegóły Transakcji</translation>
+        <translation>交易明细</translation>
     </message>
     <message>
         <source>Total amount</source>
-        <translation>Łączna kwota</translation>
+        <translation>总金额</translation>
     </message>
     <message>
         <source>Previous Transaction</source>
-        <translation>Poprzednia transakcja</translation>
+        <translation>过去交易</translation>
     </message>
     <message>
         <source>Output Index</source>
-        <translation>Indeks wyjściowy</translation>
+        <translation>导出索引</translation>
     </message>
     <message>
         <source>D7VFR83SQbie…BhjcWJtcfip5krte2Z </source>
@@ -5575,7 +5841,7 @@ kopia zapasowa zostanie utworzona.
     </message>
     <message>
         <source>May 25, 2017</source>
-        <translation>Maj 25, 2017</translation>
+        <translation>2017年5月25</translation>
     </message>
     <message>
         <source>ID</source>
@@ -5583,97 +5849,97 @@ kopia zapasowa zostanie utworzona.
     </message>
     <message>
         <source>Sending to</source>
-        <translation>Wysyłanie do</translation>
+        <translation>花费</translation>
     </message>
     <message>
         <source>Coin inputs</source>
-        <translation>Wejście monet</translation>
+        <translation>币输入</translation>
     </message>
     <message>
         <source>Fee</source>
-        <translation>Opłata</translation>
+        <translation>费用</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation>Wielkość</translation>
+        <translation>大小</translation>
     </message>
     <message>
         <source>Change address</source>
-        <translation>Zmiana adresu</translation>
+        <translation>变更地址</translation>
     </message>
     <message>
         <source>Spendable</source>
-        <translation>Do wydania</translation>
+        <translation>可用</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Potwierdzenia</translation>
+        <translation>确认</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Status</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Data</translation>
+        <translation>日期</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>CANCEL</source>
-        <translation>ANULUJ</translation>
+        <translation>删除</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation>OK</translation>
+        <translation>好的</translation>
     </message>
     <message>
         <source>Confirm Your Transaction</source>
-        <translation>Potwierdź swoją transakcję</translation>
+        <translation>确认交易</translation>
     </message>
     <message>
         <source>SEND</source>
-        <translation>Wyślij</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <source>ID copied</source>
-        <translation>ID skopiowane</translation>
+        <translation>ID已复制</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Nieznane</translation>
+        <translation>未知</translation>
     </message>
 </context>
 <context>
     <name>TxRow</name>
     <message>
         <source>Form</source>
-        <translation>Forma</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Received from Bob</source>
-        <translation>Otrzymane od Boba</translation>
+        <translation>从Bob接收</translation>
     </message>
     <message>
         <source>18/05/18</source>
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 PIVXL</source>
-        <translation>+0.000585 PIVXL</translation>
+        <source>+0.000585 RSCOIN</source>
+        <translation>+0.000585 RSCOIN</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Wyślij monety</translation>
+        <translation>发送币</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIVXL.</source>
-        <translation>SwiftX nie obsługuje wysyłania wysokich wartości. Transakcje są obecnie ograniczone do %1 PIVXL.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RSCOIN.</source>
+        <translation>SwiftX目前还不支持发送这么高的值。当前的交易限制为%1 RSCOIN。</translation>
     </message>
 </context>
 <context>
@@ -5696,64 +5962,68 @@ kopia zapasowa zostanie utworzona.
     </message>
     <message>
         <source>Language</source>
-        <translation>Język</translation>
+        <translation>语言</translation>
     </message>
     <message>
         <source>Welcome</source>
-        <translation>Zapraszamy</translation>
+        <translation>欢迎</translation>
     </message>
     <message>
         <source>Privacy</source>
-        <translation>Prywatność</translation>
+        <translation>隐私</translation>
     </message>
     <message>
         <source>Masternodes</source>
-        <translation>Masternodes</translation>
+        <translation>主节点</translation>
     </message>
     <message>
         <source>Select your language</source>
-        <translation>Wybierz swój język</translation>
+        <translation>选择语言</translation>
     </message>
     <message>
         <source>Welcome to
-PIVXL Core Wallet</source>
-        <translation>Witamy
-Portfel PIVXL Core</translation>
+RSCOIN Core Wallet</source>
+        <translation>欢迎
+PIVX核心钱包</translation>
     </message>
     <message>
-        <source>PIVXL is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVXL to najbardziej innowacyjna na świecie technologia oparta na blockchain Proof of Stake. Opracowany przez zespół wysoce doświadczonych programistów i kryptografów.</translation>
+        <source>RSCOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>PIVX是世界上最先进的隐私保护技术，由经验丰富的开发人员和密码专家开发。</translation>
     </message>
     <message>
-        <source>The masternode network is PIVXL's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Sieć masternode jest siecią drugiej warstwy PIVXL na szczycie blockchain, która umożliwia naszemu DAO zapewnienie zdecentralizowanego zarządzania i skarbca.</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - RSCOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——PIVX相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>How PIVXL respects your privacy?</source>
-        <translation>Jak PIVXL szanuje twoją prywatność?</translation>
+        <source>The masternode network is RSCOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>主节点网络是PIVX在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
+    </message>
+    <message>
+        <source>How RSCOIN respects your privacy?</source>
+        <translation>RSCOIN 到底是怎么尊重你的隐私的？</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
-        <translation>Co to jest Masternode?</translation>
+        <translation>主节点是什么？</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>domyślny</translation>
+        <translation>默认</translation>
     </message>
 </context>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIVXL to Spend</source>
-        <translation>Wybierz zPIVXL do wydania</translation>
+        <source>Select zRSCOIN to Spend</source>
+        <translation>选择zPIV 花费</translation>
     </message>
     <message>
         <source>Coin Control</source>
-        <translation>Kontrola monet</translation>
+        <translation>币控制</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
     <message>
         <source>zPiv</source>
@@ -5761,15 +6031,15 @@ Portfel PIVXL Core</translation>
     </message>
     <message>
         <source>0.00 </source>
-        <translation>0.00 </translation>
+        <translation>0.00</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Ilość:</translation>
+        <translation>数量：</translation>
     </message>
     <message>
         <source>Is Spendable</source>
-        <translation>do wydania</translation>
+        <translation>可用</translation>
     </message>
     <message>
         <source>0</source>
@@ -5777,1277 +6047,1277 @@ Portfel PIVXL Core</translation>
     </message>
     <message>
         <source>Select/Deselect All</source>
-        <translation>Wybierz / Odznacz wszystko</translation>
+        <translation>选择／删除所有</translation>
     </message>
     <message>
-        <source>Select zPIVXL Denominations to Spend</source>
-        <translation>Wybierz nominały zPIVXL do wydania</translation>
+        <source>Select zRSCOIN Denominations to Spend</source>
+        <translation>选择zPIV 面额花费</translation>
     </message>
 </context>
 <context>
     <name>pivxl-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = zachowaj tx meta dane np. Właściciel konta i informacje o żądaniu płatności, 2 = porzuć tx meta dane)</translation>
+        <translation>(1 =保留tx元数据，例如帐户所有者和付款请求信息，2 =删除tx元数据)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Zezwalaj na połączenia JSON-RPC z określonego źródła. Ważny dla &lt;ip&gt; są pojedynczym IP (na przykład 1.2.3.4), siecią / maską sieci (np. 1.2.3.4/255.255.255.0) lub siecią / CIDR (na przykład 1.2.3.4/24). Ta opcja może być określona wiele razy</translation>
+        <translation>允许来自指定源的JSON-RPC连接。适用于&lt;ip&gt;单一IP(如1.2.3.4)、网络/网掩码(如1.2.3.4/255.255.255.0)或网络/CIDR(如1.2.3.4/24)。可以多次指定此选项</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Zwiąż się z podanym adresem i zawsze go słuchaj. Użyj [host]:port dla IPv6</translation>
+        <translation>绑定到给定的地址，并一直进行监听。使用[host]: IPv6的端口符号</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Powiąż z podanym adresem i połączeniami whitelist. Użyj [host]:port dla IPv6</translation>
+        <translation>绑定到连接它的给定地址和白名单。使用[主机]: IPv6的端口符号</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Powiąż z podanym adresem, aby odsłuchać połączenia JSON-RPC. Użyj [host]:port dla IPv6. Ta opcja może być określona wiele razy (domyślnie: powiązanie ze wszystkimi interfejsami)</translation>
+        <translation>绑定到给定地址监听JSON-RPC连接。使用[主机]: IPv6的端口符号。可以多次指定此选项(默认:绑定到所有接口)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVXL Core is probably already running.</source>
-        <translation>Nie można uzyskać dostępu do katalogu danych %s. PIVXL Core prawdopodobnie już działa.</translation>
+        <source>Cannot obtain a lock on data directory %s. RSCOIN Core is probably already running.</source>
+        <translation>无法获取数据目录%s锁。PIVX核心可能已经在运行了。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Zmień zachowanie automatycznego głosowania w budżecie finalizowanym. mode=auto: Głosuj tylko na dokładne sfinalizowane dopasowanie budżetu do mojego wygenerowanego budżetu. (ciąg, domyślny: auto)</translation>
+        <translation>改变自动完成的预算投票行为。模式=自动:只对与生成的预算完全匹配的最终预算进行投票。(字符串,默认:汽车)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Limit bezpłatnych transakcji do &lt;n&gt;* 1000 bajtów na minutę (domyślnie:%u)</translation>
+        <translation>连续速率限制免费交易可达&lt;n&gt;每分钟*1000字节(默认:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Twórz nowe pliki z domyślnymi uprawnieniami systemowymi zamiast umask 077 (skuteczne tylko przy wyłączonej funkcji portfela)</translation>
+        <translation>创建系统默认权限新文件，而不是使用umask 077(仅对禁用钱包功能有效)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Usuń wszystkie transakcje portfela i odzyskaj tylko część łańcucha blokowego -reskan przy uruchomieniu</translation>
+        <translation>删除所有钱包交易，只恢复那些部分的区块链-通过启动时进行重新扫描</translation>
     </message>
     <message>
         <source>Delete all zerocoin spends and mints that have been recorded to the blockchain database and reindex them (0-1, default: %u)</source>
-        <translation>Usuń wszystkie wydane zerocoin i mint, które zostały zapisane w bazie danych blockchain i ponownie je zindeksuj (0-1, domyślnie: %u)</translation>
+        <translation>删除所有已记录到区块链数据库的零币花费和铸造，并重新索引它们(0-1，默认值:%u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Dystrybuowane w ramach licencji oprogramowania MIT, patrz plik towarzyszący COPYING lub &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+        <translation>在MIT软件许可下发布，参见附带的文件复制或&lt;http://www.opensource.org/licenses/mit-license.php&gt;。</translation>
     </message>
     <message>
         <source>Enable cold staking functionality (0-1, default: %u). Disabled if staking=0</source>
-        <translation>Włącz funkcję cold staking (0-1, domyślnie: %u). Wyłączone jeśli staking=0</translation>
+        <translation>启用冷堆叠（0-1，默认值：%u）。 如果累计= 0，则禁用</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIVXL inputs (0-1, default: %u)</source>
-        <translation>Włączanie lub wyłączanie funkcji stake dla przychodzących PIVXL (0-1, domyślnie:%u)</translation>
+        <source>Enable or disable staking functionality for RSCOIN inputs (0-1, default: %u)</source>
+        <translation>启用或禁用PIV输入标记功能(0-1，默认值:%u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIVXL inputs (0-1, default: %u)</source>
-        <translation>Włączanie lub wyłączanie funkcji staking dla nowych zPIVXL (0-1, domyślnie: %u)</translation>
+        <source>Enable or disable staking functionality for zRSCOIN inputs (0-1, default: %u)</source>
+        <translation>启用或禁用zPIV输入的标记功能(0-1，默认值:%u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
-        <translation>Włącz funkcję zarządzania sporkami za pomocą odpowiedniego klucza prywatnego.</translation>
+        <translation>使用适当的私钥启用spork管理功能。</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Wejdź w tryb testu regresyjnego, który wykorzystuje specjalny łańcuch, w którym bloki można natychmiast rozwiązać.</translation>
+        <translation>进入回归测试模式，该模式使用一个特殊的链，其中区块可以立即被解决。</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Błąd: Odsłuchiwanie przychodzących połączeń nie powiodło się (zwrócony błąd %s)</translation>
+        <translation>错误:监听传入连接失败(监听返回错误%s)</translation>
     </message>
     <message>
         <source>Error: The transaction is larger than the maximum allowed transaction size!</source>
-        <translation>Błąd: transakcja jest większa niż maksymalny dozwolony rozmiar transakcji!</translation>
+        <translation>错误:交易大于交易最大限制值!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Błąd: Znaleziono nieobsługiwany argument -socks. Ustawienie wersji SOCKS nie jest już możliwe, obsługiwane są tylko serwery proxy SOCKS5.</translation>
+        <translation>错误:发现不支持的参数-socks。设置SOCKS版本已经不可能了，只支持SOCKS5代理。</translation>
     </message>
     <message>
         <source>Exclude debugging information for a category. Can be used in conjunction with -debug=1 to output debug logs for all categories except one or more specified categories.</source>
-        <translation>Wyklucz informacje debugowania dla kategorii. Może być używany w połączeniu z opcją -debug=1, aby wyświetlać dzienniki debugowania dla wszystkich kategorii oprócz jednej lub więcej określonych kategorii.</translation>
+        <translation>排除调试信息类别。可以与-debug=1一起使用，输出一个或多个指定类别外的所有类别的调试日志。</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Wykonaj polecenie, gdy otrzymasz odpowiednie powiadomienie lub zobaczysz naprawdę długi fork ( %s w cmd zostanie zastąpiony przez komunikat)</translation>
+        <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Wykonaj polecenie, gdy zmieni się transakcja ( %s w cmd jest zastąpione przez TxID)</translation>
+        <translation>当钱包交易更改时执行命令(将cmd中的%s替换为TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Wykonaj polecenie, gdy najlepszy blok zostanie zmieniony ( %s w cmd zostanie zastąpione hash blokiem)</translation>
+        <translation>当最佳区块更改时执行命令(cmd中的%s被块散列替换)</translation>
     </message>
     <message>
-        <source>Fees (in PIVXL/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Opłaty za przekazywanie (w PIVXL/Kb) mniejsze od tej są uznawane za opłaty zerowe (domyślnie: %s)</translation>
+        <source>Fees (in RSCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>小于此值的费用(以PIV/Kb为单位)视为零中继费用(默认值:%s)</translation>
     </message>
     <message>
-        <source>Fees (in PIVXL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Opłaty za tworzenie transakcji (w PIVXL/Kb) mniejsze od tej są uznawane za opłaty zerowe (domyślnie: %s)</translation>
+        <source>Fees (in RSCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>小于此值的费用(以PIV/Kb为单位)被认为是交易创建的零费用(默认值:%s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Opróżniaj dziennik z pamięci dysku co &lt;n&gt; megabajtów (domyślnie:%u)</translation>
+        <translation>每&lt;n&gt;兆字节将数据库活动从内存池刷新到磁盘日志(默认:%u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Jeśli paytxfee nie jest ustawiony, należy ustawić odpowiednią opłatę, aby transakcje zaczęły potwierdzać średnio w n blokach (domyślnie:%u)</translation>
+        <translation>如果未设置支付tx费用，则包含足够的费用，以便在n个区块内平均开始确认交易(默认值:%u)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>W tym trybie -genproclimit kontroluje, ile bloków jest generowanych natychmiast.</translation>
+        <translation>在这种模式下，genproclimit控制立即生成的区块的数量。</translation>
     </message>
     <message>
         <source>Insufficient or insufficient confirmed funds, you might need to wait a few minutes and try again.</source>
-        <translation>Niewystarczające lub niewystarczająco potwierdzone fundusze, może trzeba poczekać kilka minut i spróbować ponownie.</translation>
+        <translation>资金不足或确认资金不足，您可能需要等待几分钟，然后再试一次。</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Nieprawidłowa kwota dla -maxtxfee=&lt;amount&gt;: „%s” (musi być co najmniej minimalną opłatą %s, aby zapobiec zablokowanym transakcjom)</translation>
+        <translation>最大tx费用金额无效=&lt;amount&gt;:'%s'(必须至少是%s的最小中继费用，以防止交易中断)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
-        <translation>Zawsze utrzymuj określoną kwotę przeznaczoną na wydatki (domyślnie: 0)</translation>
+        <translation>始终保留指定的支出金额(默认值:0)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Loguj priorytet transakcji i opłatę za kB, gdy kopiesz bloki (domyślnie:%u)</translation>
+        <translation>区块挖矿时候的日志交易优先级和每kB的费用(默认值:%u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Utrzymuj pełny indeks transakcji, używany przez wywołanie getrawtransaction rpc (domyślnie:%u)</translation>
+        <translation>维护一个完整的交易索引，由获取原始交易 rpc调用使用(默认:%u)</translation>
     </message>
     <message>
         <source>Maximum average size of an index occurrence in the block spam filter (default: %u)</source>
-        <translation>Maksymalny średni rozmiar wystąpienia indeksu w filtrze blokującym spam (domyślnie: %u)</translation>
+        <translation>在区块垃圾邮件过滤器的索引出现的最大平均大小(默认值:%u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksymalny rozmiar danych w transakcjach nośników danych przekazywany i kopany (domyślnie: %u)</translation>
+        <translation>我们中继和挖掘的数据载体事务中的最大数据大小(默认值:%u)</translation>
     </message>
     <message>
         <source>Maximum size of the list of indexes in the block spam filter (default: %u)</source>
-        <translation>Maksymalny rozmiar listy indeksów w blokowym filtrze spamu (domyślnie: %u)</translation>
+        <translation>区块垃圾邮件过滤器中索引列表的最大值大小(默认值:%u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Maksymalna łączna opłata za pojedynczą transakcję , ustawienie zbyt niskiej opłaty może przerwać duże transakcje (domyślnie: %s)</translation>
+        <translation>单个钱包交易中使用的最大总费用，设置过低可能会中止大型交易(默认值:%s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Liczba sekund, po których nastąpi ponowne łączenie się  (domyślnie: %u)</translation>
+        <translation>防止行为不端的节点重新连接的秒数(默认值:%u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Informacje o debugowaniu wyjścia (domyślnie: %u, dostarczanie &lt;category&gt; jest opcjonalne)</translation>
+        <translation>输出调试信息(默认:%u，&lt;category&gt;可选提供)</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Zapytanie o adresy peer za pomocą DNS lookup, jeśli adresy są low (domyślnie: 1 chyba, że -connect)</translation>
+        <translation>如果地址为低值的话，通过DNS查询端口地址(默认:1除非-连接)</translation>
     </message>
     <message>
         <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Losuj dane uwierzytelniające dla każdego połączenia proxy. To umożliwia izolację strumienia Tora (domyślnie: %u)</translation>
+        <translation>为每个代理连接随机分配凭据。这启用了Tor流隔离(默认:%u)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Wymagaj wysokiego priorytetu przy przekazywaniu transakcji bezpłatnych lub o niskich opłatach (domyślnie: %u)</translation>
+        <translation>需要高优先转接免费或低收费交易(默认:%u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Wyślij informacje śledzenia/debugowania do konsoli zamiast pliku debug.log (domyślnie: %u)</translation>
+        <translation>将跟踪/调试信息发送到控制台，而不是debug.log文件(默认值:%u)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar transakcji o wysokim priorytecie / niskich opłatach w bajtach (domyślnie: %d)</translation>
+        <translation>设置高优先级/低费用交易的最大值字节大小(默认:%d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Ustaw liczbę wątków weryfikujących skrypty (%u do %d, 0 = auto, &lt;0 = pozostaw tyle rdzeni wolnych, domyślnie: %d)</translation>
+        <translation>设置脚本验证线程的数量(%u为%d, 0 = 自动， &lt;0 =保留多个内核空闲，默认为%d)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Ustaw liczbę wątków do generowania monet, jeśli jest włączona (-1 = wszystkie rdzenie, domyślnie: %d)</translation>
+        <translation>如果启用，设置生成硬币的线程数(-1 =所有核心，默认:%d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Pokaż N potwierdzeń dla pomyślnie zablokowanej transakcji (0-9999, domyślnie: %u)</translation>
+        <translation>显示一个成功锁定的交易的N个确认(0-9999，默认值:%u)</translation>
     </message>
     <message>
         <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Obsługa filtrowania bloków i transakcji za pomocą filtrów bloom (domyślnie: %u)</translation>
+        <translation>支持使用bloom过滤器过滤区块和交易(默认:%u)</translation>
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>Baza danych bloków zawiera blok, który wydaje się pochodzić z przyszłości. Może to być spowodowane niepoprawnym ustawieniem daty i godziny w komputerze. Przebuduj blokową bazę danych tylko wtedy, gdy masz pewność, że data i godzina komputera są prawidłowe</translation>
+        <translation>区块数据库包含一个看似来自未来的区块。有可能因为您的计算机的日期和时间设置不正确。只有在确定计算机的日期和时间正确的情况下，才能重新构建区块数据库</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Ten produkt zawiera oprogramowanie opracowane przez OpenSSL Project używane w OpenSSL Toolkit &lt;https://www.openssl.org/&gt; oraz oprogramowanie kryptograficzne napisane przez Erica Younga i oprogramowanie UPnP napisane przez Thomasa Bernarda.</translation>
+        <translation>本产品包括OpenSSL项目开发的用于OpenSSL Toolkit &lt;https://www.openssl.org/&gt;的软件，以及Eric Young编写的加密软件和Thomas Bernard编写的UPnP软件。</translation>
     </message>
     <message>
         <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Całkowita długość string wersji sieciowej (%i) przekracza maksymalną długość (%i). Zmniejsz liczbę lub rozmiar uacomments.</translation>
+        <translation>网络版本字符串的总长度(%i)超过最大长度(%i)。减少任务的数量或大小。</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVXL Core is probably already running.</source>
-        <translation>Nie można podłączyć %s na tym komputerze. PIVXL Core prawdopodobnie już działa.</translation>
+        <source>Unable to bind to %s on this computer. RSCOIN Core is probably already running.</source>
+        <translation>无法绑定到此计算机上的%s。PIVX核心可能已经在运行了。</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Oddzielne użycie proxy SOCKS5, aby dotrzeć do peerów za pośrednictwem ukrytych usług Tora (domyślnie: %s)</translation>
+        <translation>使用单独的SOCKS5代理通过Tor隐藏服务(默认:%s)到达节点</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Ostrzeżenie: -maxtxfee jest ustawiony bardzo wysoko! Opłatą tak dużą można by zapłacić za pojedynczą transakcję.</translation>
+        <translation>警告:-最大值tx费用设置得非常高!这么大的费用可以在一笔交易中支付。</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Ostrzeżenie: -paytxfee jest ustawione bardzo wysoko! Jest to opłata transakcyjna, którą zapłacisz, jeśli wyślesz transakcję.</translation>
+        <translation>警告:-支付tx费用设置的非常高!这是您发送交易时要支付的交易费。</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVXL Core will not work properly.</source>
-        <translation>Ostrzeżenie: sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, PIVXL Core nie będzie działać poprawnie.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong RSCOIN Core will not work properly.</source>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，RSCOIN Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Ostrzeżenie: Wydaje się, że sieć nie zgadza się w pełni! Niektórzy górnicy wydają się mieć problemy.</translation>
+        <translation>警告:网络不完全同意!一些矿商似乎遇到了麻烦。</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Ostrzeżenie: Wydaje się, że nie zgadzamy się całkowicie z naszymi peer-ami! Może zajść potrzeba aktualizacji lub inne węzły mogą wymagać aktualizacji.</translation>
+        <translation>警告:我们似乎不完全同意我们端口!您可能需要升级，或者其他节点可能需要升级。</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Ostrzeżenie: błąd odczytu wallet.dat! Wszystkie klucze wczytują się poprawnie, ale może brakować danych transakcji lub wpisów w książce adresowej lub są one nieprawidłowe.</translation>
+        <translation>警告:读取钱包出错。所有键都正确读取，但交易数据或地址簿项可能丢失或不正确。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Ostrzeżenie: uszkodzony plik wallet.dat, dane odzyskane! Oryginalny wallet.dat zapisany jako wallet.{timestamp}.bak w %s; jeśli saldo lub transakcje są nieprawidłowe, należy je przywrócić z kopii zapasowej.</translation>
+        <translation>注意：wallet.dat损坏，请恢复数据！原始wallet.dat保存为钱包。{timestamp} .bak in %s; 如果您的余额或交易不正确，您应该从备份还原。</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Biała lista peerów łączących się z podanej maski sieciowej lub adresu IP. Można podać wiele razy.</translation>
+        <translation>从给定的网络掩码或IP地址连接的白名单端口。可以多次指定。</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Peery na białej liście nie mogą być zbanowane przez DoS, a ich transakcje są zawsze przekazywane, nawet jeśli są już w pamięci, przydatne np. na gatewaya</translation>
+        <translation>白名单的端口不能被DoS禁止，它们的交易一直被中继，即使它们已经在内存池里面，这对网关很有用</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Musisz określić masternodeprivkey w konfiguracji. Aby uzyskać pomoc, zapoznaj się z dokumentacją.</translation>
+        <translation>您必须在配置中指定一个主节点privkey。有关帮助，请参阅文档。</translation>
     </message>
     <message>
         <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 może być używany tylko w sieci mainnet)</translation>
+        <translation>(51472只可在网上使用)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(domyślnie:  %s)</translation>
+        <translation>(默认: %s)</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(domyślnie: 1)</translation>
+        <translation>(默认: 1)</translation>
     </message>
     <message>
         <source>(must be 8233 for mainnet)</source>
-        <translation>(musi być 8233 dla mainnetu)</translation>
+        <translation>(主网必须为51472)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Zaakceptuj polecenia linii poleceń i JSON-RPC</translation>
+        <translation>接受命令行和JSON-RPC命令</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Akceptuj połączenia z zewnątrz (domyślnie: 1 jeśli nie -proxy lub -connect)</translation>
+        <translation>接受外部连接(如果没有-proxy或-connect，默认为1)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Akceptuj publiczne żądania REST (domyślnie: %u)</translation>
+        <translation>接受公共REST请求(默认:%u)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Dodaj węzeł do połączenia i spróbuj je utrzymać otwarte</translation>
+        <translation>添加要连接的节点并尝试保持连接打开</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Zezwalaj na wyszukiwanie DNS dla -addnode, -seednode i -connect</translation>
+        <translation>允许DNS查找-addnode， -seednode和-connect</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Zawsze sprawdzaj adresy peer za pomocą wyszukiwania DNS (domyślnie: %u)</translation>
+        <translation>始终通过DNS查询端口地址(默认:%u)</translation>
     </message>
     <message>
         <source>Append comment to the user agent string</source>
-        <translation>Dołącz komentarz do ciągu agenta użytkownika</translation>
+        <translation>将注释附加到用户代理字符串</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Próba odzyskania kluczy prywatnych z uszkodzonego wallet.dat</translation>
+        <translation>试图从损坏的钱包中恢复私钥</translation>
     </message>
     <message>
         <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Automatycznie utwórz usługę ukrytą Tora (domyślnie: %d)</translation>
+        <translation>自动创建Tor隐藏服务(默认:%d)</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Opcje tworzenia bloku:</translation>
+        <translation>区块创建选项:</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Nie można cofnąć wersji portfela</translation>
+        <translation>不能降级钱包</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Połącz tylko z określonym węzłem (węzłami)</translation>
+        <translation>只连接到指定的节点（）</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Połącz przez serwer proxy SOCKS5</translation>
+        <translation>通过SOCKS5代理连接</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Połącz się z węzłem, aby pobrać adresy równorzędne, i rozłącz się</translation>
+        <translation>连接到节点以检索端口地址，然后断开连接</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opcje połączenia:</translation>
+        <translation>连接选项：</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
+        <translation>版权所有(C) 2009-%i比特币核心开发者</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Dash Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
+        <translation>版权所有(C) 2014-%i的达世核心开发者</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVXL Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVXL Core Developers</translation>
+        <source>Copyright (C) 2015-%i The RSCOIN Core Developers</source>
+        <translation>版权所有(C) 2015-%i PIVX核心开发者</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Wykryto uszkodzoną bazę danych bloków</translation>
+        <translation>检测到已损坏区块数据库</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation>Nie można przetworzyć pliku masternode.conf</translation>
+        <translation>无法解析主节点配置</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Opcje debugowania/testowania:</translation>
+        <translation>调试/测试选项:</translation>
     </message>
     <message>
         <source>Delete blockchain folders and resync from scratch</source>
-        <translation>Usuń foldery blockchain i zsynchronizuj ponownie od podstaw</translation>
+        <translation>删除区块链文件夹，重新同步</translation>
     </message>
     <message>
         <source>Disable OS notifications for incoming transactions (default: %u)</source>
-        <translation>Wyłącz powiadomienia systemu operacyjnego dla transakcji przychodzących (domyślnie:%u)</translation>
+        <translation>禁用OS交易通知(默认:%u)</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Wyłącz tryb bezpieczny, zastąp rzeczywiste zdarzenie w trybie bezpiecznym (domyślnie:%u)</translation>
+        <translation>禁用安全模式，覆盖一个真正的安全模式事件(默认:%u)</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Odkryj własny adres IP (domyślnie: 1 podczas słuchania i bez -externalip)</translation>
+        <translation>发现自己的IP地址(监听时默认为1，没有-externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Nie ładuj portfela i nie wyłączaj wywołań RPC portfela</translation>
+        <translation>不加载钱包并禁用钱包RPC调用</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Czy chcesz teraz odbudować block database danych?</translation>
+        <translation>现在要重新构建区块数据库吗?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Ładowanie ukończone</translation>
+        <translation>下载完成</translation>
     </message>
     <message>
         <source>Enable publish hash transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Włącz transakcję mieszania (zablokowaną przez SwiftX) w &lt;address&gt;</translation>
+        <translation>启用&lt;address&gt;发布哈希交易(通过SwiftX锁定)</translation>
     </message>
     <message>
         <source>Enable publish raw transaction (locked via SwiftX) in &lt;address&gt;</source>
-        <translation>Włącz publikowanie surowej transakcji (zablokowanej przez SwiftX) w &lt;address&gt;</translation>
+        <translation>启用&lt;address&gt;发布原始交易(通过SwiftX锁定)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Włącz klienta, aby działał jako masternode (0-1, domyślnie: %u)</translation>
+        <translation>允许客户端充当主节点(0-1，默认值:%u)</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Błąd podczas inicjowania block database</translation>
+        <translation>初始化区块数据库出错</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Błąd podczas inicjowania środowiska bazy danych portfela %s!</translation>
+        <translation>初始化钱包数据库环境%s出错!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Błąd podczas ładowania block database</translation>
+        <translation>加载区块数据库出错</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Wystąpił błąd podczas ładowania pliku wallet.dat</translation>
+        <translation>加载钱包.dat错误</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Wystąpił błąd podczas ładowania pliku wallet.dat: Portfel uszkodzony</translation>
+        <translation>加载钱包出错。dat:钱包损坏</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVXL Core</source>
-        <translation>Błąd ładowania pliku wallet.dat: Portfel wymaga nowszej wersji PIVXL Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of RSCOIN Core</source>
+        <translation>加载的钱包出错。dat: 钱包需要更新版本的PIVX核心</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Błąd podczas otwierania block database</translation>
+        <translation>打开块数据库出错</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Błąd odczytu z bazy danych, wyłączenie.</translation>
+        <translation>数据库读取出错，正在关闭。</translation>
     </message>
     <message>
         <source>Error writing zerocoinDB to disk</source>
-        <translation>Błąd podczas zapisywania zerocoinDB na dysku</translation>
+        <translation>零币编码写入磁盘出错</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Błąd</translation>
+        <translation>出错</translation>
     </message>
     <message>
         <source>Error: </source>
-        <translation>Błąd:</translation>
+        <translation>出错：</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Błąd: Wystąpił krytyczny błąd wewnętrzny, zobacz szczegóły w pliku debug.log</translation>
+        <translation>错误:出现一个致命的内部错误，详情请参阅debug.log</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Błąd: Mało miejsca na dysku!</translation>
+        <translation>错误:磁盘空间不足!</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Błąd: Nieobsługiwany argument -tor, użyj -onion.</translation>
+        <translation>误:发现不支持的参数-tor，使用-onion。</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Błąd: Portfel zablokowany, nie można utworzyć transakcji!</translation>
+        <translation>错误:钱包锁定，无法创建交易!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Nie można nasłuchiwać na żadnym porcie. Użyj -listen=0, jeśli chcesz tego.</translation>
+        <translation>监听任何端口失败。使用-listen=0即可。</translation>
     </message>
     <message>
         <source>Failed to parse host:port string</source>
-        <translation>Nie można przeanalizować host:port string</translation>
+        <translation>未能解析:主机端口字符串</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Nie można odczytać bloku</translation>
+        <translation>读取区块失败</translation>
     </message>
     <message>
-        <source>Fee (in PIVXL/kB) to add to transactions you send (default: %s)</source>
-        <translation>Opłata (w PIVXL/kB) dodawana do wysyłanych transakcji (domyślnie: %s)</translation>
+        <source>Fee (in RSCOIN/kB) to add to transactions you send (default: %s)</source>
+        <translation>将费用(以PIV/kB为单位)添加到您发送的交易中(默认:%s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Wymuś tryb bezpieczny (domyślnie: %u)</translation>
+        <translation>安全模式原力(默认值:%u)</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Wygeneruj monety (domyślnie: %u)</translation>
+        <translation>生成币(默认值:%u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Ile bloków należy sprawdzić przy starcie (domyślnie: %u, 0 = wszystko)</translation>
+        <translation>启动时检查多少区块(默认值:%u, 0 = 所有)</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Jeśli &lt;category&gt; nie jest podana, wyślij wszystkie informacje debugowania.</translation>
+        <translation>如果没有提供&lt;category&gt;，则输出所有调试信息。</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Importuję ...</translation>
+        <translation>正在导入...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Importuje bloki z zewnętrznego pliku blk000??.dat</translation>
+        <translation>从外部blk000??.dat文件导入区块</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Włącz adresy IP do wyników debugowania (domyślnie: %u)</translation>
+        <translation>在调试输出中包含IP地址(默认:%u)</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Nieprawidłowy lub nie znaleziony blok genezy. Nieprawidłowy datadir do sieci?</translation>
+        <translation>不正确或没有找到源区块。网络数据错误?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Informacje</translation>
+        <translation>信息</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVXL Core is shutting down.</source>
-        <translation>Sprawdzenie poprawności inicjalizacji nie powiodło się. PIVXL Core zamyka się.</translation>
+        <source>Initialization sanity check failed. RSCOIN Core is shutting down.</source>
+        <translation>初始化完整性检查失败。PIVX核心快要关闭了。</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Niewystarczające środki</translation>
+        <translation>资金不足</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Niewystarczające środki.</translation>
+        <translation>资金不足</translation>
     </message>
     <message>
         <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Nieprawidłowy adres -onion lub nazwa hosta: „%s”</translation>
+        <translation>无效的-洋葱地址或主机名:'%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Nieprawidłowa kwota dla -paytxfee= &lt;amount&gt; : '%s' (musi być przynajmniej %s)</translation>
+        <translation>支付tx费用金额无效=:'&lt;amount&gt;%s'(必须至少是%s)</translation>
     </message>
     <message>
         <source>Invalid amount</source>
-        <translation>nieprawidłowa kwota</translation>
+        <translation>金额无效</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Nieprawidłowy masternodeprivkey. Zobacz dokumentację.</translation>
+        <translation>主节点私钥无效。请参阅文件。</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Nieprawidłowa netmask podana w -whitelist: '%s'</translation>
+        <translation>白名单中指定的无效网络掩码:'%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Nieprawidłowy port wykryty w masternode.conf</translation>
+        <translation>在masternode.conf中检测到无效端口</translation>
     </message>
     <message>
-        <source>Recalculating PIVXL supply...</source>
-        <translation>Przeliczanie podaży PIVXL ...</translation>
+        <source>Recalculating RSCOIN supply...</source>
+        <translation>重新计算PIV供应量……</translation>
     </message>
     <message>
-        <source>Reindex the PIVXL and zPIVXL money supply statistics</source>
-        <translation>Ponownie oblicz statystyki podaży pieniądza PIVXL i zPIVXL</translation>
+        <source>Reindex the RSCOIN and zRSCOIN money supply statistics</source>
+        <translation>重新索引PIV和zPIV货币供应统计数据</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
-        <translation>Ponowne indeksowanie bazy danych zerocoin ...</translation>
+        <translation>重新索引零币数据库。</translation>
     </message>
     <message>
         <source>Reindexing zerocoin failed</source>
-        <translation>Ponowne indeksowanie zerocoin nie powiodło się</translation>
+        <translation>重建索引零币失败</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
-        <translation>Wybrana wartość monet jest mniejsza niż docelowa</translation>
+        <translation>所选择币价值低于支付目标金额</translation>
     </message>
     <message>
         <source>SwiftX options:</source>
-        <translation>Opcje SwiftX:</translation>
+        <translation>SwiftX 选项：</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!</source>
-        <translation>Jest to wersja testowa pre-release - korzystaj z niej na własne ryzyko - nie używaj do staking lub prawdziwych transakcji!</translation>
+        <translation>这是一个预发行测试版本 - 您自己承担风险 - 不要用于商业应用！</translation>
     </message>
     <message>
         <source> mints deleted
 </source>
-        <translation>mints usunięte
+        <translation>铸造已删除
 </translation>
     </message>
     <message>
         <source> mints updated, </source>
-        <translation>zaktualizowano mints,</translation>
+        <translation>铸造已更新</translation>
     </message>
     <message>
         <source> unconfirmed transactions removed
 </source>
-        <translation>niepotwierdzone transakcje zostały usunięte
+        <translation>未确认交易已经移除
 </translation>
     </message>
     <message>
-        <source>Disable all PIVXL specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Wyłącz wszystkie funkcje specyficzne dla PIVXL (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, domyślnie: %u)</translation>
+        <source>Disable all RSCOIN specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>禁用所有PIVX特定功能(主节点, 零币, SwiftX, budget)(0-1，默认值:%u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Włącz SwiftX, pokaż potwierdzenia zablokowanych transakcji (bool, domyślnie: %s)</translation>
+        <translation>启用SwiftX，显示锁定交易的确认(bool，默认值:%s)</translation>
     </message>
     <message>
         <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Błąd: transakcja została odrzucona! Może się tak zdarzyć, jeśli niektóre monety w portfelu zostały już wydane, np. Jeśli użyłeś kopii portfela. Monety zostały wydane w kopii, ale nie zostały oznaczone jako wydane tutaj.</translation>
+        <translation>错误:交易被拒绝!如果你钱包里的硬币已经花掉了，比如你用了复制钱包，那么这种情况就会发生。</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
-        <translation>Błąd: Znaleziono nieobsługiwany argument -checklevel. Checklevel musi być poziomem 4.</translation>
+        <translation>错误:不支持参数-找到checklevel。Checklevel必须是第4级。</translation>
     </message>
     <message>
         <source>Execute command when the best block changes and its size is over (%s in cmd is replaced by block hash, %d with the block size)</source>
-        <translation>Wykonaj polecenie, gdy najlepszy blok się zmieni, a jego rozmiar się skończy ( %s w cmd jest zastąpiony skrótem bloku, %d rozmiarem bloku)</translation>
+        <translation>当最佳区块发生变化且大小超过时执行命令(cmd中的%s被替换为区块散列，%d是区块大小)</translation>
     </message>
     <message>
         <source>Failed to find coin set amongst held coins with less than maxNumber of Spends</source>
-        <translation>Nie udało się znaleźć zestawu monet i innych monet o wartości mniejszej niż maksymalna liczba wydatków</translation>
+        <translation>在持有的币中找到小于最大花费数的币集失败</translation>
     </message>
     <message>
         <source>In rare cases, a spend with 7 coins exceeds our maximum allowable transaction size, please retry spend using 6 or less coins</source>
-        <translation>W rzadkich przypadkach należy wydać 7 lub więcej monet z naszym maksymalnym dopuszczalnym rozmiarem transakcji, spróbuj ponownie wydać 6 lub mniej monet</translation>
+        <translation>在极少数情况下，7个硬币的花费超过了我们的最大允许交易大小，请重试使用6个或更少的硬币</translation>
     </message>
     <message>
         <source>Specify custom backup path to add a copy of any wallet backup. If set as dir, every backup generates a timestamped file. If set as file, will rewrite to that file every backup.</source>
-        <translation>Określ ścieżkę kopii zapasowej, aby dodać kopię zapasową portfela. Jeśli ustawione jako katalog, każda kopia zapasowa generuje plik ze znacznikiem czasu. Jeśli jest ustawiony jako plik, przepisuje do tego pliku każdą kopię zapasową.</translation>
+        <translation>指定自定义备份路径去添加任何钱包备份的副本。如果将其设置为dir，则每个备份将生成一个时间戳文件。如果设置为文件，将重写到每次备份的该文件</translation>
     </message>
     <message>
         <source>SwiftX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>SwiftX wymaga danych wejściowych z co najmniej 6 potwierdzeniami, być może trzeba będzie poczekać kilka minut i spróbować ponownie.</translation>
+        <translation>SwiftX要求输入至少6个确认，您可能需要等待几分钟，然后重试。</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt;może być:</translation>
+        <translation>&lt;category&gt;可以是：</translation>
     </message>
     <message>
         <source>Attempt to force blockchain corruption recovery</source>
-        <translation>Spróbuj wymusić blockchain corruption recovery</translation>
+        <translation>尝试强制区块链腐败恢复</translation>
     </message>
     <message>
         <source>Cannot create public spend input</source>
-        <translation>Nie można utworzyć publicznego wpisu wydatków</translation>
+        <translation>不能创造公共花费投入</translation>
     </message>
     <message>
         <source>Display the stake modifier calculations in the debug.log file.</source>
-        <translation>Wyświetl obliczenia modyfikatora stake w pliku debug.log.</translation>
+        <translation>在debug.log文件中显示股权修改器计算。</translation>
     </message>
     <message>
         <source>Display verbose coin stake messages in the debug.log file.</source>
-        <translation>Wyświetlaj szczegółowe komunikaty o staking w pliku debug.log.</translation>
+        <translation>在debug.log文件中显示详细的投币加注消息。</translation>
     </message>
     <message>
         <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Włącz publiczny hash block w &lt;address&gt;</translation>
+        <translation>启用&lt;address&gt;发布散列区块</translation>
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Włącz publish hash transaction w &lt;address&gt;</translation>
+        <translation>启用在&lt;address&gt;发布散列交易</translation>
     </message>
     <message>
         <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Włącz publish raw block w &lt;address&gt;</translation>
+        <translation>启在&lt;address&gt;发布原始区块</translation>
     </message>
     <message>
         <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Włącz publish raw transaction w &lt;address&gt;</translation>
+        <translation>启用在&lt;address&gt;发布原始交易</translation>
     </message>
     <message>
         <source>Enable staking functionality (0-1, default: %u)</source>
-        <translation>Włącz funkcję staking (0-1, domyślnie: %u)</translation>
+        <translation>启用打标功能(0-1，默认:%u)</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Błąd: Wystąpił krytyczny błąd wewnętrzny, zobacz szczegóły w pliku debug.log</translation>
+        <translation>错误:出现一个致命的内部错误，详情请参阅debug.log</translation>
     </message>
     <message>
         <source>Error: No valid utxo!</source>
-        <translation>Błąd: brak prawidłowego utxo!</translation>
+        <translation>错误:没有有效的utxo!</translation>
     </message>
     <message>
         <source>Failed to find Zerocoins in wallet.dat</source>
-        <translation>Nie można znaleźć Zerocoins w pliku wallet.dat</translation>
+        <translation>钱包里没找到零币</translation>
     </message>
     <message>
         <source>Failed to parse public spend</source>
-        <translation>Nie udało się przeanalizować wydatków publicznych</translation>
+        <translation>解析公共花费失败</translation>
     </message>
     <message>
         <source>Failed to select a zerocoin</source>
-        <translation>Nie udało się wybrać zerocoin</translation>
+        <translation>选择零币失败</translation>
     </message>
     <message>
         <source>Failed to wipe zerocoinDB</source>
-        <translation>Nie można wyczyścić zerocoinDB</translation>
+        <translation>擦写零币DB失败</translation>
     </message>
     <message>
         <source>Failed to write coin serial number into wallet</source>
-        <translation>Nie udało się zapisać numeru seryjnego monety w portfelu</translation>
+        <translation>硬币序列号写入钱包失败</translation>
     </message>
     <message>
         <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Nieprawidłowa kwota dla -%s= &lt;amount&gt; : '%s'</translation>
+        <translation>金额无效-%s=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Zachowaj &lt;n&gt; najczęściej używanych transakcji w pamięci (domyślnie: %u)</translation>
+        <translation>在内存中保留最多&lt;n&gt;不可连接的交易(默认值:%u)</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Ogranicz rozmiar pamięci podręcznej podpisu do &lt;n&gt; wpisów (domyślnie: %u)</translation>
+        <translation>将签名缓存的大小限制为&lt;n&gt;条目大小(默认为%u)</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Linia: %d</translation>
+        <translation>行：%d</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj połączeń JSON-RPC na &lt;port&gt;(domyślnie: %u lub testnet: %u) </translation>
+        <translation>在&lt;port&gt;(默认:%u或者测试网: %u)监听JSON-RPC连接</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Nasłuchuj włączone połączenia &lt;port&gt; (domyślnie: %u lub testnet: %u)</translation>
+        <translation>在&lt;port&gt;(默认:%u或测试网: %u)监听连接</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Ładowanie adresów ...</translation>
+        <translation>正在下载地址...</translation>
     </message>
     <message>
         <source>Loading banlist...</source>
-        <translation>Ładowanie listy banów ...</translation>
+        <translation>正在下载banlist...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ładowanie indeksu bloków ...</translation>
+        <translation>正在下载区块索引...</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Ładowanie cache budżetu ...</translation>
+        <translation>正在下载加载预算…</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Ładowanie pamięci podręcznej masternode ...</translation>
+        <translation>正在下载主节点缓存...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Ładowanie pamięci podręcznej płatności masternode ...</translation>
+        <translation>正在下载主节点支付缓存...</translation>
     </message>
     <message>
         <source>Loading sporks...</source>
-        <translation>Ładowanie sporks ...</translation>
+        <translation>正在下载分叉...</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ładowanie portfela ...</translation>
+        <translation>正在下载钱包……</translation>
     </message>
     <message>
         <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Lokalizacja auth cookie (domyślnie: data dir)</translation>
+        <translation>auth cookie的位置(默认:data dir)</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Zablokuj masternody z pliku konfiguracyjnego (domyślnie: %u)</translation>
+        <translation>从主节点配置文件中锁定主节点(默认:%u)</translation>
     </message>
     <message>
         <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Lookup (): Niepoprawny -proxy adres lub nazwa hosta: '%s'</translation>
+        <translation>查找():无效-代理地址或主机名:'%s'</translation>
     </message>
     <message>
         <source>MNs synchronization pending...</source>
-        <translation>Trwa synchronizacja MN ...</translation>
+        <translation>MNs同步正在进行...</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Utrzymuj co najwyżej &lt;n&gt; połączeń z peerami (domyślnie: %u)</translation>
+        <translation>最多&lt;n&gt;保持与端口连接(默认值:%u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Opcje Masternode:</translation>
+        <translation>主节点选项：</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor odbioru na połączenie, &lt;n&gt;* 1000 bajtów (domyślnie: %u) </translation>
+        <translation>每个连接最大接收缓冲区，&lt;n&gt;*1000字节(默认:%u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksymalny bufor wysyłania na połączenie, &lt;n&gt;* 1000 bajtów (domyślnie: %u)</translation>
+        <translation>每个连接最大发送缓冲区，&lt;n&gt;*1000字节(默认:%u)</translation>
     </message>
     <message>
         <source>Mint did not make it into blockchain</source>
-        <translation>Mint nie przeszło do blockchain</translation>
+        <translation>没有进入区块链铸造</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Musisz określić port za pomocą -whitebind: '%s'</translation>
+        <translation>需要使用-whitebind指定端口:'%s'</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Opcje przekazywania węzłów:</translation>
+        <translation>节点中继选择:</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Za mało dostępnych deskryptorów plików.</translation>
+        <translation>可用的文件描述符不足</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Liczba automatycznych kopii zapasowych portfela (domyślnie: 10)</translation>
+        <translation>钱包自动备份次数(默认为10次)</translation>
     </message>
     <message>
         <source>Number of custom location backups to retain (default: %d)</source>
-        <translation>Liczba lokalizacji kopii zapasowych do zachowania (domyślnie: %d)</translation>
+        <translation>要保留的自定义位置备份的数量(默认值:%d)</translation>
     </message>
     <message>
         <source>On first run, create a legacy wallet instead of a HD wallet</source>
-        <translation>Przy pierwszym uruchomieniu utwórz starszy portfel zamiast portfela HD</translation>
+        <translation>第一次运行，创建一个遗留钱包而不是HD钱包</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Akceptuj tylko wbudowane punkty kontrolne łańcucha bloków (domyślnie: %u)</translation>
+        <translation>只接受与内置检查点匹配的区块链(默认:%u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Połącz tylko z węzłami w sieci (ipv4, ipv6 lub onion)</translation>
+        <translation>只连接网络中的节点(ipv4、ipv6或onion)</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Opcje:</translation>
+        <translation>选项：</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Hasło dla połączeń JSON-RPC</translation>
+        <translation>SON-RPC连接的密码</translation>
     </message>
     <message>
         <source>Peers are being disconnected due time differences.</source>
-        <translation>Peers są rozłączani z powodu różnic czasowych.</translation>
+        <translation>由于时间差异，节点被断开连接。</translation>
     </message>
     <message>
         <source>Unable to find transaction containing mint %s</source>
-        <translation>Nie można znaleźć transakcji zawierającej mint %s</translation>
+        <translation>无法找到包含铸造 %s的交易</translation>
     </message>
     <message>
         <source>Unable to find transaction containing mint, txHash: %s</source>
-        <translation>Nie można znaleźć transakcji zawierającej mint, txHash: %s</translation>
+        <translation>无法找到包含铸造, tx哈希: %s的交易</translation>
     </message>
     <message>
         <source>Use block spam filter (default: %u)</source>
-        <translation>Użyj block spam filter (domyślnie: %u)</translation>
+        <translation>使用垃圾邮件过滤器块(默认:%u)</translation>
     </message>
     <message>
         <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid (): Niepoprawny -proxy adres lub nazwa hosta: '%s'</translation>
+        <translation>isValid():无效-代理地址或主机名:'%s'</translation>
     </message>
     <message>
         <source>Preparing for resync...</source>
-        <translation>Przygotowanie do ponownej synchronizacji ...</translation>
+        <translation>准备重新同步……</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong PIVXL Core will not work properly.</source>
-        <translation>Sprawdź, czy data i godzina komputera są poprawne! Jeśli zegar jest nieprawidłowy, PIVXL Core nie będzie działać poprawnie.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong RSCOIN Core will not work properly.</source>
+        <translation>请检查您的电脑的日期和时间是否正确!如果你的时间错误，RSCOIN Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
-        <translation>Określ lokalizację pliku dziennika debugowania: może to być ścieżka bezwzględna lub ścieżka względem katalogu danych (domyślnie: %s)</translation>
+        <translation>指定调试日志文件的位置:可以是绝对路径，也可以是相对于数据目录的路径(默认值:%s)</translation>
     </message>
     <message>
         <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Nie można odwzorować adresu -%s: '%s'</translation>
+        <translation>无法解析-%s地址:'%s'</translation>
     </message>
     <message>
         <source>Cannot upgrade to HD wallet (already running HD support). Version: %d</source>
-        <translation>Nie można uaktualnić do portfela HD (już działa obsługa HD). Wersja: %d</translation>
+        <translation>无法升级到HD钱包(已经运行HD支持)。版本: %d</translation>
     </message>
     <message>
         <source>Need destination or change address because change is not exact</source>
-        <translation>Potrzebujesz miejsca docelowego lub adresu reszty, ponieważ reszta nie jest dokładna</translation>
+        <translation>需要目的地或更改地址，因为更改不准确</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Przygotuj wyjście debugowania ze znacznikiem czasu (domyślnie: %u)</translation>
+        <translation>在调试输出前加上时间戳(默认:%u)</translation>
     </message>
     <message>
         <source>Print version and exit</source>
-        <translation>Wydrukuj wersję i zakończ</translation>
+        <translation>打印版本并退出</translation>
     </message>
     <message>
         <source>Pubcoin not found in mint tx</source>
-        <translation>Pubcoin nie znaleziono w mint tx</translation>
+        <translation>公共币没有发现在铸造tx</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>Opcje serwera RPC:</translation>
+        <translation>RPC服务器选项:</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Losowo upuść 1 na każdą&lt;n&gt; wiadomość sieciową</translation>
+        <translation>随机删除1每条&lt;n&gt;网络消息</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Losowo fuzz 1 każdej &lt;n&gt; wiadomości sieciowe</translation>
+        <translation>每个&lt;n&gt;网络消息的随机模糊1</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Przebuduj indeks łańcucha bloków z bieżących plików blk000??.dat</translation>
+        <translation>从当前的blk000??.dat文件重建块链索引。</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Przekazywanie i kopanie transakcji na nośnikach danych (domyślnie: %u)</translation>
+        <translation>中继和铸造数据载体交易(默认:%u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Przekazywanie non-P2SH multisig  (domyślnie: %u)</translation>
+        <translation>非p2sh多重签名中继器(默认值:%u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Ponownie zeskanuj łańcuch bloków w poszukiwaniu brakujących transakcji portfela</translation>
+        <translation>重新扫描丢失钱包交易的区块链</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Ponowne skanowanie ...</translation>
+        <translation>重新扫描……</translation>
     </message>
     <message>
         <source>ResetMintZerocoin finished: </source>
-        <translation>ResetMintZerocoin zakończony:</translation>
+        <translation>重置铸造零币完成:</translation>
     </message>
     <message>
         <source>ResetSpentZerocoin finished: </source>
-        <translation>ResetSpentZerocoin zakończony:</translation>
+        <translation>重置花费零币完成：</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Od czasu do czasu uruchom wątek, aby spłukać portfel (domyślnie: %u)</translation>
+        <translation>运行一个线程定期刷新钱包(默认:%u)</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Uruchom w tle jako demon i przyjmuj polecenia</translation>
+        <translation>作为守护进程在后台运行并接受命令</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Wysyłaj transakcje jako transakcje bez opłat, jeśli to możliwe (domyślnie: %u)</translation>
+        <translation>可以的话，以零费用方式发送交易(默认:%u)</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Ustaw rozmiar pamięci podręcznej bazy danych w megabajtach (%d do %d, domyślnie: %d)</translation>
+        <translation>设置数据库缓存大小(从%d到%d，默认为%d)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Ustaw zewnętrzny adres:port, aby dostać się do tego masternode (przykład: %s)</translation>
+        <translation>设置外部地址:到达这个主节点的端口(例如:%s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Ustaw key pool size na (domyślnie: %u)</translation>
+        <translation>将密钥池大小设置为&lt;n&gt;(默认值:%u)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Ustaw maksymalny rozmiar bloku w bajtach (domyślnie: %d)</translation>
+        <translation>以字节为单位设置最大区块大小(默认:%d)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Ustaw minimalny rozmiar bloku w bajtach (domyślnie: %u)</translation>
+        <translation>以字节为单位设置最小区块大小(默认: %u)</translation>
     </message>
     <message>
         <source>Set the Maximum reorg depth (default: %u)</source>
-        <translation>Ustaw maksymalną głębokość reorg (domyślnie: %u)</translation>
+        <translation>设置最大reorg深度(默认:%u)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Ustaw klucz prywatny masternode</translation>
+        <translation>设置主节点私钥</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Ustaw liczbę wątków do obsługi wywołań RPC (domyślnie: %d)</translation>
+        <translation>设置服务RPC调用的线程数(默认:%d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Ustawia flagę DB_PRIVATE w środowisku db portfela (domyślnie: %u)</translation>
+        <translation>在wallet db环境中设置DB_PRIVATE标志(默认值:%u)</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Pokaż wszystkie opcje debugowania (użycie: --help -help-debug)</translation>
+        <translation>显示所有调试选项(用法:——help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Zmniejsz plik debug.log podczas uruchamiania klienta (domyślnie: 1, gdy nie ma -debug)</translation>
+        <translation>客户端启动时收缩debug.log文件(没有-debug时默认为1)</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Podpisanie transakcji nie powiodło się</translation>
+        <translation>签署交易失败</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Określ plik konfiguracyjny (domyślnie: %s)</translation>
+        <translation>指定配置文件(默认:%s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Określ limit czasu połączenia w milisekundach (minimum: 1, domyślnie: %d)</translation>
+        <translation>以毫秒为单位指定连接超时(最小值:1，默认值:%d)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Określ katalog danych</translation>
+        <translation>指定数据目录</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Określ plik konfiguracyjny masternode (domyślnie: %s)</translation>
+        <translation>指定主节点配置文件(默认:%s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Określ plik pid (domyślnie: %s)</translation>
+        <translation>指定pid文件(默认值:%s)</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Określ plik portfela (w katalogu danych)</translation>
+        <translation>指定钱包文件(在数据目录中)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Podaj swój własny adres publiczny</translation>
+        <translation>指定您自己的公共地址</translation>
     </message>
     <message>
         <source>Spend Valid</source>
-        <translation>Spend Valid</translation>
+        <translation>花费有效</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Wydaj niepotwierdzoną resztę podczas wysyłania transakcji (domyślnie: %u)</translation>
+        <translation>发送交易时花费未确认更改(默认值:%u)</translation>
     </message>
     <message>
         <source>Staking options:</source>
-        <translation>Staking opcje:</translation>
+        <translation>加注选项：</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Zatrzymaj działanie po zaimportowaniu bloków z dysku (domyślnie: %u)</translation>
+        <translation>从磁盘导入区块后停止运行(默认值:%u)</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synchronizacja nie powiodła się</translation>
+        <translation>同步失败</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synchronizacja zakończona</translation>
+        <translation>同步已完成</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Synchronizowanie budżetów ...</translation>
+        <translation>正在同步预算...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synchronizowanie masternode winners...</translation>
+        <translation>正在同步主节点赢家...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synchronizowanie masternode...</translation>
+        <translation>正在同步主节点...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synchronizowanie sporks...</translation>
+        <translation>正在同步分叉...</translation>
     </message>
     <message>
-        <source>Syncing zPIVXL wallet...</source>
-        <translation>Synchronizuję portfel zPIVXL ...</translation>
+        <source>Syncing zRSCOIN wallet...</source>
+        <translation>正在同步zPIV钱包……</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Ten komunikat pomocy</translation>
+        <translation>这个帮助信息</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>To jest oprogramowanie eksperymentalne.</translation>
+        <translation>这是一个实验软件。</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Jest to przeznaczone do testowania regresji i tworzenia aplikacji.</translation>
+        <translation>用于回归测试工具和应用程序开发。</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Próg odłączania niepoprawnie działających urządzeń równorzędnych (domyślnie: %u)</translation>
+        <translation>断开错误的端口的阈值(默认值:%u)</translation>
     </message>
     <message>
         <source>Too many spends needed</source>
-        <translation>Zbyt wiele potrzebnych środków</translation>
+        <translation>太多花费被需求</translation>
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
-        <translation>Hasło portu kontrolnego Tora (domyślnie: puste)</translation>
+        <translation>Tor控制端口密码(默认:空)</translation>
     </message>
     <message>
         <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Używany port kontrolny Tor, jeśli włączono nasłuch onion (domyślnie: %s)</translation>
+        <translation>洋葱监听启用时使用的Tor控制端口(默认:%s)</translation>
     </message>
     <message>
         <source>Transaction Created</source>
-        <translation>Utworzono transakcję</translation>
+        <translation>交易已创建</translation>
     </message>
     <message>
         <source>Transaction Mint Started</source>
-        <translation>Rozpoczęto transakcję Mint</translation>
+        <translation>交易铸造已经开始</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Kwota transakcji jest za mała</translation>
+        <translation>交易金额过小</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Kwoty transakcji muszą być dodatnie</translation>
+        <translation>交易金额必须为正</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Transakcja zbyt duża dla zasad płatności</translation>
+        <translation>对于费用政策来说，交易太大</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Transakcja zbyt duża</translation>
+        <translation>交易过大</translation>
     </message>
     <message>
         <source>Trying to spend an already spent serial #, try again.</source>
-        <translation>Próbuj wydać już wydaną serie # , spróbuj ponownie.</translation>
+        <translation>尝试使用已使用的序列号，再试一次。</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Nie można powiązać z %s na tym komputerze (wiązanie zwróciło błąd %s)</translation>
+        <translation>无法绑定到此计算机上的%s(绑定返回的错误%s)</translation>
     </message>
     <message>
         <source>Unable to generate initial key</source>
-        <translation>Nie można wygenerować klucza początkowego</translation>
+        <translation>无法生成初始密钥</translation>
     </message>
     <message>
         <source>Unable to generate keys</source>
-        <translation>Nie można wygenerować kluczy</translation>
+        <translation>无法合成密钥</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>Nie można podpisać wiadomości „Spork”, zły klucz?</translation>
+        <translation>无法签署的分叉消息，错误的关键?</translation>
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Nie można uruchomić serwera HTTP. Zobacz dziennik debugowania, aby uzyskać szczegółowe informacje.</translation>
+        <translation>无法启动HTTP服务器。有关详细信息，请参阅调试日志。</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Nieznana sieć określona w -onlynet: '%s'</translation>
+        <translation>在-onlynet中指定的未知网络:'%s'</translation>
     </message>
     <message>
         <source>Unsupported logging category %s=%s.</source>
-        <translation>Nieobsługiwana kategoria rejestrowania %s = %s.</translation>
+        <translation>不支持此日志记录类别%s=%s。</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Uaktualnij portfel do najnowszego formatu</translation>
+        <translation>升级钱包到最新的格式</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Użyj UPnP do mapowania portu nasłuchującego (domyślnie: %u)</translation>
+        <translation>使用UPnP映射监听端口(默认:%u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Użyj UPnP do mapowania portu nasłuchującego (domyślnie: 1 podczas nasłuchu)</translation>
+        <translation>使用UPnP映射监听端口(监听时默认为1)</translation>
     </message>
     <message>
         <source>Use a custom max chain reorganization depth (default: %u)</source>
-        <translation>Użyj niestandardowej maksymalnej głębokości reorganizacji łańcucha (domyślnie: %u)</translation>
+        <translation>使用自定义最大链重组深度(默认:%u)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Użyj sieci testowej</translation>
+        <translation>使用测试网络</translation>
     </message>
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>Komentarz agenta użytkownika (%s) zawiera niebezpieczne znaki.</translation>
+        <translation>用户代理注释(%s)包含不安全字符</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nazwa użytkownika dla połączeń JSON-RPC</translation>
+        <translation>JSON-RPC连接的用户名</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIVXL</source>
-        <translation>Wartość jest mniejsza od najmniejszej dostępnej (= 1) zPIVXL</translation>
+        <source>Value is below the smallest available denomination (= 1) of zRSCOIN</source>
+        <translation>值小于zPIV的最小可用面额(= 1)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Weryfikuję bloki ...</translation>
+        <translation>正在验证区块……</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Weryfikuję portfel ...</translation>
+        <translation>正在验证钱包……</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Portfel %s znajduje się poza katalogiem danych %s</translation>
+        <translation>钱包%s驻留在数据目录%s之外</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVXL Core to complete</source>
-        <translation>Portfel musiał zostać przepisany: zrestartuj PIVXL Core, aby zakończyć</translation>
+        <source>Wallet needed to be rewritten: restart RSCOIN Core to complete</source>
+        <translation>钱包需要重写:重新启动PIVX核心完成</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Opcje portfela:</translation>
+        <translation>钱包选项：</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Tytuł okna portfela</translation>
+        <translation>钱包窗口标题</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Ostrzeżenie</translation>
+        <translation>注意</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Ostrzeżenie: ta wersja jest przestarzała, wymagana jest aktualizacja!</translation>
+        <translation>警告:此版本已过时，需要升级!</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Ostrzeżenie: Zignorowano nieobsługiwany argument -benchmark, użyj opcji -debug=bench.</translation>
+        <translation>警告:不支持的argument -benchmark 被忽略，使用-debug=bench。</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Ostrzeżenie: Zignorowany nieobsługiwany argument -debugnet, użyj -debug=net.</translation>
+        <translation>警告:不支持的参数-debugnet被忽略，使用-debug=net。</translation>
     </message>
     <message>
         <source>You don't have enough Zerocoins in your wallet</source>
-        <translation>Nie masz wystarczającej liczby Zerocoins w swoim portfelu</translation>
+        <translation>你的钱包里没有足够的零币</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Musisz przebudować bazę danych za pomocą -reindex, aby zmienić -txindeks</translation>
+        <translation>您需要使用-reindex来更改-txindex来重新构建数据库</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>-Zapping- Łączenie wszystkich transakcji z portfela ...</translation>
+        <translation>从钱包中删除所有交易…</translation>
     </message>
     <message>
         <source>ZeroMQ notification options:</source>
-        <translation>Opcje powiadomień ZeroMQ:</translation>
+        <translation>ZeroMQ通知选项:</translation>
     </message>
     <message>
         <source>Zerocoin minting available only on regtest</source>
-        <translation>Zerocoin minting dostępne tylko podczas testu regtest</translation>
+        <translation>零币铸造只能在regtest可用</translation>
     </message>
     <message>
         <source>Zerocoin options:</source>
-        <translation>Opcje Zerocoin:</translation>
+        <translation>零币选项：</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>na starcie</translation>
+        <translation>启动</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat uszkodzony, odzyskiwanie nie powiodło się</translation>
+        <translation>wallet.dat 损坏，修复失败</translation>
     </message>
 </context>
 <context>
     <name>send</name>
     <message>
         <source>Form</source>
-        <translation>Formularz</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>Send</source>
-        <translation>Wyślij</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <source>TextLabel</source>
-        <translation>TekstZakładka</translation>
+        <translation>文本标签</translation>
     </message>
     <message>
         <source>Include delegated</source>
-        <translation>Uwzględnij delegowane</translation>
+        <translation>包含委托</translation>
     </message>
     <message>
         <source>PushButton</source>
-        <translation>Naciśnij przycisk</translation>
+        <translation>按钮</translation>
     </message>
 </context>
 </TS>

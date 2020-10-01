@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingswalletrepairwidget.h"
-#include "qt/pivxl/settings/forms/ui_settingswalletrepairwidget.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/settings/settingswalletrepairwidget.h"
+#include "qt/rscoin/settings/forms/ui_settingswalletrepairwidget.h"
+#include "qt/rscoin/qtutils.h"
 
 SettingsWalletRepairWidget::SettingsWalletRepairWidget(PIVXGUI* _window, QWidget *parent) :
     PWidget(_window, parent),

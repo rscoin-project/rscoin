@@ -1,16 +1,16 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/receivewidget.h"
-#include "qt/pivxl/forms/ui_receivewidget.h"
-#include "qt/pivxl/requestdialog.h"
-#include "qt/pivxl/addnewcontactdialog.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/myaddressrow.h"
-#include "qt/pivxl/furlistrow.h"
-#include "qt/pivxl/addressholder.h"
+#include "qt/rscoin/receivewidget.h"
+#include "qt/rscoin/forms/ui_receivewidget.h"
+#include "qt/rscoin/requestdialog.h"
+#include "qt/rscoin/addnewcontactdialog.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/myaddressrow.h"
+#include "qt/rscoin/furlistrow.h"
+#include "qt/rscoin/addressholder.h"
 #include "walletmodel.h"
 #include "guiutil.h"
 #include "pairresult.h"
@@ -43,7 +43,7 @@ ReceiveWidget::ReceiveWidget(PIVXGUI* parent) :
 
     // Title
     ui->labelTitle->setText(tr("Receive"));
-    ui->labelSubtitle1->setText(tr("Scan the QR code or copy the address to receive PIVXL."));
+    ui->labelSubtitle1->setText(tr("Scan the QR code or copy the address to receive RSCOIN."));
     setCssTitleScreen(ui->labelTitle);
     setCssSubtitleScreen(ui->labelSubtitle1);
 

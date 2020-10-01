@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2016 The Dash developers
 // Copyright (c) 2017-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -179,7 +179,7 @@ public:
     void decryptKey(const std::vector<unsigned char>& crypted, const std::string& slt, const std::string& pwd, CKey& key);
     void emitBalanceChanged(); // Force update of UI-elements even when no values have changed
 
-    // return minted zPIVXL
+    // return minted zRSCOIN
     bool getMint(const uint256& hashSerial, CZerocoinMint& mint);
 
     // Check address for validity
@@ -205,7 +205,7 @@ public:
 
     // Send coins to a list of recipients
     SendCoinsReturn sendCoins(WalletModelTransaction& transaction);
-    // Mint zPIVXL
+    // Mint zRSCOIN
     bool mintCoins(CAmount value, CCoinControl* coinControl, std::string &strError);
 
     bool createZpivSpend(

@@ -2,9 +2,9 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/optionbutton.h"
-#include "qt/pivxl/forms/ui_optionbutton.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/optionbutton.h"
+#include "qt/rscoin/forms/ui_optionbutton.h"
+#include "qt/rscoin/qtutils.h"
 #include <QMouseEvent>
 
 OptionButton::OptionButton(QWidget *parent) :

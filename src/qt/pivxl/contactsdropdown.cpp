@@ -1,16 +1,16 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/contactsdropdown.h"
+#include "qt/rscoin/contactsdropdown.h"
 
 #include <QPainter>
 #include <QSizePolicy>
-#include "qt/pivxl/addresslabelrow.h"
-#include "qt/pivxl/contactdropdownrow.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/furlistrow.h"
+#include "qt/rscoin/addresslabelrow.h"
+#include "qt/rscoin/contactdropdownrow.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/furlistrow.h"
 #include "walletmodel.h"
 #include "addresstablemodel.h"
 

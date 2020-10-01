@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -58,7 +58,7 @@ UniValue getinfo(const UniValue& params, bool fHelp)
             "  \"version\": xxxxx,             (numeric) the server version\n"
             "  \"protocolversion\": xxxxx,     (numeric) the protocol version\n"
             "  \"walletversion\": xxxxx,       (numeric) the wallet version\n"
-            "  \"balance\": xxxxxxx,           (numeric) the total pivxl balance of the wallet (excluding zerocoins)\n"
+            "  \"balance\": xxxxxxx,           (numeric) the total rscoin balance of the wallet (excluding zerocoins)\n"
             "  \"zerocoinbalance\": xxxxxxx,   (numeric) the total zerocoin balance of the wallet\n"
             "  \"staking status\": true|false, (boolean) if the wallet is staking or not\n"
             "  \"blocks\": xxxxxx,             (numeric) the current number of blocks processed in the server\n"
@@ -70,21 +70,21 @@ UniValue getinfo(const UniValue& params, bool fHelp)
             "  \"moneysupply\" : \"supply\"    (numeric) The money supply when this block was added to the blockchain\n"
             "  \"zPIVsupply\" :\n"
             "  {\n"
-            "     \"1\" : n,            (numeric) supply of 1 zPIVXL denomination\n"
-            "     \"5\" : n,            (numeric) supply of 5 zPIVXL denomination\n"
-            "     \"10\" : n,           (numeric) supply of 10 zPIVXL denomination\n"
-            "     \"50\" : n,           (numeric) supply of 50 zPIVXL denomination\n"
-            "     \"100\" : n,          (numeric) supply of 100 zPIVXL denomination\n"
-            "     \"500\" : n,          (numeric) supply of 500 zPIVXL denomination\n"
-            "     \"1000\" : n,         (numeric) supply of 1000 zPIVXL denomination\n"
-            "     \"5000\" : n,         (numeric) supply of 5000 zPIVXL denomination\n"
-            "     \"total\" : n,        (numeric) The total supply of all zPIVXL denominations\n"
+            "     \"1\" : n,            (numeric) supply of 1 zRSCOIN denomination\n"
+            "     \"5\" : n,            (numeric) supply of 5 zRSCOIN denomination\n"
+            "     \"10\" : n,           (numeric) supply of 10 zRSCOIN denomination\n"
+            "     \"50\" : n,           (numeric) supply of 50 zRSCOIN denomination\n"
+            "     \"100\" : n,          (numeric) supply of 100 zRSCOIN denomination\n"
+            "     \"500\" : n,          (numeric) supply of 500 zRSCOIN denomination\n"
+            "     \"1000\" : n,         (numeric) supply of 1000 zRSCOIN denomination\n"
+            "     \"5000\" : n,         (numeric) supply of 5000 zRSCOIN denomination\n"
+            "     \"total\" : n,        (numeric) The total supply of all zRSCOIN denominations\n"
             "  }\n"
             "  \"keypoololdest\": xxxxxx,      (numeric) the timestamp (seconds since GMT epoch) of the oldest pre-generated key in the key pool\n"
             "  \"keypoolsize\": xxxx,          (numeric) how many new keys are pre-generated\n"
             "  \"unlocked_until\": ttt,        (numeric) the timestamp in seconds since epoch (midnight Jan 1 1970 GMT) that the wallet is unlocked for transfers, or 0 if the wallet is locked\n"
-            "  \"paytxfee\": x.xxxx,           (numeric) the transaction fee set in pivxl/kb\n"
-            "  \"relayfee\": x.xxxx,           (numeric) minimum relay fee for non-free transactions in pivxl/kb\n"
+            "  \"paytxfee\": x.xxxx,           (numeric) the transaction fee set in rscoin/kb\n"
+            "  \"relayfee\": x.xxxx,           (numeric) minimum relay fee for non-free transactions in rscoin/kb\n"
             "  \"errors\": \"...\"             (string) any error messages\n"
             "}\n"
 
@@ -355,18 +355,18 @@ UniValue validateaddress(const UniValue& params, bool fHelp)
     if (fHelp || params.size() != 1)
         throw std::runtime_error(
             "validateaddress \"pivxaddress\"\n"
-            "\nReturn information about the given pivxl address.\n"
+            "\nReturn information about the given rscoin address.\n"
 
             "\nArguments:\n"
-            "1. \"pivxaddress\"     (string, required) The pivxl address to validate\n"
+            "1. \"pivxaddress\"     (string, required) The rscoin address to validate\n"
 
             "\nResult:\n"
             "{\n"
             "  \"isvalid\" : true|false,         (boolean) If the address is valid or not. If not, this is the only property returned.\n"
-            "  \"address\" : \"pivxaddress\",    (string) The pivxl address validated\n"
+            "  \"address\" : \"pivxaddress\",    (string) The rscoin address validated\n"
             "  \"scriptPubKey\" : \"hex\",       (string) The hex encoded scriptPubKey generated by the address\n"
             "  \"ismine\" : true|false,          (boolean) If the address is yours or not\n"
-            "  \"isstaking\" : true|false,       (boolean) If the address is a staking address for PIVXL cold staking\n"
+            "  \"isstaking\" : true|false,       (boolean) If the address is a staking address for RSCOIN cold staking\n"
             "  \"iswatchonly\" : true|false,     (boolean) If the address is watchonly\n"
             "  \"isscript\" : true|false,        (boolean) If the key is a script\n"
             "  \"hex\" : \"hex\",                (string, optional) The redeemscript for the P2SH address\n"
@@ -480,9 +480,9 @@ UniValue createmultisig(const UniValue& params, bool fHelp)
 
             "\nArguments:\n"
             "1. nrequired      (numeric, required) The number of required signatures out of the n keys or addresses.\n"
-            "2. \"keys\"       (string, required) A json array of keys which are pivxl addresses or hex-encoded public keys\n"
+            "2. \"keys\"       (string, required) A json array of keys which are rscoin addresses or hex-encoded public keys\n"
             "     [\n"
-            "       \"key\"    (string) pivxl address or hex-encoded public key\n"
+            "       \"key\"    (string) rscoin address or hex-encoded public key\n"
             "       ,...\n"
             "     ]\n"
 
@@ -518,7 +518,7 @@ UniValue verifymessage(const UniValue& params, bool fHelp)
             "\nVerify a signed message\n"
 
             "\nArguments:\n"
-            "1. \"pivxaddress\"  (string, required) The pivxl address to use for the signature.\n"
+            "1. \"pivxaddress\"  (string, required) The rscoin address to use for the signature.\n"
             "2. \"signature\"       (string, required) The signature provided by the signer in base 64 encoding (see signmessage).\n"
             "3. \"message\"         (string, required) The message that was signed.\n"
 
@@ -670,13 +670,13 @@ UniValue getstakingstatus(const UniValue& params, bool fHelp)
             "\nResult:\n"
             "{\n"
             "  \"staking_status\": true|false,      (boolean) whether the wallet is staking or not\n"
-            "  \"staking_enabled\": true|false,     (boolean) whether staking is enabled/disabled in pivxl.conf\n"
-            "  \"coldstaking_enabled\": true|false, (boolean) whether cold-staking is enabled/disabled in pivxl.conf\n"
+            "  \"staking_enabled\": true|false,     (boolean) whether staking is enabled/disabled in rscoin.conf\n"
+            "  \"coldstaking_enabled\": true|false, (boolean) whether cold-staking is enabled/disabled in rscoin.conf\n"
             "  \"haveconnections\": true|false,     (boolean) whether network connections are present\n"
             "  \"mnsync\": true|false,              (boolean) whether the required masternode/spork data is synced\n"
             "  \"walletunlocked\": true|false,      (boolean) whether the wallet is unlocked\n"
             "  \"stakeablecoins\": n                (numeric) number of stakeable UTXOs\n"
-            "  \"stakingbalance\": d                (numeric) PIVXL value of the stakeable coins (minus reserve balance, if any)\n"
+            "  \"stakingbalance\": d                (numeric) RSCOIN value of the stakeable coins (minus reserve balance, if any)\n"
             "  \"stakesplitthreshold\": d           (numeric) value of the current threshold for stake split\n"
             "  \"lastattempt_age\": n               (numeric) seconds since last stake attempt\n"
             "  \"lastattempt_depth\": n             (numeric) depth of the block on top of which the last stake attempt was made\n"

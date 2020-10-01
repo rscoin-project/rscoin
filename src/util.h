@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -14,7 +14,7 @@
 #define BITCOIN_UTIL_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivxl-config.h"
+#include "config/rscoin-config.h"
 #endif
 
 #include "logging.h"
@@ -170,7 +170,7 @@ void SetThreadPriority(int nPriority);
 template <typename Callable>
 void TraceThread(const char* name, Callable func)
 {
-    std::string s = strprintf("pivxl-%s", name);
+    std::string s = strprintf("rscoin-%s", name);
     util::ThreadRename(s.c_str());
     try {
         LogPrintf("%s thread start\n", name);

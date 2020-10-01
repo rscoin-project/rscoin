@@ -8,7 +8,7 @@
 #include <QDialog>
 #include <QPixmap>
 #include "walletmodel.h"
-#include "qt/pivxl/snackbar.h"
+#include "qt/rscoin/snackbar.h"
 
 class WalletModel;
 class PIVXGUI;

@@ -4,7 +4,7 @@
 
 #include "random.h"
 
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <boost/test/unit_test.hpp>
 

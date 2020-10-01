@@ -130,12 +130,12 @@
         <translation>Empfangsadressen</translation>
     </message>
     <message>
-        <source>These are your PIVXL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dies sind ihre PIVXL-Adressen zum Senden von Zahlungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie PIVXL überweisen.</translation>
+        <source>These are your RSCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dies sind ihre RSCOIN-Adressen zum Senden von Zahlungen. Bitte prüfen Sie den Betrag und die Empfangsadresse, bevor Sie RSCOIN überweisen.</translation>
     </message>
     <message>
-        <source>These are your PIVXL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Das sind Ihre PIVXL-Adressen zum Empfangen von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
+        <source>These are your RSCOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Das sind Ihre RSCOIN-Adressen zum Empfangen von Zahlungen. Es wird empfohlen, für jede Transaktion eine neue Empfangsadresse zu verwenden.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -251,8 +251,8 @@
         <translation>z.B. John Doe</translation>
     </message>
     <message>
-        <source>Enter PIVXL address</source>
-        <translation>PIVXL Adresse eingeben</translation>
+        <source>Enter RSCOIN address</source>
+        <translation>RSCOIN Adresse eingeben</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -379,8 +379,8 @@ for staking</source>
         <translation>Wenn Sie ihr Wallet verschlüsseln und Ihre Passphrase verlieren, werden Sie</translation>
     </message>
     <message>
-        <source>LOSE ALL OF YOUR PIVXL</source>
-        <translation>ALLE IHRE PIVXL VERLIEREN</translation>
+        <source>LOSE ALL OF YOUR RSCOIN</source>
+        <translation>ALLE IHRE RSCOIN VERLIEREN</translation>
     </message>
     <message>
         <source>ENCRYPT</source>
@@ -395,7 +395,7 @@ for staking</source>
         <translation>WARNUNG: CAPS LOCK IST EINGESCHALTET</translation>
     </message>
     <message>
-        <source>PIVXL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
+        <source>RSCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
         <translation>Die Anwendung wird nun geschlossen um die Verschlüsselung abzuschließen. Bitte bedenken Sie, dass auch die Verschlüsselung nicht vollständig vor Diebstahl Ihrer PIVs durch Schadsoftware schützt, die Ihren Computer befällt.</translation>
     </message>
     <message>
@@ -465,8 +465,8 @@ for staking</source>
         <translation>Erspartes</translation>
     </message>
     <message>
-        <source>0,00 PIVXL</source>
-        <translation>0,00 PIVXL</translation>
+        <source>0,00 RSCOIN</source>
+        <translation>0,00 RSCOIN</translation>
     </message>
     <message>
         <source>address</source>
@@ -507,8 +507,8 @@ for staking</source>
         <translation>Münzauswahl </translation>
     </message>
     <message>
-        <source>Select PIVXL Outputs to Spend</source>
-        <translation>PIVXL Outputs zum Ausgeben wählen</translation>
+        <source>Select RSCOIN Outputs to Spend</source>
+        <translation>RSCOIN Outputs zum Ausgeben wählen</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -535,8 +535,8 @@ for staking</source>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>0.00 PIVXL</source>
-        <translation>0.00 PIVXL</translation>
+        <source>0.00 RSCOIN</source>
+        <translation>0.00 RSCOIN</translation>
     </message>
     <message>
         <source>0</source>
@@ -811,8 +811,8 @@ stake on your behalf, while you keep the keys securely offline.</source>
         <translation>Adresse des Besitzers eingeben</translation>
     </message>
     <message>
-        <source>Accept PIVXL delegation / Delegate PIVXL</source>
-        <translation>PIVXL Zusweisung annehmen / PIVXL zuweisen</translation>
+        <source>Accept RSCOIN delegation / Delegate RSCOIN</source>
+        <translation>RSCOIN Zusweisung annehmen / RSCOIN zuweisen</translation>
     </message>
     <message>
         <source>Cold Staking address</source>
@@ -874,8 +874,8 @@ Möchten Sie fortfahren?</translation>
         <translation>Coins zugewiesen</translation>
     </message>
     <message>
-        <source>You don't have any PIVXL to select.</source>
-        <translation>Sie haben keine PIVXL zum Auswählen</translation>
+        <source>You don't have any RSCOIN to select.</source>
+        <translation>Sie haben keine RSCOIN zum Auswählen</translation>
     </message>
     <message>
         <source>Cannot perform operation, wallet locked</source>
@@ -1005,12 +1005,12 @@ address</source>
         <translation>Staking Statistiken</translation>
     </message>
     <message>
-        <source>PIVXL</source>
-        <translation>PIVXL</translation>
+        <source>RSCOIN</source>
+        <translation>RSCOIN</translation>
     </message>
     <message>
-        <source>zPIVXL</source>
-        <translation>zPIVXL</translation>
+        <source>zRSCOIN</source>
+        <translation>zRSCOIN</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -1041,8 +1041,8 @@ address</source>
         <translation>Der Link zum Verlauf des Accounts</translation>
     </message>
     <message>
-        <source>Amount of PIVXL and zPIVXL staked.</source>
-        <translation>Wieviele PIVXL und z PIVXL am Staken sind.</translation>
+        <source>Amount of RSCOIN and zRSCOIN staked.</source>
+        <translation>Wieviele RSCOIN und z RSCOIN am Staken sind.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -1053,8 +1053,8 @@ address</source>
         <translation>Bisher keine Transaktionen</translation>
     </message>
     <message>
-        <source>How to get PIVXL or zPIVXL</source>
-        <translation>Wie bekommt man PIVXL oder zPIVXL</translation>
+        <source>How to get RSCOIN or zRSCOIN</source>
+        <translation>Wie bekommt man RSCOIN oder zRSCOIN</translation>
     </message>
     <message>
         <source>You can verify the staking activity in the status bar at the top right of the wallet.
@@ -1149,8 +1149,8 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend B
         <translation>Zahlungsadresse bearbeiten</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid PIVXL address.</source>
-        <translation>Die eingegebene Adresse "%1" ist keine gültige PIVXL-Adresse.</translation>
+        <source>The entered address "%1" is not a valid RSCOIN address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige RSCOIN-Adresse.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1202,16 +1202,16 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend B
         <translation>Version</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-Bit)</translation>
     </message>
     <message>
-        <source>About PIVXL Core</source>
-        <translation>Über PIVXL Core</translation>
+        <source>About RSCOIN Core</source>
+        <translation>Über RSCOIN Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1265,16 +1265,16 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend B
         <translation>Willkommen</translation>
     </message>
     <message>
-        <source>Welcome to PIVXL Core.</source>
-        <translation>Willkommen zu PIVXL Core.</translation>
+        <source>Welcome to RSCOIN Core.</source>
+        <translation>Willkommen zu RSCOIN Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where PIVXL Core will store its data.</source>
-        <translation>Da dies das erste Mal ist, dass Sie PIVXL Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
+        <source>As this is the first time the program is launched, you can choose where RSCOIN Core will store its data.</source>
+        <translation>Da dies das erste Mal ist, dass Sie RSCOIN Core starten, legen Sie jetzt bitte fest, an welchem Ort die Daten gespeichert werden sollen.</translation>
     </message>
     <message>
-        <source>PIVXL Core will download and store a copy of the PIVXL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>PIVXL Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
+        <source>RSCOIN Core will download and store a copy of the RSCOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>RSCOIN Core wird die Blockchain laden und lokal speichern. Dafür sind mindestens %1GB freier Speicherplatz erforderlich. Der Speicherbedarf wird mit der Zeit anwachsen. Die Wallet wird ebenfalls in diesem Verzeichnis gespeichert.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1293,8 +1293,8 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend B
         <translation>OK</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1393,8 +1393,8 @@ Die staking Aktivität wird automatisch gestartet, sobald die Wallet genügend B
         <translation>Erzeuge neuen Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a PIVXL Masternode you must dedicate 100,000 PIVXL (the unit of PIVXL) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Um einen PIVXL Masternode zu erzeugen, müssen Sie 100.000 PIVXL (die Einheit von PIVXL) dem Netzwerk zuweisen (diese Coins sind weiterhin Ihre und Sie werden Ihren Besitz nicht verlassen)
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a RSCOIN Masternode you must dedicate 100,000 RSCOIN (the unit of RSCOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Um einen RSCOIN Masternode zu erzeugen, müssen Sie 100.000 RSCOIN (die Einheit von RSCOIN) dem Netzwerk zuweisen (diese Coins sind weiterhin Ihre und Sie werden Ihren Besitz nicht verlassen)
 Sie können den Node jederzeit deaktivieren und die Coins entriegeln.</translation>
     </message>
     <message>
@@ -1414,8 +1414,8 @@ Sie können den Node jederzeit deaktivieren und die Coins entriegeln.</translati
         <translation>Stellen Sie sicher, dass Sie die Anzahl Coins besitzen.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 100,000 PIVXL will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eine Transaktion von 10'000 PIVXL wird gemacht&lt;/p&gt;&lt;p&gt;auf eine leere Adresse in Ihrer Wallet.&lt;/p&gt;&lt;p&gt;Die Adresse wird beschriftet mit dem Namen des Masternodes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of 100,000 RSCOIN will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Eine Transaktion von 10'000 RSCOIN wird gemacht&lt;/p&gt;&lt;p&gt;auf eine leere Adresse in Ihrer Wallet.&lt;/p&gt;&lt;p&gt;Die Adresse wird beschriftet mit dem Namen des Masternodes.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1656,8 +1656,8 @@ Sind sie sicher?</translation>
         <translation>Konnte keinen Masternode Controller erzeugen, das Wallet ist verriegelt</translation>
     </message>
     <message>
-        <source>Not enough balance to create a masternode, 100,000 PIVXL required.</source>
-        <translation>Nicht genügend Guthaben um einen Masternode zu erstellen, 10'000 PIVXL werden benötigt.</translation>
+        <source>Not enough balance to create a masternode, 100,000 RSCOIN required.</source>
+        <translation>Nicht genügend Guthaben um einen Masternode zu erstellen, 10'000 RSCOIN werden benötigt.</translation>
     </message>
     <message>
         <source>Error creating masternode</source>
@@ -1838,8 +1838,8 @@ Sind sie sicher?</translation>
         <translation>Wenn Sie das Ausgeben von unbestätigten Wechselgeld deaktivieren, so kann das Wechselgeld von einer Transaktion &lt;br/&gt;nicht verwendet werden, bis mindestens eine Bestätigung vorliegt.&lt;br/&gt;Dies hat auch Auswirkungen auf ihre Bilanzberechnung.</translation>
     </message>
     <message>
-        <source>Automatically open the PIVXL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisches öffnen des PIVXL-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
+        <source>Automatically open the RSCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisches öffnen des RSCOIN-Client-Port im Router. Dies funktioniert nur, wenn ihr Router UPnP unterstützt und es eingeschaltet ist.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1858,12 +1858,12 @@ Sind sie sicher?</translation>
         <translation>Experte</translation>
     </message>
     <message>
-        <source>Automatically start PIVXL after logging in to the system.</source>
-        <translation>PIVXL automatisch nach dem Login starten.</translation>
+        <source>Automatically start RSCOIN after logging in to the system.</source>
+        <translation>RSCOIN automatisch nach dem Login starten.</translation>
     </message>
     <message>
-        <source>&amp;Start PIVXL on system login</source>
-        <translation>PIVXL automatisch beim System Login &amp;starten.</translation>
+        <source>&amp;Start RSCOIN on system login</source>
+        <translation>RSCOIN automatisch beim System Login &amp;starten.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1890,7 +1890,7 @@ Sind sie sicher?</translation>
         <translation>&amp;Netzwerk</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting PIVXL.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting RSCOIN.</source>
         <translation>Die Sprache der Benutzeroberfläche kann hier festgelegt werden. Diese Einstellung wird nach einem Neustart realisiert.</translation>
     </message>
     <message>
@@ -1904,44 +1904,44 @@ https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
         <translation>Port mit &amp;UPnP mappen</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIVXL units to zPIVXL</source>
-        <translation>Aktivieren Sie die automatische Prägung von PIVXL-Einheiten zu zPIVXL</translation>
+        <source>Enable automatic minting of RSCOIN units to zRSCOIN</source>
+        <translation>Aktivieren Sie die automatische Prägung von RSCOIN-Einheiten zu zRSCOIN</translation>
     </message>
     <message>
-        <source>Enable zPIVXL Automint</source>
-        <translation>Aktivieren Sie zPIVXL Automint</translation>
+        <source>Enable zRSCOIN Automint</source>
+        <translation>Aktivieren Sie zRSCOIN Automint</translation>
     </message>
     <message>
-        <source>Enable automatic zPIVXL minting from specific addresses</source>
-        <translation>Automatisches zPIVXL Minting von spezifischen Adressen erlauben</translation>
+        <source>Enable automatic zRSCOIN minting from specific addresses</source>
+        <translation>Automatisches zRSCOIN Minting von spezifischen Adressen erlauben</translation>
     </message>
     <message>
         <source>Enable Automint Addresses</source>
         <translation>Automint Adressen aktivieren</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIVXL which get automatically converted to zPIVXL via Zerocoin Protocol (min: 10%)</source>
-        <translation>Anteil des eingehenden PIVXL, welcher automatisch zu zPIVXL via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
+        <source>Percentage of incoming RSCOIN which get automatically converted to zRSCOIN via Zerocoin Protocol (min: 10%)</source>
+        <translation>Anteil des eingehenden RSCOIN, welcher automatisch zu zRSCOIN via Zerocoin Protokoll konvertiert wird (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIVXL</source>
-        <translation>Prozentsatz der automatisierten zPIVXL</translation>
+        <source>Percentage of autominted zRSCOIN</source>
+        <translation>Prozentsatz der automatisierten zRSCOIN</translation>
     </message>
     <message>
-        <source>Wait with automatic conversion to Zerocoin until enough PIVXL for this denomination is available</source>
-        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend PIVXL für diese Stückelung verfügbar ist</translation>
+        <source>Wait with automatic conversion to Zerocoin until enough RSCOIN for this denomination is available</source>
+        <translation>Warte mit automatischer Konvertierung zu Zerocoin, bis genügend RSCOIN für diese Stückelung verfügbar ist</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIVXL Denomination</source>
-        <translation>Bevorzugte automatisierte zPIVXL Stückelung </translation>
+        <source>Preferred Automint zRSCOIN Denomination</source>
+        <translation>Bevorzugte automatisierte zRSCOIN Stückelung </translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
         <translation>Staff Split-Schwelle:</translation>
     </message>
     <message>
-        <source>Connect to the PIVXL network through a SOCKS5 proxy.</source>
-        <translation>Durch einen SOCKS5 Proxy mit dem PIVXL Netzwerk verbinden.</translation>
+        <source>Connect to the RSCOIN network through a SOCKS5 proxy.</source>
+        <translation>Durch einen SOCKS5 Proxy mit dem RSCOIN Netzwerk verbinden.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2087,8 +2087,8 @@ https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
 <context>
     <name>PIVXGUI</name>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -2115,8 +2115,8 @@ https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
         <translation>Anwendung beenden</translation>
     </message>
     <message>
-        <source>PIVXL Core client</source>
-        <translation>PIVXL Core Client</translation>
+        <source>RSCOIN Core client</source>
+        <translation>RSCOIN Core Client</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2158,8 +2158,8 @@ Typ: %3
 Adresse: %4</translation>
     </message>
     <message>
-        <source>A fatal error occurred. PIVXL can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. PIVXL kann nicht länger sicher fortfahren und wird geschlossen</translation>
+        <source>A fatal error occurred. RSCOIN can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. RSCOIN kann nicht länger sicher fortfahren und wird geschlossen</translation>
     </message>
 </context>
 <context>
@@ -2186,11 +2186,11 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Cannot start pivxl: click-to-pay handler</source>
-        <translation>Kann PIVXL nicht starten: click-to-pay Handler</translation>
+        <translation>Kann RSCOIN nicht starten: click-to-pay Handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid PIVXL address or malformed URI parameters.</source>
-        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige PIVXL-Adresse oder fehlerhafte URI-Parameter verursacht worden sein.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige RSCOIN-Adresse oder fehlerhafte URI-Parameter verursacht worden sein.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2303,49 +2303,49 @@ Adresse: %4</translation>
         <translation>Prägen</translation>
     </message>
     <message>
-        <source>Minting zPIVXL anonymizes your PIVXL by removing any
+        <source>Minting zRSCOIN anonymizes your RSCOIN by removing any
 transaction history, making transactions untraceable </source>
-        <translation>Das Prägen von zPIVXL anonymisiert Ihre PIVXL, indem es die Transaktionshistorie entfernt und Transaktionen so nicht rückverfolgbar macht.</translation>
+        <translation>Das Prägen von zRSCOIN anonymisiert Ihre RSCOIN, indem es die Transaktionshistorie entfernt und Transaktionen so nicht rückverfolgbar macht.</translation>
     </message>
     <message>
-        <source>Mint new zPIVXL or convert back to PIVXL</source>
-        <translation>Präge neue zPIVXL oder einlösen für PIVXL</translation>
+        <source>Mint new zRSCOIN or convert back to RSCOIN</source>
+        <translation>Präge neue zRSCOIN oder einlösen für RSCOIN</translation>
     </message>
     <message>
-        <source>Last zPIVXL Movements</source>
-        <translation>letzte zPIVXL Bewegungen</translation>
+        <source>Last zRSCOIN Movements</source>
+        <translation>letzte zRSCOIN Bewegungen</translation>
     </message>
     <message>
         <source>No transactions yet</source>
         <translation>Keine Transaktionen</translation>
     </message>
     <message>
-        <source>Mint zPIVXL</source>
-        <translation>zPIVXL prägen</translation>
+        <source>Mint zRSCOIN</source>
+        <translation>zRSCOIN prägen</translation>
     </message>
     <message>
-        <source>Enter amount of PIVXL to mint into zPIVXL</source>
-        <translation>Gebe eine Anzahl PIVXL ein, um sie in zPIVXL zu wechseln</translation>
+        <source>Enter amount of RSCOIN to mint into zRSCOIN</source>
+        <translation>Gebe eine Anzahl RSCOIN ein, um sie in zRSCOIN zu wechseln</translation>
     </message>
     <message>
-        <source>Convert back to PIVXL</source>
-        <translation>Konvertiere zPIVXL zurück zu PIVXL</translation>
+        <source>Convert back to RSCOIN</source>
+        <translation>Konvertiere zRSCOIN zurück zu RSCOIN</translation>
     </message>
     <message>
-        <source>Enter amount of zPIVXL to convert back into PIVXL</source>
-        <translation>Geben Sie die Menge zPIVXL ein, die in PIVXL umgewandelt werden sollen</translation>
+        <source>Enter amount of zRSCOIN to convert back into RSCOIN</source>
+        <translation>Geben Sie die Menge zRSCOIN ein, die in RSCOIN umgewandelt werden sollen</translation>
     </message>
     <message>
         <source>Zerocoin</source>
         <translation>Zerocoin</translation>
     </message>
     <message>
-        <source>zPIVXL is currently undergoing maintenance</source>
-        <translation>zPIVXL wird momentan überarbeitet</translation>
+        <source>zRSCOIN is currently undergoing maintenance</source>
+        <translation>zRSCOIN wird momentan überarbeitet</translation>
     </message>
     <message>
-        <source>You need to unlock the wallet to be able to %1 zPIVXL</source>
-        <translation>Sie müssen Ihr Wallet entriegeln, um %1 zPIVXL zu</translation>
+        <source>You need to unlock the wallet to be able to %1 zRSCOIN</source>
+        <translation>Sie müssen Ihr Wallet entriegeln, um %1 zRSCOIN zu</translation>
     </message>
     <message>
         <source>convert</source>
@@ -2360,16 +2360,16 @@ transaction history, making transactions untraceable </source>
         <translation>Ungültiger Wert</translation>
     </message>
     <message>
-        <source>zPIVXL minted successfully</source>
-        <translation>zPIVXL erfolgreich geprägt</translation>
+        <source>zRSCOIN minted successfully</source>
+        <translation>zRSCOIN erfolgreich geprägt</translation>
     </message>
     <message>
-        <source>zPIVXL converted back to PIVXL</source>
-        <translation>zPIVXL zurück in PIVXL konvertiert</translation>
+        <source>zRSCOIN converted back to RSCOIN</source>
+        <translation>zRSCOIN zurück in RSCOIN konvertiert</translation>
     </message>
     <message>
-        <source>You don't have any PIVXL to select.</source>
-        <translation>Sie haben keine PIVXL zu wählen</translation>
+        <source>You don't have any RSCOIN to select.</source>
+        <translation>Sie haben keine RSCOIN zu wählen</translation>
     </message>
     <message>
         <source>Rescan Mints</source>
@@ -2380,8 +2380,8 @@ transaction history, making transactions untraceable </source>
         <translation>Ihre zerocoin Prägungen werden von Beginn der Blockchain gescannt</translation>
     </message>
     <message>
-        <source>Reset Spent zPIVXL</source>
-        <translation>Ausgegebene zPIVXL erneut senden</translation>
+        <source>Reset Spent zRSCOIN</source>
+        <translation>Ausgegebene zRSCOIN erneut senden</translation>
     </message>
     <message>
         <source>Your zerocoin spends are going to be scanned from the blockchain from scratch</source>
@@ -2399,8 +2399,8 @@ transaction history, making transactions untraceable </source>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>Enter PIVXL address (e.g. %1)</source>
-        <translation>PIVXL Adresse eingeben (z.B. %1)</translation>
+        <source>Enter RSCOIN address (e.g. %1)</source>
+        <translation>RSCOIN Adresse eingeben (z.B. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2443,8 +2443,8 @@ transaction history, making transactions untraceable </source>
         <translation>%1 Ms</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2463,8 +2463,8 @@ transaction history, making transactions untraceable </source>
         <translation>Fehler beim Einlesen der Konfigurationsdatei %1 für den Masternode.</translation>
     </message>
     <message>
-        <source>PIVXL Core didn't yet exit safely...</source>
-        <translation>PIVXL Core konnte noch nicht sicher beendet werden...</translation>
+        <source>RSCOIN Core didn't yet exit safely...</source>
+        <translation>RSCOIN Core konnte noch nicht sicher beendet werden...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2634,8 +2634,8 @@ transaction history, making transactions untraceable </source>
         <translation>Blockchain</translation>
     </message>
     <message>
-        <source>Open the PIVXL debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffne PIVXL-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
+        <source>Open the RSCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffne RSCOIN-Debug-Protokolldatei aus dem aktuellen Datenverzeichnis. Dies kann bei großen Protokolldateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2778,8 +2778,8 @@ transaction history, making transactions untraceable </source>
         <translation>Benutzerdefinierter Sicherungspfad:</translation>
     </message>
     <message>
-        <source>Custom zPIVXL Backup Path:</source>
-        <translation>Benutzerdefinierter zPIVXL Sicherungspfad:</translation>
+        <source>Custom zRSCOIN Backup Path:</source>
+        <translation>Benutzerdefinierter zRSCOIN Sicherungspfad:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -2858,8 +2858,8 @@ transaction history, making transactions untraceable </source>
         <translation>Out:</translation>
     </message>
     <message>
-        <source>Welcome to the PIVXL RPC console.</source>
-        <translation>Willkommen in der PIVXL RPC-Konsole.</translation>
+        <source>Welcome to the RSCOIN RPC console.</source>
+        <translation>Willkommen in der RSCOIN RPC-Konsole.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3024,8 +3024,8 @@ transaction history, making transactions untraceable </source>
         <translation>Empfangen</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive PIVXL.</source>
-        <translation>QR-Code scannen oder Adresse kopieren um PIVXL zu erhalten.</translation>
+        <source>Scan the QR code or copy the address to receive RSCOIN.</source>
+        <translation>QR-Code scannen oder Adresse kopieren um RSCOIN zu erhalten.</translation>
     </message>
     <message>
         <source>No address </source>
@@ -3134,8 +3134,8 @@ transaction history, making transactions untraceable </source>
         <translation>Betrag</translation>
     </message>
     <message>
-        <source>PIVXL</source>
-        <translation>PIVXL</translation>
+        <source>RSCOIN</source>
+        <translation>RSCOIN</translation>
     </message>
     <message>
         <source>TextLabel</source>
@@ -3174,8 +3174,8 @@ transaction history, making transactions untraceable </source>
         <translation>Neue Bezahlung anfordern</translation>
     </message>
     <message>
-        <source>Instead of sharing only a PIVXL address, you can create a payment request, bundling up more information.</source>
-        <translation>Anstatt nur eine PIVXL Adresse zu teilen, können Sie eine Zahlung anfordern, die mehr Informationen enthält.</translation>
+        <source>Instead of sharing only a RSCOIN address, you can create a payment request, bundling up more information.</source>
+        <translation>Anstatt nur eine RSCOIN Adresse zu teilen, können Sie eine Zahlung anfordern, die mehr Informationen enthält.</translation>
     </message>
     <message>
         <source>Enter a label for the address</source>
@@ -3233,7 +3233,7 @@ transaction history, making transactions untraceable </source>
         <translation>Benutzerdefinierte Wechseladresse</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" PIVXL address</source>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" RSCOIN address</source>
         <translation>Der verbleibende Betrag der Inputs minus der Outputs geht an die Wechseladresse</translation>
     </message>
     <message>
@@ -3268,8 +3268,8 @@ transaction history, making transactions untraceable </source>
         <translation>Empfohlen</translation>
     </message>
     <message>
-        <source>PIVXL/kilobyte</source>
-        <translation>PIVXL/kB</translation>
+        <source>RSCOIN/kilobyte</source>
+        <translation>RSCOIN/kB</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3346,8 +3346,8 @@ transaction history, making transactions untraceable </source>
         <translation>Schicken</translation>
     </message>
     <message>
-        <source>You can transfer public coins (PIVXL) or private coins (zPIVXL)</source>
-        <translation>Sie können öffentliche Coins (PIVXL) oder private Coins (zPIVXL) transferieren</translation>
+        <source>You can transfer public coins (RSCOIN) or private coins (zRSCOIN)</source>
+        <translation>Sie können öffentliche Coins (RSCOIN) oder private Coins (zRSCOIN) transferieren</translation>
     </message>
     <message>
         <source>Select coin type to spend</source>
@@ -3378,12 +3378,12 @@ transaction history, making transactions untraceable </source>
         <translation>Totalbetrag zum Senden</translation>
     </message>
     <message>
-        <source>Send PIVXL</source>
-        <translation>Sende PIVXL</translation>
+        <source>Send RSCOIN</source>
+        <translation>Sende RSCOIN</translation>
     </message>
     <message>
-        <source>Send zPIVXL</source>
-        <translation>Sende zPIVXL</translation>
+        <source>Send zRSCOIN</source>
+        <translation>Sende zRSCOIN</translation>
     </message>
     <message>
         <source>Total remaining from the selected UTXO</source>
@@ -3413,8 +3413,8 @@ Möchten Sie fortfahren?</translation>
         <translation>Maximale Anzahl an Outputs erreicht</translation>
     </message>
     <message>
-        <source>PIVXL address or contact label</source>
-        <translation>PIVXL Adresse oder Kontaktbezeichnung</translation>
+        <source>RSCOIN address or contact label</source>
+        <translation>RSCOIN Adresse oder Kontaktbezeichnung</translation>
     </message>
     <message>
         <source>Invalid entry, previous entries must be valid before add a new one</source>
@@ -3452,8 +3452,8 @@ Transaktion gibt eine cold-staking Zuweisung aus und macht diese nichtig. Diese 
         <translation>Überweise Zerocoin</translation>
     </message>
     <message>
-        <source>zPIVXL is currently undergoing maintenance.</source>
-        <translation>zPIVXL unterliegt momentan Wartungsarbeiten.</translation>
+        <source>zRSCOIN is currently undergoing maintenance.</source>
+        <translation>zRSCOIN unterliegt momentan Wartungsarbeiten.</translation>
     </message>
     <message>
         <source>Coin control mint not found</source>
@@ -3470,12 +3470,12 @@ Transaktion gibt eine cold-staking Zuweisung aus und macht diese nichtig. Diese 
         <translation>Sende %1 an Adressen %2</translation>
     </message>
     <message>
-        <source>zPIVXL transaction sent!</source>
-        <translation>zPIVXL Transaktion ausgeführt</translation>
+        <source>zRSCOIN transaction sent!</source>
+        <translation>zRSCOIN Transaktion ausgeführt</translation>
     </message>
     <message>
-        <source>Version 1 zPIVXL require a security level of 100 to successfully spend.</source>
-        <translation>Version 1 zPIVXL benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
+        <source>Version 1 zRSCOIN require a security level of 100 to successfully spend.</source>
+        <translation>Version 1 zRSCOIN benötigen eine Sicherheitsstufe von 100 um erfolgreich ausgegeben werden zu können.</translation>
     </message>
     <message>
         <source>Too much inputs (</source>
@@ -3510,12 +3510,12 @@ Präge entweder höhere Stückelungen (damit weniger Eingaben benötigt werdenn)
         <translation>Benutzerdefinierte Gebühr %1</translation>
     </message>
     <message>
-        <source>You don't have any PIVXL to select.</source>
-        <translation>Sie haben keine PIVXL zu wählen</translation>
+        <source>You don't have any RSCOIN to select.</source>
+        <translation>Sie haben keine RSCOIN zu wählen</translation>
     </message>
     <message>
-        <source>You don't have any zPIVXL in your balance to select.</source>
-        <translation>Sie haben keine zPIVXL zum Auswählen</translation>
+        <source>You don't have any zRSCOIN in your balance to select.</source>
+        <translation>Sie haben keine zRSCOIN zum Auswählen</translation>
     </message>
     <message>
         <source>No contacts available, you can go to the contacts screen and add some there!</source>
@@ -3679,8 +3679,8 @@ Diese Option erzeugt eine wallet.dat Datei, die sie nutzen können, um Ihr Verm�
         <translation>Entschlüsselte Adresse</translation>
     </message>
     <message>
-        <source>PIVXL address</source>
-        <translation>PIVXL Adresse</translation>
+        <source>RSCOIN address</source>
+        <translation>RSCOIN Adresse</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3811,8 +3811,8 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>Debug Datei konnte nicht geöffnet werden. Stellen Sie sicher, den vorher bestimmten Texteditor installiert zu haben.</translation>
     </message>
     <message>
-        <source>Welcome to the PIVXL RPC console.</source>
-        <translation>Willkommen in der PIVXL RPC-Konsole.</translation>
+        <source>Welcome to the RSCOIN RPC console.</source>
+        <translation>Willkommen in der RSCOIN RPC-Konsole.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -4008,33 +4008,33 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>Druckknopf</translation>
     </message>
     <message>
-        <source>1) What is PIVXL?</source>
-        <translation>1) Was ist PIVXL?</translation>
+        <source>1) What is RSCOIN?</source>
+        <translation>1) Was ist RSCOIN?</translation>
     </message>
     <message>
-        <source>2) Why are my PIVXL unspendable?</source>
-        <translation>2) Wieso kann ich meine PIVXL nicht ausgeben?</translation>
+        <source>2) Why are my RSCOIN unspendable?</source>
+        <translation>2) Wieso kann ich meine RSCOIN nicht ausgeben?</translation>
     </message>
     <message>
-        <source>3) PIVXL privacy? What is Zerocoin (zPIVXL)?</source>
-        <translation>3) PIVXL Privatsphäre? Was ist ein Zercoin (zPIVXL)?</translation>
+        <source>3) RSCOIN privacy? What is Zerocoin (zRSCOIN)?</source>
+        <translation>3) RSCOIN Privatsphäre? Was ist ein Zercoin (zRSCOIN)?</translation>
     </message>
     <message>
-        <source>4) Why are my zPIVXL unspendable?</source>
-        <translation>4) Wieso kann ich meine zPIVXL nicht ausgeben?</translation>
+        <source>4) Why are my zRSCOIN unspendable?</source>
+        <translation>4) Wieso kann ich meine zRSCOIN nicht ausgeben?</translation>
     </message>
     <message>
         <source>5) Why did my wallet convert the balance
-    into zPIVXL automatically?</source>
-        <translation>5) Wieso hat meine Wallet automatisch das Guthaben in zPIVXL gewechselt?</translation>
+    into zRSCOIN automatically?</source>
+        <translation>5) Wieso hat meine Wallet automatisch das Guthaben in zRSCOIN gewechselt?</translation>
     </message>
     <message>
-        <source>6) How do I receive PIVXL/zPIVXL?</source>
-        <translation>6) Wie empfange ich PIVXL/zPIVXL?</translation>
+        <source>6) How do I receive RSCOIN/zRSCOIN?</source>
+        <translation>6) Wie empfange ich RSCOIN/zRSCOIN?</translation>
     </message>
     <message>
-        <source>7) How do I stake PIVXL/zPIVXL?</source>
-        <translation>7) Wie stake ich PIVXL/zPIVXL?</translation>
+        <source>7) How do I stake RSCOIN/zRSCOIN?</source>
+        <translation>7) Wie stake ich RSCOIN/zRSCOIN?</translation>
     </message>
     <message>
         <source>8) Where I should go if I need support?</source>
@@ -4053,71 +4053,71 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>1</translation>
     </message>
     <message>
-        <source>What is PIVXL?</source>
-        <translation>Was ist PIVXL</translation>
+        <source>What is RSCOIN?</source>
+        <translation>Was ist RSCOIN</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           PIVXL is a form of digital online money using blockchain technology
+                           RSCOIN is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  PIVXL incorporates market leading security &amp;
+                           zero fees.  RSCOIN incorporates market leading security &amp;
                            privacy and is also the first PoS (Proof of Stake) Cryptocurrency
-                           to implement ZeroCoin(zPIVXL) and Zerocoin staking.
+                           to implement ZeroCoin(zRSCOIN) and Zerocoin staking.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           PIVXL utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of PIVXL to participate in earning block rewards
+                           RSCOIN utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of RSCOIN to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to create and vote on proposals.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
-        <translation>PIVXL ist eine Form von digitalem Onlinegeld, das die Blockchaintechnologie verwendet und
-einfach, global, sofort und nahezu kostenlos versendet werden kann. PIVXL enthält marktführende Sicherheits- und Privatsphäretechnologien und ist auch die erste PoS (Proof of Stake) Kryptowährung, die ZeroCoin (zPIVXL) und Zerocoin Staking verwendet.
-PIVXL nutzt einen PoS Konsensalgorithmus, der es den Besitzern von PIVXL erlaubt, an der Vergabe der Block Rewards teilzuhaben, während das Netzwerk durch Fullnode Wallets abgesichert ist. Darüber hinaus können Masternode Proposals einreichen und darüber abstimmen.</translation>
+        <translation>RSCOIN ist eine Form von digitalem Onlinegeld, das die Blockchaintechnologie verwendet und
+einfach, global, sofort und nahezu kostenlos versendet werden kann. RSCOIN enthält marktführende Sicherheits- und Privatsphäretechnologien und ist auch die erste PoS (Proof of Stake) Kryptowährung, die ZeroCoin (zRSCOIN) und Zerocoin Staking verwendet.
+RSCOIN nutzt einen PoS Konsensalgorithmus, der es den Besitzern von RSCOIN erlaubt, an der Vergabe der Block Rewards teilzuhaben, während das Netzwerk durch Fullnode Wallets abgesichert ist. Darüber hinaus können Masternode Proposals einreichen und darüber abstimmen.</translation>
     </message>
     <message>
         <source>2</source>
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my PIVXL unspendable?</source>
-        <translation>Wieso kann ich meine PIVXL nicht ausgeben?</translation>
+        <source>Why are my RSCOIN unspendable?</source>
+        <translation>Wieso kann ich meine RSCOIN nicht ausgeben?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received PIVXL requires 6 confirmations on the network
+                           Newly received RSCOIN requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your PIVXL wallet also needs to be completely synchronized
+                           Your RSCOIN wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
-        <translation>Neu empfangene PIVXL brauchen 6 Bestätigungen im Netzwerkum für Transaktionen verwendet werden zu können. Dies dauert ungeführ 6 Minuten. Ihr PIVXL Wallet muss auch komplett mit dem Netzwerk synchronisiert sein um Guthaben einsehen und versenden zu können.</translation>
+        <translation>Neu empfangene RSCOIN brauchen 6 Bestätigungen im Netzwerkum für Transaktionen verwendet werden zu können. Dies dauert ungeführ 6 Minuten. Ihr RSCOIN Wallet muss auch komplett mit dem Netzwerk synchronisiert sein um Guthaben einsehen und versenden zu können.</translation>
     </message>
     <message>
         <source>3</source>
         <translation>3</translation>
     </message>
     <message>
-        <source>PIVXL privacy? What is Zerocoin (zPIVXL)?</source>
-        <translation>PIVXL Privatsphäre? Was ist ein Zercoin (zPIVXL)?</translation>
+        <source>RSCOIN privacy? What is Zerocoin (zRSCOIN)?</source>
+        <translation>RSCOIN Privatsphäre? Was ist ein Zercoin (zRSCOIN)?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIVXL is an optional privacy-centric method of coin mixing on the
-                           PIVXL blockchain. Basically all your transactions cannot be tracked
+                           zRSCOIN is an optional privacy-centric method of coin mixing on the
+                           RSCOIN blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #b088ff' href='https://PIVXL.org/zpiv/'&gt;
-                           "PIVXL Zerocoin (zPIVXL) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+                           "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zPIVXL ist eine optionale Methode zur Mischung von Münzen auf der PIVXL Blockchain, deren Fokus auf Privatsphäre liegt. Im Grunde können all Ihre Transaktionen nicht auf einem Blockexplorer verfolgt werden. Hier  finden Sie mehr über die Technik heraus.
-&lt;a style='color: #b088ff' href='https://PIVXL.org/zpiv/'&gt;
-"PIVXL Zerocoin (zPIVXL) Technical Paper"&lt;/a&gt;
+zRSCOIN ist eine optionale Methode zur Mischung von Münzen auf der RSCOIN Blockchain, deren Fokus auf Privatsphäre liegt. Im Grunde können all Ihre Transaktionen nicht auf einem Blockexplorer verfolgt werden. Hier  finden Sie mehr über die Technik heraus.
+&lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+"RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
@@ -4125,50 +4125,50 @@ zPIVXL ist eine optionale Methode zur Mischung von Münzen auf der PIVXL Blockch
         <translation>4</translation>
     </message>
     <message>
-        <source>Why are my zPIVXL unspendable?</source>
-        <translation>Wieso kann ich meine zPIVXL nicht ausgeben?</translation>
+        <source>Why are my zRSCOIN unspendable?</source>
+        <translation>Wieso kann ich meine zRSCOIN nicht ausgeben?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           After minting, zPIVXL will require 20 confirmations as well as 1
+                           After minting, zRSCOIN will require 20 confirmations as well as 1
                            additional mint of the same denomination on the network to
                            become eligible for spending.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
-        <translation>Nach der Prägung - dem Minting - benötigen zPIVXL 20 Bestätigungen und eine weitere Prägung gleichen Nennwerts, bevor diese für Zahlungen geeignet sind.</translation>
+        <translation>Nach der Prägung - dem Minting - benötigen zRSCOIN 20 Bestätigungen und eine weitere Prägung gleichen Nennwerts, bevor diese für Zahlungen geeignet sind.</translation>
     </message>
     <message>
         <source>5</source>
         <translation>5</translation>
     </message>
     <message>
-        <source>Why did my wallet convert the balance into zPIVXL automatically?</source>
-        <translation>Wieso hat meine Wallet automatisch das Guthaben in zPIVXL gewechselt?</translation>
+        <source>Why did my wallet convert the balance into zRSCOIN automatically?</source>
+        <translation>Wieso hat meine Wallet automatisch das Guthaben in zRSCOIN gewechselt?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           By default the PIVXL wallet will convert 10% of your entire PIVXL
-                           balance to zPIVXL to assist the network. If you do not wish to
-                           stake zPIVXL or take advantage of the privacy benefit it brings,
-                           you can disable the automatic minting in your PIVXL wallet by
-                           going to Settings-&gt;Options and deselecting “Enable zPIVXL Automint”.
-                           If you are not making use of the PIVXL-QT or GUI you can simply open
+                           By default the RSCOIN wallet will convert 10% of your entire RSCOIN
+                           balance to zRSCOIN to assist the network. If you do not wish to
+                           stake zRSCOIN or take advantage of the privacy benefit it brings,
+                           you can disable the automatic minting in your RSCOIN wallet by
+                           going to Settings-&gt;Options and deselecting “Enable zRSCOIN Automint”.
+                           If you are not making use of the RSCOIN-QT or GUI you can simply open
                            your pivxl.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           You can read more about zPIVXL in the
-                           &lt;a style='color: #b088ff' href='https://PIVXL.org/zpiv/'&gt; "PIVXL Zerocoin (zPIVXL) Technical Paper"&lt;/a&gt;.
-                           If you would like to keep and stake your zPIVXL, please read the "How do I stake"
+                           You can read more about zRSCOIN in the
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
+                           If you would like to keep and stake your zRSCOIN, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
-&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;In den Standardeinstellungen werden 10% Ihrer PIVXL zu zPIVXL konvertiert, um das Netzwerk zu unterstützen. Wenn nicht zPIVXL staken wollen oder nicht von den Vorteilen in der Privatsphäre, die dies bringt, profitieren wollen, können Sie das automatische Prägen in Ihrem PIVXL Wallet ausschalten. Gehen Sie hierfür zu Einstellungen-&gt; Optionen und schalten Sie "zPIVXL Autoprägung" ab.
-Wenn Sie von PIVXL-QT oder der GUI keinen Gebrauch machen, können Sie einfach Ihre pivxl.conf Datei geöffnet lassen und die Zeile &lt;i&gt;enablezeromint=0&lt;/i&gt; ohne die Anführungszeichen hizufügen. Starten Sie dann Ihr Wallet neu, um die Autoprägung abzustellen.&lt;/p&gt;&lt;/p&gt;&lt;p align="justify"&gt; 
-Erfahren Sie mehr über zPIVXL in dem &lt;a style='color: #b088ff' href='https://PIVXL.org/zpiv/'&gt;"PIVXL Zerocoin (zPIVXL) Technical Paper"&lt;/a&gt;
-Wenn Sie Ihr zPIVXL weiterhin staken wollen, lesen Sie bitte die Sektion "Wie stake ich"
+&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;In den Standardeinstellungen werden 10% Ihrer RSCOIN zu zRSCOIN konvertiert, um das Netzwerk zu unterstützen. Wenn nicht zRSCOIN staken wollen oder nicht von den Vorteilen in der Privatsphäre, die dies bringt, profitieren wollen, können Sie das automatische Prägen in Ihrem RSCOIN Wallet ausschalten. Gehen Sie hierfür zu Einstellungen-&gt; Optionen und schalten Sie "zRSCOIN Autoprägung" ab.
+Wenn Sie von RSCOIN-QT oder der GUI keinen Gebrauch machen, können Sie einfach Ihre pivxl.conf Datei geöffnet lassen und die Zeile &lt;i&gt;enablezeromint=0&lt;/i&gt; ohne die Anführungszeichen hizufügen. Starten Sie dann Ihr Wallet neu, um die Autoprägung abzustellen.&lt;/p&gt;&lt;/p&gt;&lt;p align="justify"&gt; 
+Erfahren Sie mehr über zRSCOIN in dem &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;"RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;
+Wenn Sie Ihr zRSCOIN weiterhin staken wollen, lesen Sie bitte die Sektion "Wie stake ich"
 in den FAQs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;.</translation>
     </message>
     <message>
@@ -4176,41 +4176,41 @@ in den FAQs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;.</translation>
         <translation>6</translation>
     </message>
     <message>
-        <source>How do I receive PIVXL/zPIVXL?</source>
-        <translation>Wie empfange ich PIVXL/zPIVXL?</translation>
+        <source>How do I receive RSCOIN/zRSCOIN?</source>
+        <translation>Wie empfange ich RSCOIN/zRSCOIN?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           zPIVXL can be spent and sent to any PIVXL address. The receiver will
-                           receive standard PIVXL but the origin of the PIVXL is anonymized by the zPIVXL Protocol.
+                           zRSCOIN can be spent and sent to any RSCOIN address. The receiver will
+                           receive standard RSCOIN but the origin of the RSCOIN is anonymized by the zRSCOIN Protocol.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           If you want more zPIVXL you will need to mint your balance in the “Privacy” tab.
+                           If you want more zRSCOIN you will need to mint your balance in the “Privacy” tab.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-zPIVXL können zu jeder PIVXL Adresse gesendet werden. Der Empfänger wird die standardmäßigen PIVXL erhalten, aber der Ursprung der PIVXL ist durch das  zPIVXL Protokoll anonymisiert.
+zRSCOIN können zu jeder RSCOIN Adresse gesendet werden. Der Empfänger wird die standardmäßigen RSCOIN erhalten, aber der Ursprung der RSCOIN ist durch das  zRSCOIN Protokoll anonymisiert.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Wenn Sie mehr zPIVXL wollen, müssen Sie in ihrem "Privatsphäre" Tab mehr prägen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+Wenn Sie mehr zRSCOIN wollen, müssen Sie in ihrem "Privatsphäre" Tab mehr prägen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>7</source>
         <translation>7</translation>
     </message>
     <message>
-        <source>How do I stake PIVXL/zPIVXL?</source>
-        <translation>Wie stake ich PIVXL/zPIVXL?</translation>
+        <source>How do I stake RSCOIN/zRSCOIN?</source>
+        <translation>Wie stake ich RSCOIN/zRSCOIN?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           To Stake PIVXL:
+                           To Stake RSCOIN:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
                            &lt;li&gt;
-                           You must have a balance of PIVXL with a minimum of 600 confirmations.
+                           You must have a balance of RSCOIN with a minimum of 600 confirmations.
                            &lt;li&gt;
                            Your wallet must stay online and be unlocked for staking purposes.
                            &lt;li&gt;
@@ -4219,12 +4219,12 @@ Wenn Sie mehr zPIVXL wollen, müssen Sie in ihrem "Privatsphäre" Tab mehr präg
                            You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (pivxl-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           To Stake zPIVXL:
+                           To Stake zRSCOIN:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ol&gt;&lt;li&gt;
                            Make sure your wallet is completely synchronized and you are using the latest release.
                            &lt;li&gt;
-                           Your newly minted or existing zPIVXL balance must have a minimum of 200 confirmations.
+                           Your newly minted or existing zRSCOIN balance must have a minimum of 200 confirmations.
                            &lt;li&gt;
                            Your wallet must stay online and be unlocked for anonymization and staking purposes.
                            Staking should now be enabled.
@@ -4233,11 +4233,11 @@ Wenn Sie mehr zPIVXL wollen, müssen Sie in ihrem "Privatsphäre" Tab mehr präg
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Um PIVXL zu staken:&lt;/p&gt;&lt;p align="justify"&gt;
+Um RSCOIN zu staken:&lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 Stellen Sie sicher, dass Ihr Wallet komplett synchronisiert ist und Sie die aktuellste Version verwenden.
 &lt;li&gt;
-Sie müssen eine Mindestmenge an PIVXL mit 600 Bestätigungen halten
+Sie müssen eine Mindestmenge an RSCOIN mit 600 Bestätigungen halten
 &lt;li&gt;
 Zu Stakingzwecken muss Ihr Wallet online und entriegelt bleiben
 &lt;li&gt;
@@ -4245,12 +4245,12 @@ Wenn diese Bedingungen erfüllt sind, sollte Staking möglich sein.&lt;li&gt;
 Sie können den Status in dem Wallet sehen, wenn Sie mit der Maus über das "Paket"-Icon in der oberen Zeile fahren. Das Paket wird aufleuchten und "Staking eingeschaltet" anzeigen, um den Stakingporzess anzuzeigen. In der Kommandozeile wird Ihnen der Befehl (pivxl-cli);&lt;i&gt;getstaking&lt;/i&gt;bestätigen, dass das Staking aktiv ist. 
 &lt;/li&gt;&lt;/ol&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
-Um zPIVXL zu staken:
+Um zRSCOIN zu staken:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 Stellen Sie sicher, dass Ihr Wallet komplett synchronisiert ist und Sie die aktuellste Version verwenden.
 &lt;li&gt;
-Ihre neu erzeugten zPIVXL oder Ihre vorhandenen zPIVXL müssen mindestens 200 Bestätigungen aufweisen.
+Ihre neu erzeugten zRSCOIN oder Ihre vorhandenen zRSCOIN müssen mindestens 200 Bestätigungen aufweisen.
 &lt;li&gt;
 Zu Stakingzwecken muss Ihr Wallet online und entriegelt bleiben.
 &lt;/li&gt;&lt;/ol&gt;
@@ -4269,8 +4269,8 @@ Zu Stakingzwecken muss Ihr Wallet online und entriegelt bleiben.
         <translation>Was ist ein Masternode Controller?</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 100,000 PIVXL collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Ein Masternode Controller Wallet ist, wo die 100.000 PIVXL Kollateral verweilen können, während ein Controller-Remote Masternode Setup erfolgt. Es ist ein Wallet, das remote Masternode Wallet(s) aktiviert und Ihnen erlaubt, ihre Kollateral-Münzen offline zu halten, während der remote Masternode online bleibt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the 100,000 RSCOIN collateral can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Ein Masternode Controller Wallet ist, wo die 100.000 RSCOIN Kollateral verweilen können, während ein Controller-Remote Masternode Setup erfolgt. Es ist ein Wallet, das remote Masternode Wallet(s) aktiviert und Ihnen erlaubt, ihre Kollateral-Münzen offline zu halten, während der remote Masternode online bleibt.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
     <message>
         <source>8</source>
@@ -4280,20 +4280,20 @@ Zu Stakingzwecken muss Ihr Wallet online und entriegelt bleiben.
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
                            We have support channels in most of our official chat groups, for example
-                           &lt;a style='color: #b088ff' href='https://discord.PIVXL.org'&gt;
+                           &lt;a style='color: #b088ff' href='https://discord.RSCOIN.org'&gt;
                            #support in our Discord&lt;/a&gt;.
                            If you prefer to submit a ticket, One can be
-                           &lt;a style='color: #b088ff' href='https://PIVXL.freshdesk.com'&gt;
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.freshdesk.com'&gt;
                            our Freshdesk support site&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Wir haben Support-Kanäle in den meisten unserer offiziellen Chatgruppen, z.B.
-&lt;a style='color: #b088ff' href='https://discord.PIVXL.org'&gt;
+&lt;a style='color: #b088ff' href='https://discord.RSCOIN.org'&gt;
 #support in Discord&lt;/a&gt;
 Wenn Sie bevorzugen, uns ein Ticket zu schicken, besuchen Sie
-&lt;a style='color: #b088ff' href='https://PIVXL.freshdesk.com'&gt;
+&lt;a style='color: #b088ff' href='https://RSCOIN.freshdesk.com'&gt;
 unsere Support-Seite.&lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4476,8 +4476,8 @@ unsere Support-Seite.&lt;/a&gt;
         <translation>Anzahl der Threads für die Skriptverifizierung</translation>
     </message>
     <message>
-        <source>Start PIVXL on system login</source>
-        <translation>Starte PIVXL bei Systemlogin</translation>
+        <source>Start RSCOIN on system login</source>
+        <translation>Starte RSCOIN bei Systemlogin</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4563,8 +4563,8 @@ Sind Sie sicher?</translation>
         <translation>Checkbox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other PIVXL addresses after it matures.</source>
-        <translation>MultiSend erlaubt automatisch bis zu 100% Ihres Stakes oder Ihrer Masternode Belohnungen an eine Liste von PIVXL Adressen zu senden, nachdem diese fällig geworden sind.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other RSCOIN addresses after it matures.</source>
+        <translation>MultiSend erlaubt automatisch bis zu 100% Ihres Stakes oder Ihrer Masternode Belohnungen an eine Liste von RSCOIN Adressen zu senden, nachdem diese fällig geworden sind.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4695,8 +4695,8 @@ Aktivieren Sie eine oder beide Checkboxen, um Stake oder Masternode Rewards zu s
         <translation>Nachricht</translation>
     </message>
     <message>
-        <source>PIVXL address or contact label</source>
-        <translation>PIVXL Adresse oder Kontaktbezeichnung</translation>
+        <source>RSCOIN address or contact label</source>
+        <translation>RSCOIN Adresse oder Kontaktbezeichnung</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -5028,8 +5028,8 @@ Aktivieren Sie eine oder beide Checkboxen, um Stake oder Masternode Rewards zu s
         <translation>FAQ</translation>
     </message>
     <message>
-        <source>About PIVXL</source>
-        <translation>Über PIVXL</translation>
+        <source>About RSCOIN</source>
+        <translation>Über RSCOIN</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -5093,8 +5093,8 @@ Sind Sie sicher?</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>PIVXL Core is shutting down...</source>
-        <translation>PIVXL Core wird beendet...</translation>
+        <source>RSCOIN Core is shutting down...</source>
+        <translation>RSCOIN Core wird beendet...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -5123,15 +5123,15 @@ Sind Sie sicher?</translation>
         <translation>Lade...</translation>
     </message>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>PIVXL Core</source>
-        <translation>PIVXL Core</translation>
+        <source>RSCOIN Core</source>
+        <translation>RSCOIN Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -5146,8 +5146,8 @@ Sind Sie sicher?</translation>
         <translation>Die Dash Core Entwickler</translation>
     </message>
     <message>
-        <source>The PIVXL Core developers</source>
-        <translation>Die PIVXL Core Entwickler</translation>
+        <source>The RSCOIN Core developers</source>
+        <translation>Die RSCOIN Core Entwickler</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -5575,40 +5575,40 @@ BEDENKEN SIE: Nach dem Upgrade wird ein neues Backup erstellt.
         <translation>Empfangen von</translation>
     </message>
     <message>
-        <source>PIVXL Stake</source>
-        <translation>PIVXL Stake</translation>
+        <source>RSCOIN Stake</source>
+        <translation>RSCOIN Stake</translation>
     </message>
     <message>
-        <source>zPIVXL Stake</source>
-        <translation>zPIVXL Stake</translation>
+        <source>zRSCOIN Stake</source>
+        <translation>zRSCOIN Stake</translation>
     </message>
     <message>
-        <source>PIVXL Cold Stake</source>
-        <translation>PIVXL Cold Stake</translation>
+        <source>RSCOIN Cold Stake</source>
+        <translation>RSCOIN Cold Stake</translation>
     </message>
     <message>
         <source>Stake delegation</source>
         <translation>Stake Zuweisung</translation>
     </message>
     <message>
-        <source>Converted PIVXL to zPIVXL</source>
-        <translation>Umgewandeltes PIVXL zu zPIVXL</translation>
+        <source>Converted RSCOIN to zRSCOIN</source>
+        <translation>Umgewandeltes RSCOIN zu zRSCOIN</translation>
     </message>
     <message>
-        <source>Spent zPIVXL</source>
-        <translation>Ausgegebene zPIVXL</translation>
+        <source>Spent zRSCOIN</source>
+        <translation>Ausgegebene zRSCOIN</translation>
     </message>
     <message>
-        <source>Received PIVXL from zPIVXL</source>
-        <translation>Empfangene PIVXL von zPIVXL</translation>
+        <source>Received RSCOIN from zRSCOIN</source>
+        <translation>Empfangene RSCOIN von zRSCOIN</translation>
     </message>
     <message>
-        <source>Minted Change as zPIVXL from zPIVXL Spend</source>
-        <translation>Geprägtes zPIVXL Wechselgeld aus zPIVXL Überweisung</translation>
+        <source>Minted Change as zRSCOIN from zRSCOIN Spend</source>
+        <translation>Geprägtes zRSCOIN Wechselgeld aus zRSCOIN Überweisung</translation>
     </message>
     <message>
-        <source>Converted zPIVXL to PIVXL</source>
-        <translation>Umgewandeltes zPIVXL zu PIVXL</translation>
+        <source>Converted zRSCOIN to RSCOIN</source>
+        <translation>Umgewandeltes zRSCOIN zu RSCOIN</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -5623,8 +5623,8 @@ BEDENKEN SIE: Nach dem Upgrade wird ein neues Backup erstellt.
         <translation>Eigenüberweisung</translation>
     </message>
     <message>
-        <source>PIVXL Stake on behalf of</source>
-        <translation>PIVXL Stake im Auftrag von</translation>
+        <source>RSCOIN Stake on behalf of</source>
+        <translation>RSCOIN Stake im Auftrag von</translation>
     </message>
     <message>
         <source>Stake delegation spent by</source>
@@ -5789,8 +5789,8 @@ BEDENKEN SIE: Nach dem Upgrade wird ein neues Backup erstellt.
         <translation>18/05/18</translation>
     </message>
     <message>
-        <source>+0.000585 PIVXL</source>
-        <translation>+0.000585 PIVXL</translation>
+        <source>+0.000585 RSCOIN</source>
+        <translation>+0.000585 RSCOIN</translation>
     </message>
 </context>
 <context>
@@ -5800,8 +5800,8 @@ BEDENKEN SIE: Nach dem Upgrade wird ein neues Backup erstellt.
         <translation>PIVs überweisen</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIVXL.</source>
-        <translation>Swift Transaktionen unterstützen das senden solch hoher Beträge noch nicht. Transaktionen sind momentan auf %1 PIVXL begrenzt.</translation>
+        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RSCOIN.</source>
+        <translation>Swift Transaktionen unterstützen das senden solch hoher Beträge noch nicht. Transaktionen sind momentan auf %1 RSCOIN begrenzt.</translation>
     </message>
 </context>
 <context>
@@ -5844,24 +5844,24 @@ BEDENKEN SIE: Nach dem Upgrade wird ein neues Backup erstellt.
     </message>
     <message>
         <source>Welcome to
-PIVXL Core Wallet</source>
-        <translation>Willkommen beim PIVXL Core Wallet</translation>
+RSCOIN Core Wallet</source>
+        <translation>Willkommen beim RSCOIN Core Wallet</translation>
     </message>
     <message>
-        <source>PIVXL is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVXL ist die innovativste, auf Proof of Stake Blockchain basierende Technologie. Es wurde von einem Team hoch erfahrener Entwickler und Kryptographen entwickelt.</translation>
+        <source>RSCOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>RSCOIN ist die innovativste, auf Proof of Stake Blockchain basierende Technologie. Es wurde von einem Team hoch erfahrener Entwickler und Kryptographen entwickelt.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - PIVXL believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>Wie unser Manifestum sagt: Privatsphäre ist ein nicht-verhandelbares Menschenrecht; es garantiert Nuzern die Freiheit ihre Daten wann immer und mit wem auch immer zu teilen - PIVXL galubt an diese Souveränität.</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - RSCOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>Wie unser Manifestum sagt: Privatsphäre ist ein nicht-verhandelbares Menschenrecht; es garantiert Nuzern die Freiheit ihre Daten wann immer und mit wem auch immer zu teilen - RSCOIN galubt an diese Souveränität.</translation>
     </message>
     <message>
-        <source>The masternode network is PIVXL's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Das Masternode Netzwerk ist PIVXL zweite Schicht, die auf der Blockchain aufgesetzt wurde und unserer DAO ermöglicht, dezentrale Steuerung und einen Fiskus ermöglicht.</translation>
+        <source>The masternode network is RSCOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Das Masternode Netzwerk ist RSCOIN zweite Schicht, die auf der Blockchain aufgesetzt wurde und unserer DAO ermöglicht, dezentrale Steuerung und einen Fiskus ermöglicht.</translation>
     </message>
     <message>
-        <source>How PIVXL respects your privacy?</source>
-        <translation>Wie respektiert PIVXL meine Privatsphäre?</translation>
+        <source>How RSCOIN respects your privacy?</source>
+        <translation>Wie respektiert RSCOIN meine Privatsphäre?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5875,8 +5875,8 @@ PIVXL Core Wallet</source>
 <context>
     <name>ZPivControlDialog</name>
     <message>
-        <source>Select zPIVXL to Spend</source>
-        <translation>Wählen Sie die zPIVXL aus, die Sie ausgeben möchten</translation>
+        <source>Select zRSCOIN to Spend</source>
+        <translation>Wählen Sie die zRSCOIN aus, die Sie ausgeben möchten</translation>
     </message>
     <message>
         <source>Coin Control</source>
@@ -5888,7 +5888,7 @@ PIVXL Core Wallet</source>
     </message>
     <message>
         <source>zPiv</source>
-        <translation>zPIVXL</translation>
+        <translation>zRSCOIN</translation>
     </message>
     <message>
         <source>0.00 </source>
@@ -5911,8 +5911,8 @@ PIVXL Core Wallet</source>
         <translation>Alle Aus-/Abwählen</translation>
     </message>
     <message>
-        <source>Select zPIVXL Denominations to Spend</source>
-        <translation>Auswahl des zPIVXL Nennwerts für das Ausgaben</translation>
+        <source>Select zRSCOIN Denominations to Spend</source>
+        <translation>Auswahl des zRSCOIN Nennwerts für das Ausgaben</translation>
     </message>
 </context>
 <context>
@@ -5938,8 +5938,8 @@ PIVXL Core Wallet</source>
         <translation>Binde an die angegebene Adresse und höre auf JSON-RPC verbindungen. Benutze [host]:port Notation für IPv6. Diese Option kann mehrere Male aufgerufen werden (Standard: Binde an alle Schnittstellen)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. PIVXL Core is probably already running.</source>
-        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. PIVXL Core läuft wahrscheinlich bereits.</translation>
+        <source>Cannot obtain a lock on data directory %s. RSCOIN Core is probably already running.</source>
+        <translation>Kann keine Sperre für das Datenverzeichnis %s erhalten. RSCOIN Core läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -5970,12 +5970,12 @@ PIVXL Core Wallet</source>
         <translation>Ermögliche Cold Staking Funktionalität (0-1, standardmäßig: %u). Ausgeschaltet, wenn staking=0</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for PIVXL inputs (0-1, default: %u)</source>
-        <translation>Aktiviere oder deaktiviere Staking-Funktionalität für PIVXL Eingänge (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for RSCOIN inputs (0-1, default: %u)</source>
+        <translation>Aktiviere oder deaktiviere Staking-Funktionalität für RSCOIN Eingänge (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIVXL inputs (0-1, default: %u)</source>
-        <translation>Aktiviere oder deaktiviere Staking-Funktionalität für zPIVXL Eingänge (0-1, default: %u)</translation>
+        <source>Enable or disable staking functionality for zRSCOIN inputs (0-1, default: %u)</source>
+        <translation>Aktiviere oder deaktiviere Staking-Funktionalität für zRSCOIN Eingänge (0-1, default: %u)</translation>
     </message>
     <message>
         <source>Enable spork administration functionality with the appropriate private key.</source>
@@ -6014,12 +6014,12 @@ PIVXL Core Wallet</source>
         <translation>Befehl ausführen, wenn sich der beste Block ändert (%s in cmd wird durch Blockhash ersetzt)</translation>
     </message>
     <message>
-        <source>Fees (in PIVXL/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Gebühren (in PIVXL/kB) kleiner als diese gelten für die Weiterleitung als Null-Gebühr  (default: %s)</translation>
+        <source>Fees (in RSCOIN/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Gebühren (in RSCOIN/kB) kleiner als diese gelten für die Weiterleitung als Null-Gebühr  (default: %s)</translation>
     </message>
     <message>
-        <source>Fees (in PIVXL/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Gebühren (in PIVXL/kB) kleiner als diese werden als Null-Gebühr für die Transaktionserstellung betrachtet (default: %s)</translation>
+        <source>Fees (in RSCOIN/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Gebühren (in RSCOIN/kB) kleiner als diese werden als Null-Gebühr für die Transaktionserstellung betrachtet (default: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
@@ -6122,8 +6122,8 @@ PIVXL Core Wallet</source>
         <translation>Gesamtlänge des Netzwerkversionsstring (%i) überschreitet die Länge (%i). Reduzieren Sie die Zahl oder die Größe des Dokuments.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. PIVXL Core is probably already running.</source>
-        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere PIVXL Core Wallet ?</translation>
+        <source>Unable to bind to %s on this computer. RSCOIN Core is probably already running.</source>
+        <translation>Fehler: Port %s ist bereits belegt! Läuft bereits eine andere RSCOIN Core Wallet ?</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -6138,8 +6138,8 @@ PIVXL Core Wallet</source>
         <translation>Warnung: -paytxfee ist sehr hoch eingestellt! Diese Transaktionsgebühr werden Ihnen abgebucht, falls Sie die Transaktion überweisen.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong PIVXL Core will not work properly.</source>
-        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird PIVXL Core nicht korrekt funktionieren.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong RSCOIN Core will not work properly.</source>
+        <translation>Warnung: Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird RSCOIN Core nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -6254,8 +6254,8 @@ PIVXL Core Wallet</source>
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The PIVXL Core Developers</source>
-        <translation>Copyright (C) 2015-%i The PIVXL Core Developers</translation>
+        <source>Copyright (C) 2015-%i The RSCOIN Core Developers</source>
+        <translation>Copyright (C) 2015-%i The RSCOIN Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -6330,8 +6330,8 @@ PIVXL Core Wallet</source>
         <translation>Fehler beim Laden von wallet.dat : Wallet beschädigt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of PIVXL Core</source>
-        <translation>Fehler beim Laden der wallet.dat: Neuere PIVXL Core Version benötigt</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of RSCOIN Core</source>
+        <translation>Fehler beim Laden der wallet.dat: Neuere RSCOIN Core Version benötigt</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -6382,8 +6382,8 @@ PIVXL Core Wallet</source>
         <translation>Block konnte nicht gelesen werden</translation>
     </message>
     <message>
-        <source>Fee (in PIVXL/kB) to add to transactions you send (default: %s)</source>
-        <translation>Gebühr (in PIVXL/kB) die den Transaktionen, die Sie überweisen, hinzugefügt wird (Standard: %s)</translation>
+        <source>Fee (in RSCOIN/kB) to add to transactions you send (default: %s)</source>
+        <translation>Gebühr (in RSCOIN/kB) die den Transaktionen, die Sie überweisen, hinzugefügt wird (Standard: %s)</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
@@ -6422,8 +6422,8 @@ PIVXL Core Wallet</source>
         <translation>Hinweis</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. PIVXL Core is shutting down.</source>
-        <translation>Initialisierung Sanity-Check fehlgeschlagen. PIVXL Core schaltet ab.</translation>
+        <source>Initialization sanity check failed. RSCOIN Core is shutting down.</source>
+        <translation>Initialisierung Sanity-Check fehlgeschlagen. RSCOIN Core schaltet ab.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -6458,12 +6458,12 @@ PIVXL Core Wallet</source>
         <translation>Ungültiger Port in masternode.conf entdeckt</translation>
     </message>
     <message>
-        <source>Recalculating PIVXL supply...</source>
-        <translation>Bestimme PIVXL Bestand erneut...</translation>
+        <source>Recalculating RSCOIN supply...</source>
+        <translation>Bestimme RSCOIN Bestand erneut...</translation>
     </message>
     <message>
-        <source>Reindex the PIVXL and zPIVXL money supply statistics</source>
-        <translation>Die Geldmengenstatistik PIVXL und zPIVXL neu indizieren</translation>
+        <source>Reindex the RSCOIN and zRSCOIN money supply statistics</source>
+        <translation>Die Geldmengenstatistik RSCOIN und zRSCOIN neu indizieren</translation>
     </message>
     <message>
         <source>Reindexing zerocoin database...</source>
@@ -6502,8 +6502,8 @@ PIVXL Core Wallet</source>
 </translation>
     </message>
     <message>
-        <source>Disable all PIVXL specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>Deaktivieren Sie alle PIVXL-spezifischen Funktionen (Masternodes, Zerocoin, SwiftX, Budgetierung) (0-1, Standard: %u)</translation>
+        <source>Disable all RSCOIN specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
+        <translation>Deaktivieren Sie alle RSCOIN-spezifischen Funktionen (Masternodes, Zerocoin, SwiftX, Budgetierung) (0-1, Standard: %u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -6762,8 +6762,8 @@ PIVXL Core Wallet</source>
         <translation>Vorbereitung für die Resynchronisierung ...</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong PIVXL Core will not work properly.</source>
-        <translation>Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird PIVXL Core nicht korrekt funktionieren.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong RSCOIN Core will not work properly.</source>
+        <translation>Bitte stellen Sie sicher, das vom Computer verwendete Zeit und Datumangaben korrekt sind! Wenn ihr System falsche Zeitangaben nutzt, wird RSCOIN Core nicht korrekt funktionieren.</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -6962,8 +6962,8 @@ PIVXL Core Wallet</source>
         <translation>Synchronisiere Sporks....</translation>
     </message>
     <message>
-        <source>Syncing zPIVXL wallet...</source>
-        <translation>Synchronisiere zPIVXL Wallet... </translation>
+        <source>Syncing zRSCOIN wallet...</source>
+        <translation>Synchronisiere zRSCOIN Wallet... </translation>
     </message>
     <message>
         <source>This help message</source>
@@ -7078,8 +7078,8 @@ PIVXL Core Wallet</source>
         <translation>Benutzername für JSON-RPC-Verbindungen</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIVXL</source>
-        <translation>Der Betrag ist unterhalb des kleinsten Wertes (=1) an zPIVXL</translation>
+        <source>Value is below the smallest available denomination (= 1) of zRSCOIN</source>
+        <translation>Der Betrag ist unterhalb des kleinsten Wertes (=1) an zRSCOIN</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -7094,8 +7094,8 @@ PIVXL Core Wallet</source>
         <translation>Wallet %s liegt außerhalb des Datenverzeichnisses %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart PIVXL Core to complete</source>
-        <translation>Wallet musste neu geschrieben werden: Bitte PIVXL Core neu starten</translation>
+        <source>Wallet needed to be rewritten: restart RSCOIN Core to complete</source>
+        <translation>Wallet musste neu geschrieben werden: Bitte RSCOIN Core neu starten</translation>
     </message>
     <message>
         <source>Wallet options:</source>

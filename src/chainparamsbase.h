@@ -1,6 +1,6 @@
 // Copyright (c) 2014 The Bitcoin developers
 // Copyright (c) 2017-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +11,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between pivxl-cli and pivxld)
+ * CBaseChainParams defines the base parameters (shared between rscoin-cli and rscoind)
  * of a given instance of the Pivx system.
  */
 class CBaseChainParams

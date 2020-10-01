@@ -1,11 +1,11 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/sendcustomfeedialog.h"
-#include "qt/pivxl/forms/ui_sendcustomfeedialog.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/sendcustomfeedialog.h"
+#include "qt/rscoin/forms/ui_sendcustomfeedialog.h"
+#include "qt/rscoin/qtutils.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "guiutil.h"

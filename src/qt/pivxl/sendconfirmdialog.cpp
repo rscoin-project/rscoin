@@ -1,17 +1,17 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/sendconfirmdialog.h"
-#include "qt/pivxl/forms/ui_sendconfirmdialog.h"
+#include "qt/rscoin/sendconfirmdialog.h"
+#include "qt/rscoin/forms/ui_sendconfirmdialog.h"
 #include "bitcoinunits.h"
 #include "walletmodel.h"
 #include "transactiontablemodel.h"
 #include "transactionrecord.h"
 #include "wallet/wallet.h"
 #include "guiutil.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 #include <QList>
 #include <QDateTime>
 #include <QKeyEvent>

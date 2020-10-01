@@ -1,17 +1,17 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/masternodewizarddialog.h"
-#include "qt/pivxl/forms/ui_masternodewizarddialog.h"
+#include "qt/rscoin/masternodewizarddialog.h"
+#include "qt/rscoin/forms/ui_masternodewizarddialog.h"
 
 #include "activemasternode.h"
 #include "optionsmodel.h"
 #include "pairresult.h"
-#include "qt/pivxl/mnmodel.h"
-#include "qt/pivxl/guitransactionsutils.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/mnmodel.h"
+#include "qt/rscoin/guitransactionsutils.h"
+#include "qt/rscoin/qtutils.h"
 
 #include <QFile>
 #include <QIntValidator>

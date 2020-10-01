@@ -6,8 +6,8 @@
 #define SETTINGSSIGNMESSAGEWIDGETS_H
 
 #include <QWidget>
-#include "qt/pivxl/pwidget.h"
-#include "qt/pivxl/contactsdropdown.h"
+#include "qt/rscoin/pwidget.h"
+#include "qt/rscoin/contactsdropdown.h"
 
 namespace Ui {
 class SettingsSignMessageWidgets;

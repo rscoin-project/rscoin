@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/csrow.h"
-#include "qt/pivxl/forms/ui_csrow.h"
+#include "qt/rscoin/csrow.h"
+#include "qt/rscoin/forms/ui_csrow.h"
 
 CSRow::CSRow(QWidget *parent) :
     QWidget(parent),

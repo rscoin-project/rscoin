@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -270,11 +270,11 @@ UniValue stop(const UniValue& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw std::runtime_error(
             "stop\n"
-            "\nStop PIVXL server.");
+            "\nStop RSCOIN server.");
     // Event loop will exit after current HTTP requests have been handled, so
     // this reply will get back to the client.
     StartShutdown();
-    return "PIVXL server stopping";
+    return "RSCOIN server stopping";
 }
 
 
@@ -363,34 +363,34 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true,  true,  false  },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true,  true,  false  },
 
-        /* PIVXL features */
-        {"pivxl", "listmasternodes", &listmasternodes, true, true, false},
-        {"pivxl", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"pivxl", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"pivxl", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
-        {"pivxl", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
-        {"pivxl", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
-        {"pivxl", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"pivxl", "masternodedebug", &masternodedebug, true, true, false},
-        {"pivxl", "startmasternode", &startmasternode, true, true, false},
-        {"pivxl", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"pivxl", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"pivxl", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"pivxl", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"pivxl", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"pivxl", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"pivxl", "preparebudget", &preparebudget, true, true, false},
-        {"pivxl", "submitbudget", &submitbudget, true, true, false},
-        {"pivxl", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"pivxl", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"pivxl", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"pivxl", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"pivxl", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"pivxl", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"pivxl", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"pivxl", "checkbudgets", &checkbudgets, true, true, false},
-        {"pivxl", "mnsync", &mnsync, true, true, false},
-        {"pivxl", "spork", &spork, true, true, false},
+        /* RSCOIN features */
+        {"rscoin", "listmasternodes", &listmasternodes, true, true, false},
+        {"rscoin", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"rscoin", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"rscoin", "createmasternodebroadcast", &createmasternodebroadcast, true, true, false},
+        {"rscoin", "decodemasternodebroadcast", &decodemasternodebroadcast, true, true, false},
+        {"rscoin", "relaymasternodebroadcast", &relaymasternodebroadcast, true, true, false},
+        {"rscoin", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"rscoin", "masternodedebug", &masternodedebug, true, true, false},
+        {"rscoin", "startmasternode", &startmasternode, true, true, false},
+        {"rscoin", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"rscoin", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"rscoin", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"rscoin", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"rscoin", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"rscoin", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"rscoin", "preparebudget", &preparebudget, true, true, false},
+        {"rscoin", "submitbudget", &submitbudget, true, true, false},
+        {"rscoin", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"rscoin", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"rscoin", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"rscoin", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"rscoin", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"rscoin", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"rscoin", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"rscoin", "checkbudgets", &checkbudgets, true, true, false},
+        {"rscoin", "mnsync", &mnsync, true, true, false},
+        {"rscoin", "spork", &spork, true, true, false},
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -640,7 +640,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(std::string methodname, std::string args)
 {
-    return "> pivxl-cli " + methodname + " " + args + "\n";
+    return "> rscoin-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(std::string methodname, std::string args)

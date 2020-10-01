@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2019 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +11,7 @@
 #include "guiutil.h"
 
 #include "util.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 #include <boost/filesystem.hpp>
 
@@ -200,7 +200,7 @@ bool Intro::pickDataDirectory()
                 TryCreateDirectory(GUIUtil::qstringToBoostPath(dataDir));
                 break;
             } catch (const fs::filesystem_error& e) {
-                QMessageBox::critical(0, tr("PIVXL Core"),
+                QMessageBox::critical(0, tr("RSCOIN Core"),
                     tr("Error: Specified data directory \"%1\" cannot be created.").arg(dataDir));
                 // fall through, back to choosing screen
             }
@@ -210,8 +210,8 @@ bool Intro::pickDataDirectory()
     }
 
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the pivxl.conf file in the default data directory
-     * (to be consistent with pivxld behavior)
+     * override -datadir in the rscoin.conf file in the default data directory
+     * (to be consistent with rscoind behavior)
      */
 
     if (dataDir != getDefaultDataDirectory())

@@ -1,17 +1,17 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/send.h"
-#include "qt/pivxl/forms/ui_send.h"
-#include "qt/pivxl/addnewcontactdialog.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/sendchangeaddressdialog.h"
-#include "qt/pivxl/optionbutton.h"
-#include "qt/pivxl/sendconfirmdialog.h"
-#include "qt/pivxl/myaddressrow.h"
-#include "qt/pivxl/guitransactionsutils.h"
+#include "qt/rscoin/send.h"
+#include "qt/rscoin/forms/ui_send.h"
+#include "qt/rscoin/addnewcontactdialog.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/sendchangeaddressdialog.h"
+#include "qt/rscoin/optionbutton.h"
+#include "qt/rscoin/sendconfirmdialog.h"
+#include "qt/rscoin/myaddressrow.h"
+#include "qt/rscoin/guitransactionsutils.h"
 #include "clientmodel.h"
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
@@ -47,21 +47,21 @@ SendWidget::SendWidget(PIVXGUI* parent) :
     ui->labelTitle->setFont(fontLight);
 
     /* Button Group */
-    ui->pushLeft->setText("PIVXL");
+    ui->pushLeft->setText("RSCOIN");
     setCssProperty(ui->pushLeft, "btn-check-left");
     ui->pushLeft->setChecked(true);
-    ui->pushRight->setText("zPIVXL");
+    ui->pushRight->setText("zRSCOIN");
     setCssProperty(ui->pushRight, "btn-check-right");
 
     /* Subtitle */
-    ui->labelSubtitle1->setText(tr("You can transfer public coins (PIVXL) or private coins (zPIVXL)"));
+    ui->labelSubtitle1->setText(tr("You can transfer public coins (RSCOIN) or private coins (zRSCOIN)"));
     setCssProperty(ui->labelSubtitle1, "text-subtitle");
 
     ui->labelSubtitle2->setText(tr("Select coin type to spend"));
     setCssProperty(ui->labelSubtitle2, "text-subtitle");
 
     /* Address */
-    ui->labelSubtitleAddress->setText(tr("PIVXL address or contact label"));
+    ui->labelSubtitleAddress->setText(tr("RSCOIN address or contact label"));
     setCssProperty(ui->labelSubtitleAddress, "text-title");
 
 
@@ -110,7 +110,7 @@ SendWidget::SendWidget(PIVXGUI* parent) :
     ui->labelTitleTotalSend->setText(tr("Total to send"));
     setCssProperty(ui->labelTitleTotalSend, "text-title");
 
-    ui->labelAmountSend->setText("0.00 PIVXL");
+    ui->labelAmountSend->setText("0.00 RSCOIN");
     setCssProperty(ui->labelAmountSend, "text-body1");
 
     // Total Remaining
@@ -150,7 +150,7 @@ SendWidget::SendWidget(PIVXGUI* parent) :
 void SendWidget::refreshView()
 {
     const bool isChecked = ui->pushLeft->isChecked();
-    ui->pushButtonSave->setText(isChecked ? tr("Send PIVXL") : tr("Send zPIVXL"));
+    ui->pushButtonSave->setText(isChecked ? tr("Send RSCOIN") : tr("Send zRSCOIN"));
     ui->pushButtonAddRecipient->setVisible(isChecked);
     refreshAmounts();
 }
@@ -344,7 +344,7 @@ void SendWidget::setFocusOnLastEntry()
 void SendWidget::showHideCheckBoxDelegations()
 {
     // Show checkbox only when there is any available owned delegation,
-    // coincontrol is not selected, and we are trying to spend PIVXL (not zPIVXL)
+    // coincontrol is not selected, and we are trying to spend RSCOIN (not zRSCOIN)
     const bool isZpiv = ui->pushRight->isChecked();
     const bool isCControl = CoinControlDialog::coinControl->HasSelected();
     const bool hasDel = cachedDelegatedBalance > 0;
@@ -462,7 +462,7 @@ bool SendWidget::sendZpiv(QList<SendCoinsRecipient> recipients)
         return false;
 
     if (sporkManager.IsSporkActive(SPORK_16_ZEROCOIN_MAINTENANCE_MODE)) {
-        Q_EMIT message(tr("Spend Zerocoin"), tr("zPIVXL is currently undergoing maintenance."), CClientUIInterface::MSG_ERROR);
+        Q_EMIT message(tr("Spend Zerocoin"), tr("zRSCOIN is currently undergoing maintenance."), CClientUIInterface::MSG_ERROR);
         return false;
     }
 
@@ -473,7 +473,7 @@ bool SendWidget::sendZpiv(QList<SendCoinsRecipient> recipients)
         outputs.push_back(std::pair<CBitcoinAddress*, CAmount>(new CBitcoinAddress(rec.address.toStdString()),rec.amount));
     }
 
-    // use mints from zPIVXL selector if applicable
+    // use mints from zRSCOIN selector if applicable
     std::vector<CMintMeta> vMintsToFetch;
     std::vector<CZerocoinMint> vMintsSelected;
     if (!ZPivControlDialog::setSelectedMints.empty()) {
@@ -523,17 +523,17 @@ bool SendWidget::sendZpiv(QList<SendCoinsRecipient> recipients)
             changeAddress
     )
             ) {
-        inform(tr("zPIVXL transaction sent!"));
+        inform(tr("zRSCOIN transaction sent!"));
         ZPivControlDialog::setSelectedMints.clear();
         clearAll(false);
         return true;
     } else {
         QString body;
         if (receipt.GetStatus() == ZPIV_SPEND_V1_SEC_LEVEL) {
-            body = tr("Version 1 zPIVXL require a security level of 100 to successfully spend.");
+            body = tr("Version 1 zRSCOIN require a security level of 100 to successfully spend.");
         } else {
             int nNeededSpends = receipt.GetNeededSpends(); // Number of spends we would need for this transaction
-            const int nMaxSpends = Params().GetConsensus().ZC_MaxSpendsPerTx; // Maximum possible spends for one zPIVXL transaction
+            const int nMaxSpends = Params().GetConsensus().ZC_MaxSpendsPerTx; // Maximum possible spends for one zRSCOIN transaction
             if (nNeededSpends > nMaxSpends) {
                 body = tr("Too much inputs (") + QString::number(nNeededSpends, 10) +
                        tr(") needed.\nMaximum allowed: ") + QString::number(nMaxSpends, 10);
@@ -543,7 +543,7 @@ bool SendWidget::sendZpiv(QList<SendCoinsRecipient> recipients)
                 body = QString::fromStdString(receipt.GetStatusMessage());
             }
         }
-        Q_EMIT message("zPIVXL transaction failed", body, CClientUIInterface::MSG_ERROR);
+        Q_EMIT message("zRSCOIN transaction failed", body, CClientUIInterface::MSG_ERROR);
         return false;
     }
 }
@@ -666,7 +666,7 @@ void SendWidget::onCoinControlClicked()
             ui->btnCoinControl->setActive(CoinControlDialog::coinControl->HasSelected());
             refreshAmounts();
         } else {
-            inform(tr("You don't have any PIVXL to select."));
+            inform(tr("You don't have any RSCOIN to select."));
         }
     } else {
         if (walletModel->getZerocoinBalance() > 0) {
@@ -676,7 +676,7 @@ void SendWidget::onCoinControlClicked()
             ui->btnCoinControl->setActive(!ZPivControlDialog::setSelectedMints.empty());
             zPivControl->deleteLater();
         } else {
-            inform(tr("You don't have any zPIVXL in your balance to select."));
+            inform(tr("You don't have any zRSCOIN in your balance to select."));
         }
     }
 }

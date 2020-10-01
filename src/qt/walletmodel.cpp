@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -440,7 +440,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
                 return InvalidAmount;
             }
             total += subtotal;
-        } else { // User-entered pivxl address / amount:
+        } else { // User-entered rscoin address / amount:
             if (!validateAddress(rcp.address)) {
                 return InvalidAddress;
             }
@@ -501,7 +501,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
 
 
         if (recipients[0].useSwiftTX && total > sporkManager.GetSporkValue(SPORK_5_MAX_VALUE) * COIN) {
-            Q_EMIT message(tr("Send Coins"), tr("SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIVXL.").arg(sporkManager.GetSporkValue(SPORK_5_MAX_VALUE)),
+            Q_EMIT message(tr("Send Coins"), tr("SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RSCOIN.").arg(sporkManager.GetSporkValue(SPORK_5_MAX_VALUE)),
                 CClientUIInterface::MSG_ERROR);
             return TransactionCreationFailed;
         }
@@ -519,7 +519,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
         transaction.setTransactionFee(nFeeRequired);
 
         if (recipients[0].useSwiftTX && newTx->GetValueOut() > sporkManager.GetSporkValue(SPORK_5_MAX_VALUE) * COIN) {
-            Q_EMIT message(tr("Send Coins"), tr("SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 PIVXL.").arg(sporkManager.GetSporkValue(SPORK_5_MAX_VALUE)),
+            Q_EMIT message(tr("Send Coins"), tr("SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 RSCOIN.").arg(sporkManager.GetSporkValue(SPORK_5_MAX_VALUE)),
                 CClientUIInterface::MSG_ERROR);
             return TransactionCreationFailed;
         }
@@ -569,7 +569,7 @@ WalletModel::SendCoinsReturn WalletModel::sendCoins(WalletModelTransaction& tran
                 std::string value;
                 rcp.paymentRequest.SerializeToString(&value);
                 newTx->vOrderForm.push_back(std::make_pair(key, value));
-            } else if (!rcp.message.isEmpty()) // Message from normal pivxl:URI (pivxl:XyZ...?message=example)
+            } else if (!rcp.message.isEmpty()) // Message from normal rscoin:URI (rscoin:XyZ...?message=example)
             {
                 newTx->vOrderForm.push_back(std::make_pair("Message", rcp.message.toStdString()));
             }
@@ -1004,7 +1004,7 @@ bool WalletModel::updateAddressBookPurpose(const QString &addressStr, const std:
 {
     CBitcoinAddress address(addressStr.toStdString());
     if (address.IsStakingAddress())
-        return error("Invalid PIVXL address, cold staking address");
+        return error("Invalid RSCOIN address, cold staking address");
     CKeyID keyID;
     if (!getKeyId(address, keyID))
         return false;
@@ -1014,10 +1014,10 @@ bool WalletModel::updateAddressBookPurpose(const QString &addressStr, const std:
 bool WalletModel::getKeyId(const CBitcoinAddress& address, CKeyID& keyID)
 {
     if (!address.IsValid())
-        return error("Invalid PIVXL address");
+        return error("Invalid RSCOIN address");
 
     if (!address.GetKeyID(keyID))
-        return error("Unable to get KeyID from PIVXL address");
+        return error("Unable to get KeyID from RSCOIN address");
 
     return true;
 }

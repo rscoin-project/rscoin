@@ -1,15 +1,15 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/masternodeswidget.h"
-#include "qt/pivxl/forms/ui_masternodeswidget.h"
+#include "qt/rscoin/masternodeswidget.h"
+#include "qt/rscoin/forms/ui_masternodeswidget.h"
 
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/mnrow.h"
-#include "qt/pivxl/mninfodialog.h"
-#include "qt/pivxl/masternodewizarddialog.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/mnrow.h"
+#include "qt/rscoin/mninfodialog.h"
+#include "qt/rscoin/masternodewizarddialog.h"
 
 #include "activemasternode.h"
 #include "clientmodel.h"
@@ -22,7 +22,7 @@
 #include "wallet/wallet.h"
 #include "askpassphrasedialog.h"
 #include "util.h"
-#include "qt/pivxl/optionbutton.h"
+#include "qt/rscoin/optionbutton.h"
 #include <boost/filesystem.hpp>
 #include <iostream>
 #include <fstream>
@@ -356,7 +356,7 @@ void MasterNodesWidget::onInfoMNClicked()
     if (dialog->exportMN) {
         if (ask(tr("Remote Masternode Data"),
                 tr("You are just about to export the required data to run a Masternode\non a remote server to your clipboard.\n\n\n"
-                   "You will only have to paste the data in the pivxl.conf file\nof your remote server and start it, "
+                   "You will only have to paste the data in the rscoin.conf file\nof your remote server and start it, "
                    "then start the Masternode using\nthis controller wallet (select the Masternode in the list and press \"start\").\n"
                 ))) {
             // export data
@@ -485,7 +485,7 @@ void MasterNodesWidget::onCreateMNClicked()
     }
 
     if (walletModel->getBalance() <= (COIN * 10000)) {
-        inform(tr("Not enough balance to create a masternode, 100,000 PIVXL required."));
+        inform(tr("Not enough balance to create a masternode, 100,000 RSCOIN required."));
         return;
     }
     showHideOp(true);

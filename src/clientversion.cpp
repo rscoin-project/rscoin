@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both pivxld and pivxl-qt, to make it harder for attackers to
+ * for both rscoind and rscoin-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("PIVXL Core");
+const std::string CLIENT_NAME("RSCOIN Core");
 
 /**
  * Client version number

@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "PIVXL"
-            VALUE "FileDescription",    "pivxld (OSS daemon/client for PIVXL)"
+            VALUE "CompanyName",        "RSCOIN"
+            VALUE "FileDescription",    "pivxld (OSS daemon/client for RSCOIN)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "pivxld"
             VALUE "LegalCopyright",     COPYRIGHT_STR

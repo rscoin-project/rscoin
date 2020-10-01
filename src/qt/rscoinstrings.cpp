@@ -30,7 +30,7 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 "notation for IPv6. This option can be specified multiple times (default: "
 "bind to all interfaces)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Cannot obtain a lock on data directory %s. PIVXL Core is probably already "
+"Cannot obtain a lock on data directory %s. RSCOIN Core is probably already "
 "running."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -48,7 +48,7 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 "Delete all zerocoin spends and mints that have been recorded to the "
 "blockchain database and reindex them (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Disable all PIVXL specific functionality (Masternodes, Zerocoin, SwiftX, "
+"Disable all RSCOIN specific functionality (Masternodes, Zerocoin, SwiftX, "
 "Budgeting) (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Distributed under the MIT software license, see the accompanying file "
@@ -58,9 +58,9 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Enable cold staking functionality (0-1, default: %u). Disabled if staking=0"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Enable or disable staking functionality for PIVXL inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for RSCOIN inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Enable or disable staking functionality for zPIVXL inputs (0-1, default: %u)"),
+"Enable or disable staking functionality for zRSCOIN inputs (0-1, default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Enable spork administration functionality with the appropriate private key."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
@@ -98,10 +98,10 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Failed to find coin set amongst held coins with less than maxNumber of Spends"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Fees (in PIVXL/Kb) smaller than this are considered zero fee for relaying "
+"Fees (in RSCOIN/Kb) smaller than this are considered zero fee for relaying "
 "(default: %s)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Fees (in PIVXL/Kb) smaller than this are considered zero fee for transaction "
+"Fees (in RSCOIN/Kb) smaller than this are considered zero fee for transaction "
 "creation (default: %s)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -145,7 +145,7 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 "Output debugging information (default: %u, supplying <category> is optional)"),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Please check that your computer's date and time are correct! If your clock "
-"is wrong PIVXL Core will not work properly."),
+"is wrong RSCOIN Core will not work properly."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Query for peer addresses via DNS lookup, if low on addresses (default: 1 "
 "unless -connect)"),
@@ -195,7 +195,7 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 "Total length of network version string (%i) exceeds maximum length (%i). "
 "Reduce the number or size of uacomments."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
-"Unable to bind to %s on this computer. PIVXL Core is probably already running."),
+"Unable to bind to %s on this computer. RSCOIN Core is probably already running."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
 "%s)"),
@@ -207,7 +207,7 @@ QT_TRANSLATE_NOOP("pivxl-core", ""
 "pay if you send a transaction."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Warning: Please check that your computer's date and time are correct! If "
-"your clock is wrong PIVXL Core will not work properly."),
+"your clock is wrong RSCOIN Core will not work properly."),
 QT_TRANSLATE_NOOP("pivxl-core", ""
 "Warning: The network does not appear to fully agree! Some miners appear to "
 "be experiencing issues."),
@@ -256,7 +256,7 @@ QT_TRANSLATE_NOOP("pivxl-core", "Connect to a node to retrieve peer addresses, a
 QT_TRANSLATE_NOOP("pivxl-core", "Connection options:"),
 QT_TRANSLATE_NOOP("pivxl-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
 QT_TRANSLATE_NOOP("pivxl-core", "Copyright (C) 2014-%i The Dash Core Developers"),
-QT_TRANSLATE_NOOP("pivxl-core", "Copyright (C) 2015-%i The PIVXL Core Developers"),
+QT_TRANSLATE_NOOP("pivxl-core", "Copyright (C) 2015-%i The RSCOIN Core Developers"),
 QT_TRANSLATE_NOOP("pivxl-core", "Corrupted block database detected"),
 QT_TRANSLATE_NOOP("pivxl-core", "Could not parse masternode.conf"),
 QT_TRANSLATE_NOOP("pivxl-core", "Debugging/Testing options:"),
@@ -282,7 +282,7 @@ QT_TRANSLATE_NOOP("pivxl-core", "Error initializing wallet database environment 
 QT_TRANSLATE_NOOP("pivxl-core", "Error loading block database"),
 QT_TRANSLATE_NOOP("pivxl-core", "Error loading wallet.dat"),
 QT_TRANSLATE_NOOP("pivxl-core", "Error loading wallet.dat: Wallet corrupted"),
-QT_TRANSLATE_NOOP("pivxl-core", "Error loading wallet.dat: Wallet requires newer version of PIVXL Core"),
+QT_TRANSLATE_NOOP("pivxl-core", "Error loading wallet.dat: Wallet requires newer version of RSCOIN Core"),
 QT_TRANSLATE_NOOP("pivxl-core", "Error opening block database"),
 QT_TRANSLATE_NOOP("pivxl-core", "Error reading from database, shutting down."),
 QT_TRANSLATE_NOOP("pivxl-core", "Error writing zerocoinDB to disk"),
@@ -302,7 +302,7 @@ QT_TRANSLATE_NOOP("pivxl-core", "Failed to read block"),
 QT_TRANSLATE_NOOP("pivxl-core", "Failed to select a zerocoin"),
 QT_TRANSLATE_NOOP("pivxl-core", "Failed to wipe zerocoinDB"),
 QT_TRANSLATE_NOOP("pivxl-core", "Failed to write coin serial number into wallet"),
-QT_TRANSLATE_NOOP("pivxl-core", "Fee (in PIVXL/kB) to add to transactions you send (default: %s)"),
+QT_TRANSLATE_NOOP("pivxl-core", "Fee (in RSCOIN/kB) to add to transactions you send (default: %s)"),
 QT_TRANSLATE_NOOP("pivxl-core", "Force safe mode (default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", "Generate coins (default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", "How many blocks to check at startup (default: %u, 0 = all)"),
@@ -312,7 +312,7 @@ QT_TRANSLATE_NOOP("pivxl-core", "Imports blocks from external blk000??.dat file"
 QT_TRANSLATE_NOOP("pivxl-core", "Include IP addresses in debug output (default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
 QT_TRANSLATE_NOOP("pivxl-core", "Information"),
-QT_TRANSLATE_NOOP("pivxl-core", "Initialization sanity check failed. PIVXL Core is shutting down."),
+QT_TRANSLATE_NOOP("pivxl-core", "Initialization sanity check failed. RSCOIN Core is shutting down."),
 QT_TRANSLATE_NOOP("pivxl-core", "Insufficient funds"),
 QT_TRANSLATE_NOOP("pivxl-core", "Insufficient funds."),
 QT_TRANSLATE_NOOP("pivxl-core", "Invalid -onion address or hostname: '%s'"),
@@ -364,8 +364,8 @@ QT_TRANSLATE_NOOP("pivxl-core", "RPC server options:"),
 QT_TRANSLATE_NOOP("pivxl-core", "Randomly drop 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("pivxl-core", "Randomly fuzz 1 of every <n> network messages"),
 QT_TRANSLATE_NOOP("pivxl-core", "Rebuild block chain index from current blk000??.dat files"),
-QT_TRANSLATE_NOOP("pivxl-core", "Recalculating PIVXL supply..."),
-QT_TRANSLATE_NOOP("pivxl-core", "Reindex the PIVXL and zPIVXL money supply statistics"),
+QT_TRANSLATE_NOOP("pivxl-core", "Recalculating RSCOIN supply..."),
+QT_TRANSLATE_NOOP("pivxl-core", "Reindex the RSCOIN and zRSCOIN money supply statistics"),
 QT_TRANSLATE_NOOP("pivxl-core", "Reindexing zerocoin database..."),
 QT_TRANSLATE_NOOP("pivxl-core", "Reindexing zerocoin failed"),
 QT_TRANSLATE_NOOP("pivxl-core", "Relay and mine data carrier transactions (default: %u)"),
@@ -408,7 +408,7 @@ QT_TRANSLATE_NOOP("pivxl-core", "Synchronizing budgets..."),
 QT_TRANSLATE_NOOP("pivxl-core", "Synchronizing masternode winners..."),
 QT_TRANSLATE_NOOP("pivxl-core", "Synchronizing masternodes..."),
 QT_TRANSLATE_NOOP("pivxl-core", "Synchronizing sporks..."),
-QT_TRANSLATE_NOOP("pivxl-core", "Syncing zPIVXL wallet..."),
+QT_TRANSLATE_NOOP("pivxl-core", "Syncing zRSCOIN wallet..."),
 QT_TRANSLATE_NOOP("pivxl-core", "This help message"),
 QT_TRANSLATE_NOOP("pivxl-core", "This is experimental software."),
 QT_TRANSLATE_NOOP("pivxl-core", "This is intended for regression testing tools and app development."),
@@ -440,11 +440,11 @@ QT_TRANSLATE_NOOP("pivxl-core", "Use block spam filter (default: %u)"),
 QT_TRANSLATE_NOOP("pivxl-core", "Use the test network"),
 QT_TRANSLATE_NOOP("pivxl-core", "User Agent comment (%s) contains unsafe characters."),
 QT_TRANSLATE_NOOP("pivxl-core", "Username for JSON-RPC connections"),
-QT_TRANSLATE_NOOP("pivxl-core", "Value is below the smallest available denomination (= 1) of zPIVXL"),
+QT_TRANSLATE_NOOP("pivxl-core", "Value is below the smallest available denomination (= 1) of zRSCOIN"),
 QT_TRANSLATE_NOOP("pivxl-core", "Verifying blocks..."),
 QT_TRANSLATE_NOOP("pivxl-core", "Verifying wallet..."),
 QT_TRANSLATE_NOOP("pivxl-core", "Wallet %s resides outside data directory %s"),
-QT_TRANSLATE_NOOP("pivxl-core", "Wallet needed to be rewritten: restart PIVXL Core to complete"),
+QT_TRANSLATE_NOOP("pivxl-core", "Wallet needed to be rewritten: restart RSCOIN Core to complete"),
 QT_TRANSLATE_NOOP("pivxl-core", "Wallet options:"),
 QT_TRANSLATE_NOOP("pivxl-core", "Wallet window title"),
 QT_TRANSLATE_NOOP("pivxl-core", "Warning"),

@@ -1,10 +1,10 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/defaultdialog.h"
-#include "qt/pivxl/forms/ui_defaultdialog.h"
+#include "qt/rscoin/defaultdialog.h"
+#include "qt/rscoin/forms/ui_defaultdialog.h"
 #include "guiutil.h"
 #include <QKeyEvent>
 

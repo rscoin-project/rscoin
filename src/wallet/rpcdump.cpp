@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -190,7 +190,7 @@ UniValue importaddress(const UniValue& params, bool fHelp)
         std::vector<unsigned char> data(ParseHex(params[0].get_str()));
         script = CScript(data.begin(), data.end());
     } else {
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid PIVXL address or script");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid RSCOIN address or script");
     }
 
     std::string strLabel = "";
@@ -349,7 +349,7 @@ UniValue dumpprivkey(const UniValue& params, bool fHelp)
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"pivxaddress\"   (string, required) The pivxl address for the private key\n"
+            "1. \"pivxaddress\"   (string, required) The rscoin address for the private key\n"
 
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
@@ -364,7 +364,7 @@ UniValue dumpprivkey(const UniValue& params, bool fHelp)
     std::string strAddress = params[0].get_str();
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid PIVXL address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid RSCOIN address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");
@@ -426,7 +426,7 @@ UniValue dumpwallet(const UniValue& params, bool fHelp)
 
     CBlockIndex* tip = chainActive.Tip();
     // produce output
-    file << strprintf("# Wallet dump created by PIVXL %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
+    file << strprintf("# Wallet dump created by RSCOIN %s (%s)\n", CLIENT_BUILD, CLIENT_DATE);
     file << strprintf("# * Created on %s\n", EncodeDumpTime(GetTime()));
     if (tip) {
         file << strprintf("# * Best block at time of backup was %i (%s),\n", tip->nHeight,
@@ -493,7 +493,7 @@ UniValue bip38encrypt(const UniValue& params, bool fHelp)
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"pivxaddress\"   (string, required) The pivxl address for the private key (you must hold the key already)\n"
+            "1. \"pivxaddress\"   (string, required) The rscoin address for the private key (you must hold the key already)\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
 
             "\nResult:\n"
@@ -512,7 +512,7 @@ UniValue bip38encrypt(const UniValue& params, bool fHelp)
 
     CBitcoinAddress address;
     if (!address.SetString(strAddress))
-        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid PIVXL address");
+        throw JSONRPCError(RPC_INVALID_ADDRESS_OR_KEY, "Invalid RSCOIN address");
     CKeyID keyID;
     if (!address.GetKeyID(keyID))
         throw JSONRPCError(RPC_TYPE_ERROR, "Address does not refer to a key");

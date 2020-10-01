@@ -2,19 +2,19 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingsmainoptionswidget.h"
-#include "qt/pivxl/settings/forms/ui_settingsmainoptionswidget.h"
+#include "qt/rscoin/settings/settingsmainoptionswidget.h"
+#include "qt/rscoin/settings/forms/ui_settingsmainoptionswidget.h"
 #include "QListView"
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivxl-config.h"
+#include "config/rscoin-config.h"
 #endif
 
 #include "bitcoinunits.h"
 #include "guiutil.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 #include "main.h" // for MAX_SCRIPTCHECK_THREADS
 #include "netbase.h"
@@ -61,7 +61,7 @@ SettingsMainOptionsWidget::SettingsMainOptionsWidget(PIVXGUI* _window, QWidget *
     ui->labelTitleThreads->setProperty("cssClass", "text-main-settings");
 
     // Switch
-    ui->pushSwitchStart->setText(tr("Start PIVXL on system login"));
+    ui->pushSwitchStart->setText(tr("Start RSCOIN on system login"));
     ui->pushSwitchStart->setProperty("cssClass", "btn-switch");
 
     // Combobox

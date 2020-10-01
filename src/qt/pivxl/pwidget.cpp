@@ -1,11 +1,11 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/pwidget.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/loadingdialog.h"
+#include "qt/rscoin/pwidget.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/loadingdialog.h"
 #include <QRunnable>
 #include <QThreadPool>
 

@@ -1,5 +1,5 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -9,14 +9,14 @@
 #include <QWidget>
 #include <QPushButton>
 
-#include "qt/pivxl/pwidget.h"
-#include "qt/pivxl/contactsdropdown.h"
-#include "qt/pivxl/sendmultirow.h"
-#include "qt/pivxl/sendcustomfeedialog.h"
+#include "qt/rscoin/pwidget.h"
+#include "qt/rscoin/contactsdropdown.h"
+#include "qt/rscoin/sendmultirow.h"
+#include "qt/rscoin/sendcustomfeedialog.h"
 #include "walletmodel.h"
 #include "coincontroldialog.h"
 #include "zpivcontroldialog.h"
-#include "qt/pivxl/tooltipmenu.h"
+#include "qt/rscoin/tooltipmenu.h"
 
 static const int MAX_SEND_POPUP_ENTRIES = 8;
 

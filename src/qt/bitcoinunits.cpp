@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -22,18 +22,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(PIVXL);
-    unitlist.append(mPIVXL);
-    unitlist.append(uPIVXL);
+    unitlist.append(RSCOIN);
+    unitlist.append(mRSCOIN);
+    unitlist.append(uRSCOIN);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case PIVXL:
-    case mPIVXL:
-    case uPIVXL:
+    case RSCOIN:
+    case mRSCOIN:
+    case uRSCOIN:
         return true;
     default:
         return false;
@@ -43,12 +43,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case PIVXL:
-        return QString("pivxl");
-    case mPIVXL:
-        return QString("mpivxl");
-    case uPIVXL:
-        return QString::fromUtf8("upivxl");
+    case RSCOIN:
+        return QString("rscoin");
+    case mRSCOIN:
+        return QString("mrscoin");
+    case uRSCOIN:
+        return QString::fromUtf8("urscoin");
     default:
         return QString("???");
     }
@@ -60,22 +60,22 @@ QString BitcoinUnits::name(int unit, bool isZpiv)
     if(isZpiv) z = "z";
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIVXL:
-            return z + QString("PIVXL");
-        case mPIVXL:
-            return z + QString("mPIVXL");
-        case uPIVXL:
-            return z + QString::fromUtf8("μPIVXL");
+        case RSCOIN:
+            return z + QString("RSCOIN");
+        case mRSCOIN:
+            return z + QString("mRSCOIN");
+        case uRSCOIN:
+            return z + QString::fromUtf8("μRSCOIN");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIVXL:
+        case RSCOIN:
             return z + QString("tPIV");
-        case mPIVXL:
+        case mRSCOIN:
             return z + QString("mtPIV");
-        case uPIVXL:
+        case uRSCOIN:
             return z + QString::fromUtf8("μtPIV");
         default:
             return QString("???");
@@ -87,22 +87,22 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case PIVXL:
-            return QString("PIVXL");
-        case mPIVXL:
-            return QString("Milli-PIVXL (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIVXL:
-            return QString("Micro-PIVXL (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case RSCOIN:
+            return QString("RSCOIN");
+        case mRSCOIN:
+            return QString("Milli-RSCOIN (1 / 1" THIN_SP_UTF8 "000)");
+        case uRSCOIN:
+            return QString("Micro-RSCOIN (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case PIVXL:
+        case RSCOIN:
             return QString("TestPIVs");
-        case mPIVXL:
+        case mRSCOIN:
             return QString("Milli-TestPIV (1 / 1" THIN_SP_UTF8 "000)");
-        case uPIVXL:
+        case uRSCOIN:
             return QString("Micro-TestPIV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
@@ -113,11 +113,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case PIVXL:
+    case RSCOIN:
         return 100000000;
-    case mPIVXL:
+    case mRSCOIN:
         return 100000;
-    case uPIVXL:
+    case uRSCOIN:
         return 100;
     default:
         return 100000000;
@@ -127,11 +127,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case PIVXL:
+    case RSCOIN:
         return 8;
-    case mPIVXL:
+    case mRSCOIN:
         return 5;
-    case uPIVXL:
+    case uRSCOIN:
         return 2;
     default:
         return 0;

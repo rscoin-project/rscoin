@@ -6,7 +6,7 @@
 #define MNINFODIALOG_H
 
 #include <QDialog>
-#include "qt/pivxl/snackbar.h"
+#include "qt/rscoin/snackbar.h"
 
 class WalletModel;
 

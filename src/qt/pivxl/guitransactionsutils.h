@@ -6,7 +6,7 @@
 #define FURSZY_PIVX_GUITRANSACTIONSUTILS_H
 
 #include "walletmodel.h"
-#include "qt/pivxl/pwidget.h"
+#include "qt/rscoin/pwidget.h"
 
 
 namespace GuiTransactionsUtils {

@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/addresslabelrow.h"
-#include "qt/pivxl/forms/ui_addresslabelrow.h"
+#include "qt/rscoin/addresslabelrow.h"
+#include "qt/rscoin/forms/ui_addresslabelrow.h"
 
 AddressLabelRow::AddressLabelRow(QWidget *parent) :
     QWidget(parent),

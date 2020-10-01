@@ -1,13 +1,13 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/dashboardwidget.h"
-#include "qt/pivxl/forms/ui_dashboardwidget.h"
-#include "qt/pivxl/sendconfirmdialog.h"
-#include "qt/pivxl/txrow.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/dashboardwidget.h"
+#include "qt/rscoin/forms/ui_dashboardwidget.h"
+#include "qt/rscoin/sendconfirmdialog.h"
+#include "qt/rscoin/txrow.h"
+#include "qt/rscoin/qtutils.h"
 #include "guiutil.h"
 #include "walletmodel.h"
 #include "clientmodel.h"
@@ -54,7 +54,7 @@ DashboardWidget::DashboardWidget(PIVXGUI* parent) :
     setCssSubtitleScreen(ui->labelSubtitle);
 
     // Staking Information
-    ui->labelMessage->setText(tr("Amount of PIVXL and zPIVXL staked."));
+    ui->labelMessage->setText(tr("Amount of RSCOIN and zRSCOIN staked."));
     setCssSubtitleScreen(ui->labelMessage);
     setCssProperty(ui->labelSquarePiv, "square-chart-piv");
     setCssProperty(ui->labelSquarezPiv, "square-chart-zpiv");
@@ -67,8 +67,8 @@ DashboardWidget::DashboardWidget(PIVXGUI* parent) :
 
     setCssProperty(ui->labelChart, "legend-chart");
 
-    ui->labelAmountZpiv->setText("0 zPIVXL");
-    ui->labelAmountPiv->setText("0 PIVXL");
+    ui->labelAmountZpiv->setText("0 zRSCOIN");
+    ui->labelAmountPiv->setText("0 RSCOIN");
     setCssProperty(ui->labelAmountPiv, "text-stake-piv-disable");
     setCssProperty(ui->labelAmountZpiv, "text-stake-zpiv-disable");
 
@@ -134,7 +134,7 @@ DashboardWidget::DashboardWidget(PIVXGUI* parent) :
     setCssProperty(ui->chartContainer, "container-chart");
     setCssProperty(ui->pushImgEmptyChart, "img-empty-staking-on");
 
-    ui->btnHowTo->setText(tr("How to get PIVXL or zPIVXL"));
+    ui->btnHowTo->setText(tr("How to get RSCOIN or zRSCOIN"));
     setCssBtnSecondary(ui->btnHowTo);
 
 
@@ -226,7 +226,7 @@ void DashboardWidget::loadWalletModel()
         connect(walletModel->getOptionsModel(), &OptionsModel::hideChartsChanged, this, &DashboardWidget::onHideChartsChanged);
 #endif
     }
-    // update the display unit, to not use the default ("PIVXL")
+    // update the display unit, to not use the default ("RSCOIN")
     updateDisplayUnit();
 }
 
@@ -502,7 +502,7 @@ void DashboardWidget::updateStakeFilter()
     }
 }
 
-// pair PIVXL, zPIVXL
+// pair RSCOIN, zRSCOIN
 const QMap<int, std::pair<qint64, qint64>> DashboardWidget::getAmountBy()
 {
     updateStakeFilter();
@@ -558,7 +558,7 @@ bool DashboardWidget::loadChartData(bool withMonthNames)
     }
 
     chartData = new ChartData();
-    chartData->amountsByCache = getAmountBy(); // pair PIVXL, zPIVXL
+    chartData->amountsByCache = getAmountBy(); // pair RSCOIN, zRSCOIN
 
     std::pair<int,int> range = getChartRange(chartData->amountsByCache);
     if (range.first == 0 && range.second == 0) {
@@ -643,8 +643,8 @@ void DashboardWidget::onChartRefreshed()
         axisX->clear();
     }
     // init sets
-    set0 = new QBarSet("PIVXL");
-    set1 = new QBarSet("zPIVXL");
+    set0 = new QBarSet("RSCOIN");
+    set1 = new QBarSet("zRSCOIN");
     set0->setColor(QColor(92,75,125));
     set1->setColor(QColor(176,136,255));
 

@@ -1,6 +1,6 @@
 // Copyright (c) 2013 The Bitcoin Core developers
 // Copyright (c) 2017-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
 #include "script/interpreter.h"
 #include "util.h"
 #include "version.h"
-#include "test_pivxl.h"
+#include "test_rscoin.h"
 
 #include <iostream>
 

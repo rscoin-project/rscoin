@@ -137,7 +137,7 @@ def setup_repos():
 def build():
     global args, workdir
 
-    os.makedirs('pivxl-binaries/' + args.version, exist_ok=True)
+    os.makedirs('rscoin-binaries/' + args.version, exist_ok=True)
     print('\nBuilding Dependencies\n')
     os.chdir('gitian-builder')
     os.makedirs('inputs', exist_ok=True)
@@ -152,21 +152,21 @@ def build():
         print('\nCompiling ' + args.version + ' Linux')
         subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'rscoin='+args.commit, '--url', 'rscoin='+args.url, '../rscoin/contrib/gitian-descriptors/gitian-linux.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-linux', '--destination', '../gitian.sigs/', '../rscoin/contrib/gitian-descriptors/gitian-linux.yml'])
-        subprocess.check_call('mv build/out/pivxl-*.tar.gz build/out/src/pivxl-*.tar.gz ../pivxl-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/rscoin-*.tar.gz build/out/src/rscoin-*.tar.gz ../rscoin-binaries/'+args.version, shell=True)
 
     if args.windows:
         print('\nCompiling ' + args.version + ' Windows')
         subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'rscoin='+args.commit, '--url', 'rscoin='+args.url, '../rscoin/contrib/gitian-descriptors/gitian-win.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-unsigned', '--destination', '../gitian.sigs/', '../rscoin/contrib/gitian-descriptors/gitian-win.yml'])
-        subprocess.check_call('mv build/out/pivxl-*-win-unsigned.tar.gz inputs/', shell=True)
-        subprocess.check_call('mv build/out/pivxl-*.zip build/out/pivxl-*.exe build/out/src/pivxl-*.tar.gz ../pivxl-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/rscoin-*-win-unsigned.tar.gz inputs/', shell=True)
+        subprocess.check_call('mv build/out/rscoin-*.zip build/out/rscoin-*.exe build/out/src/rscoin-*.tar.gz ../rscoin-binaries/'+args.version, shell=True)
 
     if args.macos:
         print('\nCompiling ' + args.version + ' MacOS')
         subprocess.check_call(['bin/gbuild', '-j', args.jobs, '-m', args.memory, '--commit', 'rscoin='+args.commit, '--url', 'rscoin='+args.url, '../rscoin/contrib/gitian-descriptors/gitian-osx.yml'])
         subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-unsigned', '--destination', '../gitian.sigs/', '../rscoin/contrib/gitian-descriptors/gitian-osx.yml'])
-        subprocess.check_call('mv build/out/pivxl-*-osx-unsigned.tar.gz inputs/', shell=True)
-        subprocess.check_call('mv build/out/pivxl-*.tar.gz build/out/pivxl-*.dmg build/out/src/pivxl-*.tar.gz ../pivxl-binaries/'+args.version, shell=True)
+        subprocess.check_call('mv build/out/rscoin-*-osx-unsigned.tar.gz inputs/', shell=True)
+        subprocess.check_call('mv build/out/rscoin-*.tar.gz build/out/rscoin-*.dmg build/out/src/rscoin-*.tar.gz ../rscoin-binaries/'+args.version, shell=True)
 
     os.chdir(workdir)
 
@@ -186,27 +186,27 @@ def sign():
 
     # TODO: Skip making signed windows sigs until we actually start producing signed windows binaries
     #print('\nSigning ' + args.version + ' Windows')
-    #subprocess.check_call('cp inputs/pivxl-' + args.version + '-win-unsigned.tar.gz inputs/pivxl-win-unsigned.tar.gz', shell=True)
-    #subprocess.check_call(['bin/gbuild', '--skip-image', '--upgrade', '--commit', 'signature='+args.commit, '../pivxl/contrib/gitian-descriptors/gitian-win-signer.yml'])
-    #subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-signed', '--destination', '../gitian.sigs/', '../pivxl/contrib/gitian-descriptors/gitian-win-signer.yml'])
-    #subprocess.check_call('mv build/out/pivxl-*win64-setup.exe ../pivxl-binaries/'+args.version, shell=True)
-    #subprocess.check_call('mv build/out/pivxl-*win32-setup.exe ../pivxl-binaries/'+args.version, shell=True)
+    #subprocess.check_call('cp inputs/rscoin-' + args.version + '-win-unsigned.tar.gz inputs/rscoin-win-unsigned.tar.gz', shell=True)
+    #subprocess.check_call(['bin/gbuild', '--skip-image', '--upgrade', '--commit', 'signature='+args.commit, '../rscoin/contrib/gitian-descriptors/gitian-win-signer.yml'])
+    #subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-win-signed', '--destination', '../gitian.sigs/', '../rscoin/contrib/gitian-descriptors/gitian-win-signer.yml'])
+    #subprocess.check_call('mv build/out/rscoin-*win64-setup.exe ../rscoin-binaries/'+args.version, shell=True)
+    #subprocess.check_call('mv build/out/rscoin-*win32-setup.exe ../rscoin-binaries/'+args.version, shell=True)
 
     print('\nSigning ' + args.version + ' MacOS')
-    subprocess.check_call('cp inputs/pivxl-' + args.version + '-osx-unsigned.tar.gz inputs/pivxl-osx-unsigned.tar.gz', shell=True)
+    subprocess.check_call('cp inputs/rscoin-' + args.version + '-osx-unsigned.tar.gz inputs/rscoin-osx-unsigned.tar.gz', shell=True)
     subprocess.check_call(['bin/gbuild', '--skip-image', '--upgrade', '--commit', 'signature='+args.commit, '../rscoin/contrib/gitian-descriptors/gitian-osx-signer.yml'])
     subprocess.check_call(['bin/gsign', '-p', args.sign_prog, '--signer', args.signer, '--release', args.version+'-osx-signed', '--destination', '../gitian.sigs/', '../rscoin/contrib/gitian-descriptors/gitian-osx-signer.yml'])
-    subprocess.check_call('mv build/out/pivxl-osx-signed.dmg ../pivxl-binaries/'+args.version+'/pivxl-'+args.version+'-osx.dmg', shell=True)
+    subprocess.check_call('mv build/out/rscoin-osx-signed.dmg ../rscoin-binaries/'+args.version+'/rscoin-'+args.version+'-osx.dmg', shell=True)
 
     os.chdir(workdir)
 
     if args.commit_files:
         os.chdir('gitian.sigs')
         commit = False
-        if os.path.isfile(args.version+'-win-signed/'+args.signer+'/pivxl-win-signer-build.assert.sig'):
+        if os.path.isfile(args.version+'-win-signed/'+args.signer+'/rscoin-win-signer-build.assert.sig'):
             subprocess.check_call(['git', 'add', args.version+'-win-signed/'+args.signer])
             commit = True
-        if os.path.isfile(args.version+'-osx-signed/'+args.signer+'/pivxl-dmg-signer-build.assert.sig'):
+        if os.path.isfile(args.version+'-osx-signed/'+args.signer+'/rscoin-dmg-signer-build.assert.sig'):
             subprocess.check_call(['git', 'add', args.version+'-osx-signed/'+args.signer])
             commit = True
         if commit:
@@ -239,7 +239,7 @@ def verify():
 
     # TODO: Skip checking signed windows sigs until we actually start producing signed windows binaries
     #print('\nVerifying v'+args.version+' Signed Windows\n')
-    #if subprocess.call(['bin/gverify', '-v', '-d', '../gitian.sigs/', '-r', args.version+'-win-signed', '../pivxl/contrib/gitian-descriptors/gitian-win-signer.yml']):
+    #if subprocess.call(['bin/gverify', '-v', '-d', '../gitian.sigs/', '-r', args.version+'-win-signed', '../rscoin/contrib/gitian-descriptors/gitian-win-signer.yml']):
     #    print('Verifying v'+args.version+' Signed Windows FAILED\n')
     #    rc = 1
 

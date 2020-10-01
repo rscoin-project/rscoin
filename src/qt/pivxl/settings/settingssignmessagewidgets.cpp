@@ -1,11 +1,11 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingssignmessagewidgets.h"
-#include "qt/pivxl/settings/forms/ui_settingssignmessagewidgets.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/settings/settingssignmessagewidgets.h"
+#include "qt/rscoin/settings/forms/ui_settingssignmessagewidgets.h"
+#include "qt/rscoin/qtutils.h"
 #include "guiutil.h"
 #include "walletmodel.h"
 
@@ -40,7 +40,7 @@ SettingsSignMessageWidgets::SettingsSignMessageWidgets(PIVXGUI* _window, QWidget
     ui->labelSubtitle1->setProperty("cssClass", "text-subtitle");
 
     // Address
-    ui->labelSubtitleAddress->setText(tr("PIVXL address or contact label"));
+    ui->labelSubtitleAddress->setText(tr("RSCOIN address or contact label"));
     ui->labelSubtitleAddress->setProperty("cssClass", "text-title");
 
     ui->addressIn_SM->setPlaceholderText(tr("Enter address"));

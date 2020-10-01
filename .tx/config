@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
 
-[pivxl-project-translations.qt-translation-41x]
-file_filter = src/qt/locale/pivxl_<lang>.ts
-source_file = src/qt/locale/pivxl_en.ts
+[rscoin-project-translations.qt-translation-41x]
+file_filter = src/qt/locale/rscoin_<lang>.ts
+source_file = src/qt/locale/rscoin_en.ts
 source_lang = en

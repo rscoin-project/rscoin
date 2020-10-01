@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -36,7 +36,7 @@ ZPivControlDialog::ZPivControlDialog(QWidget *parent) :
     ui->frame->setProperty("cssClass", "container-dialog");
 
     // Title
-    ui->labelTitle->setText(tr("Select zPIVXL Denominations to Spend"));
+    ui->labelTitle->setText(tr("Select zRSCOIN Denominations to Spend"));
     ui->labelTitle->setProperty("cssClass", "text-title-dialog");
 
 
@@ -151,9 +151,9 @@ void ZPivControlDialog::updateList()
             if(nConfirmations < nRequiredConfs)
                 strReason = strprintf("Needs %d more confirmations", nRequiredConfs - nConfirmations);
             else if (model->getEncryptionStatus() == WalletModel::EncryptionStatus::Locked)
-                strReason = "Your wallet is locked. Impossible to spend zPIVXL.";
+                strReason = "Your wallet is locked. Impossible to spend zRSCOIN.";
             else if (!mint.isSeedCorrect)
-                strReason = "The zPIVXL seed used to mint this zPIVXL is not the same as currently hold in the wallet";
+                strReason = "The zRSCOIN seed used to mint this zRSCOIN is not the same as currently hold in the wallet";
             else
                 strReason = "Needs 1 more mint added to network";
 

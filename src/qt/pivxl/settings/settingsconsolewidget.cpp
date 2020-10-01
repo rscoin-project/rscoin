@@ -1,12 +1,12 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingsconsolewidget.h"
-#include "qt/pivxl/settings/forms/ui_settingsconsolewidget.h"
+#include "qt/rscoin/settings/settingsconsolewidget.h"
+#include "qt/rscoin/settings/forms/ui_settingsconsolewidget.h"
 #include "QGraphicsDropShadowEffect"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 #include "clientmodel.h"
 #include "guiutil.h"
@@ -37,7 +37,7 @@
 #include <QTime>
 #include <QTimer>
 #include <QStringList>
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 #include "utilitydialog.h"
 
 const int CONSOLE_HISTORY = 50;
@@ -97,7 +97,7 @@ public:
     }
 };
 
-#include "qt/pivxl/settings/moc_settingsconsolewidget.cpp"
+#include "qt/rscoin/settings/moc_settingsconsolewidget.cpp"
 
 /**
  * Split shell command line into a list of arguments. Aims to emulate \c bash and friends.
@@ -419,7 +419,7 @@ void SettingsConsoleWidget::clear(bool clearHistory){
     QString clsKey = "Ctrl-L";
 #endif
 
-    message(CMD_REPLY, (tr("Welcome to the PIVXL RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the RSCOIN RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.") +
                         "<br><span class=\"secwarning\"><br>" +

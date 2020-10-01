@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2013 The Bitcoin developers
 // Copyright (c) 2017-2019 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,7 @@
 #define BITCOIN_QT_ASKPASSPHRASEDIALOG_H
 
 #include <QDialog>
-#include "qt/pivxl/prunnable.h"
+#include "qt/rscoin/prunnable.h"
 #include "allocators.h"
 #include <QCheckBox>
 
@@ -44,9 +44,9 @@ public:
         Encrypt,        /** Encrypt unencrypted wallet */
         ToggleLock,     /** Toggle wallet lock state */
         ChangePass,     /** Change passphrase */
-        Send_PIV,       /** Send PIVXL */
-        Send_zPIV,      /** Send zPIVXL */
-        Mint_zPIV,      /** Mint zPIVXL */
+        Send_PIV,       /** Send RSCOIN */
+        Send_zPIV,      /** Send zRSCOIN */
+        Mint_zPIV,      /** Mint zRSCOIN */
         BIP_38,         /** BIP38 menu */
         Multi_Sig,      /** Multi-Signature dialog */
         Sign_Message,   /** Sign/verify message dialog */

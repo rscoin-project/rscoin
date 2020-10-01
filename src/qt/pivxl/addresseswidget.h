@@ -1,16 +1,16 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef ADDRESSESWIDGET_H
 #define ADDRESSESWIDGET_H
 
-#include "qt/pivxl/pwidget.h"
+#include "qt/rscoin/pwidget.h"
 #include "addresstablemodel.h"
-#include "qt/pivxl/tooltipmenu.h"
+#include "qt/rscoin/tooltipmenu.h"
 #include "furabstractlistitemdelegate.h"
-#include "qt/pivxl/addressfilterproxymodel.h"
+#include "qt/rscoin/addressfilterproxymodel.h"
 
 #include <QWidget>
 

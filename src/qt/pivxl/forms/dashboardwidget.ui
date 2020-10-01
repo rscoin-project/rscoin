@@ -694,7 +694,7 @@
                 <item>
                  <widget class="QLabel" name="labelPiv">
                   <property name="text">
-                   <string>PIVXL</string>
+                   <string>RSCOIN</string>
                   </property>
                  </widget>
                 </item>
@@ -736,7 +736,7 @@
                 <item>
                  <widget class="QLabel" name="labelZpiv">
                   <property name="text">
-                   <string>zPIVXL</string>
+                   <string>zRSCOIN</string>
                   </property>
                  </widget>
                 </item>

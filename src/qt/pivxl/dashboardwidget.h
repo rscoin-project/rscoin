@@ -1,16 +1,16 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef DASHBOARDWIDGET_H
 #define DASHBOARDWIDGET_H
 
-#include "qt/pivxl/pwidget.h"
-#include "qt/pivxl/furabstractlistitemdelegate.h"
-#include "qt/pivxl/furlistrow.h"
+#include "qt/rscoin/pwidget.h"
+#include "qt/rscoin/furabstractlistitemdelegate.h"
+#include "qt/rscoin/furlistrow.h"
 #include "transactiontablemodel.h"
-#include "qt/pivxl/txviewholder.h"
+#include "qt/rscoin/txviewholder.h"
 #include "transactionfilterproxy.h"
 
 #include <atomic>
@@ -20,7 +20,7 @@
 #include <QMap>
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivxl-config.h" /* for USE_QTCHARTS */
+#include "config/rscoin-config.h" /* for USE_QTCHARTS */
 #endif
 
 #ifdef USE_QTCHARTS

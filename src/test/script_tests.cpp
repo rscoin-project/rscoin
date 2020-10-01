@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2014 The Bitcoin Core developers
 // Copyright (c) 2017-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -15,7 +15,7 @@
 #include "script/script_error.h"
 #include "script/sign.h"
 #include "util.h"
-#include "test_pivxl.h"
+#include "test_rscoin.h"
 
 #if defined(HAVE_CONSENSUS_LIB)
 #include "script/bitcoinconsensus.h"

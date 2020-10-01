@@ -1,24 +1,24 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/coldstakingwidget.h"
-#include "qt/pivxl/forms/ui_coldstakingwidget.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/coldstakingwidget.h"
+#include "qt/rscoin/forms/ui_coldstakingwidget.h"
+#include "qt/rscoin/qtutils.h"
 #include "amount.h"
 #include "guiutil.h"
-#include "qt/pivxl/requestdialog.h"
-#include "qt/pivxl/tooltipmenu.h"
-#include "qt/pivxl/furlistrow.h"
-#include "qt/pivxl/sendconfirmdialog.h"
-#include "qt/pivxl/addnewcontactdialog.h"
-#include "qt/pivxl/guitransactionsutils.h"
+#include "qt/rscoin/requestdialog.h"
+#include "qt/rscoin/tooltipmenu.h"
+#include "qt/rscoin/furlistrow.h"
+#include "qt/rscoin/sendconfirmdialog.h"
+#include "qt/rscoin/addnewcontactdialog.h"
+#include "qt/rscoin/guitransactionsutils.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "coincontroldialog.h"
 #include "coincontrol.h"
-#include "qt/pivxl/csrow.h"
+#include "qt/rscoin/csrow.h"
 
 #define DECORATION_SIZE 70
 #define NUM_ITEMS 3
@@ -113,7 +113,7 @@ ColdStakingWidget::ColdStakingWidget(PIVXGUI* parent) :
     ui->lineEditOwnerAddress->setAttribute(Qt::WA_MacShowFocusRect, 0);
     setShadow(ui->lineEditOwnerAddress);
 
-    ui->labelSubtitle2->setText(tr("Accept PIVXL delegation / Delegate PIVXL"));
+    ui->labelSubtitle2->setText(tr("Accept RSCOIN delegation / Delegate RSCOIN"));
     setCssSubtitleScreen(ui->labelSubtitle2);
     ui->labelSubtitle2->setContentsMargins(0,2,0,0);
 
@@ -140,7 +140,7 @@ ColdStakingWidget::ColdStakingWidget(PIVXGUI* parent) :
     setCssProperty(ui->labelEmpty, "text-empty");
 
     ui->btnCoinControl->setTitleClassAndText("btn-title-grey", "Coin Control");
-    ui->btnCoinControl->setSubTitleClassAndText("text-subtitle", "Select PIVXL outputs to delegate.");
+    ui->btnCoinControl->setSubTitleClassAndText("text-subtitle", "Select RSCOIN outputs to delegate.");
 
     ui->btnColdStaking->setTitleClassAndText("btn-title-grey", "Create Cold Staking Address");
     ui->btnColdStaking->setSubTitleClassAndText("text-subtitle", "Creates an address to receive delegated coins\nand stake them on their owner's behalf.");
@@ -555,7 +555,7 @@ void ColdStakingWidget::onCoinControlClicked()
             coinControlDialog->exec();
             ui->btnCoinControl->setActive(CoinControlDialog::coinControl->HasSelected());
         } else {
-            inform(tr("You don't have any PIVXL to select."));
+            inform(tr("You don't have any RSCOIN to select."));
         }
     }
 }
@@ -797,7 +797,7 @@ void ColdStakingWidget::updateStakingTotalLabel()
 {
     const CAmount& total = csModel->getTotalAmount();
     ui->labelStakingTotal->setText(tr("Total Staking: %1").arg(
-            (total == 0) ? "0.00 PIVXL" : GUIUtil::formatBalance(total, nDisplayUnit))
+            (total == 0) ? "0.00 RSCOIN" : GUIUtil::formatBalance(total, nDisplayUnit))
     );
 }
 

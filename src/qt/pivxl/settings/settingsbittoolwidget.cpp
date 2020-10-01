@@ -1,11 +1,11 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingsbittoolwidget.h"
-#include "qt/pivxl/settings/forms/ui_settingsbittoolwidget.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/settings/settingsbittoolwidget.h"
+#include "qt/rscoin/settings/forms/ui_settingsbittoolwidget.h"
+#include "qt/rscoin/qtutils.h"
 
 #include "guiutil.h"
 #include "walletmodel.h"
@@ -44,7 +44,7 @@ SettingsBitToolWidget::SettingsBitToolWidget(PIVXGUI* _window, QWidget *parent) 
     ui->pushLeft->setChecked(true);
 
     // Subtitle
-    ui->labelSubtitle1->setText("Encrypt your PIVXL addresses (key pair actually) using BIP38 encryption.\nUsing this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely.");
+    ui->labelSubtitle1->setText("Encrypt your RSCOIN addresses (key pair actually) using BIP38 encryption.\nUsing this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely.");
     setCssSubtitleScreen(ui->labelSubtitle1);
 
     // Key
@@ -83,7 +83,7 @@ SettingsBitToolWidget::SettingsBitToolWidget(PIVXGUI* _window, QWidget *parent) 
     // Encrypt
 
     // Address
-    ui->labelSubtitleAddress->setText(tr("PIVXL address"));
+    ui->labelSubtitleAddress->setText(tr("RSCOIN address"));
     setCssProperty(ui->labelSubtitleAddress, "text-title");
 
     ui->addressIn_ENC->setPlaceholderText(tr("Enter address"));

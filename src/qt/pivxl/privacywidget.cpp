@@ -1,13 +1,13 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/privacywidget.h"
-#include "qt/pivxl/forms/ui_privacywidget.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/privacywidget.h"
+#include "qt/rscoin/forms/ui_privacywidget.h"
+#include "qt/rscoin/qtutils.h"
 #include "guiutil.h"
-#include "qt/pivxl/txviewholder.h"
+#include "qt/rscoin/txviewholder.h"
 #include "walletmodel.h"
 #include "optionsmodel.h"
 #include "coincontroldialog.h"
@@ -45,63 +45,63 @@ PrivacyWidget::PrivacyWidget(PIVXGUI* parent) :
     setCssProperty(ui->pushRight, "btn-check-right");
 
     /* Subtitle */
-    ui->labelSubtitle1->setText(tr("Minting zPIVXL anonymizes your PIVXL by removing any\ntransaction history, making transactions untraceable "));
+    ui->labelSubtitle1->setText(tr("Minting zRSCOIN anonymizes your RSCOIN by removing any\ntransaction history, making transactions untraceable "));
     setCssSubtitleScreen(ui->labelSubtitle1);
 
-    ui->labelSubtitle2->setText(tr("Mint new zPIVXL or convert back to PIVXL"));
+    ui->labelSubtitle2->setText(tr("Mint new zRSCOIN or convert back to RSCOIN"));
     setCssSubtitleScreen(ui->labelSubtitle2);
     ui->labelSubtitle2->setContentsMargins(0,2,0,0);
     setCssProperty(ui->labelSubtitleAmount, "text-title");
 
-    ui->lineEditAmount->setPlaceholderText("0.00 PIVXL ");
+    ui->lineEditAmount->setPlaceholderText("0.00 RSCOIN ");
     ui->lineEditAmount->setValidator(new QRegExpValidator(QRegExp("[0-9]+")));
     initCssEditLine(ui->lineEditAmount);
 
     /* Denom */
     ui->labelTitleDenom1->setText("Denom. with value 1:");
     setCssProperty(ui->labelTitleDenom1, "text-subtitle");
-    ui->labelValueDenom1->setText("0x1 = 0 zPIVXL");
+    ui->labelValueDenom1->setText("0x1 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom1, "text-body2");
 
     ui->labelTitleDenom5->setText("Denom. with value 5:");
     setCssProperty(ui->labelTitleDenom5, "text-subtitle");
-    ui->labelValueDenom5->setText("0x5 = 0 zPIVXL");
+    ui->labelValueDenom5->setText("0x5 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom5, "text-body2");
 
     ui->labelTitleDenom10->setText("Denom. with value 10:");
     setCssProperty(ui->labelTitleDenom10, "text-subtitle");
-    ui->labelValueDenom10->setText("0x10 = 0 zPIVXL");
+    ui->labelValueDenom10->setText("0x10 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom10, "text-body2");
 
     ui->labelTitleDenom50->setText("Denom. with value 50:");
     setCssProperty(ui->labelTitleDenom50, "text-subtitle");
-    ui->labelValueDenom50->setText("0x50 = 0 zPIVXL");
+    ui->labelValueDenom50->setText("0x50 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom50, "text-body2");
 
     ui->labelTitleDenom100->setText("Denom. with value 100:");
     setCssProperty(ui->labelTitleDenom100, "text-subtitle");
-    ui->labelValueDenom100->setText("0x100 = 0 zPIVXL");
+    ui->labelValueDenom100->setText("0x100 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom100, "text-body2");
 
     ui->labelTitleDenom500->setText("Denom. with value 500:");
     setCssProperty(ui->labelTitleDenom500, "text-subtitle");
-    ui->labelValueDenom500->setText("0x500 = 0 zPIVXL");
+    ui->labelValueDenom500->setText("0x500 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom500, "text-body2");
 
     ui->labelTitleDenom1000->setText("Denom. with value 1000:");
     setCssProperty(ui->labelTitleDenom1000, "text-subtitle");
-    ui->labelValueDenom1000->setText("0x1000 = 0 zPIVXL");
+    ui->labelValueDenom1000->setText("0x1000 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom1000, "text-body2");
 
     ui->labelTitleDenom5000->setText("Denom. with value 5000:");
     setCssProperty(ui->labelTitleDenom5000, "text-subtitle");
-    ui->labelValueDenom5000->setText("0x5000 = 0 zPIVXL");
+    ui->labelValueDenom5000->setText("0x5000 = 0 zRSCOIN");
     setCssProperty(ui->labelValueDenom5000, "text-body2");
 
     ui->layoutDenom->setVisible(false);
 
     // List
-    ui->labelListHistory->setText(tr("Last zPIVXL Movements"));
+    ui->labelListHistory->setText(tr("Last zRSCOIN Movements"));
     setCssProperty(ui->labelListHistory, "text-title");
 
     //ui->emptyContainer->setVisible(false);
@@ -112,21 +112,21 @@ PrivacyWidget::PrivacyWidget(PIVXGUI* parent) :
     // Buttons
     setCssBtnPrimary(ui->pushButtonSave);
 
-    // Only Convert to PIVXL enabled.
+    // Only Convert to RSCOIN enabled.
     ui->containerViewPrivacyChecks->setVisible(false);
     onMintSelected(false);
 
-    ui->btnTotalzPIV->setTitleClassAndText("btn-title-grey", "Total 0 zPIVXL");
-    ui->btnTotalzPIV->setSubTitleClassAndText("text-subtitle", "Show denominations of zPIVXL owned.");
+    ui->btnTotalzPIV->setTitleClassAndText("btn-title-grey", "Total 0 zRSCOIN");
+    ui->btnTotalzPIV->setSubTitleClassAndText("text-subtitle", "Show denominations of zRSCOIN owned.");
     ui->btnTotalzPIV->setRightIconClass("ic-arrow");
 
     ui->btnCoinControl->setTitleClassAndText("btn-title-grey", "Coin Control");
-    ui->btnCoinControl->setSubTitleClassAndText("text-subtitle", "Select PIVXL outputs to mint into zPIVXL.");
+    ui->btnCoinControl->setSubTitleClassAndText("text-subtitle", "Select RSCOIN outputs to mint into zRSCOIN.");
 
     ui->btnRescanMints->setTitleClassAndText("btn-title-grey", "Rescan Mints");
     ui->btnRescanMints->setSubTitleClassAndText("text-subtitle", "Find mints in the blockchain.");
 
-    ui->btnResetZerocoin->setTitleClassAndText("btn-title-grey", "Reset Spent zPIVXL");
+    ui->btnResetZerocoin->setTitleClassAndText("btn-title-grey", "Reset Spent zRSCOIN");
     ui->btnResetZerocoin->setSubTitleClassAndText("text-subtitle", "Reset zerocoin database.");
 
     connect(ui->btnTotalzPIV, &OptionButton::clicked, this, &PrivacyWidget::onTotalZpivClicked);
@@ -193,13 +193,13 @@ void PrivacyWidget::onMintSelected(bool isMint)
 {
     QString btnText;
     if (isMint) {
-        btnText = tr("Mint zPIVXL");
+        btnText = tr("Mint zRSCOIN");
         ui->btnCoinControl->setVisible(true);
-        ui->labelSubtitleAmount->setText(tr("Enter amount of PIVXL to mint into zPIVXL"));
+        ui->labelSubtitleAmount->setText(tr("Enter amount of RSCOIN to mint into zRSCOIN"));
     } else {
-        btnText = tr("Convert back to PIVXL");
+        btnText = tr("Convert back to RSCOIN");
         ui->btnCoinControl->setVisible(false);
-        ui->labelSubtitleAmount->setText(tr("Enter amount of zPIVXL to convert back into PIVXL"));
+        ui->labelSubtitleAmount->setText(tr("Enter amount of zRSCOIN to convert back into RSCOIN"));
     }
     ui->pushButtonSave->setText(btnText);
 }
@@ -238,7 +238,7 @@ void PrivacyWidget::onSendClicked()
         return;
 
     if (sporkManager.IsSporkActive(SPORK_16_ZEROCOIN_MAINTENANCE_MODE)) {
-        warn(tr("Zerocoin"), tr("zPIVXL is currently undergoing maintenance"));
+        warn(tr("Zerocoin"), tr("zRSCOIN is currently undergoing maintenance"));
         return;
     }
 
@@ -247,7 +247,7 @@ void PrivacyWidget::onSendClicked()
 
     WalletModel::UnlockContext ctx(walletModel->requestUnlock());
     if (!ctx.isValid()) {
-        inform(tr("You need to unlock the wallet to be able to %1 zPIVXL").arg(isConvert ? tr("convert") : tr("mint")));
+        inform(tr("You need to unlock the wallet to be able to %1 zRSCOIN").arg(isConvert ? tr("convert") : tr("mint")));
         return;
     }
 
@@ -279,7 +279,7 @@ void PrivacyWidget::mint(CAmount value)
         inform(tr(strError.data()));
     } else {
         // Mint succeed
-        inform(tr("zPIVXL minted successfully"));
+        inform(tr("zRSCOIN minted successfully"));
         // clear
         ui->lineEditAmount->clear();
     }
@@ -298,7 +298,7 @@ void PrivacyWidget::spend(CAmount value)
         inform(receipt.GetStatusMessage().data());
     } else {
         // Spend succeed
-        inform(tr("zPIVXL converted back to PIVXL"));
+        inform(tr("zRSCOIN converted back to RSCOIN"));
         // clear
         ui->lineEditAmount->clear();
     }
@@ -318,7 +318,7 @@ void PrivacyWidget::onCoinControlClicked()
             coinControlDialog->exec();
             ui->btnCoinControl->setActive(CoinControlDialog::coinControl->HasSelected());
         } else {
-            inform(tr("You don't have any PIVXL to select."));
+            inform(tr("You don't have any RSCOIN to select."));
         }
     }
 }
@@ -335,7 +335,7 @@ void PrivacyWidget::onRescanMintsClicked()
 
 void PrivacyWidget::onResetZeroClicked()
 {
-    if (ask(tr("Reset Spent zPIVXL"),
+    if (ask(tr("Reset Spent zRSCOIN"),
         tr("Your zerocoin spends are going to be scanned from the blockchain from scratch"))
     ) {
         std::string strResetMintResult = walletModel->resetSpentZerocoin();
@@ -397,7 +397,7 @@ void PrivacyWidget::updateDenomsSupply()
 
         strDenomStats = strUnconfirmed + QString::number(mapDenomBalances.at(denom)) + " x " +
                         QString::number(nCoins) + " = <b>" +
-                        QString::number(nSumPerCoin) + " zPIVXL </b>";
+                        QString::number(nSumPerCoin) + " zRSCOIN </b>";
 
         switch (nCoins) {
             case libzerocoin::CoinDenomination::ZQ_ONE:

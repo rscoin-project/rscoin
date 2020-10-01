@@ -1,53 +1,53 @@
-PIVXL Core version *3.3.0* is now available from:  <https://github.com/pivxl-project/pivxl/releases>
+RSCOIN Core version *3.3.0* is now available from:  <https://github.com/rscoin-project/rscoin/releases>
 
 This is a new major version release, including various bug fixes and performance improvements, as well as updated translations.
 
-Please report bugs using the issue tracker at github: <https://github.com/pivxl-project/pivxl/issues>
+Please report bugs using the issue tracker at github: <https://github.com/rscoin-project/rscoin/issues>
 
 
 Mandatory Update
 ==============
 
-PIVXL Core v3.3.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of approximately one week to update their clients before enforcement of this update goes into effect.
+RSCOIN Core v3.3.0 is a mandatory update for all users. This release contains new consensus rules and improvements that are not backwards compatible with older versions. Users will have a grace period of approximately one week to update their clients before enforcement of this update goes into effect.
 
 Masternodes will need to be restarted once both the masternode daemon and the controller wallet have been upgraded.
 
 How to Upgrade
 ==============
 
-If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/PIVXL-Qt (on Mac) or pivxld/pivxl-qt (on Linux).
+If you are running an older version, shut it down. Wait until it has completely shut down (which might take a few minutes for older versions), then run the installer (on Windows) or just copy over /Applications/RSCOIN-Qt (on Mac) or rscoind/rscoin-qt (on Linux).
 
 
 Compatibility
 ==============
 
-PIVXL Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
+RSCOIN Core is extensively tested on multiple operating systems using the Linux kernel, macOS 10.10+, and Windows 7 and later.
 
 Microsoft ended support for Windows XP on [April 8th, 2014](https://www.microsoft.com/en-us/WindowsForBusiness/end-of-xp-support), No attempt is made to prevent installing or running the software on Windows XP, you can still do so at your own risk but be aware that there are known instabilities and issues. Please do not report issues about Windows XP to the issue tracker.
 
-Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). PIVXL Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
+Apple released it's last Mountain Lion update August 13, 2015, and officially ended support on [December 14, 2015](http://news.fnal.gov/2015/10/mac-os-x-mountain-lion-10-8-end-of-life-december-14/). RSCOIN Core software starting with v3.2.0 will no longer run on MacOS versions prior to Yosemite (10.10). Please do not report issues about MacOS versions prior to Yosemite to the issue tracker.
 
-PIVXL Core should also work on most other Unix-like systems but is not frequently tested on them.
+RSCOIN Core should also work on most other Unix-like systems but is not frequently tested on them.
 
 
 Notable Changes
 ==============
 
-## zPIVXL Public Spends
+## zRSCOIN Public Spends
 
-Recent exploits of the Zerocoin protocol (Wrapped serials and broken P1 proof) required us to enable the zerocoin spork and deactivate zPIVXL functionality in order to secure the supply until the pertinent review process was completed.
+Recent exploits of the Zerocoin protocol (Wrapped serials and broken P1 proof) required us to enable the zerocoin spork and deactivate zRSCOIN functionality in order to secure the supply until the pertinent review process was completed.
 
-Moving forward from this undesired situation, we are enabling a secure and chain storage friendly solution for the zerocoin public spend (aka zPIVXL to PIVXL conversion).
+Moving forward from this undesired situation, we are enabling a secure and chain storage friendly solution for the zerocoin public spend (aka zRSCOIN to RSCOIN conversion).
 
 The explanation of how this works can be found in #891
 
-After block `1,880,000` has past, `SPORK_16` will be deactivated to allow zPIVXL spends to occur using this new public spend method for version 2 zPIVXL (version 1 zPIVXL won't be spendable, see note below). zPIVXL public spends, as the name suggests, are **NOT** private, they reveal the input mint that is being spent. The minting of **NEW** zPIVXL, as well as zPIVXL staking will remain disabled for the time being.
+After block `1,880,000` has past, `SPORK_16` will be deactivated to allow zRSCOIN spends to occur using this new public spend method for version 2 zRSCOIN (version 1 zRSCOIN won't be spendable, see note below). zRSCOIN public spends, as the name suggests, are **NOT** private, they reveal the input mint that is being spent. The minting of **NEW** zRSCOIN, as well as zRSCOIN staking will remain disabled for the time being.
 
-It is advised that users spend/convert their existing zPIVXL to PIVXL, which can be done via the GUI or RPC as it was prior to the disabling of zPIVXL. Note that with the public spend method, the restriction on the number of denominations per transaction (previously 7) has been lifted, and now allows for several hundred denominations per transaction.
+It is advised that users spend/convert their existing zRSCOIN to RSCOIN, which can be done via the GUI or RPC as it was prior to the disabling of zRSCOIN. Note that with the public spend method, the restriction on the number of denominations per transaction (previously 7) has been lifted, and now allows for several hundred denominations per transaction.
 
-*Note on version 1 zPIVXL*: Version 1 zPIVXL was only available to me minted between versions v3.0.0 (Oct 6, 2017) and v3.1.0 (May 8, 2018). The announcement that version 1 zPIVXL was deprecated went out on May 1, 2018 with a recommendation for users to spend/convert their version 1 zPIVXL.
+*Note on version 1 zRSCOIN*: Version 1 zRSCOIN was only available to me minted between versions v3.0.0 (Oct 6, 2017) and v3.1.0 (May 8, 2018). The announcement that version 1 zRSCOIN was deprecated went out on May 1, 2018 with a recommendation for users to spend/convert their version 1 zRSCOIN.
 
-Version 1 zPIVXL will be made spendable at a later date due to the extra work required in order to make these version 1 mints spendable.
+Version 1 zRSCOIN will be made spendable at a later date due to the extra work required in order to make these version 1 mints spendable.
 
 ## GUI Changes
 
@@ -57,23 +57,23 @@ The options/settings UI dialog has been cleaned up to no longer show settings th
 
 ### Privacy Tab
 
-Notice text has been added to the privacy tab indicating that zPIVXL minting is disabled, as well as the removal of UI elements that supported such functionality. Notice text has also been added indicating that zPIVXL spends are currently **NOT** private.
+Notice text has been added to the privacy tab indicating that zRSCOIN minting is disabled, as well as the removal of UI elements that supported such functionality. Notice text has also been added indicating that zRSCOIN spends are currently **NOT** private.
 
 ## RPC Changes
 
 ### Removal of Deprecated Commands
 
-The `masternode` and `mnbudget` RPC commands, which were marked as deprecated in PIVXL Core v2.3.1 (September 19, 2017), have now been completely removed from PIVXL Core.
+The `masternode` and `mnbudget` RPC commands, which were marked as deprecated in RSCOIN Core v2.3.1 (September 19, 2017), have now been completely removed from RSCOIN Core.
 
-Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/PIVXL-Project/PIVXL/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
+Several new commands were added in v2.3.1 to replace the two aforementioned commands, reference the [v2.3.1 Release Notes](https://github.com/RSCOIN-Project/RSCOIN/blob/master/doc/release-notes/release-notes-2.3.1.md#rpc-changes) for further details.
 
 ### New `getblockindexstats` Command
 
 A new RPC command (`getblockindexstats`) has been introduced which serves the purpose of obtaining statistical information on a range of blocks. The information returned is as follows:
   * transaction count (not including coinbase/coinstake txes)
   * transaction count (including coinbase/coinstake txes)
-  * zPIVXL per-denom mint count
-  * zPIVXL per-denom spend count
+  * zRSCOIN per-denom mint count
+  * zRSCOIN per-denom spend count
   * total transaction bytes
   * total fees in block range
   * average fee per kB
@@ -111,9 +111,9 @@ Result:
         denom_5: xxxx,         (numeric) number of PUBLIC spends of denom_5 occurred over the block range
          ...                   ... number of PUBLIC spends of other denominations: ..., 10, 50, 100, 500, 1000, 5000
   },
-  txbytes: xxxxx,              (numeric) Sum of the size of all txes (zPIVXL excluded) over block range
-  ttlfee: xxxxx,               (numeric) Sum of the fee amount of all txes (zPIVXL mints excluded) over block range
-  ttlfee_all: xxxxx,           (numeric) Sum of the fee amount of all txes (zPIVXL mints included) over block range
+  txbytes: xxxxx,              (numeric) Sum of the size of all txes (zRSCOIN excluded) over block range
+  ttlfee: xxxxx,               (numeric) Sum of the fee amount of all txes (zRSCOIN mints excluded) over block range
+  ttlfee_all: xxxxx,           (numeric) Sum of the fee amount of all txes (zRSCOIN mints included) over block range
   feeperkb: xxxxx,             (numeric) Average fee per kb (excluding zc txes)
 }
 ```
@@ -141,8 +141,8 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #875 `a99c2dd3bb` [Zerocoin] GMP BigNum: Fix limits for random number generators (random-zebra)
  - #888 `0c071c3fd0` [Zerocoin] remove CTransaction::IsZerocoinSpend/IsZerocoinMint (random-zebra)
  - #891 `855408c2c3` [ZPIV] Zerocoin public coin spend. (furszy)
- - #897 `65bd788945` [zPIVXL] Disable zerocoin minting (random-zebra)
- - #899 `4b22a09024` [zPIVXL] Disable zPIVXL staking (random-zebra)
+ - #897 `65bd788945` [zRSCOIN] Disable zerocoin minting (random-zebra)
+ - #899 `4b22a09024` [zRSCOIN] Disable zRSCOIN staking (random-zebra)
  - #909 `458b08c8f2` [Consensus] Mainnet public spend enforcement height set. (furszy)
  - #924 `988b33dab8` [Backport] Max tip age to consider a node in IBD status customizable. (furszy)
  - #925 `a9827a0e63` [Consensus] Time checks (warrows)
@@ -192,9 +192,9 @@ Detailed release notes follow. This overview includes changes that affect behavi
  - #879 `5f0d72659c` [Refactor] Rename ui_interface.h file (Fuzzbawls)
  - #890 `fddac44eab` [Refactor] Remove unused setStakeSeen variable (warrows)
  - #903 `68c81c407a` [Log] Handle errors during log message formatting (warrows)
- - #904 `6f597629d8` [zPIVXL] Free memory from ToString() (warrows)
+ - #904 `6f597629d8` [zRSCOIN] Free memory from ToString() (warrows)
  - #912 `5f167c2c7e` [Cleanup] compiler warnings in coinSpend object. (furszy)
- - #919 `c0233e4af6` [zPIVXL] Debug missing jump line. (Matias Furszyfer)
+ - #919 `c0233e4af6` [zRSCOIN] Debug missing jump line. (Matias Furszyfer)
  - #920 `a56cc2948d` [Docs] Overhaul documentation files (Fuzzbawls)
  - #921 `893183339e` [Scripts] Overhaul supplemental python/shell scripts (Fuzzbawls)
  - #926 `49a69b8931` [Doc] 3.3.0 Notable Changes (Fuzzbawls)
@@ -214,4 +214,4 @@ Thanks to everyone who directly contributed to this release:
  - random-zebra
  - warrows
 
-As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/pivxl-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.
+As well as everyone that helped translating on [Transifex](https://www.transifex.com/projects/p/rscoin-project-translations/), the QA team during Testing and the Node hosts supporting our Testnet.

@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
-This issue tracker is only for technical issues related to PIVXL Core.
-General PIVXL questions and/or support requests and are best directed to the [PIVXL Discord](https://discord.pivxl.org).
+This issue tracker is only for technical issues related to RSCOIN Core.
+General RSCOIN questions and/or support requests and are best directed to the [RSCOIN Discord](https://discord.rscoin.org).
 
 ### Describe the issue
 
@@ -20,7 +20,7 @@ Tell us what happens instead
 ### Screenshots.
 If the issue is related to the GUI, screenshots can be added to this issue via drag & drop.
 
-### What version of PIVXL Core are you using?
+### What version of RSCOIN Core are you using?
 List the version number/commit ID, and if it is an official binary, self compiled or a distribution package.
 
 ### Machine specs:

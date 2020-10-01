@@ -67,15 +67,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += pivxld
+  bin_PROGRAMS += rscoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += pivxl-cli pivxl-tx
+  bin_PROGRAMS += rscoin-cli rscoin-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# pivxl core #
+# rscoin core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -211,7 +211,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between pivxld and pivxl-qt
+# server: shared between rscoind and rscoin-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -260,7 +260,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between pivxld and pivxl-qt, but only linked
+# wallet: shared between rscoind and rscoin-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -368,7 +368,7 @@ if USE_NUM_OPENSSL
   libzerocoin_libbitcoin_zerocoin_a_SOURCES += libzerocoin/bignum_openssl.cpp
 endif
 
-# common: shared between pivxld, and pivxl-qt and non-server tools
+# common: shared between rscoind, and rscoin-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -433,7 +433,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between pivxl-cli and pivxl-qt
+# cli: shared between rscoin-cli and rscoin-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -443,16 +443,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# pivxld binary #
-pivxld_SOURCES = pivxld.cpp
-pivxld_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-pivxld_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pivxld_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# rscoind binary #
+rscoind_SOURCES = rscoind.cpp
+rscoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+rscoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+rscoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pivxld_SOURCES += pivxld-res.rc
+rscoind_SOURCES += rscoind-res.rc
 endif
-pivxld_LDADD = \
+rscoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -466,38 +466,38 @@ pivxld_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-pivxld_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+rscoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# pivxl-cli binary #
-pivxl_cli_SOURCES = pivxl-cli.cpp
-pivxl_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-pivxl_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pivxl_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# rscoin-cli binary #
+rscoin_cli_SOURCES = rscoin-cli.cpp
+rscoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+rscoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+rscoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pivxl_cli_SOURCES += pivxl-cli-res.rc
+rscoin_cli_SOURCES += rscoin-cli-res.rc
 endif
 
-pivxl_cli_LDADD = \
+rscoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-pivxl_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+rscoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# pivxl-tx binary #
-pivxl_tx_SOURCES = pivxl-tx.cpp
-pivxl_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-pivxl_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-pivxl_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# rscoin-tx binary #
+rscoin_tx_SOURCES = rscoin-tx.cpp
+rscoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+rscoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+rscoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-pivxl_tx_SOURCES += pivxl-tx-res.rc
+rscoin_tx_SOURCES += rscoin-tx-res.rc
 endif
 
-pivxl_tx_LDADD = \
+rscoin_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_ZEROCOIN) \
@@ -505,7 +505,7 @@ pivxl_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-pivxl_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+rscoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #
@@ -561,12 +561,12 @@ CLEANFILES += obj/build.h
 EXTRA_DIST =
 
 
-config/pivxl-config.h: config/stamp-h1
+config/rscoin-config.h: config/stamp-h1
 	@$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-config/stamp-h1: $(top_srcdir)/$(subdir)/config/pivxl-config.h.in $(top_builddir)/config.status
+config/stamp-h1: $(top_srcdir)/$(subdir)/config/rscoin-config.h.in $(top_builddir)/config.status
 	$(AM_V_at)$(MAKE) -C $(top_builddir) $(subdir)/$(@)
-$(top_srcdir)/$(subdir)/config/pivxl-config.h.in:  $(am__configure_deps)
-	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/pivxl-config.h.in
+$(top_srcdir)/$(subdir)/config/rscoin-config.h.in:  $(am__configure_deps)
+	$(AM_V_at)$(MAKE) -C $(top_srcdir) $(subdir)/config/rscoin-config.h.in
 
 clean-local:
 	-$(MAKE) -C secp256k1 clean

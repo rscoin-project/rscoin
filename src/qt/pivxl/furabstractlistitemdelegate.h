@@ -5,7 +5,7 @@
 #ifndef FURABSTRACTLISTITEMDELEGATE_H
 #define FURABSTRACTLISTITEMDELEGATE_H
 
-#include "qt/pivxl/furlistrow.h"
+#include "qt/rscoin/furlistrow.h"
 
 #include <QAbstractItemDelegate>
 #include <QPainter>

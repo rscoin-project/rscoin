@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -12,10 +12,10 @@
 #include "guiconstants.h"
 #include "guiutil.h"
 #include "walletmodel.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/loadingdialog.h"
-#include "qt/pivxl/defaultdialog.h"
-#include "qt/pivxl/pivxlgui.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/loadingdialog.h"
+#include "qt/rscoin/defaultdialog.h"
+#include "qt/rscoin/rscoingui.h"
 #include <QDebug>
 
 #include <QKeyEvent>
@@ -186,7 +186,7 @@ void AskPassphraseDialog::accept()
         bool ret = openStandardDialog(
                 tr("Confirm wallet encryption"),
                 "<b>" + tr("WARNING") + ":</b> " + tr("If you encrypt your wallet and lose your passphrase, you will") +
-                " <b>" + tr("LOSE ALL OF YOUR PIVXL") + "</b>!<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
+                " <b>" + tr("LOSE ALL OF YOUR RSCOIN") + "</b>!<br><br>" + tr("Are you sure you wish to encrypt your wallet?"),
                 tr("ENCRYPT"), tr("CANCEL")
         );
         if (ret) {
@@ -331,7 +331,7 @@ void AskPassphraseDialog::warningMessage()
     openStandardDialog(
             tr("Wallet encrypted"),
             "<qt>" +
-            tr("PIVXL will close now to finish the encryption process. "
+            tr("RSCOIN will close now to finish the encryption process. "
                "Remember that encrypting your wallet cannot fully protect "
                "your PIVs from being stolen by malware infecting your computer.") +
             "<br><br><b>" +

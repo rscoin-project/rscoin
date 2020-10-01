@@ -1,16 +1,16 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/sendmultirow.h"
-#include "qt/pivxl/forms/ui_sendmultirow.h"
+#include "qt/rscoin/sendmultirow.h"
+#include "qt/rscoin/forms/ui_sendmultirow.h"
 
 #include "optionsmodel.h"
 #include "addresstablemodel.h"
 #include "guiutil.h"
 #include "bitcoinunits.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 SendMultiRow::SendMultiRow(PWidget *parent) :
     PWidget(parent),
@@ -25,7 +25,7 @@ SendMultiRow::SendMultiRow(PWidget *parent) :
     ui->lineEditAddress->setAttribute(Qt::WA_MacShowFocusRect, 0);
     setShadow(ui->stackedAddress);
 
-    ui->lineEditAmount->setPlaceholderText("0.00 PIVXL ");
+    ui->lineEditAmount->setPlaceholderText("0.00 RSCOIN ");
     initCssEditLine(ui->lineEditAmount);
     GUIUtil::setupAmountWidget(ui->lineEditAmount, this);
 

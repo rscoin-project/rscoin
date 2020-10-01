@@ -2,12 +2,12 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivxl-config.h"
+#include "config/rscoin-config.h"
 #endif
 
 #include "util.h"
@@ -88,7 +88,7 @@ namespace fs = boost::filesystem;
 #include <openssl/rand.h>
 
 
-// PIVXL only features
+// RSCOIN only features
 // Masternode
 bool fMasterNode = false;
 std::string strMasterNodePrivKey = "";
@@ -268,7 +268,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "pivxl";
+    const char* pszModule = "rscoin";
 #endif
     if (pex)
         return strprintf(
@@ -288,13 +288,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\PIVXL
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\PIVXL
-// Mac: ~/Library/Application Support/PIVXL
-// Unix: ~/.pivxl
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\RSCOIN
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\RSCOIN
+// Mac: ~/Library/Application Support/RSCOIN
+// Unix: ~/.rscoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "PIVXL";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "RSCOIN";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -306,10 +306,10 @@ fs::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "PIVXL";
+    return pathRet / "RSCOIN";
 #else
     // Unix
-    return pathRet / ".pivxl";
+    return pathRet / ".rscoin";
 #endif
 #endif
 }
@@ -354,7 +354,7 @@ void ClearDatadirCache()
 
 fs::path GetConfigFile()
 {
-    fs::path pathConfigFile(GetArg("-conf", "pivxl.conf"));
+    fs::path pathConfigFile(GetArg("-conf", "rscoin.conf"));
     if (!pathConfigFile.is_complete())
         pathConfigFile = GetDataDir(false) / pathConfigFile;
 
@@ -373,7 +373,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
 {
     fs::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty pivxl.conf if it does not exist
+        // Create empty rscoin.conf if it does not exist
         FILE* configFile = fopen(GetConfigFile().string().c_str(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -384,7 +384,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override pivxl.conf
+        // Don't overwrite existing settings so command line settings override rscoin.conf
         std::string strKey = std::string("-") + it->string_key;
         std::string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);
@@ -407,7 +407,7 @@ fs::path AbsPathForConfigVal(const fs::path& path, bool net_specific)
 #ifndef WIN32
 fs::path GetPidFile()
 {
-    fs::path pathPidFile(GetArg("-pid", "pivxld.pid"));
+    fs::path pathPidFile(GetArg("-pid", "rscoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

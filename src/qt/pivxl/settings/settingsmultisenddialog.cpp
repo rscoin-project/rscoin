@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingsmultisenddialog.h"
-#include "qt/pivxl/settings/forms/ui_settingsmultisenddialog.h"
+#include "qt/rscoin/settings/settingsmultisenddialog.h"
+#include "qt/rscoin/settings/forms/ui_settingsmultisenddialog.h"
 #include <QListView>
 #include <QIntValidator>
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 SettingsMultisendDialog::SettingsMultisendDialog(QWidget *parent) :
     QDialog(parent),
@@ -32,7 +32,7 @@ SettingsMultisendDialog::SettingsMultisendDialog(QWidget *parent) :
     initCssEditLine(ui->lineEditLabel, true);
 
     // Address
-    ui->labelSubtitleAddress->setText("PIVXL address or contact label");
+    ui->labelSubtitleAddress->setText("RSCOIN address or contact label");
     setCssProperty(ui->labelSubtitleAddress, "text-title2-dialog");
     ui->lineEditAddress->setPlaceholderText("Enter address");
     initCssEditLine(ui->lineEditAddress, true);

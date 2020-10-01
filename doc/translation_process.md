@@ -1,20 +1,20 @@
 Translations
 ============
 
-The PIVXL Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, PIVXL Core makes use of the Transifex online translation management tool.
+The RSCOIN Core project has been designed to support multiple localisations. This makes adding new phrases, and completely new languages easily achievable. For managing all application translations, RSCOIN Core makes use of the Transifex online translation management tool.
 
 ### Helping to translate (using Transifex)
 Transifex is setup to monitor the GitHub repo for updates, and when code containing new translations is found, Transifex will process any changes. It may take several hours after a pull-request has been merged, to appear in the Transifex web interface.
 
-Multiple language support is critical in assisting PIVXL's global adoption, and growth. One of PIVXL's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
+Multiple language support is critical in assisting RSCOIN's global adoption, and growth. One of RSCOIN's greatest strengths is cross-border money transfers, any help making that easier is greatly appreciated.
 
-See the [Transifex PIVXL project](https://www.transifex.com/pivxl-project/pivxl-project-translations/) to assist in translations.
+See the [Transifex RSCOIN project](https://www.transifex.com/rscoin-project/rscoin-project-translations/) to assist in translations.
 
 ### Writing code with translations
 We use automated scripts to help extract translations in both Qt, and non-Qt source files. It is rarely necessary to manually edit the files in `src/qt/locale/`. The translation source files must adhere to the following format:
 `pivx_xx_YY.ts or pivx_xx.ts`
 
-`src/qt/locale/pivxl_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `pivx_en.ts`.
+`src/qt/locale/rscoin_en.ts` is treated in a special way. It is used as the source for all other translations. Whenever a string in the source code is changed, this file must be updated to reflect those changes. A custom script is used to extract strings from the non-Qt parts. This script makes use of `gettext`, so make sure that utility is installed (ie, `apt-get install gettext` on Ubuntu/Debian). Once this has been updated, `lupdate` (included in the Qt SDK) is used to update `pivx_en.ts`.
 
 To automatically regenerate the `pivx_en.ts` file, run the following commands:
 ```sh
@@ -22,7 +22,7 @@ cd src/
 make translate
 ```
 
-`contrib/pivxl-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
+`contrib/rscoin-qt.pro` takes care of generating `.qm` (binary compiled) files from `.ts` (source files) files. It’s mostly automated, and you shouldn’t need to worry about it.
 
 **Example Qt translation**
 ```cpp
@@ -36,14 +36,14 @@ When an updated source file is merged into the GitHub repo, Transifex will autom
 
 To create the pull-request, use the following commands:
 ```
-git add src/qt/pivxlstrings.cpp src/qt/locale/pivxl_en.ts
+git add src/qt/rscoinstrings.cpp src/qt/locale/rscoin_en.ts
 git commit
 ```
 
 ### Creating a Transifex account
 Visit the [Transifex Signup](https://www.transifex.com/signup/) page to create an account. Take note of your username and password, as they will be required to configure the command-line tool.
 
-You can find the PIVXL translation project at [https://www.transifex.com/pivxl-project/pivxl-project-translations/](https://www.transifex.com/pivxl-project/pivxl-project-translations/).
+You can find the RSCOIN translation project at [https://www.transifex.com/rscoin-project/rscoin-project-translations/](https://www.transifex.com/rscoin-project/rscoin-project-translations/).
 
 ### Installing the Transifex client command-line tool
 The client is used to fetch updated translations. If you are having problems, or need more details, see [https://docs.transifex.com/client/installing-the-client](https://docs.transifex.com/client/installing-the-client)
@@ -62,7 +62,7 @@ token =
 username = USERNAME
 ```
 
-The Transifex PIVXL project config file is included as part of the repo. It can be found at `.tx/config`, however you shouldn’t need to change anything.
+The Transifex RSCOIN project config file is included as part of the repo. It can be found at `.tx/config`, however you shouldn’t need to change anything.
 
 ### Synchronising translations
 To assist in updating translations, we have created a script to help.
@@ -96,7 +96,7 @@ To create a new language template, you will need to edit the languages manifest 
 
 ```xml
 <qresource prefix="/translations">
-    <file alias="en">locale/pivxl_en.qm</file>
+    <file alias="en">locale/rscoin_en.qm</file>
     ...
 </qresource>
 ```
@@ -104,6 +104,6 @@ To create a new language template, you will need to edit the languages manifest 
 **Note:** that the language translation file **must end in `.qm`** (the compiled extension), and not `.ts`.
 
 ### Questions and general assistance
-The PIVXL Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [PIVXL Discord](https://discord.pivxl.org).
+The RSCOIN Core translation maintainers include *Fuzzbawls*. You can find them, and others, in the [RSCOIN Discord](https://discord.rscoin.org).
 
 Announcements will be posted during application pre-releases to notify translators to check for updates.

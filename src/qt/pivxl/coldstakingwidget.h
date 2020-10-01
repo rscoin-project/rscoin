@@ -1,19 +1,19 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef COLDSTAKINGWIDGET_H
 #define COLDSTAKINGWIDGET_H
 
-#include "qt/pivxl/pwidget.h"
-#include "qt/pivxl/furabstractlistitemdelegate.h"
-#include "qt/pivxl/txviewholder.h"
-#include "qt/pivxl/tooltipmenu.h"
-#include "qt/pivxl/sendmultirow.h"
-#include "qt/pivxl/coldstakingmodel.h"
-#include "qt/pivxl/contactsdropdown.h"
-#include "qt/pivxl/addressholder.h"
+#include "qt/rscoin/pwidget.h"
+#include "qt/rscoin/furabstractlistitemdelegate.h"
+#include "qt/rscoin/txviewholder.h"
+#include "qt/rscoin/tooltipmenu.h"
+#include "qt/rscoin/sendmultirow.h"
+#include "qt/rscoin/coldstakingmodel.h"
+#include "qt/rscoin/contactsdropdown.h"
+#include "qt/rscoin/addressholder.h"
 #include "transactiontablemodel.h"
 #include "addresstablemodel.h"
 #include "addressfilterproxymodel.h"

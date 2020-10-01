@@ -2,8 +2,8 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/addnewaddressdialog.h"
-#include "qt/pivxl/forms/ui_addnewaddressdialog.h"
+#include "qt/rscoin/addnewaddressdialog.h"
+#include "qt/rscoin/forms/ui_addnewaddressdialog.h"
 
 AddNewAddressDialog::AddNewAddressDialog(QWidget *parent) :
     QWidget(parent),

@@ -1,12 +1,12 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingswidget.h"
-#include "qt/pivxl/settings/forms/ui_settingswidget.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/defaultdialog.h"
+#include "qt/rscoin/settings/settingswidget.h"
+#include "qt/rscoin/settings/forms/ui_settingswidget.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/defaultdialog.h"
 #include "optionsmodel.h"
 #include "clientmodel.h"
 #include "utilitydialog.h"

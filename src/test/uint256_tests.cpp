@@ -1,6 +1,6 @@
 // Copyright (c) 2011-2013 The Bitcoin Core developers
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,7 +13,7 @@
 #include "uint256.h"
 #include <string>
 #include "version.h"
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 BOOST_FIXTURE_TEST_SUITE(uint256_tests, BasicTestingSetup)
 

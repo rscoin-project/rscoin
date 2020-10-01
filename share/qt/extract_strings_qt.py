@@ -10,7 +10,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/pivxlstrings.cpp"
+OUT_CPP="qt/rscoinstrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
@@ -78,6 +78,6 @@ f.write('static const char UNUSED *pivx_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("pivxl-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("rscoin-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

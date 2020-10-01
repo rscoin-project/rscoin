@@ -6,7 +6,7 @@
 #define BITCOIN_QT_OPENURIDIALOG_H
 
 #include <QDialog>
-#include "qt/pivxl/snackbar.h"
+#include "qt/rscoin/snackbar.h"
 
 namespace Ui
 {

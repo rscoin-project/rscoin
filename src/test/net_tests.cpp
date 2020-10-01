@@ -9,7 +9,7 @@
 #include "serialize.h"
 #include "streams.h"
 
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <string>
 

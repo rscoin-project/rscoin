@@ -1,39 +1,39 @@
-PIVXL Core
+RSCOIN Core
 =============
 
 Setup
 ---------------------
-[PIVXL Core](http://pivxl.org/wallet) is the original PIVXL client and it builds the backbone of the network. However, it downloads and stores the entire history of PIVXL transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[RSCOIN Core](http://rscoin.org/wallet) is the original RSCOIN client and it builds the backbone of the network. However, it downloads and stores the entire history of RSCOIN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
-The following are some helpful notes on how to run PIVXL Core on your native platform.
+The following are some helpful notes on how to run RSCOIN Core on your native platform.
 
 ### Unix
 
 Unpack the files into a directory and run:
 
-- `bin/pivxl-qt` (GUI) or
-- `bin/pivxld` (headless)
+- `bin/rscoin-qt` (GUI) or
+- `bin/rscoind` (headless)
 
 ### Windows
 
-Unpack the files into a directory, and then run pivxl-qt.exe.
+Unpack the files into a directory, and then run rscoin-qt.exe.
 
 ### macOS
 
-Drag PIVXL-Qt to your applications folder, and then run PIVXL-Qt.
+Drag RSCOIN-Qt to your applications folder, and then run RSCOIN-Qt.
 
 ### Need Help?
 
-* See the documentation at the [PIVXL Wiki](https://github.com/PIVXL-Project/PIVXL/wiki)
+* See the documentation at the [RSCOIN Wiki](https://github.com/RSCOIN-Project/RSCOIN/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [PIVXL Forum](http://forum.pivxl.org/).
-* Join our Discord server [Discord Server](https://discord.pivxl.org)
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [RSCOIN Forum](http://forum.rscoin.org/).
+* Join our Discord server [Discord Server](https://discord.rscoin.org)
 
 Building
 ---------------------
-The following are developer notes on how to build PIVXL Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build RSCOIN Core on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
 - [Dependencies](dependencies.md)
 - [macOS Build Notes](build-osx.md)
@@ -43,21 +43,21 @@ The following are developer notes on how to build PIVXL Core on your native plat
 
 Development
 ---------------------
-The PIVXL repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The RSCOIN repo's [root README](/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/pivxl/doxygen/)
+- [Source Code Documentation (External Link)](https://www.fuzzbawls.pw/rscoin/doxygen/)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [PIVXL](http://forum.pivxl.org/) forum.
-* Join the [PIVXL Discord](https://discord.pivxl.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [RSCOIN](http://forum.rscoin.org/) forum.
+* Join the [RSCOIN Discord](https://discord.rscoin.org).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

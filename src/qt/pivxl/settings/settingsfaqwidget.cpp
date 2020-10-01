@@ -2,11 +2,11 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/settings/settingsfaqwidget.h"
-#include "qt/pivxl/settings/forms/ui_settingsfaqwidget.h"
+#include "qt/rscoin/settings/settingsfaqwidget.h"
+#include "qt/rscoin/settings/forms/ui_settingsfaqwidget.h"
 #include <QScrollBar>
 #include <QMetaObject>
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 
 SettingsFaqWidget::SettingsFaqWidget(PIVXGUI *parent) :
     QDialog(parent),
@@ -91,7 +91,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI *parent) :
     setCssProperty(ui->pushButtonExit, "btn-faq-exit");
 
     // Web Link
-    ui->pushButtonWebLink->setText("https://pivxlite.com/");
+    ui->pushButtonWebLink->setText("https://rscoinite.com/");
     setCssProperty(ui->pushButtonWebLink, "btn-faq-web");
     setCssProperty(ui->containerButtons, "container-faq-buttons");
 

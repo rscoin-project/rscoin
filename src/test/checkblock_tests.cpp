@@ -11,7 +11,7 @@
 #include "clientversion.h"
 #include "main.h"
 #include "utiltime.h"
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <cstdio>
 

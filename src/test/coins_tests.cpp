@@ -7,7 +7,7 @@
 #include "script/standard.h"
 #include "uint256.h"
 #include "utilstrencodings.h"
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <vector>
 #include <map>

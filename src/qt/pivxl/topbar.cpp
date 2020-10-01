@@ -1,14 +1,14 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/topbar.h"
-#include "qt/pivxl/forms/ui_topbar.h"
-#include "qt/pivxl/lockunlock.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/receivedialog.h"
-#include "qt/pivxl/loadingdialog.h"
+#include "qt/rscoin/topbar.h"
+#include "qt/rscoin/forms/ui_topbar.h"
+#include "qt/rscoin/lockunlock.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/receivedialog.h"
+#include "qt/rscoin/loadingdialog.h"
 #include "askpassphrasedialog.h"
 
 #include "bitcoinunits.h"
@@ -634,16 +634,16 @@ void TopBar::updateBalances(const CAmount& balance, const CAmount& unconfirmedBa
     }
     ui->labelTitle1->setText(nLockedBalance > 0 ? tr("Available (Locked included)") : tr("Available"));
 
-    // PIVXL Total
+    // RSCOIN Total
     CAmount pivAvailableBalance = balance;
-    // zPIVXL Balance
+    // zRSCOIN Balance
     CAmount matureZerocoinBalance = zerocoinBalance - unconfirmedZerocoinBalance - immatureZerocoinBalance;
 
     // Set
     QString totalPiv = GUIUtil::formatBalance(pivAvailableBalance, nDisplayUnit);
     QString totalzPiv = GUIUtil::formatBalance(matureZerocoinBalance, nDisplayUnit, true);
 
-    // PIVXL
+    // RSCOIN
     // Top
     ui->labelAmountTopPiv->setText(totalPiv);
     // Expanded
@@ -651,10 +651,10 @@ void TopBar::updateBalances(const CAmount& balance, const CAmount& unconfirmedBa
     ui->labelPendingPiv->setText(GUIUtil::formatBalance(unconfirmedBalance, nDisplayUnit));
     ui->labelImmaturePiv->setText(GUIUtil::formatBalance(immatureBalance, nDisplayUnit));
 
-    // Update display state and/or values for zPIVXL balances as necessary
+    // Update display state and/or values for zRSCOIN balances as necessary
     bool fHaveZerocoins = zerocoinBalance > 0;
 
-    // Set visibility of zPIVXL label titles/values
+    // Set visibility of zRSCOIN label titles/values
     ui->typeSpacerTop->setVisible(fHaveZerocoins);
     ui->typeSpacerExpanded->setVisible(fHaveZerocoins);
     ui->labelAmountTopzPiv->setVisible(fHaveZerocoins);

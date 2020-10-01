@@ -7,7 +7,7 @@
 
 #include "random.h"
 #include "util.h"
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <set>
 

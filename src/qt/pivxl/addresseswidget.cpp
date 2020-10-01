@@ -1,18 +1,18 @@
 // Copyright (c) 2019-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/addresseswidget.h"
-#include "qt/pivxl/forms/ui_addresseswidget.h"
-#include "qt/pivxl/addresslabelrow.h"
-#include "qt/pivxl/addnewaddressdialog.h"
-#include "qt/pivxl/tooltipmenu.h"
+#include "qt/rscoin/addresseswidget.h"
+#include "qt/rscoin/forms/ui_addresseswidget.h"
+#include "qt/rscoin/addresslabelrow.h"
+#include "qt/rscoin/addnewaddressdialog.h"
+#include "qt/rscoin/tooltipmenu.h"
 
-#include "qt/pivxl/addnewcontactdialog.h"
-#include "qt/pivxl/pivxlgui.h"
+#include "qt/rscoin/addnewcontactdialog.h"
+#include "qt/rscoin/rscoingui.h"
 #include "guiutil.h"
-#include "qt/pivxl/qtutils.h"
+#include "qt/rscoin/qtutils.h"
 #include "walletmodel.h"
 
 #include <QModelIndex>
@@ -123,7 +123,7 @@ AddressesWidget::AddressesWidget(PIVXGUI* parent) :
     setCssEditLine(ui->lineEditName, true);
 
     // Address
-    ui->labelAddress->setText(tr("Enter PIVXL address"));
+    ui->labelAddress->setText(tr("Enter RSCOIN address"));
     setCssProperty(ui->labelAddress, "text-title");
     ui->lineEditAddress->setPlaceholderText("e.g. D7VFR83SQbiezrW72hjc…");
     setCssEditLine(ui->lineEditAddress, true);

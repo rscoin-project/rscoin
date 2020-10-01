@@ -1,5 +1,5 @@
 // Copyright (c) 2017-2020 The PIVX developers
-// Copyright (c) 2019-2023 The PIVXL developers
+// Copyright (c) 2019-2023 The RSCOIN developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -31,7 +31,7 @@ CzPIVWallet::CzPIVWallet(CWallet* parent)
             hashSeed = Hash(seed.begin(), seed.end());
             if (wallet->AddDeterministicSeed(seed)) {
                 if (walletdb.EraseZPIVSeed_deprecated()) {
-                    LogPrintf("%s: Updated zPIVXL seed databasing\n", __func__);
+                    LogPrintf("%s: Updated zRSCOIN seed databasing\n", __func__);
                     fFirstRun = false;
                 } else {
                     LogPrintf("%s: failed to remove old zpiv seed\n", __func__);

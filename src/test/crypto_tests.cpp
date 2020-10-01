@@ -13,7 +13,7 @@
 #include "crypto/hmac_sha512.h"
 #include "random.h"
 #include "utilstrencodings.h"
-#include "test/test_pivxl.h"
+#include "test/test_rscoin.h"
 
 #include <vector>
 
