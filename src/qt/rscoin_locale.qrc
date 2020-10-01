@@ -1,18 +1,18 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/translations">
-        <file alias="de">locale/pivxl_de.qm</file>
-        <file alias="en">locale/pivxl_en.qm</file>
-        <file alias="en_US">locale/pivxl_en_US.qm</file>
-        <file alias="es">locale/pivxl_es.qm</file>
-        <file alias="es_ES">locale/pivxl_es_ES.qm</file>
-        <file alias="fr_FR">locale/pivxl_fr_FR.qm</file>
-        <file alias="hr_HR">locale/pivxl_hr_HR.qm</file>
-        <file alias="it">locale/pivxl_it.qm</file>
-        <file alias="ko_KR">locale/pivxl_ko_KR.qm</file>
-        <file alias="nl">locale/pivxl_nl.qm</file>
-        <file alias="pl">locale/pivxl_pl.qm</file>
-        <file alias="ru">locale/pivxl_ru.qm</file>
-        <file alias="tr">locale/pivxl_tr.qm</file>
-        <file alias="zh_CN">locale/pivxl_zh_CN.qm</file>
+        <file alias="de">locale/rscoin_de.qm</file>
+        <file alias="en">locale/rscoin_en.qm</file>
+        <file alias="en_US">locale/rscoin_en_US.qm</file>
+        <file alias="es">locale/rscoin_es.qm</file>
+        <file alias="es_ES">locale/rscoin_es_ES.qm</file>
+        <file alias="fr_FR">locale/rscoin_fr_FR.qm</file>
+        <file alias="hr_HR">locale/rscoin_hr_HR.qm</file>
+        <file alias="it">locale/rscoin_it.qm</file>
+        <file alias="ko_KR">locale/rscoin_ko_KR.qm</file>
+        <file alias="nl">locale/rscoin_nl.qm</file>
+        <file alias="pl">locale/rscoin_pl.qm</file>
+        <file alias="ru">locale/rscoin_ru.qm</file>
+        <file alias="tr">locale/rscoin_tr.qm</file>
+        <file alias="zh_CN">locale/rscoin_zh_CN.qm</file>
     </qresource>
 </RCC>

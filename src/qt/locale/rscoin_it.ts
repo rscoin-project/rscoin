@@ -1414,7 +1414,7 @@ e votano il sistema di tesoreria ricevendo una ricompensa periodica.</translatio
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivxl.conf file
+You will only have to paste the data in the rscoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1422,7 +1422,7 @@ this controller wallet (select the Masternode in the list and press "start").
 un Masternode su un server remoto .
 
 
-Dovrai solo incollare i dati nel file pivxl.conf del server remoto
+Dovrai solo incollare i dati nel file rscoin.conf del server remoto
 e avviarlo, quindi avviare il Masternode utilizzando questo portafoglio
 come controller (selezionare il Masternode nell'elenco e premere "start").
 </translation>
@@ -1578,8 +1578,8 @@ Sei sicuro?</translation>
         <translation>Dati analizzati troppo grandi</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivxl" prefix</source>
-        <translation>URI non valido, che non inizia con il prefisso "pivxl"</translation>
+        <source>Invalid URI, not starting with "rscoin" prefix</source>
+        <translation>URI non valido, che non inizia con il prefisso "rscoin"</translation>
     </message>
 </context>
 <context>
@@ -1685,9 +1685,9 @@ Sei sicuro?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</source>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</source>
         <translation>Lingua mancante o traduzione incompleta? Aiutaci a contribuire alle traduzioni qui:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1976,8 +1976,8 @@ Indirizzo: %4
         <translation>Indirizzo di pagamento %1 invalido</translation>
     </message>
     <message>
-        <source>Cannot start pivxl: click-to-pay handler</source>
-        <translation>Impossibile avviare pivxl: gestore click-to-pay</translation>
+        <source>Cannot start rscoin: click-to-pay handler</source>
+        <translation>Impossibile avviare rscoin: gestore click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
@@ -3760,7 +3760,7 @@ per diventare idoneo alla spesa.
                            you can disable the automatic minting in your RSCOIN wallet by
                            going to Settings-&gt;Options and deselecting “Enable zRSCOIN Automint”.
                            If you are not making use of the RSCOIN-QT or GUI you can simply open
-                           your pivxl.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
+                           your rscoin.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
@@ -3777,7 +3777,7 @@ staking di zRSCOIN o sfruttare il vantaggio sulla privacy che ne comporta,
 puoi disabilitare la forgiatura automatica nel tuo portafoglio RSCOIN
 andando su Impostazioni-&gt;Opzioni e deselezionando “Abilita zRSCOIN Automint”.
 Se non si utilizzi RSCOIN-QT o la GUI, è possibile aprire semplicemente
-il tuo file pivxl.conf e aggiungere&lt;i&gt;enablezeromint=0&lt;/i&gt; senza gli apostrofi
+il tuo file rscoin.conf e aggiungere&lt;i&gt;enablezeromint=0&lt;/i&gt; senza gli apostrofi
 e far ripartire il portafoglio per disabilitare la forgiatura automatica.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Puoi leggere di più su zRSCOIN nel
@@ -3995,8 +3995,8 @@ regolarmente. Questi servizi includono:
         <translation>Impossibile aprire la cartella dei backup</translation>
     </message>
     <message>
-        <source>Unable to open pivxl.conf with default application</source>
-        <translation>Impossibile aprire pivxl.conf con l'applicazione predefinita</translation>
+        <source>Unable to open rscoin.conf with default application</source>
+        <translation>Impossibile aprire rscoin.conf con l'applicazione predefinita</translation>
     </message>
     <message>
         <source>In:</source>
@@ -5339,7 +5339,7 @@ Portafoglio RSCOIN Core.</translation>
     </message>
 </context>
 <context>
-    <name>pivxl-core</name>
+    <name>rscoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = conserva i metadati tx, ad esempio il proprietario dell'account e le informazioni sulla richiesta di pagamento, 2 = elimina i metadati tx)</translation>

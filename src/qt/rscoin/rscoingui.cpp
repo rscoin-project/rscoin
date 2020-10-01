@@ -3,7 +3,7 @@
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#include "qt/pivxl/pivxlgui.h"
+#include "qt/rscoin/rscoingui.h"
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
@@ -15,9 +15,9 @@
 #include "networkstyle.h"
 #include "notificator.h"
 #include "guiinterface.h"
-#include "qt/pivxl/qtutils.h"
-#include "qt/pivxl/defaultdialog.h"
-#include "qt/pivxl/settings/settingsfaqwidget.h"
+#include "qt/rscoin/qtutils.h"
+#include "qt/rscoin/defaultdialog.h"
+#include "qt/rscoin/settings/settingsfaqwidget.h"
 
 #include "init.h"
 #include "util.h"

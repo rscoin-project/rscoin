@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "RSCOIN"
-            VALUE "FileDescription",    "pivxl-tx (CLI RSCOIN transaction editor utility)"
+            VALUE "FileDescription",    "rscoin-tx (CLI RSCOIN transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pivxl-tx"
+            VALUE "InternalName",       "rscoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pivxl-tx.exe"
-            VALUE "ProductName",        "pivxl-tx"
+            VALUE "OriginalFilename",   "rscoin-tx.exe"
+            VALUE "ProductName",        "rscoin-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

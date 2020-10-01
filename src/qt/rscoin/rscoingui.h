@@ -7,7 +7,7 @@
 #define PIVX_CORE_NEW_GUI_PIVXGUI_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivxl-config.h"
+#include "config/rscoin-config.h"
 #endif
 
 #include <QMainWindow>
@@ -15,17 +15,17 @@
 #include <QSystemTrayIcon>
 #include <QLabel>
 
-#include "qt/pivxl/navmenuwidget.h"
-#include "qt/pivxl/topbar.h"
-#include "qt/pivxl/dashboardwidget.h"
-#include "qt/pivxl/send.h"
-#include "qt/pivxl/receivewidget.h"
-#include "qt/pivxl/addresseswidget.h"
-#include "qt/pivxl/privacywidget.h"
-#include "qt/pivxl/coldstakingwidget.h"
-#include "qt/pivxl/masternodeswidget.h"
-#include "qt/pivxl/snackbar.h"
-#include "qt/pivxl/settings/settingswidget.h"
+#include "qt/rscoin/navmenuwidget.h"
+#include "qt/rscoin/topbar.h"
+#include "qt/rscoin/dashboardwidget.h"
+#include "qt/rscoin/send.h"
+#include "qt/rscoin/receivewidget.h"
+#include "qt/rscoin/addresseswidget.h"
+#include "qt/rscoin/privacywidget.h"
+#include "qt/rscoin/coldstakingwidget.h"
+#include "qt/rscoin/masternodeswidget.h"
+#include "qt/rscoin/snackbar.h"
+#include "qt/rscoin/settings/settingswidget.h"
 #include "qt/rpcconsole.h"
 
 

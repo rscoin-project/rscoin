@@ -1,10 +1,10 @@
 
-## <summary>policy for pivxl</summary>
+## <summary>policy for rscoin</summary>
 
 
 ########################################
 ## <summary>
-##	Transition to pivxl.
+##	Transition to rscoin.
 ## </summary>
 ## <param name="domain">
 ## <summary>
@@ -24,7 +24,7 @@ interface(`pivx_domtrans',`
 
 ########################################
 ## <summary>
-##	Execute pivxl server in the pivxl domain.
+##	Execute rscoin server in the rscoin domain.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -43,7 +43,7 @@ interface(`pivx_initrc_domtrans',`
 
 ########################################
 ## <summary>
-##	Search pivxl lib directories.
+##	Search rscoin lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -62,7 +62,7 @@ interface(`pivx_search_lib',`
 
 ########################################
 ## <summary>
-##	Read pivxl lib files.
+##	Read rscoin lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -81,7 +81,7 @@ interface(`pivx_read_lib_files',`
 
 ########################################
 ## <summary>
-##	Manage pivxl lib files.
+##	Manage rscoin lib files.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -100,7 +100,7 @@ interface(`pivx_manage_lib_files',`
 
 ########################################
 ## <summary>
-##	Manage pivxl lib directories.
+##	Manage rscoin lib directories.
 ## </summary>
 ## <param name="domain">
 ##	<summary>
@@ -121,7 +121,7 @@ interface(`pivx_manage_lib_dirs',`
 ########################################
 ## <summary>
 ##	All of the rules required to administrate
-##	a pivxl environment
+##	a rscoin environment
 ## </summary>
 ## <param name="domain">
 ##	<summary>

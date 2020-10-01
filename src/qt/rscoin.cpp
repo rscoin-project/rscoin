@@ -6,10 +6,10 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/pivxl-config.h"
+#include "config/rscoin-config.h"
 #endif
 
-#include "qt/pivxl/pivxlgui.h"
+#include "qt/rscoin/rscoingui.h"
 
 #include "clientmodel.h"
 #include "guiconstants.h"
@@ -18,8 +18,8 @@
 #include "net.h"
 #include "networkstyle.h"
 #include "optionsmodel.h"
-#include "qt/pivxl/splash.h"
-#include "qt/pivxl/welcomecontentwidget.h"
+#include "qt/rscoin/splash.h"
+#include "qt/rscoin/welcomecontentwidget.h"
 #include "utilitydialog.h"
 #include "winshutdownmonitor.h"
 
@@ -83,7 +83,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("pivxl-core", psz).toStdString();
+    return QCoreApplication::translate("rscoin-core", psz).toStdString();
 }
 
 static QString GetLangTerritory(bool forceLangFromSetting = false)
@@ -130,11 +130,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in pivxl.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in rscoin.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in pivxl.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in rscoin.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -242,7 +242,7 @@ private:
     void startThread();
 };
 
-#include "pivxl.moc"
+#include "rscoin.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -541,7 +541,7 @@ int main(int argc, char* argv[])
 
 /// 2. Basic Qt initialization (not dependent on parameters or configuration)
     Q_INIT_RESOURCE(pivx_locale);
-    Q_INIT_RESOURCE(pivxl);
+    Q_INIT_RESOURCE(rscoin);
 
     // Generate high-dpi pixmaps
     QApplication::setAttribute(Qt::AA_UseHighDpiPixmaps);
@@ -586,7 +586,7 @@ int main(int argc, char* argv[])
     if (!Intro::pickDataDirectory())
         return 0;
 
-    /// 6. Determine availability of data directory and parse pivxl.conf
+    /// 6. Determine availability of data directory and parse rscoin.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("RSCOIN Core"),
@@ -643,7 +643,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // pivxl: links repeatedly have their payment requests routed to this process:
+    // rscoin: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

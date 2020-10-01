@@ -6,7 +6,7 @@
 
 #define BOOST_TEST_MODULE Pivx Test Suite
 
-#include "test_pivxl.h"
+#include "test_rscoin.h"
 
 #include "main.h"
 #include "random.h"

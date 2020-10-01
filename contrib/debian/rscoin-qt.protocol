@@ -1,6 +1,6 @@
 [Protocol]
-exec=pivxl-qt '%u'
-protocol=pivxl
+exec=rscoin-qt '%u'
+protocol=rscoin
 input=none
 output=none
 helper=true

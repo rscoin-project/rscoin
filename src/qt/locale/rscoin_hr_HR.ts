@@ -1618,7 +1618,7 @@ Molimo pričekajte nekoliko minuta (zalog za Masternode zahtjeva %1 potvrda).</t
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivxl.conf file
+You will only have to paste the data in the rscoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1626,7 +1626,7 @@ this controller wallet (select the Masternode in the list and press "start").
 na udaljenom poslužitelju u medjuspremnik.
 
 
-Podatke ćete morati zalijepiti u datoteku pivxl.conf
+Podatke ćete morati zalijepiti u datoteku rscoin.conf
 na udaljenom poslužitelju i pokrenuti ga, a zatim pokrenite Masternode
 koristeći ovaj controller novčanik (na popisu odaberite Masternode i pritisnite "start").
 </translation>
@@ -1794,8 +1794,8 @@ Jeste li sigurni?</translation>
         <translation>Parsirani podaci preveliki</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivxl" prefix</source>
-        <translation>Nevažeći URI, ne počinje "pivxl" prefiksom</translation>
+        <source>Invalid URI, not starting with "rscoin" prefix</source>
+        <translation>Nevažeći URI, ne počinje "rscoin" prefiksom</translation>
     </message>
 </context>
 <context>
@@ -1901,9 +1901,9 @@ Jeste li sigurni?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</source>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</source>
         <translation>Jezik nedostaje ili prijevod nije potpun? Pomozite s prijevodom ovdje:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2192,8 +2192,8 @@ Adresa: %4
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start pivxl: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti pivxl: clik-to-pay handler</translation>
+        <source>Cannot start rscoin: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti rscoin: clik-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
@@ -4221,7 +4221,7 @@ da bi se mogli potrošiti.
                            you can disable the automatic minting in your RSCOIN wallet by
                            going to Settings-&gt;Options and deselecting “Enable zRSCOIN Automint”.
                            If you are not making use of the RSCOIN-QT or GUI you can simply open
-                           your pivxl.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
+                           your rscoin.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
@@ -4236,7 +4236,7 @@ Prema početno zadanom RSCOIN novčanik će pretvoriti 10% vaših RSCOIN sredsta
 možete onemogućiti autoamtsko stvaranje u vašem RSCOIN novčaniku tako da
 odete u Postavke -&gt; Mogućnosti i odznačite "Omogući automatsko stvaranje zRSCOIN-a".
 Ako ne koristite RSCOIN-QT ili grafičko sučelje, jednostavno možete otvoriti
-vašu pivxl.conf datoteku i dodati &lt;i&gt;enablezeromint=0&lt;/i&gt; bez navodnika
+vašu rscoin.conf datoteku i dodati &lt;i&gt;enablezeromint=0&lt;/i&gt; bez navodnika
 i ponovno pokrenuti novčanik da biste onemogućili automatsko stvaranje.&lt;/p&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 Više o zRSCOIN-u možete pročitati u
@@ -4293,7 +4293,7 @@ Ako želite više zRSCOIN-a, morat ćete stvoriti svoj saldo u kartici "Privatno
                            &lt;li&gt;
                            Once all those steps are followed staking should be enabled.
                            &lt;li&gt;
-                           You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (pivxl-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
+                           You can see the status of staking in the wallet by mousing over the package icon in the row on the top left of the wallet interface. There package will be lit up and will state "Staking Enabled" to indicate it is staking.  Using the command line interface (rscoin-cli); the command &lt;i&gt;getstakingstatus&lt;/i&gt; will confirm that staking is active.
                            &lt;/li&gt;&lt;/ol&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            To Stake zRSCOIN:
@@ -4321,7 +4321,7 @@ Vaš novčanik mora ostati online i biti otključan za staking.
 &lt;li&gt;
 Kada su svi navedeni koraci napravljeni, tada će staking biti omogućen.
 &lt;li&gt;
-Status stakinga možete vidjeti u vašem novčaniku prelaskom miša preko Staking ikone u gornjem desnom kutu. Ikona će zasvjetliti i ispisati "Staking omogućen" i potvrditi staking. Koristeći sučelje naredbene linije (pivxl-cli); naredba &lt;i&gt;getstakingstatus&lt;/i&gt;će potvrditi da je staking aktivan.
+Status stakinga možete vidjeti u vašem novčaniku prelaskom miša preko Staking ikone u gornjem desnom kutu. Ikona će zasvjetliti i ispisati "Staking omogućen" i potvrditi staking. Koristeći sučelje naredbene linije (rscoin-cli); naredba &lt;i&gt;getstakingstatus&lt;/i&gt;će potvrditi da je staking aktivan.
 &lt;/li&gt;&lt;/ol&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 Da biste stake-ali zRSCOIN:&lt;/p&gt;&lt;p align="justify"&gt;
@@ -4584,8 +4584,8 @@ Zahtjevi:
         <translation>Ne može se otvoriti mapa sigurnosne kopije</translation>
     </message>
     <message>
-        <source>Unable to open pivxl.conf with default application</source>
-        <translation>Nije moguće otvoriti pivxl.conf sa zadanom aplikacijom</translation>
+        <source>Unable to open rscoin.conf with default application</source>
+        <translation>Nije moguće otvoriti rscoin.conf sa zadanom aplikacijom</translation>
     </message>
     <message>
         <source>In:</source>
@@ -6096,7 +6096,7 @@ RSCOIN temeljni novčanik</translation>
     </message>
 </context>
 <context>
-    <name>pivxl-core</name>
+    <name>rscoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = zadržite metapodatke tx, npr. Vlasnika računa i podatke o zahtjevu za plaćanje, 2 = odbaci meta podataka tx)</translation>

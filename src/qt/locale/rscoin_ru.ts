@@ -1612,7 +1612,7 @@ Please wait few more minutes (masternode collaterals require %1 confirmations).<
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivxl.conf file
+You will only have to paste the data in the rscoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1620,7 +1620,7 @@ this controller wallet (select the Masternode in the list and press "start").
 на удаленном сервере в буфер обмена.
 
 
-Вам необходимо только вставить данные в файл pivxl.conf
+Вам необходимо только вставить данные в файл rscoin.conf
 вашего удаленного сервера и запустить его, а затем запустить мастерноду,
 используя этот кошелек контроллера (выберите мастерноду из списка и нажмите «Старт»).
 </translation>
@@ -1788,8 +1788,8 @@ Are you sure?</source>
         <translation>Проанализированные данные слишком большие</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivxl" prefix</source>
-        <translation>Неверный URI, не начинается с префикса "pivxl"</translation>
+        <source>Invalid URI, not starting with "rscoin" prefix</source>
+        <translation>Неверный URI, не начинается с префикса "rscoin"</translation>
     </message>
 </context>
 <context>
@@ -1895,9 +1895,9 @@ Are you sure?</source>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</source>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</source>
         <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2186,8 +2186,8 @@ Address: %4
         <translation>Неверный адрес оплаты %1</translation>
     </message>
     <message>
-        <source>Cannot start pivxl: click-to-pay handler</source>
-        <translation>Не удалось запустить pivxl: обработчик click-to-pay </translation>
+        <source>Cannot start rscoin: click-to-pay handler</source>
+        <translation>Не удалось запустить rscoin: обработчик click-to-pay </translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
@@ -4185,7 +4185,7 @@ zRSCOIN - это необязательная конфиденциальност
                            you can disable the automatic minting in your RSCOIN wallet by
                            going to Settings-&gt;Options and deselecting “Enable zRSCOIN Automint”.
                            If you are not making use of the RSCOIN-QT or GUI you can simply open
-                           your pivxl.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
+                           your rscoin.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
@@ -4202,7 +4202,7 @@ zRSCOIN - это необязательная конфиденциальност
 вы можете отключить автоматическую чеканку в своем RSCOIN-кошельке,
 перейдя в «Настройки-&gt; Параметры» и отменив выбор «Включить авточекунку zRSCOIN».
 Если вы не используете RSCOIN-QT или GUI, вы можете просто открыть
-свой файл pivxl.conf и добавить &lt;i&gt;enablezeromint=0&lt;/i&gt; без кавычек и
+свой файл rscoin.conf и добавить &lt;i&gt;enablezeromint=0&lt;/i&gt; без кавычек и
 перезапустите свой кошелек для отключения  автоматической чеканки. &lt;/p&gt; &lt;/p&gt;&lt;p align="justify"&gt; Вы можете прочитать больше о zRSCOIN в
 &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
  "Технический документ RSCOIN Zerocoin (zRSCOIN)"&lt;/a&gt;.
@@ -4449,8 +4449,8 @@ zRSCOIN можно потратить и отправить на любой ад
         <translation>Невозможно открыть папку резервных копий</translation>
     </message>
     <message>
-        <source>Unable to open pivxl.conf with default application</source>
-        <translation>Невозможно открыть pivxl.conf с приложением по умолчанию</translation>
+        <source>Unable to open rscoin.conf with default application</source>
+        <translation>Невозможно открыть rscoin.conf с приложением по умолчанию</translation>
     </message>
     <message>
         <source>In:</source>
@@ -5905,7 +5905,7 @@ RSCOIN Core Wallet</source>
     </message>
 </context>
 <context>
-    <name>pivxl-core</name>
+    <name>rscoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = сохранить tx метаданные, например, владельца учетной записи и информацию о запросе платежа, 2 = удалить tx метаданные)</translation>

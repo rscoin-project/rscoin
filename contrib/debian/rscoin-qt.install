@@ -1,6 +1,6 @@
-usr/local/bin/pivxl-qt usr/bin
-share/pixmaps/pivxl32.xpm usr/share/pixmaps
-share/pixmaps/pivxl16.xpm usr/share/pixmaps
-share/pixmaps/pivxl128.png usr/share/pixmaps
-debian/pivxl-qt.desktop usr/share/applications
-debian/pivxl-qt.protocol usr/share/kde4/services/
+usr/local/bin/rscoin-qt usr/bin
+share/pixmaps/rscoin32.xpm usr/share/pixmaps
+share/pixmaps/rscoin16.xpm usr/share/pixmaps
+share/pixmaps/rscoin128.png usr/share/pixmaps
+debian/rscoin-qt.desktop usr/share/applications
+debian/rscoin-qt.protocol usr/share/kde4/services/

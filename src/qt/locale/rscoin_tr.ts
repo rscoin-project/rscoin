@@ -1483,7 +1483,7 @@ and vote on the treasury system receiving a periodic reward.</source>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the pivxl.conf file
+You will only have to paste the data in the rscoin.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1491,7 +1491,7 @@ this controller wallet (select the Masternode in the list and press "start").
 panoya almak üzeresiniz.
 
 
-Bilgiyi uzak sunucunuzdaki pivxl.conf dosyasına yapıştırmanız ve
+Bilgiyi uzak sunucunuzdaki rscoin.conf dosyasına yapıştırmanız ve
  başlatmanız gerekecektir, ondan sonra bu kontrol cüzdanını kullanan
 Masternodu başlatın (Listeden Masternodu seçip "başlat" tuşuna basın).
 </translation>
@@ -1647,8 +1647,8 @@ Emin misiniz?</translation>
         <translation>Ayrıştırılmış bilgi çok büyük</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "pivxl" prefix</source>
-        <translation>Geçersiz URI, "pivxl" ön adıyla başlamıyor</translation>
+        <source>Invalid URI, not starting with "rscoin" prefix</source>
+        <translation>Geçersiz URI, "rscoin" ön adıyla başlamıyor</translation>
     </message>
 </context>
 <context>
@@ -1754,9 +1754,9 @@ Emin misiniz?</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</source>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</source>
         <translation>Dil eksik veya çeviri tamamlanmamış mı? Katkıda bulunan çevirilere yardımcı olun:
-https://www.transifex.com/pivxl-project/pivxl-project-translations</translation>
+https://www.transifex.com/rscoin-project/rscoin-project-translations</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -2045,7 +2045,7 @@ Adres: %4
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start pivxl: click-to-pay handler</source>
+        <source>Cannot start rscoin: click-to-pay handler</source>
         <translation>Pivx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
@@ -3841,7 +3841,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
                            you can disable the automatic minting in your RSCOIN wallet by
                            going to Settings-&gt;Options and deselecting “Enable zRSCOIN Automint”.
                            If you are not making use of the RSCOIN-QT or GUI you can simply open
-                           your pivxl.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
+                           your rscoin.conf file and add &lt;i&gt;enablezeromint=0&lt;/i&gt; Without the quotation
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
@@ -3852,7 +3852,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           RSCOIN cüzdanınız ağa destek olmak için varsayılan olarak tüm RSCOIN bakiyenizin 10% 'unu zRSCOIN'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zRSCOIN stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zRSCOIN Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. PIVXQT veya GUI kullanmıyorsanız, pivxl.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
+                           RSCOIN cüzdanınız ağa destek olmak için varsayılan olarak tüm RSCOIN bakiyenizin 10% 'unu zRSCOIN'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zRSCOIN stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zRSCOIN Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. PIVXQT veya GUI kullanmıyorsanız, rscoin.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Teknik detayları hakkında daha çok bilgi almak için
                            &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt; "RSCOIN Zerocoin (zRSCOIN) Teknik Makalesi"&lt;/a&gt;.
@@ -4070,8 +4070,8 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
         <translation>Yedek klasörü açılamadı</translation>
     </message>
     <message>
-        <source>Unable to open pivxl.conf with default application</source>
-        <translation>pivxl.conf dosyası uygulama tarafından açılamadı</translation>
+        <source>Unable to open rscoin.conf with default application</source>
+        <translation>rscoin.conf dosyası uygulama tarafından açılamadı</translation>
     </message>
     <message>
         <source>In:</source>
@@ -5418,7 +5418,7 @@ Hoşgeldiniz</translation>
     </message>
 </context>
 <context>
-    <name>pivxl-core</name>
+    <name>rscoin-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = tx meta verileri, örneğin hesap sahibi ve ödeme talebi bilgileri, 2 = tx meta verileri bırak)</translation>

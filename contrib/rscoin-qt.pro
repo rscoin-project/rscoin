@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/obfuscation-relay.h \
            src/obfuscation.h \
-           src/pivxl-config.h \
+           src/rscoin-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/pivxl-config.h \
+           src/config/rscoin-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -332,7 +332,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/pivxl.moc \
+           src/qt/rscoin.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
            src/qt/rpcconsole.moc \
@@ -373,9 +373,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/obfuscation-relay.cpp \
            src/obfuscation.cpp \
-           src/pivxl-cli.cpp \
-           src/pivxl-tx.cpp \
-           src/pivxl.cpp \
+           src/rscoin-cli.cpp \
+           src/rscoin-tx.cpp \
+           src/rscoin.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -470,8 +470,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/obfuscationconfig.cpp \
-           src/qt/pivxl.cpp \
-           src/qt/pivxlstrings.cpp \
+           src/qt/rscoin.cpp \
+           src/qt/rscoinstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -549,7 +549,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_pivxl.cpp \
+           src/test/test_rscoin.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -640,24 +640,24 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/pivxl.qrc src/qt/pivx_locale.qrc
+RESOURCES += src/qt/rscoin.qrc src/qt/pivx_locale.qrc
 
-TRANSLATIONS += src/qt/locale/pivxl_bg.ts \
-                src/qt/locale/pivxl_de.ts \
-                src/qt/locale/pivxl_en.ts \
-                src/qt/locale/pivxl_es.ts \
-                src/qt/locale/pivxl_fi.ts \
-                src/qt/locale/pivxl_fr.ts \
-                src/qt/locale/pivxl_it.ts \
-                src/qt/locale/pivxl_ja.ts \
-                src/qt/locale/pivxl_pl.ts \
-                src/qt/locale/pivxl_pt.ts \
-                src/qt/locale/pivxl_ru.ts \
-                src/qt/locale/pivxl_sk.ts \
-                src/qt/locale/pivxl_sv.ts \
-                src/qt/locale/pivxl_vi.ts \
-                src/qt/locale/pivxl_zh_CN.ts \
-                src/qt/locale/pivxl_zh_TW.ts
+TRANSLATIONS += src/qt/locale/rscoin_bg.ts \
+                src/qt/locale/rscoin_de.ts \
+                src/qt/locale/rscoin_en.ts \
+                src/qt/locale/rscoin_es.ts \
+                src/qt/locale/rscoin_fi.ts \
+                src/qt/locale/rscoin_fr.ts \
+                src/qt/locale/rscoin_it.ts \
+                src/qt/locale/rscoin_ja.ts \
+                src/qt/locale/rscoin_pl.ts \
+                src/qt/locale/rscoin_pt.ts \
+                src/qt/locale/rscoin_ru.ts \
+                src/qt/locale/rscoin_sk.ts \
+                src/qt/locale/rscoin_sv.ts \
+                src/qt/locale/rscoin_vi.ts \
+                src/qt/locale/rscoin_zh_CN.ts \
+                src/qt/locale/rscoin_zh_TW.ts
 
 DISTFILES += \
     README.md

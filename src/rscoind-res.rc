@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "RSCOIN"
-            VALUE "FileDescription",    "pivxld (OSS daemon/client for RSCOIN)"
+            VALUE "FileDescription",    "rscoind (OSS daemon/client for RSCOIN)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "pivxld"
+            VALUE "InternalName",       "rscoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "pivxld.exe"
-            VALUE "ProductName",        "pivxld"
+            VALUE "OriginalFilename",   "rscoind.exe"
+            VALUE "ProductName",        "rscoind"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END
