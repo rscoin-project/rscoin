@@ -20,8 +20,8 @@ Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://rscoin.org/
-Source0:	https://rscoin.org/bin/rscoin-core-%{version}/rscoin-%{version}.tar.gz
+URL:		https://rscoins.io/
+Source0:	https://rscoins.io/bin/rscoin-core-%{version}/rscoin-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
 Source10:	https://raw.githubusercontent.com/rscoin-project/rscoin/v%{version}/contrib/debian/examples/rscoin.conf

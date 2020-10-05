@@ -1,7 +1,7 @@
 <!--- Remove this description and sections that do not apply -->
 
 This issue tracker is only for technical issues related to RSCOIN Core.
-General RSCOIN questions and/or support requests and are best directed to the [RSCOIN Discord](https://discord.rscoin.org).
+General RSCOIN questions and/or support requests and are best directed to the [RSCOIN Discord](https://discord.rscoins.io).
 
 ### Describe the issue
 

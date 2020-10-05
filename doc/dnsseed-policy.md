@@ -44,7 +44,7 @@ related to the DNS seed operation.
 If these expectations cannot be satisfied the operator should
 discontinue providing services and contact the active RSCOIN
 Core development team as well as posting on the
-[RSCOIN Forum](https://forum.rscoin.org).
+[RSCOIN Forum](https://forum.rscoins.io).
 
 Behavior outside of these expectations may be reasonable in some
 situations but should be discussed in public in advance.

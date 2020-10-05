@@ -91,7 +91,7 @@ SettingsFaqWidget::SettingsFaqWidget(PIVXGUI *parent) :
     setCssProperty(ui->pushButtonExit, "btn-faq-exit");
 
     // Web Link
-    ui->pushButtonWebLink->setText("https://rscoinite.com/");
+    ui->pushButtonWebLink->setText("https://rscoins.io/");
     setCssProperty(ui->pushButtonWebLink, "btn-faq-web");
     setCssProperty(ui->containerButtons, "container-faq-buttons");
 

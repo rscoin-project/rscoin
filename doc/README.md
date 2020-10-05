@@ -3,7 +3,7 @@ RSCOIN Core
 
 Setup
 ---------------------
-[RSCOIN Core](http://rscoin.org/wallet) is the original RSCOIN client and it builds the backbone of the network. However, it downloads and stores the entire history of RSCOIN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[RSCOIN Core](http://rscoins.io/wallet) is the original RSCOIN client and it builds the backbone of the network. However, it downloads and stores the entire history of RSCOIN transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -28,8 +28,8 @@ Drag RSCOIN-Qt to your applications folder, and then run RSCOIN-Qt.
 
 * See the documentation at the [RSCOIN Wiki](https://github.com/RSCOIN-Project/RSCOIN/wiki)
 for help and more information.
-* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [RSCOIN Forum](http://forum.rscoin.org/).
-* Join our Discord server [Discord Server](https://discord.rscoin.org)
+* Ask for help on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or on the [RSCOIN Forum](http://forum.rscoins.io/).
+* Join our Discord server [Discord Server](https://discord.rscoins.io)
 
 Building
 ---------------------
@@ -56,8 +56,8 @@ The RSCOIN repo's [root README](/README.md) contains relevant information on the
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [RSCOIN](http://forum.rscoin.org/) forum.
-* Join the [RSCOIN Discord](https://discord.rscoin.org).
+* Discuss on the [BitcoinTalk](https://bitcointalk.org/index.php?topic=1262920.0) or the [RSCOIN](http://forum.rscoins.io/) forum.
+* Join the [RSCOIN Discord](https://discord.rscoins.io).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)

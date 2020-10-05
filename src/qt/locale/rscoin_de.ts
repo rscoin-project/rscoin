@@ -4109,14 +4109,14 @@ RSCOIN nutzt einen PoS Konsensalgorithmus, der es den Besitzern von RSCOIN erlau
                            zRSCOIN is an optional privacy-centric method of coin mixing on the
                            RSCOIN blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt;
                            "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 zRSCOIN ist eine optionale Methode zur Mischung von Münzen auf der RSCOIN Blockchain, deren Fokus auf Privatsphäre liegt. Im Grunde können all Ihre Transaktionen nicht auf einem Blockexplorer verfolgt werden. Hier  finden Sie mehr über die Technik heraus.
-&lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+&lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt;
 "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
@@ -4159,7 +4159,7 @@ zRSCOIN ist eine optionale Methode zur Mischung von Münzen auf der RSCOIN Block
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
-                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zRSCOIN, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4167,7 +4167,7 @@ zRSCOIN ist eine optionale Methode zur Mischung von Münzen auf der RSCOIN Block
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;In den Standardeinstellungen werden 10% Ihrer RSCOIN zu zRSCOIN konvertiert, um das Netzwerk zu unterstützen. Wenn nicht zRSCOIN staken wollen oder nicht von den Vorteilen in der Privatsphäre, die dies bringt, profitieren wollen, können Sie das automatische Prägen in Ihrem RSCOIN Wallet ausschalten. Gehen Sie hierfür zu Einstellungen-&gt; Optionen und schalten Sie "zRSCOIN Autoprägung" ab.
 Wenn Sie von RSCOIN-QT oder der GUI keinen Gebrauch machen, können Sie einfach Ihre rscoin.conf Datei geöffnet lassen und die Zeile &lt;i&gt;enablezeromint=0&lt;/i&gt; ohne die Anführungszeichen hizufügen. Starten Sie dann Ihr Wallet neu, um die Autoprägung abzustellen.&lt;/p&gt;&lt;/p&gt;&lt;p align="justify"&gt; 
-Erfahren Sie mehr über zRSCOIN in dem &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;"RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;
+Erfahren Sie mehr über zRSCOIN in dem &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt;"RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;
 Wenn Sie Ihr zRSCOIN weiterhin staken wollen, lesen Sie bitte die Sektion "Wie stake ich"
 in den FAQs&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;.</translation>
     </message>

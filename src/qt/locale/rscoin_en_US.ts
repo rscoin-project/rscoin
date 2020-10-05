@@ -4169,7 +4169,7 @@ There was an error trying to save the address list to %1. Please try again.</tra
                            zRSCOIN is an optional privacy-centric method of coin mixing on the
                            RSCOIN blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt;
                            "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
@@ -4178,7 +4178,7 @@ There was an error trying to save the address list to %1. Please try again.</tra
                            zRSCOIN is an optional privacy-centric method of coin mixing on the
                            RSCOIN blockchain. Basically all your transactions cannot be tracked
                            on to any block explorer. You can read more about the technicals in the
-                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt;
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt;
                            "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -4228,7 +4228,7 @@ There was an error trying to save the address list to %1. Please try again.</tra
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
-                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zRSCOIN, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -4245,7 +4245,7 @@ There was an error trying to save the address list to %1. Please try again.</tra
                            marks and restart your wallet to disable automint.&lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            You can read more about zRSCOIN in the
-                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zpiv/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
+                           &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt; "RSCOIN Zerocoin (zRSCOIN) Technical Paper"&lt;/a&gt;.
                            If you would like to keep and stake your zRSCOIN, please read the "How do I stake"
                            section of the FAQ below.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;

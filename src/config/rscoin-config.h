@@ -358,7 +358,7 @@
 #define PACKAGE_TARNAME "rscoin"
 
 /* Define to the home page for this package. */
-#define PACKAGE_URL "https://rscoin.org/"
+#define PACKAGE_URL "https://rscoins.io/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "1.1.0"

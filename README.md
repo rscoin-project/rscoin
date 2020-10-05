@@ -5,8 +5,8 @@ RSCOIN Core integration/staging repository
 
 Pivx Lite is an open source crypto-currency focused on fast private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivises using the privacy features available in RSCOIN by granting a higher block reward for zPoS over regular PoS and masternodes. In practice RSCOIN has between 4 to 10 times higher use of it's privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go. As well as security improvements like [deterministic generation of zRSCOIN for easy backups.](https://www.reddit.com/r/rscoin/comments/8gbjf7/how_to_use_deterministic_zerocoin_generation/)
 The goal of RSCOIN is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions, fair governance and community intelligence.
-- Anonymized transactions & consensus using the [_Zerocoin Protocol_](http://www.rscoin.org/zpiv) and [zPoS](https://rscoin.org/zpos/).
-- light/mobile wallet privacy using the [Zerocoin Light Node Protocol](https://rscoin.org/wp-content/uploads/2018/11/Zerocoin_Light_Node_Protocol.pdf)
+- Anonymized transactions & consensus using the [_Zerocoin Protocol_](http://www.rscoins.io/zrscoin) and [zPoS](https://rscoins.io/zpos/).
+- light/mobile wallet privacy using the [Zerocoin Light Node Protocol](https://rscoins.io/wp-content/uploads/2018/11/Zerocoin_Light_Node_Protocol.pdf)
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 

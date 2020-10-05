@@ -54,7 +54,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "RSCOIN"
-#define QAPP_ORG_DOMAIN "rscoin.org"
+#define QAPP_ORG_DOMAIN "rscoins.io"
 #define QAPP_APP_NAME_DEFAULT "RSCOIN-Qt"
 #define QAPP_APP_NAME_TESTNET "RSCOIN-Qt-testnet"
 
