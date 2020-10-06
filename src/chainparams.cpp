@@ -204,11 +204,11 @@ public:
          * a large 4-byte int at any alignment.
          */
         
-	pchMessageStart[0] = 0x99;
+	    pchMessageStart[0] = 0x99;
         pchMessageStart[1] = 0xb4;
         pchMessageStart[2] = 0xfc;
         pchMessageStart[3] = 0xd9;
-	nDefaultPort = 51482;
+	    nDefaultPort = 51482;
 
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));     // Primary DNS Seeder
