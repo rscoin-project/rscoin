@@ -6163,8 +6163,8 @@ RSCOIN Core Wallet</source>
         <translation>Вы должны указать в  строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки</translation>
     </message>
     <message>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 можно использовать только в сети)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation>(51482 можно использовать только в сети)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -6175,8 +6175,8 @@ RSCOIN Core Wallet</source>
         <translation>(неуплата: 1)</translation>
     </message>
     <message>
-        <source>(must be 8233 for mainnet)</source>
-        <translation>(должен быть 8233 для mainet)</translation>
+        <source>(must be 51482 for mainnet)</source>
+        <translation>(должен быть 51482 для mainet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

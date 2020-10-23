@@ -6354,8 +6354,8 @@ RSCOIN temeljni novčanik</translation>
         <translation>Morate odrediti masternodeprivkey u konfiguraciji. Za pomoć pogledajte dokumentaciju.</translation>
     </message>
     <message>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 se može koristiti samo na mainnetu)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation>(51482 se može koristiti samo na mainnetu)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -6366,8 +6366,8 @@ RSCOIN temeljni novčanik</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 8233 for mainnet)</source>
-        <translation>(mora biti 8233 za glavnu mrežu)</translation>
+        <source>(must be 51482 for mainnet)</source>
+        <translation>(mora biti 51482 za glavnu mrežu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

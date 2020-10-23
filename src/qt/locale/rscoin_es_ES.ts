@@ -6330,8 +6330,8 @@ RSCOIN Core Wallet</translation>
         <translation>Debes especificar un masternodeprivkey en la configuración. Por favor mira la documentación por ayuda.</translation>
     </message>
     <message>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 puede ser utilizado solo en mainnet)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation>(51482 puede ser utilizado solo en mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -6342,8 +6342,8 @@ RSCOIN Core Wallet</translation>
         <translation>(predeterminado: 1)</translation>
     </message>
     <message>
-        <source>(must be 8233 for mainnet)</source>
-        <translation>(debe ser 8233 para un mainnet)</translation>
+        <source>(must be 51482 for mainnet)</source>
+        <translation>(debe ser 51482 para un mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

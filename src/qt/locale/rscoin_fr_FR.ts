@@ -6346,8 +6346,8 @@ Portefeuille RSCOIN Core</translation>
         <translation>Vous devez spécifier une masternodeprivkey dans la configuration. Veuillez consulter la documentation pour obtenir de l'aide.</translation>
     </message>
     <message>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 ne peut être utilisé que pour le mainnet)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation>(51482 ne peut être utilisé que pour le mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -6358,8 +6358,8 @@ Portefeuille RSCOIN Core</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 8233 for mainnet)</source>
-        <translation>(doit être 8233 pour le mainnet)</translation>
+        <source>(must be 51482 for mainnet)</source>
+        <translation>(doit être 51482 pour le mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

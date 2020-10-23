@@ -7853,8 +7853,8 @@ RSCOIN Core Wallet</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation type="unfinished">(8233 could be used only on mainnet)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation type="unfinished">(51482 could be used only on mainnet)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -7868,7 +7868,7 @@ RSCOIN Core Wallet</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>(must be 8233 for mainnet)</source>
+        <source>(must be 51482 for mainnet)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

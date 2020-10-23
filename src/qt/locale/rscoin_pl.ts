@@ -6043,8 +6043,8 @@ Portfel RSCOIN Core</translation>
         <translation>Musisz określić masternodeprivkey w konfiguracji. Aby uzyskać pomoc, zapoznaj się z dokumentacją.</translation>
     </message>
     <message>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 może być używany tylko w sieci mainnet)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation>(51482 może być używany tylko w sieci mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -6055,8 +6055,8 @@ Portfel RSCOIN Core</translation>
         <translation>(domyślnie: 1)</translation>
     </message>
     <message>
-        <source>(must be 8233 for mainnet)</source>
-        <translation>(musi być 8233 dla mainnetu)</translation>
+        <source>(must be 51482 for mainnet)</source>
+        <translation>(musi być 51482 dla mainnetu)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>

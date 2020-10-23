@@ -230,10 +230,10 @@ QT_TRANSLATE_NOOP("rscoin-core", ""
 QT_TRANSLATE_NOOP("rscoin-core", ""
 "You must specify a masternodeprivkey in the configuration. Please see "
 "documentation for help."),
-QT_TRANSLATE_NOOP("rscoin-core", "(8233 could be used only on mainnet)"),
+QT_TRANSLATE_NOOP("rscoin-core", "(51482 could be used only on mainnet)"),
 QT_TRANSLATE_NOOP("rscoin-core", "(default: %s)"),
 QT_TRANSLATE_NOOP("rscoin-core", "(default: 1)"),
-QT_TRANSLATE_NOOP("rscoin-core", "(must be 8233 for mainnet)"),
+QT_TRANSLATE_NOOP("rscoin-core", "(must be 51482 for mainnet)"),
 QT_TRANSLATE_NOOP("rscoin-core", "<category> can be:"),
 QT_TRANSLATE_NOOP("rscoin-core", "Accept command line and JSON-RPC commands"),
 QT_TRANSLATE_NOOP("rscoin-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),

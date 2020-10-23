@@ -5593,8 +5593,8 @@ Portafoglio RSCOIN Core.</translation>
         <translation>È necessario specificare una chiave masternodepriv nella configurazione. Consultare la documentazione per assistenza.</translation>
     </message>
     <message>
-        <source>(8233 could be used only on mainnet)</source>
-        <translation>(8233 potrebbe essere utilizzato solo su mainnet)</translation>
+        <source>(51482 could be used only on mainnet)</source>
+        <translation>(51482 potrebbe essere utilizzato solo su mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -5605,8 +5605,8 @@ Portafoglio RSCOIN Core.</translation>
         <translation>(default: 1)</translation>
     </message>
     <message>
-        <source>(must be 8233 for mainnet)</source>
-        <translation>(deve essere 8233 per mainnet)</translation>
+        <source>(must be 51482 for mainnet)</source>
+        <translation>(deve essere 51482 per mainnet)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
