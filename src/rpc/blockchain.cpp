@@ -524,7 +524,7 @@ UniValue getblock(const UniValue& params, bool fHelp)
         return strHex;
     }
 
-    return blockToJSON(block, pblockindex);
+    return blockToJSON(block, pblockindex, fVerbose=true);
 }
 
 UniValue getblockheader(const UniValue& params, bool fHelp)
