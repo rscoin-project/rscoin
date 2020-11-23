@@ -640,7 +640,7 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/rscoin.qrc src/qt/pivx_locale.qrc
+RESOURCES += src/qt/rscoin.qrc src/qt/rscoin_locale.qrc
 
 TRANSLATIONS += src/qt/locale/rscoin_bg.ts \
                 src/qt/locale/rscoin_de.ts \

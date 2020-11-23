@@ -260,7 +260,7 @@
     </message>
     <message>
         <source>Invalid Contact Address</source>
-        <translation>Adresse Pivx incorrecte</translation>
+        <translation>Adresse RSCOIN incorrecte</translation>
     </message>
     <message>
         <source>Cannot store your own address as contact</source>

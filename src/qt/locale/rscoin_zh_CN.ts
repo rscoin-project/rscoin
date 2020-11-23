@@ -111,11 +111,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>选择发送PIVX coin的地址</translation>
+        <translation>选择发送RSCOIN coin的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>选择接收PIVX coin的地址</translation>
+        <translation>选择接收rscoin coin的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -131,11 +131,11 @@
     </message>
     <message>
         <source>These are your RSCOIN addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是用于发送PIVX的地址。在发送PIVX之前，请认真核查发送金额和接收地址。</translation>
+        <translation>这是用于发送rscoin的地址。在发送rscoin之前，请认真核查发送金额和接收地址。</translation>
     </message>
     <message>
         <source>These are your RSCOIN addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这是用于接收PIVX的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
+        <translation>这是用于接收rscoin的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -252,7 +252,7 @@
     </message>
     <message>
         <source>Enter RSCOIN address</source>
-        <translation>输入PIVX地址</translation>
+        <translation>输入rscoin地址</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -397,7 +397,7 @@ for staking</source>
     </message>
     <message>
         <source>RSCOIN will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>PIVX将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取PIVs。</translation>
+        <translation>rscoin将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取PIVs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -1158,7 +1158,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>The entered address "%1" is not a valid RSCOIN address.</source>
-        <translation>所输入的地址“%1”不是有效的PIVX地址。</translation>
+        <translation>所输入的地址“%1”不是有效的rscoin地址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1219,7 +1219,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>About RSCOIN Core</source>
-        <translation>关于PIVX Core</translation>
+        <translation>关于rscoin Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1278,11 +1278,11 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where RSCOIN Core will store its data.</source>
-        <translation>由于这是该程序第一次启动，您可以选择存储PIVX Core 数据的位置。</translation>
+        <translation>由于这是该程序第一次启动，您可以选择存储rscoin Core 数据的位置。</translation>
     </message>
     <message>
         <source>RSCOIN Core will download and store a copy of the RSCOIN block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>RSCOIN Core将下载并存储PIVX区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
+        <translation>RSCOIN Core将下载并存储rscoin区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1402,7 +1402,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a RSCOIN Masternode you must dedicate 100,000 RSCOIN (the unit of RSCOIN) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个PIVX主节点，你必须奉献100,000 RSCOIN（PIVX的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;要去创建一个RSCOIN主节点，你必须奉献100,000 RSCOIN（RSCOIN的单位）到网络（但是这些币还是属于你的，一直为你所有）。&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;你可以在任何时候关闭该节点并解锁币。&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1628,7 +1628,7 @@ this controller wallet (select the Masternode in the list and press "start").
 到剪贴板的远程服务器上。
 
 
-您只需将数据粘贴到pivx.conf文件中
+您只需将数据粘贴到RSCOIN.conf文件中
 ，然后使用主节点启动它
 这个控制器钱包(在列表中选择主节点并按“开始”)。
 </translation>
@@ -1847,7 +1847,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>Automatically open the RSCOIN client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的PIVX钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <translation>自动打开路由器上的RSCOIN钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1867,11 +1867,11 @@ Are you sure?</source>
     </message>
     <message>
         <source>Automatically start RSCOIN after logging in to the system.</source>
-        <translation>登录系统后自动启动PIVX。</translation>
+        <translation>登录系统后自动启动RSCOIN。</translation>
     </message>
     <message>
         <source>&amp;Start RSCOIN on system login</source>
-        <translation>&amp;开机启动PIVX</translation>
+        <translation>&amp;开机启动RSCOIN</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1899,7 +1899,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting RSCOIN.</source>
-        <translation>可以在这里设置用户界面语言。此设置将在重新启动PIVX后生效。</translation>
+        <translation>可以在这里设置用户界面语言。此设置将在重新启动RSCOIN后生效。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1949,7 +1949,7 @@ https://www.transifex.com/rscoin-project/rscoin-project-translations</translatio
     </message>
     <message>
         <source>Connect to the RSCOIN network through a SOCKS5 proxy.</source>
-        <translation>通过SOCKS5代理连接到PIVX网络。</translation>
+        <translation>通过SOCKS5代理连接到RSCOIN网络。</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -2005,7 +2005,7 @@ https://www.transifex.com/rscoin-project/rscoin-project-translations</translatio
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择显示发送PIVX的默认单位。</translation>
+        <translation>选择显示发送RSCOIN的默认单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -2168,7 +2168,7 @@ Address: %4
     </message>
     <message>
         <source>A fatal error occurred. RSCOIN can no longer continue safely and will quit.</source>
-        <translation>发生了一个致命的错误。PIVX不能继续安全，将退出。</translation>
+        <translation>发生了一个致命的错误。RSCOIN不能继续安全，将退出。</translation>
     </message>
 </context>
 <context>
@@ -2195,11 +2195,11 @@ Address: %4
     </message>
     <message>
         <source>Cannot start rscoin: click-to-pay handler</source>
-        <translation>无法启动pivx:点击支付处理程序</translation>
+        <translation>无法启动RSCOIN:点击支付处理程序</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
-        <translation>URI不能被解析!这可能是由无效的PIVX地址或格式错误的URI参数造成的。</translation>
+        <translation>URI不能被解析!这可能是由无效的RSCOIN地址或格式错误的URI参数造成的。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2410,7 +2410,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>Enter RSCOIN address (e.g. %1)</source>
-        <translation>输入PIVX a地址(e.g. %1)</translation>
+        <translation>输入RSCOIN a地址(e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2474,7 +2474,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>RSCOIN Core didn't yet exit safely...</source>
-        <translation>PIVX核心尚未安全退出……</translation>
+        <translation>RSCOIN核心尚未安全退出……</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -2661,7 +2661,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>Open the RSCOIN debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>从当前数据目录打开PIVX调试日志文件。对于大型日志文件，这可能需要几秒钟。</translation>
+        <translation>从当前数据目录打开RSCOIN调试日志文件。对于大型日志文件，这可能需要几秒钟。</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2885,7 +2885,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>Welcome to the RSCOIN RPC console.</source>
-        <translation>欢迎访问PIVX RPC控制台</translation>
+        <translation>欢迎访问RSCOIN RPC控制台</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -3201,7 +3201,7 @@ transaction history, making transactions untraceable </source>
     </message>
     <message>
         <source>Instead of sharing only a RSCOIN address, you can create a payment request, bundling up more information.</source>
-        <translation>与只共享PIVX地址不同，您可以创建一个支付请求，绑定更多信息。</translation>
+        <translation>与只共享RSCOIN地址不同，您可以创建一个支付请求，绑定更多信息。</translation>
     </message>
     <message>
         <source>Enter a label for the address</source>
@@ -3261,7 +3261,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     </message>
     <message>
         <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" RSCOIN address</source>
-        <translation>输入值减去输出值所得的值的其余部分归为“更改”PIVX地址</translation>
+        <translation>输入值减去输出值所得的值的其余部分归为“更改”RSCOIN地址</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -3712,7 +3712,7 @@ This option creates a wallet.dat file that can be used to recover your whole bal
     </message>
     <message>
         <source>RSCOIN address</source>
-        <translation>PIVX地址</translation>
+        <translation>RSCOIN地址</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3845,7 +3845,7 @@ Verify that you have installed a predetermined text editor.</source>
     </message>
     <message>
         <source>Welcome to the RSCOIN RPC console.</source>
-        <translation>欢迎访问PIVX RPC控制台</translation>
+        <translation>欢迎访问RSCOIN RPC控制台</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3959,11 +3959,11 @@ Verify that you have installed a predetermined text editor.</source>
     </message>
     <message>
         <source>PIVX_tx_csv_export(*.csv)</source>
-        <translation>PIVX_tx_csv_export(*.csv)</translation>
+        <translation>RSCOIN_tx_csv_export(*.csv)</translation>
     </message>
     <message>
-        <source>PIVX_addresses_csv_export(*.csv)</source>
-        <translation>PIVX_addresses_csv_export(*.csv)</translation>
+        <source>RSCOIN_addresses_csv_export(*.csv)</source>
+        <translation>RSCOIN_addresses_csv_export(*.csv)</translation>
     </message>
     <message>
         <source>Please select a folder to export the csv file first.</source>
@@ -4042,7 +4042,7 @@ There was an error trying to save the address list to %1. Please try again.</sou
     </message>
     <message>
         <source>1) What is RSCOIN?</source>
-        <translation>1）什么是PIVX?</translation>
+        <translation>1）什么是RSCOIN?</translation>
     </message>
     <message>
         <source>2) Why are my RSCOIN unspendable?</source>
@@ -4088,7 +4088,7 @@ zPIV了?</translation>
     </message>
     <message>
         <source>What is RSCOIN?</source>
-        <translation>PIVX是什么?</translation>
+        <translation>RSCOIN是什么?</translation>
     </message>
     <message>
         <source>
@@ -4107,14 +4107,14 @@ zPIV了?</translation>
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-PIVX是一种使用区块链技术的数字在线货币
+RSCOIN是一种使用区块链技术的数字在线货币
 全球范围内快捷交易，即时，基本为
-零的交易费用。PIVX是市场上领先的安全和
+零的交易费用。RSCOIN是市场上领先的安全和
 隐私加密货币，也是第一个PoS(股权证明)加密货币
 实现零币(zRSCOIN)和零币加注。
 &lt;/p&gt;&lt;p align="justify"&gt;
-PIVX使用了一个股权证明(PoS)一致系统算法，
-允许所有PIVX的所有者参与赚取区块奖励
+RSCOIN使用了一个股权证明(PoS)一致系统算法，
+允许所有RSCOIN的所有者参与赚取区块奖励
 同时保护网络与完整的节点钱包，以及
 运行主节点创建和投票来进行提案。</translation>
     </message>
@@ -4138,10 +4138,10 @@ PIVX使用了一个股权证明(PoS)一致系统算法，
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-接收到的PIVX需要网络上的6个确认
+接收到的RSCOIN需要网络上的6个确认
 才能成为有资格的花费，可以花~6分钟。
 &lt;/p&gt;&lt;p align="justify"&gt;
-您的PIVX钱包也需要完全同步
+您的RSCOIN钱包也需要完全同步
 查看网络收支余额。
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -4167,12 +4167,12 @@ PIVX使用了一个股权证明(PoS)一致系统算法，
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 zPIV是一种可选的以隐私为中心的隐私币
-它是PIVX区块链的一员，基本上在任何块资源管理器
+它是RSCOIN区块链的一员，基本上在任何块资源管理器
 所有的交易都不能被跟踪&lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt;
 
 你可以阅读更多关于技术方面的文章&lt;/a&gt;
 
-PIVX零币(zRSCOIN)技术文件
+RSCOIN零币(zRSCOIN)技术文件
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
     </message>
@@ -4226,8 +4226,8 @@ PIVX零币(zRSCOIN)技术文件
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-可以使用zPIV并将其发送到任何PIVX地址。接收机将
-接收标准的PIVX，但是根据zPIV协议，PIVX的来源是匿名的。
+可以使用zPIV并将其发送到任何RSCOIN地址。接收机将
+接收标准的RSCOIN，但是根据zPIV协议，RSCOIN的来源是匿名的。
 &lt;/p&gt;&lt;p align="justify"&gt;
 如果你想要更多的zPIV，你将需要在“隐私”标签上铸造你的余额。
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -4271,12 +4271,12 @@ PIVX零币(zRSCOIN)技术文件
                          </source>
         <translation>
  &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-加注PIVX:
+加注RSCOIN:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ol&gt;&lt;li&gt;
 确保你的钱包保持完全同步且当前使用的是最新版本。
 &lt;li&gt;
-您必须有至少600的确认PIVX余额。
+您必须有至少600的确认RSCOIN余额。
 &lt;li&gt;
 你必须保证钱包在线且用于加注目的未锁状态。
 &lt;li&gt;
@@ -4389,7 +4389,7 @@ PIVX零币(zRSCOIN)技术文件
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-主节点是运行完整节点PIVX核心钱包的计算机
+主节点是运行完整节点RSCOIN核心钱包的计算机
 需要100,000个PIV作抵押以提供额外服务
 到网络，会收到一部分的区块奖励作为定期
 回报
@@ -4412,10 +4412,10 @@ PIVX零币(zRSCOIN)技术文件
 主节点福利：
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;参与PIVX治理&lt;/li&gt;
+&lt;li&gt;参与RSCOIN治理&lt;/li&gt;
 &lt;li&gt;赢取主节点奖励&lt;/li&gt;
 &lt;li&gt;商品期货期权&lt;/li&gt;
-&lt;li&gt;帮助保护PIVX网络&lt;/li&gt;
+&lt;li&gt;帮助保护RSCOIN网络&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -4548,7 +4548,7 @@ PIVX零币(zRSCOIN)技术文件
     </message>
     <message>
         <source>Unable to open rscoin.conf with default application</source>
-        <translation>无法使用默认应用程序打开pivx.conf</translation>
+        <translation>无法使用默认应用程序打开RSCOIN.conf</translation>
     </message>
     <message>
         <source>In:</source>
@@ -4607,7 +4607,7 @@ PIVX零币(zRSCOIN)技术文件
     </message>
     <message>
         <source>Start RSCOIN on system login</source>
-        <translation>开机启动PIVX</translation>
+        <translation>开机启动RSCOIN</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -4695,7 +4695,7 @@ Are you sure?
     </message>
     <message>
         <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other RSCOIN addresses after it matures.</source>
-        <translation>成熟以后，多重花费允许您自动发送高达 100% 的股权或主节点奖励到其他PIVX地址列表</translation>
+        <translation>成熟以后，多重花费允许您自动发送高达 100% 的股权或主节点奖励到其他RSCOIN地址列表</translation>
     </message>
     <message>
         <source>Active</source>
@@ -5159,7 +5159,7 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
     </message>
     <message>
         <source>About RSCOIN</source>
-        <translation>关于PIVX </translation>
+        <translation>关于RSCOIN </translation>
     </message>
     <message>
         <source>Settings</source>
@@ -5984,19 +5984,19 @@ backup will be created.
         <source>Welcome to
 RSCOIN Core Wallet</source>
         <translation>欢迎
-PIVX核心钱包</translation>
+RSCOIN核心钱包</translation>
     </message>
     <message>
         <source>RSCOIN is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>PIVX是世界上最先进的隐私保护技术，由经验丰富的开发人员和密码专家开发。</translation>
+        <translation>RSCOIN是世界上最先进的隐私保护技术，由经验丰富的开发人员和密码专家开发。</translation>
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - RSCOIN believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——PIVX相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;正如我们的宣言所说:隐私是一项不容协商的基本人权;它赋予用户随时随地与任何人共享数据的自由——RSCOIN相信自我主权&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>The masternode network is RSCOIN's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>主节点网络是PIVX在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
+        <translation>主节点网络是RSCOIN在区块链之上的第二层网络，它使我们的DAO能够提供去中心的治理。</translation>
     </message>
     <message>
         <source>How RSCOIN respects your privacy?</source>
@@ -6078,7 +6078,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. RSCOIN Core is probably already running.</source>
-        <translation>无法获取数据目录%s锁。PIVX核心可能已经在运行了。</translation>
+        <translation>无法获取数据目录%s锁。RSCOIN核心可能已经在运行了。</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -6266,7 +6266,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. RSCOIN Core is probably already running.</source>
-        <translation>无法绑定到此计算机上的%s。PIVX核心可能已经在运行了。</translation>
+        <translation>无法绑定到此计算机上的%s。RSCOIN核心可能已经在运行了。</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -6398,7 +6398,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Copyright (C) 2015-%i The RSCOIN Core Developers</source>
-        <translation>版权所有(C) 2015-%i PIVX核心开发者</translation>
+        <translation>版权所有(C) 2015-%i RSCOIN核心开发者</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -6474,7 +6474,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of RSCOIN Core</source>
-        <translation>加载的钱包出错。dat: 钱包需要更新版本的PIVX核心</translation>
+        <translation>加载的钱包出错。dat: 钱包需要更新版本的RSCOIN核心</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -6566,7 +6566,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. RSCOIN Core is shutting down.</source>
-        <translation>初始化完整性检查失败。PIVX核心快要关闭了。</translation>
+        <translation>初始化完整性检查失败。RSCOIN核心快要关闭了。</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -6646,7 +6646,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Disable all RSCOIN specific functionality (Masternodes, Zerocoin, SwiftX, Budgeting) (0-1, default: %u)</source>
-        <translation>禁用所有PIVX特定功能(主节点, 零币, SwiftX, budget)(0-1，默认值:%u)</translation>
+        <translation>禁用所有RSCOIN特定功能(主节点, 零币, SwiftX, budget)(0-1，默认值:%u)</translation>
     </message>
     <message>
         <source>Enable SwiftX, show confirmations for locked transactions (bool, default: %s)</source>
@@ -7238,7 +7238,7 @@ PIVX核心钱包</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart RSCOIN Core to complete</source>
-        <translation>钱包需要重写:重新启动PIVX核心完成</translation>
+        <translation>钱包需要重写:重新启动RSCOIN核心完成</translation>
     </message>
     <message>
         <source>Wallet options:</source>

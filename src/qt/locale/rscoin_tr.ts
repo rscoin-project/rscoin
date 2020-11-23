@@ -2046,7 +2046,7 @@ Adres: %4
     </message>
     <message>
         <source>Cannot start rscoin: click-to-pay handler</source>
-        <translation>Pivx başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <translation>RSCOIN başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid RSCOIN address or malformed URI parameters.</source>
@@ -3852,7 +3852,7 @@ gizlilik-odaklı opsiyonel bir metoddur. Temel olarak işlemleriniz
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           RSCOIN cüzdanınız ağa destek olmak için varsayılan olarak tüm RSCOIN bakiyenizin 10% 'unu zRSCOIN'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zRSCOIN stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zRSCOIN Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. PIVXQT veya GUI kullanmıyorsanız, rscoin.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
+                           RSCOIN cüzdanınız ağa destek olmak için varsayılan olarak tüm RSCOIN bakiyenizin 10% 'unu zRSCOIN'e dönüştürecektir. Getirdiği gizlilik avantajını istemiyor veya zRSCOIN stakelemek istemiyorsanız cüzdanınızın otomint özelliğini Ayarlar-&gt;Seçenekler içindeki “zRSCOIN Otomint etkin” seçeneğini değiştirerek devredışı bırakabilirsiniz. RSCOINQT veya GUI kullanmıyorsanız, rscoin.conf dosyası içine  &lt;i&gt;enablezeromint=0&lt;/i&gt; ifadesini tırnak işareti olmadan girerek devredışı bırakabilirsiniz. &lt;/p&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            Teknik detayları hakkında daha çok bilgi almak için
                            &lt;a style='color: #b088ff' href='https://RSCOIN.org/zrscoin/'&gt; "RSCOIN Zerocoin (zRSCOIN) Teknik Makalesi"&lt;/a&gt;.
