@@ -94,13 +94,17 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
      boost::assign::map_list_of
-    (0, uint256S("0x001"));
+    (0, uint256S("eee6a6bf7eb8d6b828068ff06a382dce026bd788ea96388ec00512df34d4448f"))
+    (10, uint256S("00000c07d04e7925b6d72fb087c6a6a8ee7d5589b4cc8c5b3f48617ccbc499cf"))
+    (100, uint256S("00000009f221ee8f6cd0d96972fe6374a6a3cee53aceccff0cc684f5bebe857a"))
+    (600, uint256S("0000004ea10a29acc1284842779e7121bb7f99fa3fb70beb7d0c6a369eddb13b"))
+    (990, uint256S("7ad2fa7f1caa7529c93bec60e1be6f7f937fd1ad8bb30969ec692d3e3a463361"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1593390030, // * UNIX timestamp of last checkpoint block
-    481104,    // * total number of transactions between genesis and last checkpoint
+    1604402055, // * UNIX timestamp of last checkpoint block
+    1200,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
-    6000        // * estimated number of transactions per day after checkpoint
+    600        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -211,8 +215,8 @@ public:
 	    nDefaultPort = 51482;
 
         vSeeds.clear();
-        vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));     // Primary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));    // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io"));     // Primary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io"));    // Secondary DNS Seeder
 	
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);
@@ -334,8 +338,8 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
         // nodes with support for servicebits filtering should be at the top
-    //  vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "rscoin-testnet.seed.fuzzbawls.pw", true));
-    //  vSeeds.push_back(CDNSSeedData("fuzzbawls.pw", "rscoin-testnet.seed2.fuzzbawls.pw", true));
+    //  vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io", true));
+    //  vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io", true));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 120); // Testnet rscoin addresses start with 'x' or 'y'
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 19);  // Testnet rscoin script addresses start with '8' or '9'
