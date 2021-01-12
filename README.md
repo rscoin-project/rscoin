@@ -1,16 +1,16 @@
 RSCOIN Core integration/staging repository
 =====================================
 
-[![Build Status](https://travis-ci.org/RSCOIN-Project/RSCOIN.svg?branch=master)](https://travis-ci.org/RSCOIN-Project/RSCOIN) [![GitHub version](https://badge.fury.io/gh/RSCOIN-Project%2FPIVX.svg)](https://badge.fury.io/gh/RSCOIN-Project%2FPIVX)
 
-Pivx Lite is an open source crypto-currency focused on fast private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivises using the privacy features available in RSCOIN by granting a higher block reward for zPoS over regular PoS and masternodes. In practice RSCOIN has between 4 to 10 times higher use of it's privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go. As well as security improvements like [deterministic generation of zRSCOIN for easy backups.](https://www.reddit.com/r/rscoin/comments/8gbjf7/how_to_use_deterministic_zerocoin_generation/)
+
+RSCOIN is an open source crypto-currency focused on fast private transactions using the Zerocoin protocol, with low transaction fees & environmental footprint.  It utilizes the first ever anonymous proof of stake protocol, called zPoS, combined with regular PoS and masternodes for securing its network. zPoS incentivises using the privacy features available in RSCOIN by granting a higher block reward for zPoS over regular PoS and masternodes. In practice RSCOIN has between 4 to 10 times higher use of it's privacy features in comparison to other coins that combine public and private transactions. This is thanks to innovations like zPoS and integrating the Zerocoin protocol into light/mobile wallets, allowing for a complete and lightweight privacy protocol that can be used on the go. As well as security improvements like [deterministic generation of zRSCOIN for easy backups.](https://www.reddit.com/r/rscoin/comments/8gbjf7/how_to_use_deterministic_zerocoin_generation/)
 The goal of RSCOIN is to achieve a decentralized sustainable crypto currency with near instant full-time private transactions, fair governance and community intelligence.
 - Anonymized transactions & consensus using the [_Zerocoin Protocol_](http://www.rscoins.io/zrscoin) and [zPoS](https://rscoins.io/zpos/).
 - light/mobile wallet privacy using the [Zerocoin Light Node Protocol](https://rscoins.io/wp-content/uploads/2018/11/Zerocoin_Light_Node_Protocol.pdf)
 - Fast transactions featuring guaranteed zero confirmation transactions, we call it _SwiftX_.
 - Decentralized blockchain voting utilizing Masternode technology to form a DAO. The blockchain will distribute monthly treasury funds based on successful proposals submitted by the community and voted on by the DAO.
 
-More information at [rscoinite.com](http://www.rscoinite.com) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5222955.msg53767306#msg53767306)
+More information at [rscoins.io](http://www.rscoins.io) Visit our ANN thread at [BitcoinTalk](https://bitcointalk.org/index.php?topic=5222955.msg53767306#msg53767306)
 
 ### Coin Specs - Pure PoS Coin
 <table>
@@ -32,10 +32,7 @@ More information at [rscoinite.com](http://www.rscoinite.com) Visit our ANN thre
 
 ### PoW Rewards Breakdown
 
-<table>
-<th>Block Height</th><th>Masternodes</th><th>Miner</th><th>Budget</th>
-<tr><td>2-43200</td><td>9,321,106 coins mined for 1 to 1 coin swap with Quark 2.0 holders
-</table>
+
 
 ### PoS Rewards Breakdown
 

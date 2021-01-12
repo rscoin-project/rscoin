@@ -216,7 +216,10 @@ public:
 
         vSeeds.clear();
         vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io"));     // Primary DNS Seeder
-        vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io"));    // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("seeds.rscoins.io", "seeds.rscoins.io"));
+        vSeeds.push_back(CDNSSeedData("144.217.241.109", "144.217.241.109"));    // Secondary DNS Seeder
+        vSeeds.push_back(CDNSSeedData("54.37.17.83", "54.37.17.83")); 
+        vSeeds.push_back(CDNSSeedData("51.38.82.95", "51.38.82.95"));
 	
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 61);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 13);

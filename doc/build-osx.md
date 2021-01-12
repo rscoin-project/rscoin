@@ -43,15 +43,15 @@ Build PIVX Core
 
 1. Clone the PIVX Core source code:
 
-        git clone https://github.com/pivx-project/pivx
-        cd pivx
+        git clone https://github.com/rscoin-project/rscoin
+        cd rscoin
 
 2.  Make the Homebrew OpenSSL headers visible to the configure script  (do ```brew info openssl``` to find out why this is necessary, or if you use Homebrew with installation folders different from the default).
 
         export LDFLAGS+=-L/usr/local/opt/openssl/lib
         export CPPFLAGS+=-I/usr/local/opt/openssl/include
 
-3.  Build PIVX Core:
+3.  Build RSCOIN Core:
 
         ./autogen.sh
         ./configure
@@ -79,15 +79,15 @@ In this case there is no dependency on Berkeley DB 4.8.
 Running
 -------
 
-PIVX Core is now available at `./src/pivxd`
+RSCOIN Core is now available at `./src/rscoind`
 
 Before running, you may create an empty configuration file:
 
-    mkdir -p "/Users/${USER}/Library/Application Support/PIVX"
+    mkdir -p "/Users/${USER}/Library/Application Support/RSCOIN"
 
-    touch "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
+    touch "/Users/${USER}/Library/Application Support/RSCOIN/rscoin.conf"
 
-    chmod 600 "/Users/${USER}/Library/Application Support/PIVX/pivx.conf"
+    chmod 600 "/Users/${USER}/Library/Application Support/RSCOIN/rscoin.conf"
 
 The first time you run pivxd, it will start downloading the blockchain. This process could take many hours, or even days on slower than average systems.
 
